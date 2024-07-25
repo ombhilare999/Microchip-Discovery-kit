@@ -1,0 +1,8 @@
+/home/ombhilare999/microchip/SynplifyPro/bin/syn_nfilter  -link  -top  OLED_interface_synth  -multisrs  /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_comp.srs  -osyn  /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_mult.srs  -log  /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synlog/OLED_interface_synth_multi_srs_gen.srr 
+relcom:../../../../../../../../../../../../microchip/SynplifyPro/bin/syn_nfilter -link -top OLED_interface_synth -multisrs ../synwork/OLED_interface_synth_comp.srs -osyn ../synwork/OLED_interface_synth_mult.srs -log ../synlog/OLED_interface_synth_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/OLED_interface_synth_comp.srs|io:i|time:1721704259|size:22414|exec:0|csum:E5149D25F27BE7ED058E93FDD60EB9A3
+file:../synwork/OLED_interface_synth_mult.srs|io:o|time:1721704260|size:4621|exec:0|csum:
+file:../synlog/OLED_interface_synth_multi_srs_gen.srr|io:o|time:1721704260|size:1127|exec:0|csum:
+file:../../../../../../../../../../../../microchip/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1704385587|size:18297968|exec:1|csum:56C4D3F9F9569243A8752F354AB51E25
+file:../../../../../../../../../../../../microchip/SynplifyPro/bin/syn_nfilter|io:i|time:1704385234|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

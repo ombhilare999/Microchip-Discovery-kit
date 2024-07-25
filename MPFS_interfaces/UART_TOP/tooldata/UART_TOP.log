@@ -1,0 +1,16 @@
+Project Name: UART_TOP
+Location: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/uart_loopback/libero_project/UART_TOP
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS095T-1FCSG325E
+Family         : PolarFireSoC
+Die            : MPFS095T
+Package        : FCSG325
+Speed          : -1
+Core Voltage   : 1.0
+Range          : EXT

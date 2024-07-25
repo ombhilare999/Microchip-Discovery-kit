@@ -1,0 +1,93 @@
+<html><body><samp><pre>
+<!@TC:1721704258>
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+# Written on Mon Jul 22 23:11:01 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "OLED_interface_synth"
+Constraint File(s):      "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 1 issues in 1 out of 1 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                 Ending                                   |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLK100MHZ                                CLK100MHZ                                |     10.000           |     No paths         |     No paths         |     No paths                         
+clock_divider_20s|N_2_inferred_clock     clock_divider_20s|N_2_inferred_clock     |     10.000           |     10.000           |     5.000            |     5.000                            
+=============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK46></a>Unconstrained Start/End Points</a>
+******************************
+
+p:JA[0]
+p:JA[1]
+p:JA[2]
+p:JA[4]
+p:JA[5]
+p:JA[6]
+p:JA[7]
+p:btnD
+p:btnU
+p:sw[0]
+p:sw[1]
+p:sw[2]
+
+
+<a name=InapplicableconstraintsCCK47></a>Inapplicable constraints</a>
+************************
+
+(none)
+
+
+<a name=ApplicableConstraintsWithIssuesCCK48></a>Applicable constraints with issues</a>
+**********************************
+
+create_clock -name CLK100MHZ -period 10 -waveform {0 5} CLK100MHZ
+	@W::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc":7:0:7:0|object "CLK100MHZ" is missing qualifier which may result in undesired results; objects must be of type port (get_ports), cell (get_cells), pin (get_pins), or net (get_nets)
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK49></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+(none)
+
+
+<a name=LibraryReportCCK50></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

@@ -1,0 +1,195 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: unlimited (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:24:09, @5131170
+
+Modified Files: 10
+FID:  path (prevtimestamp, timestamp)
+0        /home/ombhilare999/microchip/SynplifyPro/lib/generic/acg5.v (N/A, 2024-01-04 11:26:18)
+1        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/hypermods.v (N/A, 2024-01-04 11:20:28)
+2        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/scemi_objects.v (N/A, 2024-01-04 11:20:28)
+3        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/scemi_pipes.svh (N/A, 2024-01-04 11:20:28)
+4        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/umr_capim.v (N/A, 2024-01-03 13:09:43)
+5        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/MSS_syn_comps.v (N/A, 2024-07-25 13:32:02)
+6        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02)
+7        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v (N/A, 2024-07-25 13:04:05)
+8        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v (N/A, 2024-07-25 13:31:48)
+9        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v (N/A, 2024-07-25 13:04:05)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 75
+MID:  lib.cell.view
+0        work.APBM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+1        work.APBS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+2        work.BANKCTRLM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+3        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+4        work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+5        work.BANKEN.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+6        work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+7        work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+8        work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+9        work.CRN_COMMON.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+10       work.CRN_INT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+11       work.CRYPTO.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+12       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+13       work.DEBUG.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+14       work.DLL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+15       work.DRI.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+16       work.ENFORCE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+17       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+18       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+19       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+20       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+21       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+22       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+23       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+24       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+25       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+26       work.ICB_INT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+27       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+28       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+29       work.INIT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+30       work.IOD.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+31       work.LANECTRL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+32       work.LANERST.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+33       work.MSS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/MSS_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+34       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+35       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+36       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+37       work.PCIE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+38       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+39       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+40       work.PF_SPI.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+41       work.PLL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+42       work.QUADRST.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+43       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+44       work.SCB.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+45       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+46       work.SYSRESET.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+47       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+48       work.TAMPER.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+49       work.TVS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+50       work.TX_PLL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+51       work.UART_RX.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v (N/A, 2024-07-25 13:04:05) <-- (module definition)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v (N/A, 2024-07-25 13:31:48) <-- (may instantiate this module)
+52       work.UART_TOP.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v (N/A, 2024-07-25 13:31:48) <-- (module definition)
+53       work.UART_TX.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v (N/A, 2024-07-25 13:31:48) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v (N/A, 2024-07-25 13:04:05) <-- (module definition)
+54       work.UPROM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+55       work.USPI.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+56       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+57       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+58       work.VREFCTRL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+59       work.XCVR.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+60       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+61       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+62       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+63       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+64       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+65       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+66       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+67       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+68       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+69       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+70       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+71       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+72       work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+73       work.XCVR_TEST.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+74       work.XCVR_VV.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v (N/A, 2024-07-25 13:32:02) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

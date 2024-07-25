@@ -1,0 +1,16 @@
+Software Version: 2024.1.0.3
+Opened '/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/OLED_interface_synth_fp/OLED_interface_synth.pro'
+PDB file '/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/OLED_interface_synth.pdb' has been loaded successfully.
+DESIGN : OLED_interface_synth;  CHECKSUM : 291E;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder '/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/OLED_interface_synth.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/OLED_interface_synth.ppd'; file programs Fabric and sNVM.
+BITS component bitstream digest: 584f74c77f21a67759e49dfa0fb13932175513fd28f14e8e38f85233a6fcfe90
+Fabric component bitstream digest: 464895d03aeca31243c421274fc8a1157414f681706b566ae2bd2df17c677fb6
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+EOB component bitstream digest: 84e07dba727232bcfa8e22971c0eaf202f7ee307ea28c3ce4020a98650481ee9
+Entire bitstream digest: 8640940b876e133e1c7798aebb9e8b1d45369a0925c4162a88d3558c70bbf935
+Finished: Mon Jul 22 23:13:16 2024 (Elapsed time 00:00:17)
+
+Project saved.
+Project closed.

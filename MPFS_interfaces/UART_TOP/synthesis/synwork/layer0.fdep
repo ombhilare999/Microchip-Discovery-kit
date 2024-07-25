@@ -1,0 +1,107 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/synthesis/synwork/UART_TOP_comp.srs|-top|UART_TOP|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/synthesis/|-I|/home/ombhilare999/microchip/SynplifyPro/lib|-sysv|-devicelib|/home/ombhilare999/microchip/SynplifyPro/lib/generic/acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/ombhilare999/microchip/SynplifyPro/linux_a_64/c_ver":1704385584
+#CUR:"/home/ombhilare999/microchip/SynplifyPro/lib/generic/acg5.v":1704385578
+#CUR:"/home/ombhilare999/microchip/SynplifyPro/lib/vlog/hypermods.v":1704385228
+#CUR:"/home/ombhilare999/microchip/SynplifyPro/lib/vlog/umr_capim.v":1704305383
+#CUR:"/home/ombhilare999/microchip/SynplifyPro/lib/vlog/scemi_objects.v":1704385228
+#CUR:"/home/ombhilare999/microchip/SynplifyPro/lib/vlog/scemi_pipes.svh":1704385228
+#CUR:"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v":1721928722
+#CUR:"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":1721927045
+#CUR:"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":1721927045
+#CUR:"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v":1721928708
+#CUR:"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/MSS_syn_comps.v":1721928722
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/polarfire_syn_comps.v" verilog
+1			"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v" verilog
+2			"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v" verilog
+3			"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v" verilog
+4			"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/component/MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 1 2
+4 -1
+#Dependency Lists(Users Of)
+0 -1
+1 3
+2 3
+3 -1
+4 -1
+#Design Unit to File Association
+module work APBM 0
+module work APBS 0
+module work BANKCTRLM 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRL_HSIO 0
+module work BANKEN 0
+module work CRN_COMMON 0
+module work CRN_INT 0
+module work CRYPTO 0
+module work CRYPTO_SOC 0
+module work DEBUG 0
+module work DLL 0
+module work DRI 0
+module work ENFORCE 0
+module work GLITCHDETECT 0
+module work GPSS_COMMON 0
+module work HS_IO_CLK 0
+module work ICB_BANKCLK 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_CLKDIV 0
+module work ICB_CLKINT 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKSTOP 0
+module work ICB_INT 0
+module work ICB_MUXING 0
+module work ICB_NGMUX 0
+module work INIT 0
+module work IOD 0
+module work LANECTRL 0
+module work LANERST 0
+module work OSC_RC160MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC2MHZ 0
+module work PCIE_COMMON 0
+module work PCIE 0
+module work PF_SPI 0
+module work PLL 0
+module work QUADRST_PCIE 0
+module work QUADRST 0
+module work SCB 0
+module work SYSCTRL_RESET_STATUS 0
+module work SYSRESET 0
+module work SYS_SERVICES 0
+module work TAMPER 0
+module work TVS 0
+module work TX_PLL 0
+module work UPROM 0
+module work USPI 0
+module work VOLTAGEDETECT 0
+module work VREFBANKDYN 0
+module work VREFCTRL 0
+module work XCVR_64B6XB 0
+module work XCVR_8B10B 0
+module work XCVR_APB_LINK 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE 0
+module work XCVR_PMA 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK 0
+module work XCVR_TEST 0
+module work XCVR_VV 0
+module work XCVR 0
+module work CORELNKTMR_V 0
+module work PFSOC_SCSM 0
+module work CLKBUF_DIFF 0
+module work CLKBUF_DIFF_ODT 0
+module work UART_RX 1
+module work UART_TX 2
+module work UART_TOP 3
+module work MSS 4

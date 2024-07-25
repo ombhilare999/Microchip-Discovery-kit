@@ -1,0 +1,143 @@
+# Microchip NMAT TXT File
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: UART_TOP 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Thu Jul 25 13:33:30 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io i_Clk R18
+set_io i_Reset T19
+set_io i_UART_RX B14
+set_io o_UART_TX E13
+
+#
+# Core cell constraints
+#
+
+set_location UART_TX_Inst/r_Bit_Index_0[0] 372 18
+set_location UART_TX_Inst/r_SM_Main_ns_a2[4] 360 18
+set_location UART_RX_Inst/r_Clock_Count[3] 380 16
+set_location UART_RX_Inst/r_Clock_Count_0_sqmuxa_1_RNIMAGE4 382 15
+set_location UART_TX_Inst/o_TX_Serial 362 19
+set_location UART_RX_Inst/r_SM_Main_RNO[1] 381 21
+set_location UART_RX_Inst/r_Bit_Index_1_sqmuxa 382 18
+set_location UART_RX_Inst/o_RX_Byte_80_0 393 18
+set_location UART_TX_Inst/r_Clock_Count_n1 367 21
+set_location UART_RX_Inst/r_SM_Main_ns[0] 391 18
+set_location UART_RX_Inst/o_RX_Byte_81_0 386 18
+set_location UART_RX_Inst/o_RX_Byte_76_0 376 21
+set_location UART_TX_Inst/r_SM_Main_RNIBS9U7[4] 368 21
+set_location UART_RX_Inst/r_SM_Main_ns[3] 377 21
+set_location UART_RX_Inst/o_RX_DV 380 19
+set_location UART_RX_Inst/o_RX_Byte[2] 376 19
+set_location UART_RX_Inst/o_RX_Byte_75_0 374 21
+set_location UART_TX_Inst/r_Clock_Count[1] 367 22
+set_location UART_TX_Inst/r_SM_Main[2] 361 19
+set_location UART_RX_Inst/o_RX_Byte[5] 388 19
+set_location UART_RX_Inst/un1_r_Clock_Count_0_sqmuxa_1 387 18
+set_location UART_RX_Inst/r_Clock_Count[0] 373 16
+set_location UART_TX_Inst/r_TX_Data[1] 384 22
+set_location UART_RX_Inst/o_RX_Byte_79_0 389 18
+set_location UART_TX_Inst/r_SM_Main_ns_i_0[0] 367 18
+set_location UART_TX_Inst/r_SM_Main_ns[1] 366 18
+set_location UART_TX_Inst/r_Bit_Index_0[2] 383 18
+set_location UART_RX_Inst/r_Clock_Count_0_sqmuxa_1_4 379 15
+set_location UART_TX_Inst/un1_r_TX_Data_0_sqmuxa_1 381 18
+set_location UART_TX_Inst/r_TX_Data[7] 395 19
+set_location UART_RX_Inst/r_Clock_Count_0[1] 377 15
+set_location UART_RX_Inst/r_Clock_Count_0[4] 378 15
+set_location UART_TX_Inst/r_SM_Main[0] 368 19
+set_location UART_TX_Inst/r_Clock_Count_n4 366 21
+set_location UART_RX_Inst/r_SM_Main_ns_a2_0_1_0[2] 375 15
+set_location UART_RX_Inst/r_Clock_Count[1] 377 16
+set_location UART_TX_Inst/r_Clock_Count_n2 363 21
+set_location UART_TX_Inst/r_Bit_Index_0_RNO[2] 378 18
+set_location UART_TX_Inst/r_SM_Main_ns[3] 363 18
+set_location UART_TX_Inst/o_TX_Active_0_sqmuxa_0_a2 369 18
+set_location UART_RX_Inst/un1_r_Clock_Count_0_sqmuxa 383 15
+set_location UART_RX_Inst/r_Bit_Index[0] 391 22
+set_location UART_TX_Inst/r_Clock_Count[2] 363 22
+set_location UART_TX_Inst/r_Bit_Index_0[1] 379 18
+set_location UART_TX_Inst/r_SM_Main_RNO[0] 368 18
+set_location UART_RX_Inst/r_Clock_Count_0[3] 380 15
+set_location UART_RX_Inst/o_RX_Byte[3] 376 22
+set_location UART_TX_Inst/r_Clock_Count_c2 370 21
+set_location UART_RX_Inst/r_Clock_Count_0_sqmuxa_1 381 15
+set_location UART_TX_Inst/r_Bit_Index_1[2] 383 19
+set_location UART_TX_Inst/r_SM_Main_RNO[2] 361 18
+set_location UART_RX_Inst/r_Clock_Count31lto4 380 21
+set_location UART_TX_Inst/r_TX_Data[0] 382 22
+set_location UART_TX_Inst/r_Clock_Count_RNO[0] 369 21
+set_location UART_TX_Inst/un1_r_TX_Data_0_sqmuxa 362 21
+set_location UART_TX_Inst/r_SM_Main[3] 363 19
+set_location UART_TX_Inst/o_TX_Serial_3_iv 362 18
+set_location UART_RX_Inst/o_RX_Byte_74_0 373 18
+set_location UART_RX_Inst/un1_r_Clock_Count_3_1.CO0 372 15
+set_location UART_TX_Inst/un1_r_SM_Main_1_i_a2 365 18
+set_location UART_RX_Inst/un1_r_Clock_Count_3_1.CO2 374 15
+set_location UART_RX_Inst/r_Bit_Index_0[2] 390 18
+set_location UART_TX_Inst/r_SM_Main[4] 360 19
+set_location UART_RX_Inst/r_SM_Main[2] 375 19
+set_location UART_RX_Inst/r_SM_Main_ns_o2[2] 378 21
+set_location UART_RX_Inst/r_SM_Main[0] 391 19
+set_location UART_TX_Inst/r_Bit_Index_1[1] 379 19
+set_location UART_TX_Inst/r_Clock_Count[0] 369 22
+set_location UART_RX_Inst/r_Bit_Index_0[0] 391 21
+set_location UART_RX_Inst/o_RX_Byte_77_0 376 18
+set_location UART_TX_Inst/r_Clock_Count[3] 360 22
+set_location UART_RX_Inst/o_RX_DV_RNO 375 21
+set_location UART_TX_Inst/r_Clock_Count_n3 360 21
+set_location UART_RX_Inst/r_SM_Main[1] 381 22
+set_location UART_RX_Inst/r_Clock_Count[4] 378 16
+set_location UART_TX_Inst/r_TX_Data_dec_7_0_a2 373 21
+set_location UART_TX_Inst/o_UART_TX 364 18
+set_location UART_TX_Inst/r_TX_Data_0_sqmuxa_1 364 21
+set_location UART_TX_Inst/r_Bit_Index_1[0] 378 19
+set_location UART_RX_Inst/un1_r_Clock_Count_0_sqmuxa_0 379 21
+set_location UART_TX_Inst/r_SM_Main[1] 366 19
+set_location UART_RX_Inst/r_Bit_Index[2] 390 19
+set_location UART_RX_Inst/o_RX_Byte[6] 403 19
+set_location UART_TX_Inst/r_TX_Data[2] 383 22
+set_location UART_RX_Inst/o_RX_Byte[4] 384 19
+set_location UART_RX_Inst/un1_r_SM_Main_i_a2[1] 372 21
+set_location UART_RX_Inst/r_Bit_Index[1] 392 19
+set_location UART_TX_Inst/r_Bit_Index_1_sqmuxa 380 18
+set_location UART_TX_Inst/o_TX_Active 370 19
+set_location UART_RX_Inst/o_RX_Byte[1] 372 22
+set_location UART_TX_Inst/o_TX_Active_4_f0 370 18
+set_location UART_RX_Inst/r_SM_Main_ns[2] 375 18
+set_location UART_RX_Inst/r_Clock_Count_0[2] 376 15
+set_location UART_RX_Inst/r_Bit_Index_0[1] 392 18
+set_location UART_RX_Inst/r_SM_Main[3] 380 22
+set_location UART_TX_Inst/r_TX_Data[5] 389 19
+set_location I_1/U0_RGB1 721 17
+set_location I_1 1154 0
+set_location UART_TX_Inst/r_TX_Data[6] 385 19
+set_location UART_RX_Inst/r_SM_Main[4] 386 22
+set_location UART_RX_Inst/r_Bit_Index_0_RNO[2] 388 18
+set_location UART_RX_Inst/o_RX_Byte[7] 386 19
+set_location UART_RX_Inst/r_Clock_Count[2] 376 16
+set_location UART_RX_Inst/o_RX_Byte[0] 394 22
+set_location UART_TX_Inst/o_TX_Serial_3_iv_RNO 377 18
+set_location UART_RX_Inst/r_Clock_Count_0[0] 373 15
+set_location UART_TX_Inst/r_TX_Data[3] 372 19
+set_location UART_RX_Inst/r_SM_Main_ns_a2[4] 386 21
+set_location UART_TX_Inst/r_TX_Data[4] 395 22
+set_location UART_RX_Inst/o_RX_Byte_78_0 394 18
+set_location UART_TX_Inst/r_Clock_Count14lto4 361 21
+set_location UART_RX_Inst/r_SM_Main_ns_o2[0] 374 18
+set_location UART_TX_Inst/r_Clock_Count[4] 366 22
+set_location UART_RX_Inst/r_SM_Main_ns_a2_0_1[2] 390 21
+set_location UART_TX_Inst/o_TX_Serial_2_7_1_2_wmux 382 21
+set_location UART_TX_Inst/o_TX_Serial_2_7_1_1_wmux 384 18
+set_location I_1/U0_IOBA 1598 215

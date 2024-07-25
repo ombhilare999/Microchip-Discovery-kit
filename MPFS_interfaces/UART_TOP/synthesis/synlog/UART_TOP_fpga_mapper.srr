@@ -1,0 +1,337 @@
+# Thu Jul 25 13:32:06 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:38:17, @5131170
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 560MB peak: 560MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 561MB peak: 561MB)
+
+Encoding state machine r_SM_Main[4:0] (in view: work.UART_RX_25s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine r_SM_Main[4:0] (in view: work.UART_TX_25s_0_1_2_3_4(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Found counter in view:work.UART_TX_25s_0_1_2_3_4(verilog) instance r_Clock_Count[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 561MB peak: 561MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    36.20ns		  73 /        45
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+Writing Analyst data base /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/synthesis/synwork/UART_TOP_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 563MB peak: 563MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 563MB peak: 563MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 563MB peak: 563MB)
+
+@N: MT615 |Found clock i_Clk with period 40.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Jul 25 13:32:07 2024
+#
+
+
+Top view:               UART_TOP
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/designer/UART_TOP/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 37.212
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+i_Clk              25.0 MHz      358.7 MHz     40.000        2.788         37.212     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+i_Clk     i_Clk   |  40.000      37.212  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: i_Clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                            Arrival           
+Instance                          Reference     Type     Pin     Net                  Time        Slack 
+                                  Clock                                                                 
+--------------------------------------------------------------------------------------------------------
+UART_RX_Inst.r_Clock_Count[3]     i_Clk         SLE      Q       r_Clock_Count[3]     0.218       37.212
+UART_RX_Inst.r_Clock_Count[4]     i_Clk         SLE      Q       r_Clock_Count[4]     0.218       37.231
+UART_TX_Inst.r_Clock_Count[4]     i_Clk         SLE      Q       r_Clock_Count[4]     0.218       37.340
+UART_RX_Inst.r_SM_Main[2]         i_Clk         SLE      Q       r_SM_Main[2]         0.218       37.344
+UART_TX_Inst.r_Clock_Count[3]     i_Clk         SLE      Q       r_Clock_Count[3]     0.218       37.364
+UART_TX_Inst.r_SM_Main[2]         i_Clk         SLE      Q       r_SM_Main[2]         0.201       37.423
+UART_TX_Inst.r_Bit_Index_1[0]     i_Clk         SLE      Q       r_Bit_Index[0]       0.218       37.468
+UART_TX_Inst.r_Bit_Index_1[1]     i_Clk         SLE      Q       r_Bit_Index[1]       0.218       37.550
+UART_TX_Inst.r_Bit_Index_1[2]     i_Clk         SLE      Q       r_Bit_Index[2]       0.218       37.580
+UART_RX_Inst.r_Clock_Count[1]     i_Clk         SLE      Q       r_Clock_Count[1]     0.218       37.629
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                              Required           
+Instance                          Reference     Type     Pin     Net                    Time         Slack 
+                                  Clock                                                                    
+-----------------------------------------------------------------------------------------------------------
+UART_RX_Inst.r_Bit_Index[0]       i_Clk         SLE      D       r_Bit_Index_0[0]       40.000       37.212
+UART_RX_Inst.r_Bit_Index[1]       i_Clk         SLE      D       r_Bit_Index_0[1]       40.000       37.212
+UART_RX_Inst.r_Bit_Index[2]       i_Clk         SLE      D       r_Bit_Index_0[2]       40.000       37.256
+UART_RX_Inst.r_Clock_Count[2]     i_Clk         SLE      D       r_Clock_Count_0[2]     40.000       37.339
+UART_TX_Inst.r_Clock_Count[0]     i_Clk         SLE      EN      r_Clock_Counte         39.873       37.340
+UART_TX_Inst.r_Clock_Count[1]     i_Clk         SLE      EN      r_Clock_Counte         39.873       37.340
+UART_TX_Inst.r_Clock_Count[2]     i_Clk         SLE      EN      r_Clock_Counte         39.873       37.340
+UART_TX_Inst.r_Clock_Count[3]     i_Clk         SLE      EN      r_Clock_Counte         39.873       37.340
+UART_TX_Inst.r_Clock_Count[4]     i_Clk         SLE      EN      r_Clock_Counte         39.873       37.340
+UART_RX_Inst.r_Clock_Count[0]     i_Clk         SLE      D       r_Clock_Count_0[0]     40.000       37.363
+===========================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         40.000
+
+    - Propagation time:                      2.788
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     37.212
+
+    Number of logic level(s):                4
+    Starting point:                          UART_RX_Inst.r_Clock_Count[3] / Q
+    Ending point:                            UART_RX_Inst.r_Bit_Index[0] / D
+    The start point is clocked by            i_Clk [rising] (rise=0.000 fall=20.000 period=40.000) on pin CLK
+    The end   point is clocked by            i_Clk [rising] (rise=0.000 fall=20.000 period=40.000) on pin CLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+UART_RX_Inst.r_Clock_Count[3]                 SLE      Q        Out     0.218     0.218 r     -         
+r_Clock_Count[3]                              Net      -        -       0.594     -           6         
+UART_RX_Inst.r_Bit_Index_1_sqmuxa             CFG4     D        In      -         0.813 r     -         
+UART_RX_Inst.r_Bit_Index_1_sqmuxa             CFG4     Y        Out     0.168     0.980 r     -         
+r_Bit_Index_1_sqmuxa                          Net      -        -       0.662     -           11        
+UART_RX_Inst.o_RX_Byte_81_0                   CFG4     B        In      -         1.642 r     -         
+UART_RX_Inst.o_RX_Byte_81_0                   CFG4     Y        Out     0.083     1.725 r     -         
+o_RX_Byte_81                                  Net      -        -       0.118     -           2         
+UART_RX_Inst.un1_r_Clock_Count_0_sqmuxa_1     CFG3     C        In      -         1.843 r     -         
+UART_RX_Inst.un1_r_Clock_Count_0_sqmuxa_1     CFG3     Y        Out     0.148     1.991 r     -         
+un1_r_Clock_Count_0_sqmuxa_1                  Net      -        -       0.547     -           3         
+UART_RX_Inst.r_Bit_Index_0[0]                 CFG3     C        In      -         2.538 r     -         
+UART_RX_Inst.r_Bit_Index_0[0]                 CFG3     Y        Out     0.132     2.670 f     -         
+r_Bit_Index_0[0]                              Net      -        -       0.118     -           1         
+UART_RX_Inst.r_Bit_Index[0]                   SLE      D        In      -         2.788 f     -         
+========================================================================================================
+Total path delay (propagation time + setup) of 2.788 is 0.749(26.9%) logic and 2.039(73.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 563MB peak: 563MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 563MB peak: 563MB)
+
+---------------------------------------
+Resource Usage Report for UART_TOP 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          1 use
+CFG2           13 uses
+CFG3           18 uses
+CFG4           36 uses
+
+Carry cells:
+ARI1            0 uses - used for arithmetic functions
+ARI1            4 uses - used for Wide-Mux implementation
+Total ARI1      4 uses
+
+
+Sequential Cells: 
+SLE            45 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 4
+I/O primitives: 4
+INBUF          3 uses
+OUTBUF         1 use
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    71
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  45 + 0 + 0 + 0 = 45;
+Total number of LUTs after P&R:  71 + 0 + 0 + 0 = 71;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 475MB peak: 563MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jul 25 13:32:08 2024
+
+###########################################################]

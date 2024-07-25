@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synlog/OLED_interface_synth_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>CLK100MHZ</data>
+<data>100.0 MHz</data>
+<data>571.1 MHz</data>
+<data>8.249</data>
+</row>
+<row>
+<data>clock_divider_20s|N_2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>130.8 MHz</data>
+<data>1.177</data>
+</row>
+</report_table>

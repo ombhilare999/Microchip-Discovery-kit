@@ -1,0 +1,26 @@
+ Warning: You are running a version of Suse Linux that is not supported.
+ Please refer to Libero SoC Release Note for the detail of supported operating systems.
+ Warning: You are running a version of Suse Linux that is not supported.
+ Please refer to Libero SoC Release Note for the detail of supported operating systems.
+
+===============================================================================.
+
+Info: Global design data:
+      Total globals:                       2
+      Globals that cannot be demoted:      0
+      Globals considered for demotion:     2
+
+
+Info: List of globals considered for demotion:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    533    0      2      'g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6'
+    33     0      0      'I_2'
+
+Info: Demotion information:
+      Disconnected 1 data pins from global 'g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6'. This behavior is controlled by the 'Minimum fanout of non-clock nets to be kept on globals' threshold in the tool options for the Synthesize step. Typically, the low-skew global resources are used for clock and reset nets. When using global resources for data nets, consider the data path effect of global insertion delay and added buffer delay when the net drives carry chain logic.
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

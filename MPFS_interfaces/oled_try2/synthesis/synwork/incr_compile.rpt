@@ -1,0 +1,222 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: unlimited (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:24:09, @5131170
+
+Modified Files: 15
+FID:  path (prevtimestamp, timestamp)
+0        /home/ombhilare999/microchip/SynplifyPro/lib/generic/acg5.v (N/A, 2024-01-04 11:26:18)
+1        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/hypermods.v (N/A, 2024-01-04 11:20:28)
+2        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/scemi_objects.v (N/A, 2024-01-04 11:20:28)
+3        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/scemi_pipes.svh (N/A, 2024-01-04 11:20:28)
+4        /home/ombhilare999/microchip/SynplifyPro/lib/vlog/umr_capim.v (N/A, 2024-01-03 13:09:43)
+5        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/MSS_syn_comps.v (N/A, 2024-07-22 23:10:57)
+6        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57)
+7        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v (N/A, 2024-07-20 17:55:51)
+8        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v (N/A, 2024-07-20 17:55:25)
+9        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v (N/A, 2024-07-20 17:54:42)
+10       /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v (N/A, 2024-07-20 17:53:36)
+11       /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51)
+12       /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v (N/A, 2024-07-20 17:46:59)
+13       /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/button_tick_latch.v (N/A, 2024-07-20 17:46:59)
+14       /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/clock_divider.v (N/A, 2024-07-20 17:46:59)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 80
+MID:  lib.cell.view
+0        work.APBM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+1        work.APBS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+2        work.BANKCTRLM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+3        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+4        work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+5        work.BANKEN.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+6        work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+7        work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+8        work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+9        work.CRN_COMMON.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+10       work.CRN_INT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+11       work.CRYPTO.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+12       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+13       work.DEBUG.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+14       work.DLL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+15       work.DRI.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+16       work.ENFORCE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+17       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+18       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+19       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+20       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+21       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+22       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+23       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+24       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+25       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+26       work.ICB_INT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+27       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+28       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+29       work.INIT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+30       work.IOD.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+31       work.LANECTRL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+32       work.LANERST.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+33       work.MSS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/MSS_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+34       work.Nbit_MOSI_SPI.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v (N/A, 2024-07-20 17:55:51) <-- (module definition)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v (N/A, 2024-07-20 17:54:42) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v (N/A, 2024-07-20 17:53:36) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (may instantiate this module)
+35       work.Nbit_MOSI_SPI_Buffer.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v (N/A, 2024-07-20 17:55:25) <-- (module definition)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v (N/A, 2024-07-20 17:54:42) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v (N/A, 2024-07-20 17:53:36) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (may instantiate this module)
+36       work.Nbit_MOSI_SPI_Buffer_Combined.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v (N/A, 2024-07-20 17:54:42) <-- (module definition)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v (N/A, 2024-07-20 17:53:36) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (may instantiate this module)
+37       work.OLED_interface.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v (N/A, 2024-07-20 17:53:36) <-- (module definition)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (may instantiate this module)
+38       work.OLED_interface_synth.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (module definition)
+39       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+40       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+41       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+42       work.PCIE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+43       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+44       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+45       work.PF_SPI.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+46       work.PLL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+47       work.QUADRST.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+48       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+49       work.SCB.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+50       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+51       work.SYSRESET.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+52       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+53       work.TAMPER.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+54       work.TVS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+55       work.TX_PLL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+56       work.UPROM.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+57       work.USPI.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+58       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+59       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+60       work.VREFCTRL.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+61       work.XCVR.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+62       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+63       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+64       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+65       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+66       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+67       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+68       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+69       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+70       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+71       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+72       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+73       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+74       work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+75       work.XCVR_TEST.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+76       work.XCVR_VV.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v (N/A, 2024-07-22 23:10:57) <-- (module definition)
+77       work.ascii_font_8x8.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v (N/A, 2024-07-20 17:53:36) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v (N/A, 2024-07-20 17:46:59) <-- (module definition)
+78       work.button_tick_latch.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/button_tick_latch.v (N/A, 2024-07-20 17:46:59) <-- (module definition)
+79       work.clock_divider.verilog may have changed because the following files changed:
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v (N/A, 2024-07-20 17:53:36) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v (N/A, 2024-07-22 23:10:51) <-- (may instantiate this module)
+                        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/clock_divider.v (N/A, 2024-07-20 17:46:59) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

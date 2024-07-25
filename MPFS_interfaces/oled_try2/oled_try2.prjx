@@ -1,0 +1,328 @@
+KEY LIBERO "2024.1"
+KEY CAPTURE "2024.1.0.3"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC095T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC095T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2"
+KEY ProjectDescription "led blink for polarfire soc"
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "OLED_interface_synth::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>/constraint/io/OLED_interface_synth.pdc,io_pdc"
+STATE="utd"
+TIME="1721703581"
+SIZE="2345"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>/constraint/user.sdc,sdc"
+STATE="utd"
+TIME="1721514616"
+SIZE="73"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>/hdl/ascii_font_8x8.v,hdl"
+STATE="utd"
+TIME="1721512019"
+SIZE="13687"
+ENDFILE
+VALUE "<project>/hdl/button_tick_latch.v,hdl"
+STATE="utd"
+TIME="1721512019"
+SIZE="1509"
+ENDFILE
+VALUE "<project>/hdl/clock_divider.v,hdl"
+STATE="utd"
+TIME="1721512019"
+SIZE="1362"
+ENDFILE
+VALUE "<project>/hdl/Nbit_MOSI_SPI.v,hdl"
+STATE="utd"
+TIME="1721512551"
+SIZE="3258"
+ENDFILE
+VALUE "<project>/hdl/Nbit_MOSI_SPI_Buffer.v,hdl"
+STATE="utd"
+TIME="1721512525"
+SIZE="5157"
+ENDFILE
+VALUE "<project>/hdl/Nbit_MOSI_SPI_Buffer_Combined.v,hdl"
+STATE="utd"
+TIME="1721512482"
+SIZE="1823"
+ENDFILE
+VALUE "<project>/hdl/OLED_interface.v,hdl"
+STATE="utd"
+TIME="1721512416"
+SIZE="15012"
+ENDFILE
+VALUE "<project>/hdl/OLED_interface_synth.v,hdl"
+STATE="utd"
+TIME="1721704251"
+SIZE="3117"
+ENDFILE
+VALUE "<project>/synthesis/OLED_interface_synth.so,so"
+STATE="utd"
+TIME="1721704264"
+SIZE="320"
+ENDFILE
+VALUE "<project>/synthesis/OLED_interface_synth.vm,syn_vm"
+STATE="utd"
+TIME="1721704264"
+SIZE="326323"
+ENDFILE
+VALUE "<project>/synthesis/OLED_interface_synth_syn.prj,prj"
+STATE="utd"
+TIME="1721704264"
+SIZE="4310"
+ENDFILE
+VALUE "<project>/synthesis/OLED_interface_synth_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1721704264"
+SIZE="1099"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "OLED_interface_synth::work"
+FILE "<project>/hdl/OLED_interface_synth.v,hdl"
+LIST SynthesisConstraints
+VALUE "<project>/constraint/user.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>/constraint/user.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>/constraint/io/OLED_interface_synth.pdc,io_pdc"
+VALUE "<project>/constraint/user.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/OLED_interface_synth.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=/home/ombhilare999/microchip/Libero/lib/modelsimpro/pli/pf_crypto_lin_me_pli.so
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="/home/ombhilare999/microchip/SynplifyPro/bin/synplify_pro"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="/home/ombhilare999/microchip/ModelSimPro/linuxacoem/vsim"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="/home/ombhilare999/microchip/Identify/bin/identify_debugger"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "OLED_interface_synth::work"
+LIST Impl1
+ideSYNTHESIS(<project>/synthesis/OLED_interface_synth.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:OLED_interface_synth_layout_log.log
+StartPage;StartPage;0
+HDL;constraint/io/OLED_interface_synth.pdc;0
+HDL;hdl/button_tick_latch.v;0
+HDL;hdl/OLED_interface.v;0
+Constraint Manager;Constraint Manager;0
+HDL;hdl/OLED_interface_synth.v;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "ascii_font_8x8::work","hdl/ascii_font_8x8.v","FALSE","FALSE"
+ENDLIST
+LIST "button_tick_latch::work","hdl/button_tick_latch.v","FALSE","FALSE"
+ENDLIST
+LIST "clock_divider::work","hdl/clock_divider.v","FALSE","FALSE"
+ENDLIST
+LIST "OLED_interface::work","hdl/OLED_interface.v","FALSE","FALSE"
+SUBBLOCK "Nbit_MOSI_SPI_Buffer_Combined::work","hdl/Nbit_MOSI_SPI_Buffer_Combined.v","FALSE","FALSE"
+SUBBLOCK "ascii_font_8x8::work","hdl/ascii_font_8x8.v","FALSE","FALSE"
+SUBBLOCK "clock_divider::work","hdl/clock_divider.v","FALSE","FALSE"
+ENDLIST
+LIST "Nbit_MOSI_SPI::work","hdl/Nbit_MOSI_SPI.v","FALSE","FALSE"
+ENDLIST
+LIST "Nbit_MOSI_SPI_Buffer::work","hdl/Nbit_MOSI_SPI_Buffer.v","FALSE","FALSE"
+ENDLIST
+LIST "Nbit_MOSI_SPI_Buffer_Combined::work","hdl/Nbit_MOSI_SPI_Buffer_Combined.v","FALSE","FALSE"
+SUBBLOCK "Nbit_MOSI_SPI_Buffer::work","hdl/Nbit_MOSI_SPI_Buffer.v","FALSE","FALSE"
+SUBBLOCK "Nbit_MOSI_SPI::work","hdl/Nbit_MOSI_SPI.v","FALSE","FALSE"
+ENDLIST
+LIST "OLED_interface_synth::work","hdl/OLED_interface_synth.v","FALSE","FALSE"
+SUBBLOCK "button_tick_latch::work","hdl/button_tick_latch.v","FALSE","FALSE"
+SUBBLOCK "OLED_interface::work","hdl/OLED_interface.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint/io/OLED_interface_synth.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint/user.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

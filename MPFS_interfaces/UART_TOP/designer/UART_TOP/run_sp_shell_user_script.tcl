@@ -1,0 +1,1 @@
+smartpower_report_power -clock_breakdown "TRUE" -rail_breakdown "TRUE" -type_breakdown "TRUE" {/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/uart_loopback/libero_project/UART_TOP/designer/UART_TOP/UART_TOP_power_report.xml}

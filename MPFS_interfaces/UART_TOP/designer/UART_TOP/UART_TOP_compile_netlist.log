@@ -1,0 +1,24 @@
+ Warning: You are running a version of Suse Linux that is not supported.
+ Please refer to Libero SoC Release Note for the detail of supported operating systems.
+ Warning: You are running a version of Suse Linux that is not supported.
+ Please refer to Libero SoC Release Note for the detail of supported operating systems.
+
+===============================================================================.
+
+Info: Global design data:
+      Total globals:                       1
+      Globals that cannot be demoted:      0
+      Globals considered for demotion:     1
+
+
+Info: List of globals considered for demotion:
+    CLK    ASYN   DATA   Instance Name
+    ---    ----   ----   -------------
+    45     0      0      'I_1'
+
+Info: Demotion information:
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

@@ -1,0 +1,19 @@
+********************************************************************
+Delay Instance Report - Date: Mon Jul 22 23:12:08 2024
+Product: Designer
+Release: v2024.1
+Version: 2024.1.0.3
+Design Name: OLED_interface_synth
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+
++------+---------------+------------+-------------+-----------------+-----------+
+| Type | Instance Name | Param Name | Delay Value | PDC Option Name | Editable? |
++------+---------------+------------+-------------+-----------------+-----------+
++------+---------------+------------+-------------+-----------------+-----------+
+

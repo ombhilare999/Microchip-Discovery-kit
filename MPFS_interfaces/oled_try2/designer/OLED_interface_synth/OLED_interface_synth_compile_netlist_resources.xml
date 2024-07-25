@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
+<text>Date: Mon Jul 22 23:11:08 2024
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 3.3V</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>OLED_interface_synth</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>989</cell>
+ <cell>93516</cell>
+ <cell>1.06</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>566</cell>
+ <cell>93516</cell>
+ <cell>0.61</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>240</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>14</cell>
+ <cell>80</cell>
+ <cell>17.50</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>14</cell>
+ <cell>80</cell>
+ <cell>17.50</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>40</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>0</cell>
+ <cell>876</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>0</cell>
+ <cell>308</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>0</cell>
+ <cell>292</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>2</cell>
+ <cell>48</cell>
+ <cell>4.17</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>989</cell>
+ <cell>566</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>989</cell>
+ <cell>566</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>3</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>20</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>6</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>8</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>534</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : JA_c[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NN_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I_2/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>563</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : sw_c[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: sw_ibuf[2]</cell>
+</row>
+<row>
+ <cell>415</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_state_reg_rep_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_state_reg_rep[0]</cell>
+</row>
+<row>
+ <cell>404</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_0</cell>
+</row>
+<row>
+ <cell>133</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[764]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[764]</cell>
+</row>
+<row>
+ <cell>122</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[765]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[765]</cell>
+</row>
+<row>
+ <cell>97</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[762]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[762]</cell>
+</row>
+<row>
+ <cell>57</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[740]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[740]</cell>
+</row>
+<row>
+ <cell>55</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[760]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[760]</cell>
+</row>
+<row>
+ <cell>42</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[761]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[761]</cell>
+</row>
+<row>
+ <cell>35</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>563</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : sw_c[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: sw_ibuf[2]</cell>
+</row>
+<row>
+ <cell>415</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_state_reg_rep_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_state_reg_rep[0]</cell>
+</row>
+<row>
+ <cell>404</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_0</cell>
+</row>
+<row>
+ <cell>133</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[764]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[764]</cell>
+</row>
+<row>
+ <cell>122</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[765]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[765]</cell>
+</row>
+<row>
+ <cell>97</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[762]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[762]</cell>
+</row>
+<row>
+ <cell>57</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[740]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[740]</cell>
+</row>
+<row>
+ <cell>55</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[760]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[760]</cell>
+</row>
+<row>
+ <cell>42</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/s_ASCII_Z[761]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/s_ASCII[761]</cell>
+</row>
+<row>
+ <cell>35</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg</cell>
+</row>
+</table>
+</doc>

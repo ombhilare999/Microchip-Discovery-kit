@@ -1,0 +1,10 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+polarfire = /home/ombhilare999/microchip/Libero/lib/modelsimpro/precompiled/vlog/polarfire
+syncad_vhdl_lib = /home/ombhilare999/microchip/Libero/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

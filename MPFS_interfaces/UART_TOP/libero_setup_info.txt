@@ -1,0 +1,13 @@
+# Microsemi Corp.
+# Date: 2024-Jul-25 13:07:28
+Libero Release : v2024.1
+Libero Version : 2024.1.0.3
+Operating System Name : Linux
+Linux Distribution Description:	Pop!_OS 22.04 LTS
+
+Ram Size : Unknown
+OS Type : 64-bit
+
+Environment Variables : 
+---------------------
+	Please enable the option from 'Preferences => Startup => Export environment variables' to get this info.

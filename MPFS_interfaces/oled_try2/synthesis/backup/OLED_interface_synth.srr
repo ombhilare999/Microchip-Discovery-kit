@@ -1,0 +1,1225 @@
+#Build: Synplify Pro (R) V-2023.09M, Build 146R, Jan  4 2024
+#install: /home/ombhilare999/microchip/SynplifyPro
+#OS: Linux 
+#Hostname: pop-os
+
+# Sat Jul 20 17:56:03 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:24:09, @5131170
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:24:09, @5131170
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"/home/ombhilare999/microchip/SynplifyPro/lib/generic/acg5.v" (library work)
+@I::"/home/ombhilare999/microchip/SynplifyPro/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v" (library work)
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":12833:13:12833:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/polarfire_syn_comps.v":12846:13:12846:25|User defined pragma syn_black_box detected
+
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/button_tick_latch.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/clock_divider.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v" (library work)
+@I::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/MSS_syn_comps.v" (library work)
+@W: CG100 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/component/MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+@N|stack limit increased to max
+Verilog syntax check successful!
+Selecting top level module OLED_interface_synth
+@W: CG168 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":52:4:52:19|Type of parameter N_COLOR_BITS on the instance g_OLED_interface is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":2:7:2:26|Synthesizing module Nbit_MOSI_SPI_Buffer in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	N=32'b00000000000000000000000000001000
+	idle=1'b0
+	transmit=1'b1
+   Generated name = Nbit_MOSI_SPI_Buffer_8s_8s_0_1
+@W: CG1340 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":23:14:23:23|Index into variable s_DC_reg could be out of range ; a simulation mismatch is possible.
+@W: CG133 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":26:8:26:17|Object s_MOSI_LSB is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on Nbit_MOSI_SPI_Buffer_8s_8s_0_1 .......
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Feedback mux created for signal s_N_transmit_reg[4:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Feedback mux created for signal s_DC_reg[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[56] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[57] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[58] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[59] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[60] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[61] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[62] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Optimizing register bit s_data_reg[63] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Pruning register bits 63 to 56 of s_data_reg[63:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on Nbit_MOSI_SPI_Buffer_8s_8s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v":2:7:2:19|Synthesizing module Nbit_MOSI_SPI in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	idle=1'b0
+	transmit=1'b1
+   Generated name = Nbit_MOSI_SPI_8s_0_1
+Running optimization stage 1 on Nbit_MOSI_SPI_8s_0_1 .......
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v":23:4:23:9|Feedback mux created for signal s_MOSI_LSB. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on Nbit_MOSI_SPI_8s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v":2:7:2:35|Synthesizing module Nbit_MOSI_SPI_Buffer_Combined in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	N=32'b00000000000000000000000000001000
+   Generated name = Nbit_MOSI_SPI_Buffer_Combined_8s_8s
+@W: CG360 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v":20:9:20:20|Removing wire s_START_mosi, as there is no assignment to it.
+Running optimization stage 1 on Nbit_MOSI_SPI_Buffer_Combined_8s_8s .......
+Finished optimization stage 1 on Nbit_MOSI_SPI_Buffer_Combined_8s_8s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/clock_divider.v":23:7:23:19|Synthesizing module clock_divider in library work.
+
+	DVSR=32'b00000000000000000000000000010100
+   Generated name = clock_divider_20s
+Running optimization stage 1 on clock_divider_20s .......
+Finished optimization stage 1 on clock_divider_20s (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v":2:7:2:20|Synthesizing module ascii_font_8x8 in library work.
+Running optimization stage 1 on ascii_font_8x8 .......
+Finished optimization stage 1 on ascii_font_8x8 (CPU Time 0h:00m:00s, Memory Used current: 192MB peak: 192MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":44:7:44:20|Synthesizing module OLED_interface in library work.
+
+	WIDTH=32'b00000000000000000000000000001000
+	N=32'b00000000000000000000000000001000
+	SCLK_DIVIDER=32'b00000000000000000000000000010100
+	WAIT_3_US=32'b00000000000000000000000000010100
+	WAIT_100_MS=32'b00000000000010010010011111000000
+	NUM_COL=32'b00000000000000000000000001100000
+	NUM_ROW=32'b00000000000000000000000001000000
+	ASCII_COL_SIZE=8'b00001000
+	ASCII_ROW_SIZE=8'b00001000
+	NUM_ASCII_COL=8'b00001100
+	NUM_ASCII_ROW=8'b00001000
+	N_COLOR_BITS=32'b00000000000000000000000000001000
+	idle=4'b0000
+	turnon_1=4'b0001
+	turnon_2=4'b0010
+	turnon_3=4'b0011
+	turnon_4=4'b0100
+	fill_screen_1=4'b0101
+	pixel_display_1=4'b0110
+	pixel_display_2=4'b0111
+	turnon=2'b00
+	fill_screen=2'b01
+	pixel_display=2'b10
+   Generated name = OLED_interface_Z1
+@W: CG1340 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":342:38:342:93|Index into variable s_ASCII_PIXEL could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on OLED_interface_Z1 .......
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[32] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[33] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[34] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[48] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[49] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[50] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[51] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[52] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[53] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[54] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[55] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[56] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[57] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[58] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[59] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[60] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[61] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[62] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[63] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DC[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DC[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DC[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DC[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DC[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DC[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DC[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_N_transmit[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_N_transmit[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 63 to 48 of s_DATA[63:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 34 to 31 of s_DATA[63:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bit 27 of s_DATA[63:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bit 25 of s_DATA[63:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 10 to 8 of s_DATA[63:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 7 to 1 of s_DC[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 4 to 3 of s_N_transmit[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on OLED_interface_Z1 (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 218MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/button_tick_latch.v":23:7:23:23|Synthesizing module button_tick_latch in library work.
+Running optimization stage 1 on button_tick_latch .......
+Finished optimization stage 1 on button_tick_latch (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 218MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":2:7:2:26|Synthesizing module OLED_interface_synth in library work.
+Running optimization stage 1 on OLED_interface_synth .......
+@W: CL318 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|*Output LED has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on OLED_interface_synth (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 218MB)
+Running optimization stage 2 on OLED_interface_synth .......
+@W: CL246 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":3:36:3:37|Input port bits 7 to 2 of sw[15:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on OLED_interface_synth (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 218MB)
+Running optimization stage 2 on button_tick_latch .......
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/button_tick_latch.v":36:4:36:9|Trying to extract state machine for register state_reg.
+Extracted state machine for register state_reg
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Finished optimization stage 2 on button_tick_latch (CPU Time 0h:00m:00s, Memory Used current: 198MB peak: 218MB)
+Running optimization stage 2 on OLED_interface_Z1 .......
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_PIXEL_COUNT_reg[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_count_reg[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_col_reg[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_col_reg[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_col_reg[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_col_reg[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_row_reg[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_row_reg[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_row_reg[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_row_reg[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_ASCII_row_reg[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 7 to 3 of s_ASCII_row_reg[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 7 to 4 of s_ASCII_col_reg[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 31 to 20 of s_count_reg[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bit 7 of s_PIXEL_COUNT_reg[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[38] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[39] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[46] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Optimizing register bit s_DATA[47] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 47 to 46 of s_DATA[47:35]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 39 to 38 of s_DATA[47:35]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bit 23 of s_DATA[24:11]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Trying to extract state machine for register s_state_reg.
+Extracted state machine for register s_state_reg
+State machine has 8 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 30 to 29 of s_DATA[30:28]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 42 to 41 of s_DATA[45:40]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Pruning register bits 22 to 17 of s_DATA[22:11]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on OLED_interface_Z1 (CPU Time 0h:00m:00s, Memory Used current: 210MB peak: 241MB)
+Running optimization stage 2 on ascii_font_8x8 .......
+Finished optimization stage 2 on ascii_font_8x8 (CPU Time 0h:00m:00s, Memory Used current: 210MB peak: 241MB)
+Running optimization stage 2 on clock_divider_20s .......
+Finished optimization stage 2 on clock_divider_20s (CPU Time 0h:00m:00s, Memory Used current: 210MB peak: 241MB)
+Running optimization stage 2 on Nbit_MOSI_SPI_Buffer_Combined_8s_8s .......
+Finished optimization stage 2 on Nbit_MOSI_SPI_Buffer_Combined_8s_8s (CPU Time 0h:00m:00s, Memory Used current: 210MB peak: 241MB)
+Running optimization stage 2 on Nbit_MOSI_SPI_8s_0_1 .......
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v":23:4:23:9|Optimizing register bit s_bit_reg[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v":23:4:23:9|Optimizing register bit s_bit_reg[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v":23:4:23:9|Pruning register bits 4 to 3 of s_bit_reg[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on Nbit_MOSI_SPI_8s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 210MB peak: 241MB)
+Running optimization stage 2 on Nbit_MOSI_SPI_Buffer_8s_8s_0_1 .......
+Finished optimization stage 2 on Nbit_MOSI_SPI_Buffer_8s_8s_0_1 (CPU Time 0h:00m:00s, Memory Used current: 210MB peak: 241MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 210MB peak: 241MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jul 20 17:56:04 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:24:09, @5131170
+
+@N|Running in 64-bit mode
+@N: NF107 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":2:7:2:26|Selected library: work cell: OLED_interface_synth view verilog as top level
+@N: NF107 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":2:7:2:26|Selected library: work cell: OLED_interface_synth view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 188MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jul 20 17:56:04 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 37MB peak: 37MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jul 20 17:56:04 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:24:09, @5131170
+
+@N|Running in 64-bit mode
+@N: NF107 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":2:7:2:26|Selected library: work cell: OLED_interface_synth view verilog as top level
+@N: NF107 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":2:7:2:26|Selected library: work cell: OLED_interface_synth view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 189MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jul 20 17:56:05 2024
+
+###########################################################]
+Premap Report
+
+# Sat Jul 20 17:56:06 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:38:17, @5131170
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
+
+Reading constraint file: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc
+@L: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth_scck.rpt 
+See clock summary report "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[40] because it is equivalent to instance g_OLED_interface.s_DATA[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[28] because it is equivalent to instance g_OLED_interface.s_DATA[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[26] because it is equivalent to instance g_OLED_interface.s_DATA[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.o_PMODEN because it is equivalent to instance g_OLED_interface.o_VCCEN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[45:43] because it is equivalent to instance g_OLED_interface.s_DATA[37:35]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_1 (in view: work.OLED_interface_synth(verilog)) on net LED[15] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_2 (in view: work.OLED_interface_synth(verilog)) on net LED[14] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_3 (in view: work.OLED_interface_synth(verilog)) on net LED[13] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_4 (in view: work.OLED_interface_synth(verilog)) on net LED[12] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_5 (in view: work.OLED_interface_synth(verilog)) on net LED[11] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_6 (in view: work.OLED_interface_synth(verilog)) on net LED[10] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+
+@N: FP130 |Promoting Net btnC_arst on CLKINT  I_1 
+@N: FP130 |Promoting Net g_OLED_interface.SCLK_clock_divider.o_CLK_DIV on CLKINT  I_1 
+@N: FP130 |Promoting Net CLK100MHZ on CLKINT  I_2 
+@N: FX1184 |Applying syn_allowed_resources blockrams=308 on top level netlist OLED_interface_synth 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                    Requested     Requested     Clock        Clock          Clock
+Level     Clock                                    Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------------------------------
+0 -       clock_divider_20s|N_2_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     950  
+                                                                                                                
+0 -       OLED_interface_synth|CLK100MHZ           100.0 MHz     10.000        inferred     (multiple)     33   
+================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                         Clock     Source                                                        Clock Pin                                           Non-clock Pin                                          Non-clock Pin                          
+Clock                                    Load      Pin                                                           Seq Example                                         Seq Example                                            Comb Example                           
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clock_divider_20s|N_2_inferred_clock     950       g_OLED_interface.SCLK_clock_divider.o_CLK_DIV.Q[0](dffre)     g_button_tick_latch.state_reg[2:0].C                g_OLED_interface.SCLK_clock_divider.o_CLK_DIV.D[0]     g_button_tick_latch.un1_i_CLK.I[0](inv)
+                                                                                                                                                                                                                                                                   
+OLED_interface_synth|CLK100MHZ           33        CLK100MHZ(port)                                               g_OLED_interface.SCLK_clock_divider.o_CLK_DIV.C     -                                                      I_2.A(CLKINT)                          
+===================================================================================================================================================================================================================================================================
+
+@W: MT530 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Found inferred clock clock_divider_20s|N_2_inferred_clock which controls 950 sequential elements including g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_N_transmit_reg[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/clock_divider.v":37:4:37:9|Found inferred clock OLED_interface_synth|CLK100MHZ which controls 33 sequential elements including g_OLED_interface.SCLK_clock_divider.s_ms_reg[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_1 (in view: work.OLED_interface_synth(verilog)) on net LED[15] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_2 (in view: work.OLED_interface_synth(verilog)) on net LED[14] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_3 (in view: work.OLED_interface_synth(verilog)) on net LED[13] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_4 (in view: work.OLED_interface_synth(verilog)) on net LED[12] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+
+Encoding state machine s_state_reg[7:0] (in view: work.OLED_interface_Z1(verilog))
+original code -> new code
+   0000 -> 00000001
+   0001 -> 00000010
+   0010 -> 00000100
+   0011 -> 00001000
+   0100 -> 00010000
+   0101 -> 00100000
+   0110 -> 01000000
+   0111 -> 10000000
+Encoding state machine state_reg[2:0] (in view: work.button_tick_latch(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 566MB peak: 566MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 478MB peak: 567MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jul 20 17:56:07 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Sat Jul 20 17:56:07 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: /home/ombhilare999/microchip/SynplifyPro
+OS: Pop!_OS 22.04 LTS
+Hostname: pop-os
+max virtual memory: unlimited (bytes)
+max user processes: 28824
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:38:17, @5131170
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 503MB peak: 503MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+
+Multibit Mux Optimization Enabled. 
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_1 (in view: work.OLED_interface_synth(verilog)) on net LED[15] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_2 (in view: work.OLED_interface_synth(verilog)) on net LED[14] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_3 (in view: work.OLED_interface_synth(verilog)) on net LED[13] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_4 (in view: work.OLED_interface_synth(verilog)) on net LED[12] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_5 (in view: work.OLED_interface_synth(verilog)) on net LED[11] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":6:37:6:39|Tristate driver LED_6 (in view: work.OLED_interface_synth(verilog)) on net LED[10] (in view: work.OLED_interface_synth(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BZ173 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v":10:0:10:3|ROM font.s_PIXEL[63:6] (in view: work.OLED_interface_Z1(verilog)) mapped in logic.
+@N: MO106 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v":10:0:10:3|Found ROM font.s_PIXEL[63:6] (in view: work.OLED_interface_Z1(verilog)) with 128 words by 58 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 572MB peak: 572MB)
+
+Encoding state machine s_state_reg[7:0] (in view: work.OLED_interface_Z1(verilog))
+original code -> new code
+   0000 -> 00000001
+   0001 -> 00000010
+   0010 -> 00000100
+   0011 -> 00001000
+   0100 -> 00010000
+   0101 -> 00100000
+   0110 -> 01000000
+   0111 -> 10000000
+@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Found counter in view:work.OLED_interface_Z1(verilog) instance s_count_reg[19:0] 
+@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Found counter in view:work.OLED_interface_Z1(verilog) instance s_PIXEL_COUNT_reg[6:0] 
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[25] because it is equivalent to instance g_OLED_interface.s_ASCII[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[30] because it is equivalent to instance g_OLED_interface.s_ASCII[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[28] because it is equivalent to instance g_OLED_interface.s_ASCII[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[24] because it is equivalent to instance g_OLED_interface.s_ASCII[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[42] because it is equivalent to instance g_OLED_interface.s_ASCII[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[139] because it is equivalent to instance g_OLED_interface.s_ASCII[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_TEXT_COLOR_reg[6] because it is equivalent to instance g_OLED_interface.s_TEXT_COLOR_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_TEXT_COLOR_reg[5] because it is equivalent to instance g_OLED_interface.s_TEXT_COLOR_reg[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_TEXT_COLOR_reg[4] because it is equivalent to instance g_OLED_interface.s_TEXT_COLOR_reg[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_TEXT_COLOR_reg[3] because it is equivalent to instance g_OLED_interface.s_TEXT_COLOR_reg[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_TEXT_COLOR_reg[2] because it is equivalent to instance g_OLED_interface.s_TEXT_COLOR_reg[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_TEXT_COLOR_reg[1] because it is equivalent to instance g_OLED_interface.s_TEXT_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_TEXT_COLOR_reg[7] because it is equivalent to instance g_OLED_interface.s_TEXT_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[50] because it is equivalent to instance g_OLED_interface.s_ASCII[36]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[36] because it is equivalent to instance g_OLED_interface.s_ASCII[33]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[147] because it is equivalent to instance g_OLED_interface.s_ASCII[33]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[32] because it is equivalent to instance g_OLED_interface.s_ASCII[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[38] because it is equivalent to instance g_OLED_interface.s_ASCII[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[155] because it is equivalent to instance g_OLED_interface.s_ASCII[44]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[58] because it is equivalent to instance g_OLED_interface.s_ASCII[41]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[46] because it is equivalent to instance g_OLED_interface.s_ASCII[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[40] because it is equivalent to instance g_OLED_interface.s_ASCII[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[66] because it is equivalent to instance g_OLED_interface.s_ASCII[49]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[48] because it is equivalent to instance g_OLED_interface.s_ASCII[29]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[56] because it is equivalent to instance g_OLED_interface.s_ASCII[37]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[64] because it is equivalent to instance g_OLED_interface.s_ASCII[45]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[72] because it is equivalent to instance g_OLED_interface.s_ASCII[53]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[80] because it is equivalent to instance g_OLED_interface.s_ASCII[61]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Found counter in view:work.Nbit_MOSI_SPI_Buffer_8s_8s_0_1(verilog) instance s_byte_reg[4:0] 
+Encoding state machine state_reg[2:0] (in view: work.button_tick_latch(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 572MB peak: 572MB)
+
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[34] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[33] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[32] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[26] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[25] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[18] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[8] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[2] because it is equivalent to instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_data_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 586MB peak: 586MB)
+
+NConnInternalConnection caching is on
+@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing sequential instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_byte_reg[4] (in view: work.OLED_interface_synth(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing sequential instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_byte_reg[3] (in view: work.OLED_interface_synth(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 586MB peak: 586MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 586MB peak: 586MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:04s; Memory used current: 587MB peak: 587MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:04s; Memory used current: 587MB peak: 587MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 587MB peak: 587MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 595MB peak: 595MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		     0.86ns		1396 /       792
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 595MB peak: 595MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 595MB peak: 595MB)
+
+@W: FX203 :|Removing CLKINT I_1 from net btnC_c. Reason: Fanout is less than the threshold.
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 595MB peak: 595MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 595MB peak: 595MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 595MB peak: 595MB)
+
+Writing Analyst data base /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 595MB peak: 595MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 595MB peak: 595MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 595MB peak: 595MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:06s; Memory used current: 595MB peak: 595MB)
+
+@W: MT420 |Found inferred clock clock_divider_20s|N_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net g_OLED_interface.SCLK_clock_divider.N_2.
+@W: MT420 |Found inferred clock OLED_interface_synth|CLK100MHZ with period 10.00ns. Please declare a user-defined clock on port CLK100MHZ.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Sat Jul 20 17:56:13 2024
+#
+
+
+Top view:               OLED_interface_synth
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.002
+
+                                         Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                           Frequency     Frequency     Period        Period        Slack     Type         Group     
+----------------------------------------------------------------------------------------------------------------------------------
+OLED_interface_synth|CLK100MHZ           100.0 MHz     571.1 MHz     10.000        1.751         8.249     inferred     (multiple)
+clock_divider_20s|N_2_inferred_clock     100.0 MHz     125.1 MHz     10.000        7.996         1.002     inferred     (multiple)
+==================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                              Ending                                |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clock_divider_20s|N_2_inferred_clock  clock_divider_20s|N_2_inferred_clock  |  10.000      3.114  |  10.000      7.810  |  5.000       3.634  |  5.000       1.002
+OLED_interface_synth|CLK100MHZ        OLED_interface_synth|CLK100MHZ        |  10.000      8.249  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: OLED_interface_synth|CLK100MHZ
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                     Starting                                                             Arrival          
+Instance                                             Reference                          Type     Pin     Net              Time        Slack
+                                                     Clock                                                                                 
+-------------------------------------------------------------------------------------------------------------------------------------------
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[0]      OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[0]      0.218       8.249
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[8]      OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[8]      0.218       8.547
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[16]     OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[16]     0.218       8.547
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[4]      OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[4]      0.201       8.582
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[21]     OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[21]     0.218       8.625
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[9]      OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[9]      0.218       8.627
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[17]     OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[17]     0.218       8.627
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[20]     OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[20]     0.218       8.666
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[10]     OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[10]     0.218       8.671
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[18]     OLED_interface_synth|CLK100MHZ     SLE      Q       s_ms_reg[18]     0.218       8.671
+===========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                                        Required          
+Instance                                             Reference                          Type     Pin     Net                         Time         Slack
+                                                     Clock                                                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[31]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_s_31_S       10.000       8.249
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[30]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_cry_30_S     10.000       8.257
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[29]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_cry_29_S     10.000       8.265
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[3]      OLED_interface_synth|CLK100MHZ     SLE      D       s_ms_next[3]                10.000       8.271
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[28]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_cry_28_S     10.000       8.273
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[27]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_cry_27_S     10.000       8.281
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[1]      OLED_interface_synth|CLK100MHZ     SLE      D       s_ms_next[1]                10.000       8.288
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[26]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_cry_26_S     10.000       8.289
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[25]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_cry_25_S     10.000       8.297
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[24]     OLED_interface_synth|CLK100MHZ     SLE      D       un11_s_ms_next_cry_24_S     10.000       8.305
+=======================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      1.751
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.249
+
+    Number of logic level(s):                32
+    Starting point:                          g_OLED_interface.SCLK_clock_divider.s_ms_reg[0] / Q
+    Ending point:                            g_OLED_interface.SCLK_clock_divider.s_ms_reg[31] / D
+    The start point is clocked by            OLED_interface_synth|CLK100MHZ [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            OLED_interface_synth|CLK100MHZ [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                           Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[0]                SLE      Q        Out     0.218     0.218 r     -         
+s_ms_reg[0]                                                    Net      -        -       0.547     -           3         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_1_171     ARI1     B        In      -         0.765 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_1_171     ARI1     FCO      Out     0.328     1.093 r     -         
+un11_s_ms_next_s_1_171_FCO                                     Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_1       ARI1     FCI      In      -         1.093 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_1       ARI1     FCO      Out     0.008     1.101 r     -         
+un11_s_ms_next_cry_1                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_2       ARI1     FCI      In      -         1.101 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_2       ARI1     FCO      Out     0.008     1.109 r     -         
+un11_s_ms_next_cry_2                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_3       ARI1     FCI      In      -         1.109 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_3       ARI1     FCO      Out     0.008     1.117 r     -         
+un11_s_ms_next_cry_3                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_4       ARI1     FCI      In      -         1.117 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_4       ARI1     FCO      Out     0.008     1.125 r     -         
+un11_s_ms_next_cry_4                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_5       ARI1     FCI      In      -         1.125 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_5       ARI1     FCO      Out     0.008     1.133 r     -         
+un11_s_ms_next_cry_5                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_6       ARI1     FCI      In      -         1.133 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_6       ARI1     FCO      Out     0.008     1.141 r     -         
+un11_s_ms_next_cry_6                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_7       ARI1     FCI      In      -         1.141 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_7       ARI1     FCO      Out     0.008     1.149 r     -         
+un11_s_ms_next_cry_7                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_8       ARI1     FCI      In      -         1.149 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_8       ARI1     FCO      Out     0.008     1.157 r     -         
+un11_s_ms_next_cry_8                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_9       ARI1     FCI      In      -         1.157 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_9       ARI1     FCO      Out     0.008     1.165 r     -         
+un11_s_ms_next_cry_9                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_10      ARI1     FCI      In      -         1.165 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_10      ARI1     FCO      Out     0.008     1.173 r     -         
+un11_s_ms_next_cry_10                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_11      ARI1     FCI      In      -         1.173 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_11      ARI1     FCO      Out     0.008     1.181 r     -         
+un11_s_ms_next_cry_11                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_12      ARI1     FCI      In      -         1.181 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_12      ARI1     FCO      Out     0.008     1.189 r     -         
+un11_s_ms_next_cry_12                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_13      ARI1     FCI      In      -         1.189 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_13      ARI1     FCO      Out     0.008     1.197 r     -         
+un11_s_ms_next_cry_13                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_14      ARI1     FCI      In      -         1.197 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_14      ARI1     FCO      Out     0.008     1.205 r     -         
+un11_s_ms_next_cry_14                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_15      ARI1     FCI      In      -         1.205 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_15      ARI1     FCO      Out     0.008     1.213 r     -         
+un11_s_ms_next_cry_15                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_16      ARI1     FCI      In      -         1.213 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_16      ARI1     FCO      Out     0.008     1.221 r     -         
+un11_s_ms_next_cry_16                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_17      ARI1     FCI      In      -         1.221 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_17      ARI1     FCO      Out     0.008     1.229 r     -         
+un11_s_ms_next_cry_17                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_18      ARI1     FCI      In      -         1.229 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_18      ARI1     FCO      Out     0.008     1.237 r     -         
+un11_s_ms_next_cry_18                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_19      ARI1     FCI      In      -         1.237 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_19      ARI1     FCO      Out     0.008     1.245 r     -         
+un11_s_ms_next_cry_19                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_20      ARI1     FCI      In      -         1.245 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_20      ARI1     FCO      Out     0.008     1.253 r     -         
+un11_s_ms_next_cry_20                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_21      ARI1     FCI      In      -         1.253 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_21      ARI1     FCO      Out     0.008     1.261 r     -         
+un11_s_ms_next_cry_21                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_22      ARI1     FCI      In      -         1.261 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_22      ARI1     FCO      Out     0.008     1.269 r     -         
+un11_s_ms_next_cry_22                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_23      ARI1     FCI      In      -         1.269 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_23      ARI1     FCO      Out     0.008     1.277 r     -         
+un11_s_ms_next_cry_23                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_24      ARI1     FCI      In      -         1.277 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_24      ARI1     FCO      Out     0.008     1.285 r     -         
+un11_s_ms_next_cry_24                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_25      ARI1     FCI      In      -         1.285 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_25      ARI1     FCO      Out     0.008     1.293 r     -         
+un11_s_ms_next_cry_25                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_26      ARI1     FCI      In      -         1.293 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_26      ARI1     FCO      Out     0.008     1.301 r     -         
+un11_s_ms_next_cry_26                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_27      ARI1     FCI      In      -         1.301 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_27      ARI1     FCO      Out     0.008     1.309 r     -         
+un11_s_ms_next_cry_27                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_28      ARI1     FCI      In      -         1.309 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_28      ARI1     FCO      Out     0.008     1.317 r     -         
+un11_s_ms_next_cry_28                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_29      ARI1     FCI      In      -         1.317 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_29      ARI1     FCO      Out     0.008     1.325 r     -         
+un11_s_ms_next_cry_29                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_30      ARI1     FCI      In      -         1.325 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_30      ARI1     FCO      Out     0.008     1.333 r     -         
+un11_s_ms_next_cry_30                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_31        ARI1     FCI      In      -         1.333 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_31        ARI1     S        Out     0.300     1.633 r     -         
+un11_s_ms_next_s_31_S                                          Net      -        -       0.118     -           1         
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[31]               SLE      D        In      -         1.751 r     -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 1.751 is 1.086(62.0%) logic and 0.665(38.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clock_divider_20s|N_2_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                      Starting                                                                           Arrival          
+Instance                                                                              Reference                                Type     Pin     Net                      Time        Slack
+                                                                                      Clock                                                                                               
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+g_button_tick_latch.state_reg[0]                                                      clock_divider_20s|N_2_inferred_clock     SLE      Q       state_reg[0]             0.201       1.002
+g_button_tick_latch.state_reg[1]                                                      clock_divider_20s|N_2_inferred_clock     SLE      Q       state_reg[1]             0.201       1.103
+g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI.o_MOSI_FINAL_TX      clock_divider_20s|N_2_inferred_clock     SLE      Q       o_MOSI_FINAL_BIT         0.218       1.648
+g_OLED_interface.s_PIXEL_COUNT_reg[2]                                                 clock_divider_20s|N_2_inferred_clock     SLE      Q       s_PIXEL_COUNT_reg[2]     0.218       3.114
+g_OLED_interface.s_PIXEL_COUNT_reg[1]                                                 clock_divider_20s|N_2_inferred_clock     SLE      Q       s_PIXEL_COUNT_reg[1]     0.218       3.115
+g_OLED_interface.s_PIXEL_COUNT_reg[0]                                                 clock_divider_20s|N_2_inferred_clock     SLE      Q       s_PIXEL_COUNT_reg[0]     0.218       3.227
+g_OLED_interface.s_PIXEL_COUNT_reg[3]                                                 clock_divider_20s|N_2_inferred_clock     SLE      Q       s_PIXEL_COUNT_reg[3]     0.218       3.340
+g_OLED_interface.s_PIXEL_COUNT_reg[4]                                                 clock_divider_20s|N_2_inferred_clock     SLE      Q       s_PIXEL_COUNT_reg[4]     0.218       3.540
+g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.o_START       clock_divider_20s|N_2_inferred_clock     SLE      Q       s_start_mosi             0.218       3.634
+g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.o_DATA[0]     clock_divider_20s|N_2_inferred_clock     SLE      Q       s_BYTE[0]                0.201       3.747
+==========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                                               Required          
+Instance                         Reference                                Type     Pin     Net                          Time         Slack
+                                 Clock                                                                                                    
+------------------------------------------------------------------------------------------------------------------------------------------
+g_OLED_interface.s_ASCII[5]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[13]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[21]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[29]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[33]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[37]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[41]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[44]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[45]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+g_OLED_interface.s_ASCII[49]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa     4.873        1.002
+==========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.873
+
+    - Propagation time:                      3.871
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.002
+
+    Number of logic level(s):                3
+    Starting point:                          g_button_tick_latch.state_reg[0] / Q
+    Ending point:                            g_OLED_interface.s_ASCII[5] / EN
+    The start point is clocked by            clock_divider_20s|N_2_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clock_divider_20s|N_2_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+g_button_tick_latch.state_reg[0]              SLE      Q        Out     0.201     0.201 f     -         
+state_reg[0]                                  Net      -        -       0.547     -           3         
+s_START                                       CFG4     D        In      -         0.748 f     -         
+s_START                                       CFG4     Y        Out     0.232     0.979 r     -         
+s_START                                       Net      -        -       0.594     -           6         
+g_OLED_interface.s_init_reg_RNIQLFVD          CFG4     D        In      -         1.574 r     -         
+g_OLED_interface.s_init_reg_RNIQLFVD          CFG4     Y        Out     0.168     1.741 r     -         
+s_init_reg_RNIQLFVD                           Net      -        -       0.686     -           14        
+g_OLED_interface.un1_s_state_reg_3_sqmuxa     CFG4     D        In      -         2.427 r     -         
+g_OLED_interface.un1_s_state_reg_3_sqmuxa     CFG4     Y        Out     0.168     2.595 r     -         
+un1_s_state_reg_3_sqmuxa                      Net      -        -       1.276     -           617       
+g_OLED_interface.s_ASCII[5]                   SLE      EN       In      -         3.871 r     -         
+========================================================================================================
+Total path delay (propagation time + setup) of 3.998 is 0.895(22.4%) logic and 3.104(77.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:06s; Memory used current: 595MB peak: 595MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:06s; Memory used current: 595MB peak: 595MB)
+
+---------------------------------------
+Resource Usage Report for OLED_interface_synth 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          2 uses
+CFG1           7 uses
+CFG2           716 uses
+CFG3           216 uses
+CFG4           277 uses
+
+Carry cells:
+ARI1            59 uses - used for arithmetic functions
+ARI1            69 uses - used for Wide-Mux implementation
+Total ARI1      128 uses
+
+
+Sequential Cells: 
+SLE            792 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 44
+I/O primitives: 38
+INBUF          14 uses
+OUTBUF         18 uses
+TRIBUFF        6 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    1344
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  792 + 0 + 0 + 0 = 792;
+Total number of LUTs after P&R:  1344 + 0 + 0 + 0 = 1344;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 506MB peak: 595MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Sat Jul 20 17:56:13 2024
+
+###########################################################]

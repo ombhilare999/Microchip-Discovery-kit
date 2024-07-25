@@ -1,0 +1,5 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals
+Primitives/Primitives,0,0,4,1
+UART_RX_Inst/Primitives,38,22,0,0
+UART_TX_Inst/Primitives,33,23,0,0

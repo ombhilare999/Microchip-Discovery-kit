@@ -1,0 +1,41 @@
+Resource Usage Report for OLED_interface_synth 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          2 uses
+CFG1           7 uses
+CFG2           482 uses
+CFG3           168 uses
+CFG4           212 uses
+
+Carry cells:
+ARI1            59 uses - used for arithmetic functions
+ARI1            63 uses - used for Wide-Mux implementation
+Total ARI1      122 uses
+
+
+Sequential Cells: 
+SLE            566 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 14
+I/O primitives: 14
+INBUF          6 uses
+OUTBUF         8 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    991
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  566 + 0 + 0 + 0 = 566;
+Total number of LUTs after P&R:  991 + 0 + 0 + 0 = 991;
+

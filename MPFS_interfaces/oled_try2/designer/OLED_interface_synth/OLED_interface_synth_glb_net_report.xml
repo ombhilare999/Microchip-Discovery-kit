@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Global Net Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
+<text>Date: Mon Jul 22 23:11:53 2024
+</text>
+<section>
+<name>Global Nets Information</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> GB Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0</cell>
+ <cell>(1163, 0)</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_Y</cell>
+ <cell>437</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_GB0</cell>
+ <cell>(1175, 0)</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_gbs_1</cell>
+ <cell>97</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>I_2/U0</cell>
+ <cell>(1154, 0)</cell>
+ <cell>I_2/U0_Y</cell>
+ <cell>25</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>I_2/U0_GB0</cell>
+ <cell>(1166, 1)</cell>
+ <cell>I_2/U0_gbs_1</cell>
+ <cell>8</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>I/O to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> Port Name </cell>
+ <cell> Pin Number </cell>
+ <cell> I/O Function </cell>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>CLK100MHZ</cell>
+ <cell>R18</cell>
+ <cell>HSIO56PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0</cell>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:Y</cell>
+ <cell>(2028, 169)</cell>
+ <cell>I_2/U0</cell>
+ <cell>CLK100MHZ_ibuf/YIN</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>CLK100MHZ</cell>
+ <cell>R18</cell>
+ <cell>HSIO56PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0</cell>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:Y</cell>
+ <cell>(2028, 169)</cell>
+ <cell>I_2/U0_GB0</cell>
+ <cell>CLK100MHZ_ibuf/YIN</cell>
+ <cell>HARDWIRED</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Fabric to GB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> To </cell>
+ <cell> Net Name </cell>
+ <cell> Net Type </cell>
+ <cell> Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>(1129, 13)</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell>ROUTED</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>(1129, 13)</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_GB0</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell>ROUTED</cell>
+ <cell>3</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>CCC to GB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>CCC Input Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Local Nets to RGB Connections</name>
+<text>(none)</text>
+</section>
+<section>
+<name>Global Nets to RGB Connections</name>
+<table>
+<header>
+ <cell/>
+ <cell> From </cell>
+ <cell> From Location </cell>
+ <cell> Net Name </cell>
+ <cell> Fanout </cell>
+ <cell> </cell>
+ <cell> RGB Location </cell>
+ <cell> Local Fanout </cell>
+</header>
+<row>
+ <cell>1</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0</cell>
+ <cell>(1163, 0)</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_Y</cell>
+ <cell>437</cell>
+ <cell>1</cell>
+ <cell>(731, 43)</cell>
+ <cell>313</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(731, 70)</cell>
+ <cell>124</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_GB0</cell>
+ <cell>(1175, 0)</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_gbs_1</cell>
+ <cell>97</cell>
+ <cell>1</cell>
+ <cell>(1601, 16)</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2</cell>
+ <cell>(1601, 43)</cell>
+ <cell>49</cell>
+</row>
+<row>
+ <cell> </cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3</cell>
+ <cell>(1601, 70)</cell>
+ <cell>47</cell>
+</row>
+<row>
+ <cell>3</cell>
+ <cell>I_2/U0</cell>
+ <cell>(1154, 0)</cell>
+ <cell>I_2/U0_Y</cell>
+ <cell>25</cell>
+ <cell> </cell>
+ <cell>(727, 17)</cell>
+ <cell>25</cell>
+</row>
+<row>
+ <cell>4</cell>
+ <cell>I_2/U0_GB0</cell>
+ <cell>(1166, 1)</cell>
+ <cell>I_2/U0_gbs_1</cell>
+ <cell>8</cell>
+ <cell> </cell>
+ <cell>(1598, 17)</cell>
+ <cell>8</cell>
+</row>
+</table>
+<text></text>
+</section>
+<section>
+<name>Clock Signals Summary</name>
+<table>
+<header>
+</header>
+<row>
+ <cell>The number of clock signals through  H-Chip Global resources</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>The number of clock signals through     Row Global resources</cell>
+ <cell>6</cell>
+</row>
+<row>
+ <cell>The number of clock signals through  Sector Global resources</cell>
+ <cell>11</cell>
+</row>
+<row>
+ <cell>The number of clock signals through Cluster Global resources</cell>
+ <cell>59</cell>
+</row>
+</table>
+<text></text>
+</section>
+</doc>

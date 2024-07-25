@@ -1,0 +1,9 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals
+Primitives/Primitives,1,0,14,1
+g_OLED_interface/Primitives,528,470,0,0
+g_OLED_interface/SCLK_clock_divider/Primitives,47,33,0,1
+g_OLED_interface/font/Primitives,325,0,0,0
+g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/Primitives,1,17,0,0
+g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/Primitives,85,44,0,0
+g_button_tick_latch/Primitives,2,2,0,0

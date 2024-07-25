@@ -1,0 +1,17 @@
+----------------------------------------------------------------
+-Pin Report - Date: Thu Jul 25 13:33:32 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: UART_TOP
+-Family: PolarFireSoC
+-Die: MPFS095T
+-Package: FCSG325
+-----------------------------------------------------------------
+
+Port      |Pin |Fixed |Function                                              |Bank     |I/O Std   |Direction    |Used I/O Reg       |User I/O Lock Down |Clamp Diode   |Resistor Pull                     |Use I/O Calibration from the lane |Schmitt Trigger |Vcm Input Range    |On Die Termination |Odt Value (Ohm) |Input Delay |Slew              |Output Drive (mA) |Impedance (ohm)  |Output Load (pF)         |Source Termination (Ohm) |Output Delay |
+----------|----|------|------------------------------------------------------|---------|----------|-------------|-------------------|-------------------|--------------|----------------------------------|----------------------------------|----------------|-------------------|-------------------|----------------|------------|------------------|------------------|-----------------|-------------------------|-------------------------|-------------|
+i_Clk      R18  Yes    HSIO56PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0  Bank0     LVCMOS18   Input         None                No                  ON             Up                                 No                                 OFF              ---                 OFF                 120              OFF          ---                ---                ---               ---                       ---                       ---           
+i_Reset    T19  Yes    HSIO54NB0                                              Bank0     LVCMOS18   Input         None                No                  ON             Up                                 No                                 OFF              ---                 OFF                 120              OFF          ---                ---                ---               ---                       ---                       ---           
+i_UART_RX  B14  Yes    GPIO129PB1/CCC_SW_PLL0_OUT0                            Bank1     LVCMOS33   Input         None                No                  ON             Up                                 No                                 OFF              ---                 ---                 ---              OFF          ---                ---                ---               ---                       ---                       ---           
+o_UART_TX  E13  Yes    GPIO128NB1/DQS                                         Bank1     LVCMOS33   Output        None                No                  ON             None                               No                                 ---              ---                 ---                 ---              ---          OFF                8                  ---               5                         ---                       OFF           

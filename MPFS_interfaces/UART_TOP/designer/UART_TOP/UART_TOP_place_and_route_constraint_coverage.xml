@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2024.1.0.3</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Thu Jul 25 13:32:33 2024 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>UART_TOP</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           59</cell>
+ <cell>           10</cell>
+ <cell>           69</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           11</cell>
+ <cell>           11</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           59</cell>
+ <cell>           22</cell>
+ <cell>           81</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           59</cell>
+ <cell>           10</cell>
+ <cell>           69</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           11</cell>
+ <cell>           11</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           59</cell>
+ <cell>           22</cell>
+ <cell>           81</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>i_Clk</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           59</cell>
+ <cell>           10</cell>
+ <cell>           69</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           11</cell>
+ <cell>           11</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           59</cell>
+ <cell>           22</cell>
+ <cell>           81</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           59</cell>
+ <cell>           10</cell>
+ <cell>           69</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           11</cell>
+ <cell>           11</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           59</cell>
+ <cell>           22</cell>
+ <cell>           81</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>i_Reset</item>
+ <item>i_UART_RX</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>i_Reset</item>
+ <item>i_UART_RX</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>o_UART_TX</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>o_UART_TX</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>UART_RX_Inst/o_RX_Byte[0]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[1]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[2]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[3]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[4]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[5]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[6]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[7]:D</item>
+ <item>UART_TX_Inst/o_TX_Active:EN</item>
+ <item>UART_TX_Inst/o_TX_Serial:EN</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>UART_RX_Inst/o_RX_DV:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[0]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[1]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[2]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[3]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[4]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[0]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[1]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[2]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[3]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[4]:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>UART_RX_Inst/o_RX_Byte[0]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[1]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[2]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[3]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[4]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[5]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[6]:D</item>
+ <item>UART_RX_Inst/o_RX_Byte[7]:D</item>
+ <item>UART_TX_Inst/o_TX_Active:EN</item>
+ <item>UART_TX_Inst/o_TX_Serial:EN</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>UART_RX_Inst/o_RX_DV:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[0]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[1]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[2]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[3]:ALn</item>
+ <item>UART_RX_Inst/r_SM_Main[4]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[0]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[1]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[2]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[3]:ALn</item>
+ <item>UART_TX_Inst/r_SM_Main[4]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

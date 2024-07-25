@@ -1,0 +1,30 @@
+
+fsm_encoding {1216341632} onehot
+
+fsm_state_encoding {1216341632} idle {00000001}
+
+fsm_state_encoding {1216341632} turnon_1 {00000010}
+
+fsm_state_encoding {1216341632} turnon_2 {00000100}
+
+fsm_state_encoding {1216341632} turnon_3 {00001000}
+
+fsm_state_encoding {1216341632} turnon_4 {00010000}
+
+fsm_state_encoding {1216341632} fill_screen_1 {00100000}
+
+fsm_state_encoding {1216341632} pixel_display_1 {01000000}
+
+fsm_state_encoding {1216341632} pixel_display_2 {10000000}
+
+fsm_registers {1216341632} {s_state_reg[7]}  {s_state_reg[6]}  {s_state_reg[5]}  {s_state_reg[4]}  {s_state_reg[3]}  {s_state_reg[2]}  {s_state_reg[1]}  {s_state_reg[0]} 
+
+fsm_encoding {6364361} sequential
+
+fsm_state_encoding {6364361} zero {00}
+
+fsm_state_encoding {6364361} hold {01}
+
+fsm_state_encoding {6364361} one {10}
+
+fsm_registers {6364361} {state_reg[1]}  {state_reg[0]} 

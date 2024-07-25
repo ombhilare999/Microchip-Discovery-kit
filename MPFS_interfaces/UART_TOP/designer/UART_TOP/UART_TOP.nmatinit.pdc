@@ -1,0 +1,143 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: UART_TOP 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Thu Jul 25 13:33:30 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name i_Clk -DIRECTION INPUT -pin_name R18 -fixed false
+set_io -port_name i_Reset -DIRECTION INPUT -pin_name T19 -fixed false
+set_io -port_name i_UART_RX -DIRECTION INPUT -pin_name B14 -fixed false
+set_io -port_name o_UART_TX -DIRECTION OUTPUT -pin_name E13 -fixed false
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name UART_TX_Inst/r_Bit_Index_0\[0\] -fixed false -x 372 -y 18
+set_location -inst_name UART_TX_Inst/r_SM_Main_ns_a2\[4\] -fixed false -x 360 -y 18
+set_location -inst_name UART_RX_Inst/r_Clock_Count\[3\] -fixed false -x 380 -y 16
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0_sqmuxa_1_RNIMAGE4 -fixed false -x 382 -y 15
+set_location -inst_name UART_TX_Inst/o_TX_Serial -fixed false -x 362 -y 19
+set_location -inst_name UART_RX_Inst/r_SM_Main_RNO\[1\] -fixed false -x 381 -y 21
+set_location -inst_name UART_RX_Inst/r_Bit_Index_1_sqmuxa -fixed false -x 382 -y 18
+set_location -inst_name UART_RX_Inst/o_RX_Byte_80_0 -fixed false -x 393 -y 18
+set_location -inst_name UART_TX_Inst/r_Clock_Count_n1 -fixed false -x 367 -y 21
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns\[0\] -fixed false -x 391 -y 18
+set_location -inst_name UART_RX_Inst/o_RX_Byte_81_0 -fixed false -x 386 -y 18
+set_location -inst_name UART_RX_Inst/o_RX_Byte_76_0 -fixed false -x 376 -y 21
+set_location -inst_name UART_TX_Inst/r_SM_Main_RNIBS9U7\[4\] -fixed false -x 368 -y 21
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns\[3\] -fixed false -x 377 -y 21
+set_location -inst_name UART_RX_Inst/o_RX_DV -fixed false -x 380 -y 19
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[2\] -fixed false -x 376 -y 19
+set_location -inst_name UART_RX_Inst/o_RX_Byte_75_0 -fixed false -x 374 -y 21
+set_location -inst_name UART_TX_Inst/r_Clock_Count\[1\] -fixed false -x 367 -y 22
+set_location -inst_name UART_TX_Inst/r_SM_Main\[2\] -fixed false -x 361 -y 19
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[5\] -fixed false -x 388 -y 19
+set_location -inst_name UART_RX_Inst/un1_r_Clock_Count_0_sqmuxa_1 -fixed false -x 387 -y 18
+set_location -inst_name UART_RX_Inst/r_Clock_Count\[0\] -fixed false -x 373 -y 16
+set_location -inst_name UART_TX_Inst/r_TX_Data\[1\] -fixed false -x 384 -y 22
+set_location -inst_name UART_RX_Inst/o_RX_Byte_79_0 -fixed false -x 389 -y 18
+set_location -inst_name UART_TX_Inst/r_SM_Main_ns_i_0\[0\] -fixed false -x 367 -y 18
+set_location -inst_name UART_TX_Inst/r_SM_Main_ns\[1\] -fixed false -x 366 -y 18
+set_location -inst_name UART_TX_Inst/r_Bit_Index_0\[2\] -fixed false -x 383 -y 18
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0_sqmuxa_1_4 -fixed false -x 379 -y 15
+set_location -inst_name UART_TX_Inst/un1_r_TX_Data_0_sqmuxa_1 -fixed false -x 381 -y 18
+set_location -inst_name UART_TX_Inst/r_TX_Data\[7\] -fixed false -x 395 -y 19
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0\[1\] -fixed false -x 377 -y 15
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0\[4\] -fixed false -x 378 -y 15
+set_location -inst_name UART_TX_Inst/r_SM_Main\[0\] -fixed false -x 368 -y 19
+set_location -inst_name UART_TX_Inst/r_Clock_Count_n4 -fixed false -x 366 -y 21
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns_a2_0_1_0\[2\] -fixed false -x 375 -y 15
+set_location -inst_name UART_RX_Inst/r_Clock_Count\[1\] -fixed false -x 377 -y 16
+set_location -inst_name UART_TX_Inst/r_Clock_Count_n2 -fixed false -x 363 -y 21
+set_location -inst_name UART_TX_Inst/r_Bit_Index_0_RNO\[2\] -fixed false -x 378 -y 18
+set_location -inst_name UART_TX_Inst/r_SM_Main_ns\[3\] -fixed false -x 363 -y 18
+set_location -inst_name UART_TX_Inst/o_TX_Active_0_sqmuxa_0_a2 -fixed false -x 369 -y 18
+set_location -inst_name UART_RX_Inst/un1_r_Clock_Count_0_sqmuxa -fixed false -x 383 -y 15
+set_location -inst_name UART_RX_Inst/r_Bit_Index\[0\] -fixed false -x 391 -y 22
+set_location -inst_name UART_TX_Inst/r_Clock_Count\[2\] -fixed false -x 363 -y 22
+set_location -inst_name UART_TX_Inst/r_Bit_Index_0\[1\] -fixed false -x 379 -y 18
+set_location -inst_name UART_TX_Inst/r_SM_Main_RNO\[0\] -fixed false -x 368 -y 18
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0\[3\] -fixed false -x 380 -y 15
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[3\] -fixed false -x 376 -y 22
+set_location -inst_name UART_TX_Inst/r_Clock_Count_c2 -fixed false -x 370 -y 21
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0_sqmuxa_1 -fixed false -x 381 -y 15
+set_location -inst_name UART_TX_Inst/r_Bit_Index_1\[2\] -fixed false -x 383 -y 19
+set_location -inst_name UART_TX_Inst/r_SM_Main_RNO\[2\] -fixed false -x 361 -y 18
+set_location -inst_name UART_RX_Inst/r_Clock_Count31lto4 -fixed false -x 380 -y 21
+set_location -inst_name UART_TX_Inst/r_TX_Data\[0\] -fixed false -x 382 -y 22
+set_location -inst_name UART_TX_Inst/r_Clock_Count_RNO\[0\] -fixed false -x 369 -y 21
+set_location -inst_name UART_TX_Inst/un1_r_TX_Data_0_sqmuxa -fixed false -x 362 -y 21
+set_location -inst_name UART_TX_Inst/r_SM_Main\[3\] -fixed false -x 363 -y 19
+set_location -inst_name UART_TX_Inst/o_TX_Serial_3_iv -fixed false -x 362 -y 18
+set_location -inst_name UART_RX_Inst/o_RX_Byte_74_0 -fixed false -x 373 -y 18
+set_location -inst_name UART_RX_Inst/un1_r_Clock_Count_3_1.CO0 -fixed false -x 372 -y 15
+set_location -inst_name UART_TX_Inst/un1_r_SM_Main_1_i_a2 -fixed false -x 365 -y 18
+set_location -inst_name UART_RX_Inst/un1_r_Clock_Count_3_1.CO2 -fixed false -x 374 -y 15
+set_location -inst_name UART_RX_Inst/r_Bit_Index_0\[2\] -fixed false -x 390 -y 18
+set_location -inst_name UART_TX_Inst/r_SM_Main\[4\] -fixed false -x 360 -y 19
+set_location -inst_name UART_RX_Inst/r_SM_Main\[2\] -fixed false -x 375 -y 19
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns_o2\[2\] -fixed false -x 378 -y 21
+set_location -inst_name UART_RX_Inst/r_SM_Main\[0\] -fixed false -x 391 -y 19
+set_location -inst_name UART_TX_Inst/r_Bit_Index_1\[1\] -fixed false -x 379 -y 19
+set_location -inst_name UART_TX_Inst/r_Clock_Count\[0\] -fixed false -x 369 -y 22
+set_location -inst_name UART_RX_Inst/r_Bit_Index_0\[0\] -fixed false -x 391 -y 21
+set_location -inst_name UART_RX_Inst/o_RX_Byte_77_0 -fixed false -x 376 -y 18
+set_location -inst_name UART_TX_Inst/r_Clock_Count\[3\] -fixed false -x 360 -y 22
+set_location -inst_name UART_RX_Inst/o_RX_DV_RNO -fixed false -x 375 -y 21
+set_location -inst_name UART_TX_Inst/r_Clock_Count_n3 -fixed false -x 360 -y 21
+set_location -inst_name UART_RX_Inst/r_SM_Main\[1\] -fixed false -x 381 -y 22
+set_location -inst_name UART_RX_Inst/r_Clock_Count\[4\] -fixed false -x 378 -y 16
+set_location -inst_name UART_TX_Inst/r_TX_Data_dec_7_0_a2 -fixed false -x 373 -y 21
+set_location -inst_name UART_TX_Inst/o_UART_TX -fixed false -x 364 -y 18
+set_location -inst_name UART_TX_Inst/r_TX_Data_0_sqmuxa_1 -fixed false -x 364 -y 21
+set_location -inst_name UART_TX_Inst/r_Bit_Index_1\[0\] -fixed false -x 378 -y 19
+set_location -inst_name UART_RX_Inst/un1_r_Clock_Count_0_sqmuxa_0 -fixed false -x 379 -y 21
+set_location -inst_name UART_TX_Inst/r_SM_Main\[1\] -fixed false -x 366 -y 19
+set_location -inst_name UART_RX_Inst/r_Bit_Index\[2\] -fixed false -x 390 -y 19
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[6\] -fixed false -x 403 -y 19
+set_location -inst_name UART_TX_Inst/r_TX_Data\[2\] -fixed false -x 383 -y 22
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[4\] -fixed false -x 384 -y 19
+set_location -inst_name UART_RX_Inst/un1_r_SM_Main_i_a2\[1\] -fixed false -x 372 -y 21
+set_location -inst_name UART_RX_Inst/r_Bit_Index\[1\] -fixed false -x 392 -y 19
+set_location -inst_name UART_TX_Inst/r_Bit_Index_1_sqmuxa -fixed false -x 380 -y 18
+set_location -inst_name UART_TX_Inst/o_TX_Active -fixed false -x 370 -y 19
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[1\] -fixed false -x 372 -y 22
+set_location -inst_name UART_TX_Inst/o_TX_Active_4_f0 -fixed false -x 370 -y 18
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns\[2\] -fixed false -x 375 -y 18
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0\[2\] -fixed false -x 376 -y 15
+set_location -inst_name UART_RX_Inst/r_Bit_Index_0\[1\] -fixed false -x 392 -y 18
+set_location -inst_name UART_RX_Inst/r_SM_Main\[3\] -fixed false -x 380 -y 22
+set_location -inst_name UART_TX_Inst/r_TX_Data\[5\] -fixed false -x 389 -y 19
+set_location -inst_name I_1/U0_RGB1 -fixed false -x 721 -y 17
+set_location -inst_name I_1 -fixed false -x 1154 -y 0
+set_location -inst_name UART_TX_Inst/r_TX_Data\[6\] -fixed false -x 385 -y 19
+set_location -inst_name UART_RX_Inst/r_SM_Main\[4\] -fixed false -x 386 -y 22
+set_location -inst_name UART_RX_Inst/r_Bit_Index_0_RNO\[2\] -fixed false -x 388 -y 18
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[7\] -fixed false -x 386 -y 19
+set_location -inst_name UART_RX_Inst/r_Clock_Count\[2\] -fixed false -x 376 -y 16
+set_location -inst_name UART_RX_Inst/o_RX_Byte\[0\] -fixed false -x 394 -y 22
+set_location -inst_name UART_TX_Inst/o_TX_Serial_3_iv_RNO -fixed false -x 377 -y 18
+set_location -inst_name UART_RX_Inst/r_Clock_Count_0\[0\] -fixed false -x 373 -y 15
+set_location -inst_name UART_TX_Inst/r_TX_Data\[3\] -fixed false -x 372 -y 19
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns_a2\[4\] -fixed false -x 386 -y 21
+set_location -inst_name UART_TX_Inst/r_TX_Data\[4\] -fixed false -x 395 -y 22
+set_location -inst_name UART_RX_Inst/o_RX_Byte_78_0 -fixed false -x 394 -y 18
+set_location -inst_name UART_TX_Inst/r_Clock_Count14lto4 -fixed false -x 361 -y 21
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns_o2\[0\] -fixed false -x 374 -y 18
+set_location -inst_name UART_TX_Inst/r_Clock_Count\[4\] -fixed false -x 366 -y 22
+set_location -inst_name UART_RX_Inst/r_SM_Main_ns_a2_0_1\[2\] -fixed false -x 390 -y 21
+set_location -inst_name UART_TX_Inst/o_TX_Serial_2_7_1_2_wmux -fixed false -x 382 -y 21
+set_location -inst_name UART_TX_Inst/o_TX_Serial_2_7_1_1_wmux -fixed false -x 384 -y 18
+set_location -inst_name I_1/U0_IOBA -fixed false -x 1598 -y 215

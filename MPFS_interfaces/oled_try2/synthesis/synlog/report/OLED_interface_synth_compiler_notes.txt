@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N|stack limit increased to max
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":2:7:2:26|Synthesizing module Nbit_MOSI_SPI_Buffer in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI.v":2:7:2:19|Synthesizing module Nbit_MOSI_SPI in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer_Combined.v":2:7:2:35|Synthesizing module Nbit_MOSI_SPI_Buffer_Combined in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/clock_divider.v":23:7:23:19|Synthesizing module clock_divider in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v":2:7:2:20|Synthesizing module ascii_font_8x8 in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":44:7:44:20|Synthesizing module OLED_interface in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/button_tick_latch.v":23:7:23:23|Synthesizing module button_tick_latch in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface_synth.v":2:7:2:26|Synthesizing module OLED_interface_synth in library work.
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/button_tick_latch.v":36:4:36:9|Trying to extract state machine for register state_reg.
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Trying to extract state machine for register s_state_reg.
+@N|Running in 64-bit mode
+

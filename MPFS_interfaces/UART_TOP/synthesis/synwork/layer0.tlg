@@ -1,0 +1,65 @@
+Selecting top level module UART_TOP
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":15:7:15:13|Synthesizing module UART_RX in library work.
+
+	CLKS_PER_BIT=32'b00000000000000000000000000011001
+	IDLE=3'b000
+	RX_START_BIT=3'b001
+	RX_DATA_BITS=3'b010
+	RX_STOP_BIT=3'b011
+	CLEANUP=3'b100
+   Generated name = UART_RX_25s_0_1_2_3_4
+Running optimization stage 1 on UART_RX_25s_0_1_2_3_4 .......
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":37:0:37:5|Feedback mux created for signal r_Clock_Count[4:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":37:0:37:5|Feedback mux created for signal r_Bit_Index[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":37:0:37:5|Feedback mux created for signal o_RX_Byte[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on UART_RX_25s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 190MB peak: 190MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":14:7:14:13|Synthesizing module UART_TX in library work.
+
+	CLKS_PER_BIT=32'b00000000000000000000000000011001
+	IDLE=3'b000
+	TX_START_BIT=3'b001
+	TX_DATA_BITS=3'b010
+	TX_STOP_BIT=3'b011
+	CLEANUP=3'b100
+   Generated name = UART_TX_25s_0_1_2_3_4
+Running optimization stage 1 on UART_TX_25s_0_1_2_3_4 .......
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Feedback mux created for signal r_TX_Data[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Feedback mux created for signal r_Clock_Count[5:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Feedback mux created for signal r_Bit_Index[2:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Feedback mux created for signal o_TX_Serial. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Feedback mux created for signal o_TX_Done. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Feedback mux created for signal o_TX_Active. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on UART_TX_25s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v":1:7:1:14|Synthesizing module UART_TOP in library work.
+Running optimization stage 1 on UART_TOP .......
+Finished optimization stage 1 on UART_TOP (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
+Running optimization stage 2 on UART_TOP .......
+Finished optimization stage 2 on UART_TOP (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
+Running optimization stage 2 on UART_TX_25s_0_1_2_3_4 .......
+@N: CL189 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Register bit r_Clock_Count[5] is always 0.
+@W: CL260 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Pruning register bit 5 of r_Clock_Count[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Trying to extract state machine for register r_SM_Main.
+Extracted state machine for register r_SM_Main
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+Finished optimization stage 2 on UART_TX_25s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
+Running optimization stage 2 on UART_RX_25s_0_1_2_3_4 .......
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":37:0:37:5|Trying to extract state machine for register r_SM_Main.
+Extracted state machine for register r_SM_Main
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+Finished optimization stage 2 on UART_RX_25s_0_1_2_3_4 (CPU Time 0h:00m:00s, Memory Used current: 191MB peak: 192MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/synthesis/synwork/layer0.duruntime
+
+

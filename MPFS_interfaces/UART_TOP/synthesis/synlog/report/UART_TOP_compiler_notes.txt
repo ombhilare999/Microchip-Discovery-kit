@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N|stack limit increased to max
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":15:7:15:13|Synthesizing module UART_RX in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":14:7:14:13|Synthesizing module UART_TX in library work.
+@N: CG364 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TOP.v":1:7:1:14|Synthesizing module UART_TOP in library work.
+@N: CL189 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Register bit r_Clock_Count[5] is always 0.
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_TX.v":39:0:39:5|Trying to extract state machine for register r_SM_Main.
+@N: CL201 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/UART_TOP/hdl/UART_RX.v":37:0:37:5|Trying to extract state machine for register r_SM_Main.
+@N|Running in 64-bit mode
+
