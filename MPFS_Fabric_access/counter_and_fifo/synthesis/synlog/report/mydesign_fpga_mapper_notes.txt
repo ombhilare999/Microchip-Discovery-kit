@@ -1,0 +1,13 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\hdl\counter.v":29:0:29:5|Found counter in view:work.mydesign(verilog) instance counter_0.data_out[19:0] 
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo_async.v":668:12:668:17|Found counter in view:work.COREFIFO_C0_COREFIFO_C0_0_corefifo_async_Z2(verilog) instance genblk10\.wptr[6:0] 
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo_async.v":686:12:686:17|Found counter in view:work.COREFIFO_C0_COREFIFO_C0_0_corefifo_async_Z2(verilog) instance genblk10\.rptr[6:0] 
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo_async.v":840:12:840:17|Found counter in view:work.COREFIFO_C0_COREFIFO_C0_0_corefifo_async_Z2(verilog) instance genblk10\.memraddr_r[5:0] 
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo_async.v":823:12:823:17|Found counter in view:work.COREFIFO_C0_COREFIFO_C0_0_corefifo_async_Z2(verilog) instance genblk10\.memwaddr_r[5:0] 
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo_async.v":717:12:717:17|Removing sequential instance COREFIFO_C0_0.COREFIFO_C0_0.genblk16\.U_corefifo_async.genblk10\.underflow_r (in view: work.mydesign(verilog)) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,734 @@
+<html><body><samp><pre>
+<!@TC:1721920123>
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			MPFS095TFCVG784-1 (Microchip)
+
+----------------------------------------------------------------------------
+########   Utilization report for  Top level view:   axi_lite_tut   ########
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1004               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block axi_lite_tut:	1004 (49.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      625                100 %                
+ARI1     106                100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block axi_lite_tut:	731 (35.89 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block axi_lite_tut:	6 (0.29 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     8                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block axi_lite_tut:	8 (0.39 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       243                100 %                
+=================================================
+Total IO PADS in the block axi_lite_tut:	243 (11.93 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAXI4INTERCONNECT_C0   ########
+Instance path:   axi_lite_tut.COREAXI4INTERCONNECT_C0                        
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      693                69 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block axi_lite_tut.COREAXI4INTERCONNECT_C0:	693 (34.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      463                74.1 %               
+ARI1     102                96.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block axi_lite_tut.COREAXI4INTERCONNECT_C0:	565 (27.74 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block axi_lite_tut.COREAXI4INTERCONNECT_C0:	6 (0.29 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAXI4INTERCONNECT_Z2   ########
+Instance path:   COREAXI4INTERCONNECT_C0.COREAXI4INTERCONNECT_Z2             
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      693                69 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_C0.COREAXI4INTERCONNECT_Z2:	693 (34.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      463                74.1 %               
+ARI1     102                96.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAXI4INTERCONNECT_C0.COREAXI4INTERCONNECT_Z2:	565 (27.74 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block COREAXI4INTERCONNECT_C0.COREAXI4INTERCONNECT_Z2:	6 (0.29 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_MasterConvertor_Z5   ########
+Instance path:   COREAXI4INTERCONNECT_Z2.caxi4interconnect_MasterConvertor_Z5             
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      270                26.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z2.caxi4interconnect_MasterConvertor_Z5:	270 (13.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      146                23.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAXI4INTERCONNECT_Z2.caxi4interconnect_MasterConvertor_Z5:	146 (7.17 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s   ########
+Instance path:   caxi4interconnect_MasterConvertor_Z5.caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s
+================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      270                26.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_MasterConvertor_Z5.caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s:	270 (13.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      146                23.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_MasterConvertor_Z5.caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s:	146 (7.17 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_37s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_37s_0_1_3_2
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      66                 6.57 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_37s_0_1_3_2:	66 (3.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      36                 5.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_37s_0_1_3_2:	36 (1.77 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_39s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_39s_0_1_3_2
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      66                 6.57 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_39s_0_1_3_2:	66 (3.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      36                 5.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_39s_0_1_3_2:	36 (1.77 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_4s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_4s_0_1_3_2
+=====================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.1990 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_4s_0_1_3_2:	2 (0.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.320 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_4s_0_1_3_2:	2 (0.10 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_64s_0_1_3_0   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_64s_0_1_3_0
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      68                 6.77 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_64s_0_1_3_0:	68 (3.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      36                 5.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_64s_0_1_3_0:	36 (1.77 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_64s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_64s_0_1_3_2
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      68                 6.77 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_64s_0_1_3_2:	68 (3.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      36                 5.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_64s_0_1_3_2:	36 (1.77 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_ResetSycnc   ########
+Instance path:   COREAXI4INTERCONNECT_Z2.caxi4interconnect_ResetSycnc             
+==================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.1990 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z2.caxi4interconnect_ResetSycnc:	2 (0.10 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_SlaveConvertor_Z11   ########
+Instance path:   COREAXI4INTERCONNECT_Z2.caxi4interconnect_SlaveConvertor_Z11             
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      421                41.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREAXI4INTERCONNECT_Z2.caxi4interconnect_SlaveConvertor_Z11:	421 (20.67 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      303                48.5 %               
+ARI1     102                96.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block COREAXI4INTERCONNECT_Z2.caxi4interconnect_SlaveConvertor_Z11:	405 (19.88 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block COREAXI4INTERCONNECT_Z2.caxi4interconnect_SlaveConvertor_Z11:	6 (0.29 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s   ########
+Instance path:   caxi4interconnect_SlaveConvertor_Z11.caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s
+================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      270                26.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlaveConvertor_Z11.caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s:	270 (13.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      148                23.7 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlaveConvertor_Z11.caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s:	148 (7.27 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_38s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_38s_0_1_3_2
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      66                 6.57 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_38s_0_1_3_2:	66 (3.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      36                 5.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_38s_0_1_3_2:	36 (1.77 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_40s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_40s_0_1_3_2
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      66                 6.57 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_40s_0_1_3_2:	66 (3.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      36                 5.76 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_40s_0_1_3_2:	36 (1.77 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_5s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_5s_0_1_3_2
+=====================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      2                  0.1990 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_5s_0_1_3_2:	2 (0.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.320 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_5s_0_1_3_2:	2 (0.10 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_65s_0_1_3_0   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_65s_0_1_3_0
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      68                 6.77 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_65s_0_1_3_0:	68 (3.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      37                 5.92 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_65s_0_1_3_0:	37 (1.82 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_RegSliceFull_65s_0_1_3_2   ########                      
+Instance path:   caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_65s_0_1_3_2
+======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      68                 6.77 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_65s_0_1_3_2:	68 (3.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      37                 5.92 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.caxi4interconnect_RegSliceFull_65s_0_1_3_2:	37 (1.82 % Utilization)
+
+-----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_SlvProtocolConverter_Z7   ########
+Instance path:   caxi4interconnect_SlaveConvertor_Z11.caxi4interconnect_SlvProtocolConverter_Z7
+===============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      151                15 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlaveConvertor_Z11.caxi4interconnect_SlvProtocolConverter_Z7:	151 (7.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      155                24.8 %               
+ARI1     102                96.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlaveConvertor_Z11.caxi4interconnect_SlvProtocolConverter_Z7:	257 (12.62 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_SlaveConvertor_Z11.caxi4interconnect_SlvProtocolConverter_Z7:	6 (0.29 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s   ########     
+Instance path:   caxi4interconnect_SlvProtocolConverter_Z7.caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s
+===============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      151                15 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvProtocolConverter_Z7.caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s:	151 (7.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      155                24.8 %               
+ARI1     102                96.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvProtocolConverter_Z7.caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s:	257 (12.62 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     6                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_SlvProtocolConverter_Z7.caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s:	6 (0.29 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_SlvAxi4ProtConvRead_Z9   ########                                
+Instance path:   caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvRead_Z9
+==============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      75                 7.47 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvRead_Z9:	75 (3.68 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      78                 12.5 %               
+ARI1     51                 48.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvRead_Z9:	129 (6.33 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     3                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvRead_Z9:	3 (0.15 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0   ########    
+Instance path:   caxi4interconnect_SlvAxi4ProtConvRead_Z9.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0
+========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  0.7970 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvAxi4ProtConvRead_Z9.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0:	8 (0.39 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      23                 3.68 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvAxi4ProtConvRead_Z9.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0:	23 (1.13 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_FifoDualPort_0_2s_4s_36s_1   ########    
+Instance path:   caxi4interconnect_SlvAxi4ProtConvRead_Z9.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 1.59 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvAxi4ProtConvRead_Z9.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1:	16 (0.79 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      35                 5.6 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvAxi4ProtConvRead_Z9.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1:	35 (1.72 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     3                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_SlvAxi4ProtConvRead_Z9.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1:	3 (0.15 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_36s_0s_16s   ########        
+Instance path:   caxi4interconnect_FifoDualPort_0_2s_4s_36s_1.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_36s_0s_16s
+========================================================================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     3                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_FifoDualPort_0_2s_4s_36s_1.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_36s_0s_16s:	3 (0.15 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_SlvAxi4ProtConvWrite_Z8   ########                                
+Instance path:   caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvWrite_Z8
+===============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      76                 7.57 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvWrite_Z8:	76 (3.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      77                 12.3 %               
+ARI1     51                 48.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvWrite_Z8:	128 (6.28 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     3                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_SlvAxi4ProtocolConv_0s_1_32s_32s_1s_2s_4s_4s_8s_1s.caxi4interconnect_SlvAxi4ProtConvWrite_Z8:	3 (0.15 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_FifoDualPort_0_2s_4s_10s_1   ########     
+Instance path:   caxi4interconnect_SlvAxi4ProtConvWrite_Z8.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      8                  0.7970 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvAxi4ProtConvWrite_Z8.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1:	8 (0.39 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      20                 3.2 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvAxi4ProtConvWrite_Z8.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1:	20 (0.98 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_FifoDualPort_0_2s_4s_37s_1   ########     
+Instance path:   caxi4interconnect_SlvAxi4ProtConvWrite_Z8.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 1.59 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block caxi4interconnect_SlvAxi4ProtConvWrite_Z8.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1:	16 (0.79 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      34                 5.44 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block caxi4interconnect_SlvAxi4ProtConvWrite_Z8.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1:	34 (1.67 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     3                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_SlvAxi4ProtConvWrite_Z8.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1:	3 (0.15 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_37s_0s_16s   ########        
+Instance path:   caxi4interconnect_FifoDualPort_0_2s_4s_37s_1.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_37s_0s_16s
+========================================================================================================================
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X12     3                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block caxi4interconnect_FifoDualPort_0_2s_4s_37s_1.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_37s_0s_16s:	3 (0.15 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   mask_axi532_32s_32s   ########
+Instance path:   axi_lite_tut.mask_axi532_32s_32s                        
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      140                13.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block axi_lite_tut.mask_axi532_32s_32s:	140 (6.87 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      91                 14.6 %               
+ARI1     2                  1.89 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block axi_lite_tut.mask_axi532_32s_32s:	93 (4.57 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     4                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block axi_lite_tut.mask_axi532_32s_32s:	4 (0.20 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   mask532   ########
+Instance path:   mask_axi532_32s_32s.mask532                 
+=============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      53                 8.48 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block mask_axi532_32s_32s.mask532:	53 (2.60 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   master_AXI_32s_32s   ########
+Instance path:   axi_lite_tut.master_AXI_32s_32s                        
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      171                17 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block axi_lite_tut.master_AXI_32s_32s:	171 (8.39 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      71                 11.4 %               
+ARI1     2                  1.89 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block axi_lite_tut.master_AXI_32s_32s:	73 (3.58 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  37.5 %               
+===================================================
+Total GLOBAL BUFFERS in the block axi_lite_tut.master_AXI_32s_32s:	3 (0.15 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
+
+</pre></samp></body></html>

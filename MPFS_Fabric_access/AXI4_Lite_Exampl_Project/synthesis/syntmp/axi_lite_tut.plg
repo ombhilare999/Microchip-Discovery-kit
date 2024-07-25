@@ -1,0 +1,57 @@
+@P:  Worst Slack : 6.529
+@P:  axi_lite_tut|aclk - Estimated Frequency : 288.1 MHz
+@P:  axi_lite_tut|aclk - Requested Frequency : 100.0 MHz
+@P:  axi_lite_tut|aclk - Estimated Period : 3.471
+@P:  axi_lite_tut|aclk - Requested Period : 10.000
+@P:  axi_lite_tut|aclk - Slack : 6.529
+@P:  mask_axi532_32s_32s|N_2_inferred_clock - Estimated Frequency : NA
+@P:  mask_axi532_32s_32s|N_2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  mask_axi532_32s_32s|N_2_inferred_clock - Estimated Period : NA
+@P:  mask_axi532_32s_32s|N_2_inferred_clock - Requested Period : 10.000
+@P:  mask_axi532_32s_32s|N_2_inferred_clock - Slack : NA
+@P:  mask_axi532_32s_32s|N_3_inferred_clock - Estimated Frequency : NA
+@P:  mask_axi532_32s_32s|N_3_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  mask_axi532_32s_32s|N_3_inferred_clock - Estimated Period : NA
+@P:  mask_axi532_32s_32s|N_3_inferred_clock - Requested Period : 10.000
+@P:  mask_axi532_32s_32s|N_3_inferred_clock - Slack : NA
+@P:  mask_axi532_32s_32s|N_4_inferred_clock - Estimated Frequency : NA
+@P:  mask_axi532_32s_32s|N_4_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  mask_axi532_32s_32s|N_4_inferred_clock - Estimated Period : NA
+@P:  mask_axi532_32s_32s|N_4_inferred_clock - Requested Period : 10.000
+@P:  mask_axi532_32s_32s|N_4_inferred_clock - Slack : NA
+@P:  mask_axi532_32s_32s|N_5_inferred_clock - Estimated Frequency : NA
+@P:  mask_axi532_32s_32s|N_5_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  mask_axi532_32s_32s|N_5_inferred_clock - Estimated Period : NA
+@P:  mask_axi532_32s_32s|N_5_inferred_clock - Requested Period : 10.000
+@P:  mask_axi532_32s_32s|N_5_inferred_clock - Slack : NA
+@P:  mask_axi532_32s_32s|n_value6_inferred_clock - Estimated Frequency : NA
+@P:  mask_axi532_32s_32s|n_value6_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  mask_axi532_32s_32s|n_value6_inferred_clock - Estimated Period : NA
+@P:  mask_axi532_32s_32s|n_value6_inferred_clock - Requested Period : 10.000
+@P:  mask_axi532_32s_32s|n_value6_inferred_clock - Slack : NA
+@P:  master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock - Estimated Frequency : NA
+@P:  master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock - Estimated Period : NA
+@P:  master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock - Requested Period : 10.000
+@P:  master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock - Slack : NA
+@P:  master_AXI_32s_32s|N_1_inferred_clock - Estimated Frequency : NA
+@P:  master_AXI_32s_32s|N_1_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  master_AXI_32s_32s|N_1_inferred_clock - Estimated Period : NA
+@P:  master_AXI_32s_32s|N_1_inferred_clock - Requested Period : 10.000
+@P:  master_AXI_32s_32s|N_1_inferred_clock - Slack : NA
+@P:  master_AXI_32s_32s|N_2_inferred_clock - Estimated Frequency : NA
+@P:  master_AXI_32s_32s|N_2_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  master_AXI_32s_32s|N_2_inferred_clock - Estimated Period : NA
+@P:  master_AXI_32s_32s|N_2_inferred_clock - Requested Period : 10.000
+@P:  master_AXI_32s_32s|N_2_inferred_clock - Slack : NA
+@P:  master_AXI_32s_32s|N_3_inferred_clock - Estimated Frequency : NA
+@P:  master_AXI_32s_32s|N_3_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  master_AXI_32s_32s|N_3_inferred_clock - Estimated Period : NA
+@P:  master_AXI_32s_32s|N_3_inferred_clock - Requested Period : 10.000
+@P:  master_AXI_32s_32s|N_3_inferred_clock - Slack : NA
+@P: axi_lite_tut Part : mpfs095tfcvg784-1
+@P: axi_lite_tut Register bits  : 1004 
+@P: axi_lite_tut DSP Blocks  : 0
+@P: axi_lite_tut I/O primitives : 243
+@P: axi_lite_tut RAM64x12 :  6
+@P:  CPU Time : 0h:00m:03s

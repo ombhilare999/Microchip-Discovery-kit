@@ -1,0 +1,926 @@
+#Build: Synplify Pro (R) V-2023.09M, Build 146R, Jan  4 2024
+#install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: HAMAS
+
+# Thu Jul 25 02:13:31 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":12833:13:12833:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":12846:13:12846:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\work\PF_CCC_C0\PF_CCC_C0.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\clockDivider.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\masterAXI.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\slaveAXI.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\top.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\MSS_syn_comps.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+@W: CG168 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":37:12:37:21|Type of parameter VCOFREQUENCY on the instance pll_inst_0 is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+Finished optimization stage 1 on PLL (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":5:7:5:34|Synthesizing module PF_CCC_C0_PF_CCC_C0_0_PF_CCC in library work.
+Running optimization stage 1 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC .......
+Finished optimization stage 1 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\component\work\PF_CCC_C0\PF_CCC_C0.v":264:7:264:15|Synthesizing module PF_CCC_C0 in library work.
+Running optimization stage 1 on PF_CCC_C0 .......
+Finished optimization stage 1 on PF_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\clockDivider.v":21:7:21:18|Synthesizing module clockDivider in library work.
+@N: CG179 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\clockDivider.v":35:19:35:25|Removing redundant assignment.
+Running optimization stage 1 on clockDivider .......
+Finished optimization stage 1 on clockDivider (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\masterAXI.v":21:7:21:15|Synthesizing module masterAXI in library work.
+Running optimization stage 1 on masterAXI .......
+Finished optimization stage 1 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\slaveAXI.v":21:7:21:14|Synthesizing module slaveAXI in library work.
+Running optimization stage 1 on slaveAXI .......
+Finished optimization stage 1 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\top.v":21:7:21:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on slaveAXI .......
+Finished optimization stage 2 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on masterAXI .......
+Finished optimization stage 2 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on clockDivider .......
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\hdl\clockDivider.v":23:16:23:19|Input rstn is unused.
+Finished optimization stage 2 on clockDivider (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on PF_CCC_C0 .......
+Finished optimization stage 2 on PF_CCC_C0 (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC .......
+Finished optimization stage 2 on PF_CCC_C0_PF_CCC_C0_0_PF_CCC (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on PLL .......
+Finished optimization stage 2 on PLL (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 97MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Jul 25 02:13:34 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 25 02:13:34 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\synwork\top_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Jul 25 02:13:34 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\synwork\top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 25 02:13:36 2024
+
+###########################################################]
+Premap Report
+
+# Thu Jul 25 02:13:36 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
+
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\designer\top\synthesis.fdc
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\top_scck.rpt 
+See clock summary report "C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\top_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker\hdl\masteraxi.v":43:0:43:8|Found instance master.dataOut[1:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 248MB peak: 248MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 248MB peak: 249MB)
+
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FP130 |Promoting Net clkDiv.clk_out on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=308 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 250MB peak: 250MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                               Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                               Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       clk                                                                 100.0 MHz     10.000        declared     default_clkgroup          5    
+                                                                                                                                                      
+0 -       PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_2     21   
+                                                                                                                                                      
+0 -       clockDivider|N_1_inferred_clock                                     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_1     4    
+======================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                    Clock     Source                                       Clock Pin            Non-clock Pin           Non-clock Pin                       
+Clock                                                               Load      Pin                                          Seq Example          Seq Example             Comb Example                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                                                                 5         clk(port)                                    slave.ready.C        -                       I_1.A(CLKINT)                       
+                                                                                                                                                                                                            
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     21        clk_ccc.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)     clkDiv.clk_out.C     -                       clk_ccc.PF_CCC_C0_0.clkint_0.I(BUFG)
+                                                                                                                                                                                                            
+clockDivider|N_1_inferred_clock                                     4         clkDiv.clk_out.Q[0](dffe)                    slave.outBit1.C      clkDiv.clk_out.D[0]     clkDiv.clk_out_2.I[0](inv)          
+============================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker\hdl\slaveaxi.v":45:0:45:8|Found inferred clock clockDivider|N_1_inferred_clock which controls 4 sequential elements including slave.outBit3. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker\hdl\clockdivider.v":30:0:30:8|Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock which controls 21 sequential elements including clkDiv.counter[19:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 251MB peak: 251MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 251MB peak: 251MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 251MB peak: 251MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 253MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jul 25 02:13:38 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Jul 25 02:13:38 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 246MB peak: 246MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 252MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     7.76ns		  36 /        29
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 253MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 206MB peak: 254MB)
+
+Writing Analyst data base C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 254MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 254MB peak: 255MB)
+
+@N: MT615 |Found clock clk with period 10.00ns 
+@W: MT420 |Found inferred clock clockDivider|N_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clkDiv.N_1.
+@W: MT420 |Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock with period 10.00ns. Please declare a user-defined clock on net clk_ccc.PF_CCC_C0_0.pll_inst_0_clkint_0.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Jul 25 02:13:41 2024
+#
+
+
+Top view:               top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\designer\top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 8.205
+
+                                                                    Requested     Estimated      Requested     Estimated               Clock        Clock                
+Starting Clock                                                      Frequency     Frequency      Period        Period        Slack     Type         Group                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     100.0 MHz     557.1 MHz      10.000        1.795         8.205     inferred     Inferred_clkgroup_0_2
+clk                                                                 100.0 MHz     1409.4 MHz     10.000        0.710         9.290     declared     default_clkgroup     
+clockDivider|N_1_inferred_clock                                     100.0 MHz     706.1 MHz      10.000        1.416         8.584     inferred     Inferred_clkgroup_0_1
+=========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                         Ending                                                           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                                                              clk                                                              |  10.000      9.290  |  No paths    -      |  No paths    -      |  No paths    -    
+clk                                                              clockDivider|N_1_inferred_clock                                  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+clockDivider|N_1_inferred_clock                                  clockDivider|N_1_inferred_clock                                  |  10.000      8.584  |  No paths    -      |  No paths    -      |  No paths    -    
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock  |  10.000      8.205  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                                                             Arrival          
+Instance               Reference                                                           Type     Pin     Net             Time        Slack
+                       Clock                                                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------
+clkDiv.counter[0]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[0]      0.201       8.205
+clkDiv.counter[7]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[7]      0.218       8.325
+clkDiv.counter[6]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[6]      0.218       8.403
+clkDiv.counter[9]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[9]      0.218       8.405
+clkDiv.counter[4]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[4]      0.218       8.444
+clkDiv.counter[10]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[10]     0.218       8.449
+clkDiv.counter[11]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[11]     0.218       8.491
+clkDiv.counter[3]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[3]      0.218       8.713
+clkDiv.counter[12]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       counter[12]     0.218       8.714
+clkDiv.clk_out         PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      Q       N_1_i           0.218       8.719
+=============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                                                                      Required          
+Instance               Reference                                                           Type     Pin     Net                      Time         Slack
+                       Clock                                                                                                                           
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+clkDiv.counter[0]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[5]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[8]      PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[13]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[15]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[16]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[17]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[18]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      SLn     counter6_i               9.944        8.205
+clkDiv.counter[19]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      D       un1_counter_1_s_19_S     10.000       8.345
+clkDiv.counter[18]     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     SLE      D       counter_3[18]            10.000       8.353
+=======================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.056
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.944
+
+    - Propagation time:                      1.739
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     8.205
+
+    Number of logic level(s):                3
+    Starting point:                          clkDiv.counter[0] / Q
+    Ending point:                            clkDiv.counter[0] / SLn
+    The start point is clocked by            PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                         Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+clkDiv.counter[0]            SLE      Q        Out     0.201     0.201 f     -         
+counter[0]                   Net      -        -       0.547     -           3         
+clkDiv.counter6_14           CFG4     D        In      -         0.748 f     -         
+clkDiv.counter6_14           CFG4     Y        Out     0.232     0.979 r     -         
+counter6_14                  Net      -        -       0.118     -           1         
+clkDiv.counter6              CFG4     C        In      -         1.097 r     -         
+clkDiv.counter6              CFG4     Y        Out     0.148     1.245 r     -         
+counter6                     Net      -        -       0.118     -           2         
+clkDiv.counter6_RNI1SB04     CFG1     A        In      -         1.363 r     -         
+clkDiv.counter6_RNI1SB04     CFG1     Y        Out     0.046     1.409 f     -         
+counter6_i                   Net      -        -       0.329     -           8         
+clkDiv.counter[0]            SLE      SLn      In      -         1.739 f     -         
+=======================================================================================
+Total path delay (propagation time + setup) of 1.795 is 0.683(38.0%) logic and 1.112(62.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                    Arrival          
+Instance            Reference     Type     Pin     Net          Time        Slack
+                    Clock                                                        
+---------------------------------------------------------------------------------
+slave.ready         clk           SLE      Q       readyAXI     0.218       9.290
+master.outValid     clk           SLE      Q       validAXI     0.218       9.495
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                      Starting                                                Required          
+Instance              Reference     Type     Pin     Net                      Time         Slack
+                      Clock                                                                     
+------------------------------------------------------------------------------------------------
+master.dataOut[0]     clk           SLE      EN      un1_inValid_RNI0NRAB     9.873        9.290
+master.dataOut[1]     clk           SLE      EN      un1_inValid_RNI0NRAB     9.873        9.290
+slave.ready           clk           SLE      D       ready                    10.000       9.495
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.873
+
+    - Propagation time:                      0.583
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 9.291
+
+    Number of logic level(s):                2
+    Starting point:                          slave.ready / Q
+    Ending point:                            master.dataOut[0] / EN
+    The start point is clocked by            clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                            Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+slave.ready                     SLE      Q        Out     0.218     0.218 r     -         
+readyAXI                        Net      -        -       0.118     -           1         
+master.un1_inValid              CFG2     A        In      -         0.336 r     -         
+master.un1_inValid              CFG2     Y        Out     0.051     0.387 r     -         
+un1_inValid                     Net      -        -       0.118     -           1         
+master.un1_inValid_RNI0NRAB     CFG2     A        In      -         0.505 r     -         
+master.un1_inValid_RNI0NRAB     CFG2     Y        Out     0.051     0.556 r     -         
+un1_inValid_RNI0NRAB            Net      -        -       0.027     -           2         
+master.dataOut[0]               SLE      EN       In      -         0.583 r     -         
+==========================================================================================
+Total path delay (propagation time + setup) of 0.709 is 0.446(62.9%) logic and 0.263(37.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: clockDivider|N_1_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                           Arrival          
+Instance          Reference                           Type     Pin     Net           Time        Slack
+                  Clock                                                                               
+------------------------------------------------------------------------------------------------------
+slave.outBit1     clockDivider|N_1_inferred_clock     SLE      Q       outBit1_c     0.218       8.584
+slave.outBit2     clockDivider|N_1_inferred_clock     SLE      Q       outBit2_c     0.218       8.584
+slave.outBit3     clockDivider|N_1_inferred_clock     SLE      Q       outBit3_c     0.218       8.584
+slave.outBit4     clockDivider|N_1_inferred_clock     SLE      Q       outBit4_c     0.218       8.584
+======================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                           Required          
+Instance          Reference                           Type     Pin     Net           Time         Slack
+                  Clock                                                                                
+-------------------------------------------------------------------------------------------------------
+slave.outBit1     clockDivider|N_1_inferred_clock     SLE      D       outBit1       10.000       8.584
+slave.outBit2     clockDivider|N_1_inferred_clock     SLE      D       outBit2_0     10.000       8.584
+slave.outBit3     clockDivider|N_1_inferred_clock     SLE      D       outBit3       10.000       8.584
+slave.outBit4     clockDivider|N_1_inferred_clock     SLE      D       outBit4_0     10.000       8.584
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      1.416
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.584
+
+    Number of logic level(s):                1
+    Starting point:                          slave.outBit1 / Q
+    Ending point:                            slave.outBit1 / D
+    The start point is clocked by            clockDivider|N_1_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clockDivider|N_1_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name                Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+slave.outBit1       SLE      Q        Out     0.218     0.218 r     -         
+outBit1_c           Net      -        -       0.948     -           2         
+slave.outBit1_r     CFG4     C        In      -         1.166 r     -         
+slave.outBit1_r     CFG4     Y        Out     0.132     1.298 f     -         
+outBit1             Net      -        -       0.118     -           1         
+slave.outBit1       SLE      D        In      -         1.416 f     -         
+==============================================================================
+Total path delay (propagation time + setup) of 1.416 is 0.350(24.7%) logic and 1.066(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 255MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 256MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          3 uses
+PLL             1 use
+CFG1           3 uses
+CFG2           5 uses
+CFG4           10 uses
+
+Carry cells:
+ARI1            20 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            29 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 9
+I/O primitives: 9
+INBUF          5 uses
+OUTBUF         4 uses
+
+
+Global Clock Buffers: 3
+
+Total LUTs:    38
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  29 + 0 + 0 + 0 = 29;
+Total number of LUTs after P&R:  38 + 0 + 0 + 0 = 38;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 124MB peak: 256MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Jul 25 02:13:41 2024
+
+###########################################################]

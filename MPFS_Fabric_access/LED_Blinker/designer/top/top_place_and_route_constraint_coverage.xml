@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2024.1.0.3</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Thu Jul 25 02:14:03 2024 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            3</cell>
+ <cell>           39</cell>
+ <cell>           42</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            3</cell>
+ <cell>           43</cell>
+ <cell>           46</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            3</cell>
+ <cell>           39</cell>
+ <cell>           42</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            3</cell>
+ <cell>           43</cell>
+ <cell>           46</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>clk</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            3</cell>
+ <cell>            5</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            3</cell>
+ <cell>            5</cell>
+ <cell>            8</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            3</cell>
+ <cell>            5</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            3</cell>
+ <cell>            5</cell>
+ <cell>            8</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>inSwitch[0]</item>
+ <item>inSwitch[1]</item>
+ <item>rstn</item>
+ <item>valid</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>inSwitch[0]</item>
+ <item>inSwitch[1]</item>
+ <item>rstn</item>
+ <item>valid</item>
+</list>
+<text></text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>master/dataOut[0]:D</item>
+ <item>master/dataOut[0]:SLn</item>
+ <item>master/dataOut[1]:D</item>
+ <item>master/dataOut[1]:SLn</item>
+ <item>master/outValid:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>master/dataOut[0]:D</item>
+ <item>master/dataOut[0]:SLn</item>
+ <item>master/dataOut[1]:D</item>
+ <item>master/dataOut[1]:SLn</item>
+ <item>master/outValid:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>clkDiv/clk_out:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            8</cell>
+ <cell>            8</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            8</cell>
+ <cell>            8</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>rstn</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>rstn</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>outBit1</item>
+ <item>outBit2</item>
+ <item>outBit3</item>
+ <item>outBit4</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>outBit1</item>
+ <item>outBit2</item>
+ <item>outBit3</item>
+ <item>outBit4</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>slave/outBit1:D</item>
+ <item>slave/outBit2:D</item>
+ <item>slave/outBit3:D</item>
+ <item>slave/outBit4:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>slave/outBit1:D</item>
+ <item>slave/outBit2:D</item>
+ <item>slave/outBit3:D</item>
+ <item>slave/outBit4:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>clk_ccc/PF_CCC_C0_0/pll_inst_0:OUT0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>           30</cell>
+ <cell>           30</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           30</cell>
+ <cell>           30</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>           30</cell>
+ <cell>           30</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           30</cell>
+ <cell>           30</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>clkDiv/clk_out:D</item>
+ <item>clkDiv/clk_out:EN</item>
+ <item>clkDiv/counter[0]:D</item>
+ <item>clkDiv/counter[0]:SLn</item>
+ <item>clkDiv/counter[10]:D</item>
+ <item>clkDiv/counter[11]:D</item>
+ <item>clkDiv/counter[12]:D</item>
+ <item>clkDiv/counter[13]:D</item>
+ <item>clkDiv/counter[13]:SLn</item>
+ <item>clkDiv/counter[14]:D</item>
+ <item>clkDiv/counter[15]:D</item>
+ <item>clkDiv/counter[15]:SLn</item>
+ <item>clkDiv/counter[16]:D</item>
+ <item>clkDiv/counter[16]:SLn</item>
+ <item>clkDiv/counter[17]:D</item>
+ <item>clkDiv/counter[17]:SLn</item>
+ <item>clkDiv/counter[18]:D</item>
+ <item>clkDiv/counter[18]:SLn</item>
+ <item>clkDiv/counter[19]:D</item>
+ <item>clkDiv/counter[1]:D</item>
+ <item>clkDiv/counter[2]:D</item>
+ <item>clkDiv/counter[3]:D</item>
+ <item>clkDiv/counter[4]:D</item>
+ <item>clkDiv/counter[5]:D</item>
+ <item>clkDiv/counter[5]:SLn</item>
+ <item>clkDiv/counter[6]:D</item>
+ <item>clkDiv/counter[7]:D</item>
+ <item>clkDiv/counter[8]:D</item>
+ <item>clkDiv/counter[8]:SLn</item>
+ <item>clkDiv/counter[9]:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>clkDiv/clk_out:D</item>
+ <item>clkDiv/clk_out:EN</item>
+ <item>clkDiv/counter[0]:D</item>
+ <item>clkDiv/counter[0]:SLn</item>
+ <item>clkDiv/counter[10]:D</item>
+ <item>clkDiv/counter[11]:D</item>
+ <item>clkDiv/counter[12]:D</item>
+ <item>clkDiv/counter[13]:D</item>
+ <item>clkDiv/counter[13]:SLn</item>
+ <item>clkDiv/counter[14]:D</item>
+ <item>clkDiv/counter[15]:D</item>
+ <item>clkDiv/counter[15]:SLn</item>
+ <item>clkDiv/counter[16]:D</item>
+ <item>clkDiv/counter[16]:SLn</item>
+ <item>clkDiv/counter[17]:D</item>
+ <item>clkDiv/counter[17]:SLn</item>
+ <item>clkDiv/counter[18]:D</item>
+ <item>clkDiv/counter[18]:SLn</item>
+ <item>clkDiv/counter[19]:D</item>
+ <item>clkDiv/counter[1]:D</item>
+ <item>clkDiv/counter[2]:D</item>
+ <item>clkDiv/counter[3]:D</item>
+ <item>clkDiv/counter[4]:D</item>
+ <item>clkDiv/counter[5]:D</item>
+ <item>clkDiv/counter[5]:SLn</item>
+ <item>clkDiv/counter[6]:D</item>
+ <item>clkDiv/counter[7]:D</item>
+ <item>clkDiv/counter[8]:D</item>
+ <item>clkDiv/counter[8]:SLn</item>
+ <item>clkDiv/counter[9]:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

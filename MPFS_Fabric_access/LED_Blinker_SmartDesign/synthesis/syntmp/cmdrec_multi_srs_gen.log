@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_SmartDesign\synthesis\synwork\top_comp.srs  -osyn  C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_SmartDesign\synthesis\synwork\top_mult.srs  -log  C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_SmartDesign\synthesis\synlog\top_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\top_comp.srs -osyn ..\synwork\top_mult.srs -log ..\synlog\top_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\top_comp.srs|io:i|time:1721888904|size:14186|exec:0|csum:CC1FD35C0EB22DC3141567788F0238FC
+file:..\synwork\top_mult.srs|io:o|time:1721888905|size:2898|exec:0|csum:
+file:..\synlog\top_multi_srs_gen.srr|io:o|time:1721888905|size:1196|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

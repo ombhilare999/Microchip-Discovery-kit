@@ -1,0 +1,115 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+
+# Written on Thu Jul 25 11:05:12 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "mydesign"
+Constraint File(s):      "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\designer\mydesign\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                            Ending                                                              |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mydesign|REF_CLK_0                                                  mydesign|REF_CLK_0                                                  |     10.000           |     No paths         |     No paths         |     No paths                         
+mydesign|REF_CLK_0                                                  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     mydesign|REF_CLK_0                                                  |     Diff grp         |     No paths         |     No paths         |     No paths                         
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     |     10.000           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:AEMPTY
+p:AFULL
+p:OVERFLOW
+p:Q[0]
+p:Q[1]
+p:Q[2]
+p:Q[3]
+p:Q[4]
+p:Q[5]
+p:Q[6]
+p:Q[7]
+p:Q[8]
+p:Q[9]
+p:Q[10]
+p:Q[11]
+p:Q[12]
+p:Q[13]
+p:Q[14]
+p:Q[15]
+p:Q[16]
+p:Q[17]
+p:Q[18]
+p:Q[19]
+p:RDCNT[0]
+p:RDCNT[1]
+p:RDCNT[2]
+p:RDCNT[3]
+p:RDCNT[4]
+p:RDCNT[5]
+p:RDCNT[6]
+p:UNDERFLOW
+p:WRCNT[0]
+p:WRCNT[1]
+p:WRCNT[2]
+p:WRCNT[3]
+p:WRCNT[4]
+p:WRCNT[5]
+p:WRCNT[6]
+p:en
+p:rstn
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

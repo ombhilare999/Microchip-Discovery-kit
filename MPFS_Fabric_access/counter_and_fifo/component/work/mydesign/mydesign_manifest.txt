@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Wed Jul  3 10:46:23 2024
+Project   :  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo
+Component :  mydesign
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/mydesign/mydesign.v
+

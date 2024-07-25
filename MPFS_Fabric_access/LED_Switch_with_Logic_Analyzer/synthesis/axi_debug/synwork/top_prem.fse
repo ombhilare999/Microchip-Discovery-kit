@@ -1,0 +1,64 @@
+
+fsm_encoding {56975269751} onehot
+
+fsm_state_encoding {56975269751} b13_Ocm0f_TkA86EZ {00000000000000}
+
+fsm_state_encoding {56975269751} b13_Ocm0f_A7A86Rv {00000000000011}
+
+fsm_state_encoding {56975269751} b13_Ocm0f_HiP76Rv {00000000000101}
+
+fsm_state_encoding {56975269751} b13_Ocm0f_p5BT6Rv {00000000001001}
+
+fsm_state_encoding {56975269751} b12_Ocm0f_Q7B8qG {00000000010001}
+
+fsm_state_encoding {56975269751} b24_Ocm0f_HiP_gP0IFZ1mI_iIhO {00000000100001}
+
+fsm_state_encoding {56975269751} b24_Ocm0f_HiP_gP0IFZ1mI_MXwB {00000001000001}
+
+fsm_state_encoding {56975269751} b29_Ocm0f_HiP_gP0IFZ1mI_iIhO_vHEr {00000010000001}
+
+fsm_state_encoding {56975269751} b29_Ocm0f_HiP_gP0IFZ1mI_MXwB_vHEr {00000100000001}
+
+fsm_state_encoding {56975269751} b19_Ocm0f_HiP_8DFJ3s_0T {00001000000001}
+
+fsm_state_encoding {56975269751} b21_Ocm0f_HiP_8DFJ3s_0T_z {00010000000001}
+
+fsm_state_encoding {56975269751} b20_Ocm0f_p5BT_EZoHR0_CK {00100000000001}
+
+fsm_state_encoding {56975269751} b25_Ocm0f_p5BT_EZoHR0_CK_Iv3x {01000000000001}
+
+fsm_state_encoding {56975269751} b17_Ocm0f_TkQcUqbQVN5 {10000000000001}
+
+fsm_registers {56975269751} {b13_nAzGfFM_sLsv3[13]}  {b13_nAzGfFM_sLsv3[12]}  {b13_nAzGfFM_sLsv3[11]}  {b13_nAzGfFM_sLsv3[10]}  {b13_nAzGfFM_sLsv3[9]}  {b13_nAzGfFM_sLsv3[8]}  {b13_nAzGfFM_sLsv3[7]}  {b13_nAzGfFM_sLsv3[6]}  {b13_nAzGfFM_sLsv3[5]}  {b13_nAzGfFM_sLsv3[4]}  {b13_nAzGfFM_sLsv3[3]}  {b13_nAzGfFM_sLsv3[2]}  {b13_nAzGfFM_sLsv3[1]}  {b13_nAzGfFM_sLsv3_i[0]} 
+
+fsm_encoding {56975269751} onehot
+
+fsm_state_encoding {56975269751} b13_Ocm0f_TkA86EZ {00000000000000}
+
+fsm_state_encoding {56975269751} b13_Ocm0f_A7A86Rv {00000000000011}
+
+fsm_state_encoding {56975269751} b13_Ocm0f_HiP76Rv {00000000000101}
+
+fsm_state_encoding {56975269751} b13_Ocm0f_p5BT6Rv {00000000001001}
+
+fsm_state_encoding {56975269751} b12_Ocm0f_Q7B8qG {00000000010001}
+
+fsm_state_encoding {56975269751} b24_Ocm0f_HiP_gP0IFZ1mI_iIhO {00000000100001}
+
+fsm_state_encoding {56975269751} b24_Ocm0f_HiP_gP0IFZ1mI_MXwB {00000001000001}
+
+fsm_state_encoding {56975269751} b29_Ocm0f_HiP_gP0IFZ1mI_iIhO_vHEr {00000010000001}
+
+fsm_state_encoding {56975269751} b29_Ocm0f_HiP_gP0IFZ1mI_MXwB_vHEr {00000100000001}
+
+fsm_state_encoding {56975269751} b19_Ocm0f_HiP_8DFJ3s_0T {00001000000001}
+
+fsm_state_encoding {56975269751} b21_Ocm0f_HiP_8DFJ3s_0T_z {00010000000001}
+
+fsm_state_encoding {56975269751} b20_Ocm0f_p5BT_EZoHR0_CK {00100000000001}
+
+fsm_state_encoding {56975269751} b25_Ocm0f_p5BT_EZoHR0_CK_Iv3x {01000000000001}
+
+fsm_state_encoding {56975269751} b17_Ocm0f_TkQcUqbQVN5 {10000000000001}
+
+fsm_registers {56975269751} {b13_nAzGfFM_sLsv3[13]}  {b13_nAzGfFM_sLsv3[12]}  {b13_nAzGfFM_sLsv3[11]}  {b13_nAzGfFM_sLsv3[10]}  {b13_nAzGfFM_sLsv3[9]}  {b13_nAzGfFM_sLsv3[8]}  {b13_nAzGfFM_sLsv3[7]}  {b13_nAzGfFM_sLsv3[6]}  {b13_nAzGfFM_sLsv3[5]}  {b13_nAzGfFM_sLsv3[4]}  {b13_nAzGfFM_sLsv3[3]}  {b13_nAzGfFM_sLsv3[2]}  {b13_nAzGfFM_sLsv3[1]}  {b13_nAzGfFM_sLsv3_i[0]} 

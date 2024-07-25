@@ -1,0 +1,25 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "22:04:21    23-Jul-2024",
+	"Working Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+},
+"identify_ui_flow" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "22:04:20",
+   "Runtime" : "01s",
+   "Executable Run Time" : "01s",
+   "identify_db_generator" : {
+      "executable" : "bin64/c_ver.exe",
+      "Run Directory" : "axi_debug",
+      "Run State" : "Complete",
+      "Return Code" : "1",
+      "Has Errors" : "no",
+      "Run Start Time" : "22:04:20",
+      "Run Time" : "01s",
+      "Exe Run Time" : "01s",
+      "Memory Usage" : "-",
+      "Up-to-date (run skipped)" : "no"
+   }
+}
+}

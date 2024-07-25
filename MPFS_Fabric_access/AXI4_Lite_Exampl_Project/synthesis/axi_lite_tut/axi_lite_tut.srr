@@ -1,0 +1,192 @@
+# Tue Jul 23 21:06:54 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 202MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 202MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 202MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 202MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z11(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.axi_lite_tut(verilog) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 273MB peak: 273MB)
+
+
+Start creating ILM for FPGA caxi4interconnect_SlaveConvertor_Z11 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 275MB peak: 275MB)
+
+
+Finished creating ILM for FPGA caxi4interconnect_SlaveConvertor_Z11 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 275MB peak: 275MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 275MB peak: 276MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\work\axi_lite_tut\axi_lite_tut.v":9:7:9:18|Mapping Top level view:work.axi_lite_tut(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 275MB peak: 276MB)
+
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2737:2:2737:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2729:2:2729:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2721:2:2721:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2713:2:2713:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2705:2:2705:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2697:2:2697:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2689:2:2689:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2681:2:2681:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2673:2:2673:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":2665:2:2665:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s(verilog) (flattening)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 288MB)
+
+Encoding state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.axi_lite_tut(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.axi_lite_tut(verilog)); safe FSM implementation is not required.
+Encoding state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.axi_lite_tut(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.axi_lite_tut(verilog)); safe FSM implementation is not required.
+Encoding state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.axi_lite_tut(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.axi_lite_tut(verilog)); safe FSM implementation is not required.
+Encoding state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.axi_lite_tut(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.axi_lite_tut(verilog)); safe FSM implementation is not required.
+Encoding state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.axi_lite_tut(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.axi_lite_tut(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd[1:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":341:1:341:6|There are no possible illegal states for state machine slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd[1:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11(verilog)); safe FSM implementation is not required.
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 266MB peak: 288MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 268MB peak: 288MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 288MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 288MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 288MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 288MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 288MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 270MB peak: 288MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		     6.48ns		 335 /       520
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 270MB peak: 288MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 271MB peak: 288MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name             Status     Reason     
+---------------------------------------
+axi_lite_tut     Mapped     No database
+=======================================
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Tue Jul 23 21:06:58 2024
+
+###########################################################]

@@ -1,0 +1,91 @@
+
+
+
+                             Identify (R) Debugger 
+
+                  Version V-2023.09M for win64 - Jan 04, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2024.1\Identify\bin64\mbin\identify_debugger.exe
+Install:     C:\Microchip\Libero_SoC_v2024.1\Identify
+Hostname:    HAMAS
+Date:        Thu Jul 25 11:50:40 2024
+Version:     V-2023.09M
+
+Arguments:   -product identify_debugger top_syn.prj
+ProductType: identify_debugger
+
+License checkout: identdebugger_actel
+License: identdebugger_actel from server hamas 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+
+Note: Opening debugger view for project 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Switch_with_Logic_Analyzer\synthesis\top_syn.prj'
+Note: The debugger obtained its own license
+DI200 Instrumentation file 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Switch_with_Logic_Analyzer\synthesis\axi_debug\instr.db' is newer than activation file 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Switch_with_Logic_Analyzer\synthesis\axi_debug\last_run.adc'.
+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis/axi_debug has been added to search path.
+Setting trigger time to 'middle' for IICE 'IICE'
+/master/ready enable in condition 0 in IICE 'IICE'
+Setting trigger time to 'middle' for IICE 'output_leds'
+/slave/data enable in condition 0 in IICE 'output_leds'
+% iice current {IICE}
+% run -iice {IICE}
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E20085VHQA Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPFS095"
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+DI179 IICE 'IICE' configured. Waiting for trigger.
+DI155 IICE 'IICE': Trigger detected. Downloading samples.
+trigger_addr: (220) 
+% write vcd {C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Switch_with_Logic_Analyzer/synthesis/axi_debug/IICE.vcd} -iice IICE -gtkwave -comment {Written by QT debugger}
+% waveform show
+364
+% iice current {output_leds}
+% run -iice {output_leds}
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E20085VHQA Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPFS095"
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+DI179 IICE 'output_leds' configured. Waiting for trigger.
+DI155 IICE 'output_leds': Trigger detected. Downloading samples.
+trigger_addr: (58) 
+% write vcd {C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Switch_with_Logic_Analyzer/synthesis/axi_debug/output_leds.vcd} -iice output_leds -gtkwave -comment {Written by QT debugger}
+% waveform show
+21420
+% activation save {last_run.adc}
+Saving activations to file 'last_run.adc'
+Unloading current instrumentation 'axi_debug'

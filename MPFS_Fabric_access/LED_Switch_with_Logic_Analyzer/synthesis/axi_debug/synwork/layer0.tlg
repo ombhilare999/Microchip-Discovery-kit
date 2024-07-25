@@ -1,0 +1,112 @@
+Selecting top level module top
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=104'b01101001011001000110010101101110011101000101111101101001011010000111001101011111011000110110110001101011
+   Generated name = syn_hyper_source_1s_ident_ihs_clk
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_clk .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=144'b011010010110010001100101011011100111010001011111011010010110100001110011010111110110111101110101011101000101011001100001011011000110100101100100
+   Generated name = syn_hyper_source_1s_ident_ihs_outValid
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outValid .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outValid (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=120'b011010010110010001100101011011100111010001011111011010010110100001110011010111110111001001100101011000010110010001111001
+   Generated name = syn_hyper_source_1s_ident_ihs_ready
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_ready .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_ready (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101100100011000010111010001100001010011110111010101110100
+   Generated name = syn_hyper_source_2s_ident_ihs_dataOut
+Running optimization stage 1 on syn_hyper_source_2s_ident_ihs_dataOut .......
+Finished optimization stage 1 on syn_hyper_source_2s_ident_ihs_dataOut (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v":21:7:21:15|Synthesizing module masterAXI in library work.
+Running optimization stage 1 on masterAXI .......
+Finished optimization stage 1 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=112'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101100100011000010111010001100001
+   Generated name = syn_hyper_source_2s_ident_ihs_data
+Running optimization stage 1 on syn_hyper_source_2s_ident_ihs_data .......
+Finished optimization stage 1 on syn_hyper_source_2s_ident_ihs_data (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110001
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit1
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit1 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110010
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit2
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit2 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit2 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110011
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit3
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit3 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110100
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit4
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit4 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit4 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v":21:7:21:14|Synthesizing module slaveAXI in library work.
+Running optimization stage 1 on slaveAXI .......
+Finished optimization stage 1 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=144'b011010010110010001100101011011100111010001011111011010010110100001110011010111110110100101101110010100110111011101101001011101000110001101101000
+   Generated name = syn_hyper_source_2s_ident_ihs_inSwitch
+Running optimization stage 1 on syn_hyper_source_2s_ident_ihs_inSwitch .......
+Finished optimization stage 1 on syn_hyper_source_2s_ident_ihs_inSwitch (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v":21:7:21:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_2s_ident_ihs_inSwitch .......
+Finished optimization stage 2 on syn_hyper_source_2s_ident_ihs_inSwitch (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on slaveAXI .......
+Finished optimization stage 2 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit4 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit4 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit3 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit2 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit2 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit1 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_2s_ident_ihs_data .......
+Finished optimization stage 2 on syn_hyper_source_2s_ident_ihs_data (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on masterAXI .......
+Finished optimization stage 2 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_2s_ident_ihs_dataOut .......
+Finished optimization stage 2 on syn_hyper_source_2s_ident_ihs_dataOut (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_ready .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_ready (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outValid .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outValid (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_clk .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\layer0.duruntime
+
+

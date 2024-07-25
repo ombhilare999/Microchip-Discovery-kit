@@ -1,0 +1,21 @@
+@P:  Worst Slack : 8.205
+@P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock - Estimated Frequency : 557.1 MHz
+@P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock - Estimated Period : 1.795
+@P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock - Requested Period : 10.000
+@P:  PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock - Slack : 8.205
+@P:  clk - Estimated Frequency : 1409.4 MHz
+@P:  clk - Requested Frequency : 100.0 MHz
+@P:  clk - Estimated Period : 0.710
+@P:  clk - Requested Period : 10.000
+@P:  clk - Slack : 9.290
+@P:  clockDivider|N_1_inferred_clock - Estimated Frequency : 706.1 MHz
+@P:  clockDivider|N_1_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  clockDivider|N_1_inferred_clock - Estimated Period : 1.416
+@P:  clockDivider|N_1_inferred_clock - Requested Period : 10.000
+@P:  clockDivider|N_1_inferred_clock - Slack : 8.584
+@P: top Part : mpfs095tfcvg784-1
+@P: top Register bits  : 29 
+@P: top DSP Blocks  : 0
+@P: top I/O primitives : 9
+@P:  CPU Time : 0h:00m:02s

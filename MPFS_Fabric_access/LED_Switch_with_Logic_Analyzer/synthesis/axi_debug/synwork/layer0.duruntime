@@ -1,0 +1,31 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		* Library: work, DesignUnit: top
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: slaveAXI
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: masterAXI
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_2s_ident_ihs_inSwitch
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_1s_ident_ihs_outBit4
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_1s_ident_ihs_outBit3
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_1s_ident_ihs_outBit2
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_1s_ident_ihs_outBit1
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_2s_ident_ihs_data
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_2s_ident_ihs_dataOut
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_1s_ident_ihs_ready
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_1s_ident_ihs_outValid
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: __hyper__lib__, DesignUnit: syn_hyper_source_1s_ident_ihs_clk
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

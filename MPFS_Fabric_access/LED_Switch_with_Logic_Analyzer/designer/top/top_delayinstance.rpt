@@ -1,0 +1,19 @@
+********************************************************************
+Delay Instance Report - Date: Thu Jul 25 10:55:23 2024
+Product: Designer
+Release: v2024.1
+Version: 2024.1.0.3
+Design Name: top
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+
++------+---------------+------------+-------------+-----------------+-----------+
+| Type | Instance Name | Param Name | Delay Value | PDC Option Name | Editable? |
++------+---------------+------------+-------------+-----------------+-----------+
++------+---------------+------------+-------------+-----------------+-----------+
+

@@ -1,0 +1,2 @@
+@E: CS153 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\AXI_Example_Smart_Design\AXI_Handshaking_Tut\hdl\clockDivider.v":35:16:35:16|Can't mix blocking and non-blocking assignments to a variable
+

@@ -1,0 +1,353 @@
+# Thu Jul 25 11:09:00 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+@N: MF104 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Found compile point of type hard on View view:work.caxi4interconnect_SlaveConvertor_Z11(verilog) 
+
+Synthesis running in Multiprocessing mode
+Maximum number of parallel jobs set to 4
+Multiprocessing started at : Thu Jul 25 11:09:01 2024
+@N: MF107 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|Old database up-to-date, remapping Compile point view:work.caxi4interconnect_SlaveConvertor_Z11(verilog) unnecessary 
+@N: MF107 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\work\axi_lite_tut\axi_lite_tut.v":9:7:9:18|Old database up-to-date, remapping Compile point view:work.axi_lite_tut(verilog) unnecessary 
+Multiprocessing finished at : Thu Jul 25 11:09:02 2024
+Multiprocessing took 0h:00m:00s realtime, 0h:00m:00s cputime
+
+Summary of Compile Points :
+*************************** 
+Name                                     Status        Reason     Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+caxi4interconnect_SlaveConvertor_Z11     Unchanged     -          Tue Jul 23 21:06:54 2024     Tue Jul 23 21:06:57 2024     0h:00m:03s     0h:00m:03s     No            
+axi_lite_tut                             Unchanged     -          Tue Jul 23 21:06:54 2024     Tue Jul 23 21:06:58 2024     0h:00m:03s     0h:00m:03s     No            
+========================================================================================================================================================================
+Total number of compile points: 2
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut\axi_lite_tut.srr"
+@L: "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\caxi4interconnect_SlaveConvertor_Z11\caxi4interconnect_SlaveConvertor_Z11.srr"
+
+==============================
+
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 347MB peak: 348MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 347MB peak: 348MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 348MB peak: 348MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 348MB peak: 348MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 348MB)
+
+Writing Analyst data base C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\synwork\axi_lite_tut_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 348MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 348MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 255MB peak: 348MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 348MB)
+
+@W: MT420 |Found inferred clock axi_lite_tut|aclk with period 10.00ns. Please declare a user-defined clock on port aclk.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.M_MASK_N_OUT6.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|N_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.N_1.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|N_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.N_2_0.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|N_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.N_3_0.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|n_value6_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.n_value6.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_2.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_3.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_4.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_5_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_5_0.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Jul 25 11:09:04 2024
+#
+
+
+Top view:               axi_lite_tut
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\designer\axi_lite_tut\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 6.529
+
+                                                    Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                                      Frequency     Frequency     Period        Period        Slack     Type         Group     
+---------------------------------------------------------------------------------------------------------------------------------------------
+axi_lite_tut|aclk                                   100.0 MHz     288.1 MHz     10.000        3.471         6.529     inferred     (multiple)
+mask_axi532_32s_32s|N_2_inferred_clock              100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+mask_axi532_32s_32s|N_3_inferred_clock              100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+mask_axi532_32s_32s|N_4_inferred_clock              100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+mask_axi532_32s_32s|N_5_inferred_clock              100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+mask_axi532_32s_32s|n_value6_inferred_clock         100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+master_AXI_32s_32s|N_1_inferred_clock               100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+master_AXI_32s_32s|N_2_inferred_clock               100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+master_AXI_32s_32s|N_3_inferred_clock               100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+=============================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                        |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                     Ending                                           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+axi_lite_tut|aclk                            axi_lite_tut|aclk                                |  10.000      6.529  |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            master_AXI_32s_32s|N_1_inferred_clock            |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            master_AXI_32s_32s|N_2_inferred_clock            |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            master_AXI_32s_32s|N_3_inferred_clock            |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            mask_axi532_32s_32s|n_value6_inferred_clock      |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            mask_axi532_32s_32s|N_2_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            mask_axi532_32s_32s|N_3_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            mask_axi532_32s_32s|N_4_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+axi_lite_tut|aclk                            mask_axi532_32s_32s|N_5_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mask_axi532_32s_32s|n_value6_inferred_clock  axi_lite_tut|aclk                                |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mask_axi532_32s_32s|n_value6_inferred_clock  mask_axi532_32s_32s|N_2_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mask_axi532_32s_32s|N_2_inferred_clock       axi_lite_tut|aclk                                |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mask_axi532_32s_32s|N_3_inferred_clock       mask_axi532_32s_32s|N_2_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mask_axi532_32s_32s|N_4_inferred_clock       mask_axi532_32s_32s|N_2_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+mask_axi532_32s_32s|N_5_inferred_clock       mask_axi532_32s_32s|N_2_inferred_clock           |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: axi_lite_tut|aclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                                      Starting                                                       Arrival          
+Instance                                                                                                                                              Reference             Type     Pin     Net                     Time        Slack
+                                                                                                                                                      Clock                                                                           
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk2\.arrs.currState[1]                                    axi_lite_tut|aclk     SLE      Q       sr_dwc_slaveARVALID     0.218       6.529
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.currStateAWr[0]            axi_lite_tut|aclk     SLE      Q       SLAVE_AWVALID           0.218       6.547
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrDataFif.fifoSpace[1]     axi_lite_tut|aclk     SLE      Q       fifoSpace[1]            0.218       6.582
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrLenFif.fifoSpace[1]      axi_lite_tut|aclk     SLE      Q       fifoSpace[1]            0.218       6.615
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrDataFif.fifoSpace[0]     axi_lite_tut|aclk     SLE      Q       fifoSpace[0]            0.218       6.623
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrLenFif.fifoSpace[0]      axi_lite_tut|aclk     SLE      Q       fifoSpace[0]            0.218       6.657
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.currState[0]                                     axi_lite_tut|aclk     SLE      Q       sr_dwc_slaveRREADY      0.201       6.686
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.numCombRd[3]               axi_lite_tut|aclk     SLE      Q       numCombRd[3]            0.218       6.697
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.numTransRd[0]              axi_lite_tut|aclk     SLE      Q       numTransRd[0]           0.201       6.738
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.numCombRd[0]               axi_lite_tut|aclk     SLE      Q       numCombRd[0]            0.218       6.765
+======================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                                                                    Starting                                                             Required          
+Instance                                                                                                                                                            Reference             Type         Pin           Net                 Time         Slack
+                                                                                                                                                                    Clock                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.fifoSpace[4]                     axi_lite_tut|aclk     SLE          D             SUM_1[4]            10.000       6.529
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrLenFif.fifoSpace[4]                    axi_lite_tut|aclk     SLE          D             SUM[4]              10.000       6.547
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrDataFif.fifoSpace[4]                   axi_lite_tut|aclk     SLE          D             SUM_0[4]            10.000       6.582
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.fifoSpace[3]                     axi_lite_tut|aclk     SLE          D             SUM_1[3]            10.000       6.613
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrLenFif.fifoSpace[3]                    axi_lite_tut|aclk     SLE          D             SUM[3]              10.000       6.630
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCWr.wrDataFif.fifoSpace[3]                   axi_lite_tut|aclk     SLE          D             SUM_0[3]            10.000       6.665
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.fifoSpace[2]                     axi_lite_tut|aclk     SLE          D             SUM_1[2]            10.000       6.684
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdDataFif.genblk1\.DPRam.mem_mem_0_0     axi_lite_tut|aclk     RAM64x12     R_ADDR[1]     d_fifoRdAddr[1]     10.000       6.686
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdDataFif.genblk1\.DPRam.mem_mem_0_0     axi_lite_tut|aclk     RAM64x12     R_ADDR[2]     d_fifoRdAddr[2]     10.000       6.686
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdDataFif.genblk1\.DPRam.mem_mem_0_0     axi_lite_tut|aclk     RAM64x12     R_ADDR[3]     d_fifoRdAddr[3]     10.000       6.686
+===========================================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      3.471
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.529
+
+    Number of logic level(s):                5
+    Starting point:                          COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk2\.arrs.currState[1] / Q
+    Ending point:                            COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.fifoSpace[4] / D
+    The start point is clocked by            axi_lite_tut|aclk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            axi_lite_tut|aclk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                                                                                            Pin      Pin               Arrival     No. of    
+Name                                                                                                                                                             Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk2\.arrs.currState[1]                                               SLE      Q        Out     0.218     0.218 r     -         
+sr_dwc_slaveARVALID                                                                                                                                              Net      -        -       0.563     -           4         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.nextStateARd_0_sqmuxa                 CFG2     A        In      -         0.782 r     -         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.nextStateARd_0_sqmuxa                 CFG2     Y        Out     0.051     0.832 r     -         
+nextStateARd_0_sqmuxa                                                                                                                                            Net      -        -       0.547     -           3         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd_tr2                      CFG2     A        In      -         1.379 r     -         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.currStateARd_tr2                      CFG2     Y        Out     0.051     1.430 r     -         
+sr_dwc_slaveARREADY                                                                                                                                              Net      -        -       0.662     -           12        
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.fifoSpace_0_sqmuxa            CFG4     C        In      -         2.092 r     -         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.fifoSpace_0_sqmuxa            CFG4     Y        Out     0.148     2.240 r     -         
+fifoSpace_0_sqmuxa                                                                                                                                               Net      -        -       0.609     -           7         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.un1_fifoSpace_11_1.CO2_1      CFG4     C        In      -         2.849 r     -         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.un1_fifoSpace_11_1.CO2_1      CFG4     Y        Out     0.148     2.997 r     -         
+CO2_1                                                                                                                                                            Net      -        -       0.124     -           2         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.un1_fifoSpace_11_1.SUM[4]     CFG4     D        In      -         3.121 r     -         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.un1_fifoSpace_11_1.SUM[4]     CFG4     Y        Out     0.232     3.353 r     -         
+SUM_1[4]                                                                                                                                                         Net      -        -       0.118     -           1         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_AXILtePC.SlvPCRd.rdIdFif.fifoSpace[4]                  SLE      D        In      -         3.471 r     -         
+===========================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 3.471 is 0.847(24.4%) logic and 2.623(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 259MB peak: 348MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 259MB peak: 348MB)
+
+---------------------------------------
+Resource Usage Report for axi_lite_tut 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          8 uses
+CFG1           6 uses
+CFG2           54 uses
+CFG3           329 uses
+CFG4           236 uses
+
+Carry cells:
+ARI1            102 uses - used for arithmetic functions
+ARI1            4 uses - used for Wide-Mux implementation
+Total ARI1      106 uses
+
+
+Sequential Cells: 
+SLE            1004 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 243
+I/O primitives: 243
+INBUF          106 uses
+OUTBUF         137 uses
+
+
+Global Clock Buffers: 8
+
+RAM/ROM usage summary
+Total Block RAMs (RAM64x12) : 6 of 876 (0%)
+
+Total LUTs:    731
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 72; LUTs = 72;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1004 + 72 + 0 + 0 = 1076;
+Total number of LUTs after P&R:  731 + 72 + 0 + 0 = 803;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 125MB peak: 348MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Jul 25 11:09:04 2024
+
+###########################################################]

@@ -1,0 +1,15 @@
+com cabletype {Microsemi_BuiltinJTAG}
+com cableoption flashPro_trst off
+com cableoption Microsemi_BuiltinJTAG_port auto
+server set -cabletype Microsemi_BuiltinJTAG -addr 127.0.0.1 -port 58109 -logf ipc_tcp_microsemi.log -usecs 1 -userec 0 -ipvcli 4 -ipvsrv 4 -tcpconnect 500 -timeout 15000
+searchpath add {.}
+searchpath add {C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/Hanshaking_Test}
+waveform preferences -period 20 -cycle 1 -clock 1 -qual_separate 0 -gsv_signal_mode 0 -enum native -gsv_append 0
+iice sampler -iice {IICE} -triggertime middle
+iice sampler -iice {IICE} -samplemode normal
+iice sampler -iice {IICE} -group 0
+iice sampler -iice {IICE} -compression 0
+watch enable -iice {IICE} -condition 0 -language verilog {/readyAXI} {1'b0} {1'b1}
+configid set -import {}
+dmf import -path {}
+iice current {IICE}

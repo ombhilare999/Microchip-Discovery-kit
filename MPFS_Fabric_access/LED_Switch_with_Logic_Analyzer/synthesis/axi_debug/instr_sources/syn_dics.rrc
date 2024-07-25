@@ -1,0 +1,11 @@
+master.clk
+master.dataOut
+master.outValid
+master.ready
+slave.outBit4
+slave.data
+slave.clk
+slave.outBit1
+slave.outBit2
+slave.outBit3
+inSwitch

@@ -1,0 +1,214 @@
+#add_file options
+add_file -verilog "../component/polarfire_syn_comps.v"
+add_file -verilog "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v"
+add_file -verilog "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/component/work/PF_CCC_C0/PF_CCC_C0.v"
+add_file -verilog "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/hdl/clockDivider.v"
+add_file -verilog "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/hdl/masterAXI.v"
+add_file -verilog "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/hdl/slaveAXI.v"
+add_file -verilog "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/hdl/top.v"
+add_file -verilog "../component/MSS_syn_comps.v"
+add_file -fpga_constraint "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/designer/top/synthesis.fdc"
+#project files
+add_file -ident_constraint "Hanshaking_Test/identify.idc"
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -multi_file_compilation_unit 0
+
+#device options
+set_option -technology PolarFireSoC
+set_option -part MPFS095T
+set_option -speed_grade -1
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -scm2hydra 0
+set_option -scm2hydra_preserve_rtl_sig 1
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -resolve_multiple_driver 1
+set_option -srs_instrumentation 1
+
+
+
+
+
+set_option -top_module top
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microchip G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -infer_seqShift 1
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 800
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 1
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
+set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -async_clkint_removal 1
+# Microchip PolarFireSoC
+set_option -automatic_compile_point 1
+set_option -rom_map_logic 1
+set_option -polarfire_ram_init 1
+set_option -gclkint_threshold 1000
+set_option -rgclkint_threshold 100
+set_option -clkint_rgclkint_limit 1
+set_option -low_power_gated_clock 0
+set_option -gclk_resource_count 24
+set_option -report_preserve_cdc 1
+set_option -min_cdc_sync_flops 2
+set_option -unsafe_cdc_netlist_property 0
+set_option -pack_uram_addr_reg 1
+set_option -act_wide_mul_size 35
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# common_options
+set_option -add_dut_hierarchy 0
+set_option -prepare_readback 0
+
+# flow_options
+set_option -slr_aware_debug 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+set_option -ident_constraint  ""
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./top.vm"
+
+
+#implementation: "Hanshaking_Test"
+impl -add Hanshaking_Test -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -multi_file_compilation_unit 0
+
+#device options
+set_option -technology PolarFireSoC
+set_option -part MPFS095T
+set_option -speed_grade -1
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -scm2hydra 0
+set_option -scm2hydra_preserve_rtl_sig 1
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -identify_debug_mode 1
+set_option -resolve_multiple_driver 1
+set_option -srs_instrumentation 1
+
+
+
+
+
+set_option -top_module top
+
+# mapper_options
+set_option -write_verilog 1
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microchip G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -infer_seqShift 1
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 800
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 1
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
+set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -async_clkint_removal 1
+# Microchip PolarFireSoC
+set_option -automatic_compile_point 1
+set_option -rom_map_logic 1
+set_option -polarfire_ram_init 1
+set_option -gclkint_threshold 1000
+set_option -rgclkint_threshold 100
+set_option -clkint_rgclkint_limit 1
+set_option -low_power_gated_clock 0
+set_option -gclk_resource_count 24
+set_option -report_preserve_cdc 1
+set_option -min_cdc_sync_flops 2
+set_option -unsafe_cdc_netlist_property 0
+set_option -pack_uram_addr_reg 1
+set_option -act_wide_mul_size 35
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# common_options
+set_option -add_dut_hierarchy 0
+set_option -prepare_readback 0
+
+# flow_options
+set_option -slr_aware_debug 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "Hanshaking_Test/top.vm"
+impl -active "Hanshaking_Test"

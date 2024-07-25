@@ -1,0 +1,3 @@
+"clk",,"clk","clk"
+"clkDiv/clk_out:Q",,"clkDiv/clk_out:Q","clkDiv/clk_out:Q"
+"clk_ccc/PF_CCC_C0_0/pll_inst_0:OUT0",,"clk_ccc/PF_CCC_C0_0/pll_inst_0:OUT0","clk_ccc/PF_CCC_C0_0/pll_inst_0:OUT0"

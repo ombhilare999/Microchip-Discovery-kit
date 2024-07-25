@@ -1,0 +1,2274 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/simulation
+vaxi_lite_tut
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/axi_lite_tut/axi_lite_tut.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1721783301
+!i10b 1
+!s100 @Q[7R@2VTLOjb_;MBNe?G1
+I5VN5mQ5DaN2c=Yz_1d8mY2
+S1
+R0
+w1720632389
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/axi_lite_tut/axi_lite_tut.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/axi_lite_tut/axi_lite_tut.v
+!i122 1006
+L0 9 376
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z5 !s108 1721783301.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/axi_lite_tut/axi_lite_tut.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/axi_lite_tut/axi_lite_tut.v|
+!s101 -O0
+!i113 1
+Z6 o-sv -work presynth -O0
+Z7 tCvgOpt 0
+vaxi_lite_tut_tb
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/stimulus/axi_lite_tut_tb.v
+R1
+R2
+!i10b 1
+!s100 eoQ@]AZMXkM1P8D1SjfLi1
+I4oM2>c@YKMGO:JD=oP7Ze2
+S1
+R0
+w1721226770
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/stimulus/axi_lite_tut_tb.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/stimulus/axi_lite_tut_tb.v
+!i122 1007
+L0 21 244
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/stimulus/axi_lite_tut_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/stimulus|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/stimulus/axi_lite_tut_tb.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/stimulus -sv -work presynth -O0
+R7
+vcaxi4interconnect_AddressController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/AddressController.v
+R1
+Z8 !s110 1721783292
+!i10b 1
+!s100 iM6k9?PRFb>`<PR^e@QSi3
+I88heRc4mF4zbdhYDaWZ@O0
+S1
+R0
+Z9 w1719601954
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/AddressController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/AddressController.v
+!i122 932
+L0 24 301
+R3
+R4
+r1
+!s85 0
+31
+Z10 !s108 1721783292.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/AddressController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/AddressController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@address@controller
+vcaxi4interconnect_AHB_SM
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHB_SM.v
+R1
+Z11 !s110 1721783295
+!i10b 1
+!s100 eZKjzj_<f_m>PI6f8Mb:c2
+IPGMFXYUi0Uhz>9V7[R7YU1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHB_SM.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHB_SM.v
+!i122 951
+L0 19 234
+R3
+R4
+r1
+!s85 0
+31
+Z12 !s108 1721783295.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHB_SM.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHB_SM.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@a@h@b_@s@m
+vcaxi4interconnect_AHBL_Ctrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHBL_Ctrl.v
+R1
+Z13 !s110 1721783294
+!i10b 1
+!s100 fYS^JP`<zeak8>mN0Uni11
+IkQEDY0<ZfmdORTgSEFce52
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHBL_Ctrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHBL_Ctrl.v
+!i122 948
+L0 1 551
+R3
+R4
+r1
+!s85 0
+31
+Z14 !s108 1721783294.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHBL_Ctrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AHBL_Ctrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@a@h@b@l_@ctrl
+vcaxi4interconnect_AXI4_Read_Ctrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Read_Ctrl.v
+R1
+R13
+!i10b 1
+!s100 83dP`8oFQkmHKo1>JRMi?1
+IlZ[g;1]4Yd5clGM^o@]MX3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Read_Ctrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Read_Ctrl.v
+!i122 949
+L0 1 290
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Read_Ctrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Read_Ctrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@a@x@i4_@read_@ctrl
+vcaxi4interconnect_AXI4_Write_Ctrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Write_Ctrl.v
+R1
+R11
+!i10b 1
+!s100 d;:`Y926m2WILA?7I6:8h2
+IAN4SR1JmkoUg_k1=k3nCA0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Write_Ctrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Write_Ctrl.v
+!i122 950
+L0 1 479
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Write_Ctrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/AXI4_Write_Ctrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@a@x@i4_@write_@ctrl
+vcaxi4interconnect_Axi4CrossBar
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Axi4CrossBar.v
+R1
+R13
+!i10b 1
+!s100 ;N`:1<=[;hZ:L@`akKcNA3
+I@8Q<7dH4GnQD=259oY`Y@2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Axi4CrossBar.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Axi4CrossBar.v
+!i122 947
+L0 24 756
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Axi4CrossBar.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Axi4CrossBar.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@axi4@cross@bar
+vcaxi4interconnect_Bin2Gray
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Bin2Gray.v
+R1
+R11
+!i10b 1
+!s100 Wz=FKJ7FJhbD7T]8Ym>>62
+IQAVb<=ioXcJH^K?NA^A3A1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Bin2Gray.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Bin2Gray.v
+!i122 953
+L0 23 21
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Bin2Gray.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Bin2Gray.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@bin2@gray
+vcaxi4interconnect_BitScan0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/BitScan0.v
+R1
+R8
+!i10b 1
+!s100 O8`6X2F8`1Y0IXF;bgGM61
+I=3`=odaUMk3NBKVElzMla2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/BitScan0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/BitScan0.v
+!i122 927
+L0 22 10
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/BitScan0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/BitScan0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@bit@scan0
+vcaxi4interconnect_byte2bit
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/byte2bit.v
+R1
+Z15 !s110 1721783296
+!i10b 1
+!s100 PhddUlXBYZhcT:iWEVCe:2
+IzXCiQ8`bA2N72EPF73_oI0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/byte2bit.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/byte2bit.v
+!i122 967
+L0 18 38
+R3
+R4
+r1
+!s85 0
+31
+Z16 !s108 1721783296.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/byte2bit.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/byte2bit.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vcaxi4interconnect_CDC_FIFO
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_FIFO.v
+R1
+R11
+!i10b 1
+!s100 `=:n52NK<6NDiBf4c7YAA0
+I^kNZ;OVXmGb6cENB`7j`03
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_FIFO.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_FIFO.v
+!i122 958
+L0 22 191
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_FIFO.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_FIFO.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@c@d@c_@f@i@f@o
+vcaxi4interconnect_CDC_grayCodeCounter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_grayCodeCounter.v
+R1
+R11
+!i10b 1
+!s100 Rd7z7UlVeiOD_:n296@Aj2
+I1k?o:ZGHU`o9BXH<KOS4h0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_grayCodeCounter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_grayCodeCounter.v
+!i122 954
+L0 21 59
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_grayCodeCounter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_grayCodeCounter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@c@d@c_gray@code@counter
+vcaxi4interconnect_CDC_rdCtrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_rdCtrl.v
+R1
+R11
+!i10b 1
+!s100 oecgh3KWT;>Y[E^652lgo3
+Ia`gZ5MOZ;HNWF=UM5:VVY2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_rdCtrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_rdCtrl.v
+!i122 955
+L0 20 81
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_rdCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_rdCtrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@c@d@c_rd@ctrl
+vcaxi4interconnect_CDC_wrCtrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_wrCtrl.v
+R1
+R11
+!i10b 1
+!s100 A26LBm9[jV<Qz=c8@8DJe3
+IQURaQVbZo>BmGRjLaMb:Q2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_wrCtrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_wrCtrl.v
+!i122 956
+L0 21 81
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_wrCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/CDC_wrCtrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@c@d@c_wr@ctrl
+vcaxi4interconnect_DependenceChecker
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DependenceChecker.v
+R1
+R8
+!i10b 1
+!s100 :QHWS:O17dnh8K0[C>VL[3
+IkG0]c0<>Hb=oHjRd<SVU<3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DependenceChecker.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DependenceChecker.v
+!i122 926
+L0 25 223
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DependenceChecker.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DependenceChecker.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@dependence@checker
+vcaxi4interconnect_DERR_Slave
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v
+R1
+Z17 !s110 1721783293
+!i10b 1
+!s100 CG;Z6nP8FRlJ4fE<WG=2B3
+IdXS96g?KYU2QHRf92;YRG2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v
+!i122 934
+L0 23 301
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DERR_Slave.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@e@r@r_@slave
+vcaxi4interconnect_DownConverter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DownConverter.v
+R1
+Z18 !s110 1721783297
+!i10b 1
+!s100 Yg0ANmfm<Kfa?WSegmSBd2
+I>4FHbL<dK;VYYRb1116Hk1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DownConverter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DownConverter.v
+!i122 973
+L0 20 369
+R3
+R4
+r1
+!s85 0
+31
+Z19 !s108 1721783297.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DownConverter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DownConverter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@down@converter
+vcaxi4interconnect_DualPort_FF_SyncWr_SyncRd
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v
+R1
+R17
+!i10b 1
+!s100 E]ShiKV0kQTE1PW6X?gCJ3
+I>[OedETnPlQBX<AeBR@Mo1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v
+!i122 935
+L0 23 84
+R3
+R4
+r1
+!s85 0
+31
+Z20 !s108 1721783293.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_FF_SyncWr_SyncRd.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@dual@port_@f@f_@sync@wr_@sync@rd
+vcaxi4interconnect_DualPort_RAM_SyncWr_SyncRd
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v
+R1
+R17
+!i10b 1
+!s100 N404DIL9O_Ea@0Z]O9g;l0
+I>ID]VO4L8bRB;f;gY_eo:2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v
+!i122 936
+L0 23 87
+R3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/DualPort_Ram_SyncWr_SyncRd.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@dual@port_@r@a@m_@sync@wr_@sync@rd
+vcaxi4interconnect_DWC_brespCtrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_brespCtrl.v
+R1
+R18
+!i10b 1
+!s100 7<eRo]UQ92nZi[hoEiVOX0
+IZBL3RnlGc6@AViVl>Gm@Z0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_brespCtrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_brespCtrl.v
+!i122 971
+L0 20 222
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_brespCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_brespCtrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_bresp@ctrl
+vcaxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_CmdFifoWriteCtrl.v
+R1
+R15
+!i10b 1
+!s100 <?=R^O<`il8lYE_2:ZTl`2
+I@ENfjEiJ^1[QNj9dQU=?a2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_CmdFifoWriteCtrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_CmdFifoWriteCtrl.v
+!i122 960
+L0 19 648
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_CmdFifoWriteCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_CmdFifoWriteCtrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_@cmd@fifo@write@ctrl
+vcaxi4interconnect_DWC_DownConv_Hold_Reg_Rd
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Rd.v
+R1
+R15
+!i10b 1
+!s100 dEcdiVTX5<cff3^1n@K1P0
+I1`TNR2MK9dF4UbkJj=IXN3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Rd.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Rd.v
+!i122 962
+L0 24 111
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Rd.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Rd.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_@hold_@reg_@rd
+vcaxi4interconnect_DWC_DownConv_Hold_Reg_Wr
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Wr.v
+R1
+R18
+!i10b 1
+!s100 ]^jhjN_<a=6@V4b9NhSP:3
+I;<eL^In;>1eWDd3DO`MHZ3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Wr.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Wr.v
+!i122 969
+L0 24 97
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Wr.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_Hold_Reg_Wr.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_@hold_@reg_@wr
+vcaxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_preCalcCmdFifoWrCtrl.v
+R1
+R15
+!i10b 1
+!s100 PgUW5n_:8LIHLzjBeOf3I2
+Ic<2b[OfVfRS1jlAS`R76B1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_preCalcCmdFifoWrCtrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_preCalcCmdFifoWrCtrl.v
+!i122 963
+L0 24 240
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_preCalcCmdFifoWrCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_preCalcCmdFifoWrCtrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_pre@calc@cmd@fifo@wr@ctrl
+vcaxi4interconnect_DWC_DownConv_readWidthConv
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_readWidthConv.v
+R1
+R15
+!i10b 1
+!s100 X0S;J5glY8G1=PDhaWjB73
+I=ZN?9l;`GzhmFWAHb<jF71
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_readWidthConv.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_readWidthConv.v
+!i122 968
+L0 20 645
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_readWidthConv.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_readWidthConv.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_read@width@conv
+vcaxi4interconnect_DWC_DownConv_widthConvrd
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvrd.v
+R1
+R15
+!i10b 1
+!s100 z7A34C[HcLNZM1MA?X32_0
+Ig]H9SMm[hFo[kZ]U8fNNI3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvrd.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvrd.v
+!i122 964
+L0 20 619
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvrd.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvrd.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_width@convrd
+vcaxi4interconnect_DWC_DownConv_widthConvwr
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvwr.v
+R1
+R18
+!i10b 1
+!s100 @5<k^594NWZn`@>7kEb:d0
+IoTQdcGGBOcacS7bRHAzgT2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvwr.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvwr.v
+!i122 970
+L0 20 968
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvwr.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_widthConvwr.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_width@convwr
+vcaxi4interconnect_DWC_DownConv_writeWidthConv
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_writeWidthConv.v
+R1
+R18
+!i10b 1
+!s100 jEn?<=eR`zACSi;P30H271
+ID<4Vac11>G=HKPhhnEJSA1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_writeWidthConv.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_writeWidthConv.v
+!i122 972
+L0 20 554
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_writeWidthConv.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_DownConv_writeWidthConv.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@down@conv_write@width@conv
+vcaxi4interconnect_DWC_RChannel_SlvRid_Arb
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel_SlvRid_Arb.v
+R1
+R18
+!i10b 1
+!s100 E9hD1?[e[P>50BC2JRomS0
+IA^R?Gnb]ORdW]MTlFC=iR2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel_SlvRid_Arb.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel_SlvRid_Arb.v
+!i122 976
+L0 25 90
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel_SlvRid_Arb.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel_SlvRid_Arb.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@r@channel_@slv@rid_@arb
+vcaxi4interconnect_DWC_UpConv_AChannel
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_AChannel.v
+R1
+R18
+!i10b 1
+!s100 0ecHI9j8^BhAMH8J[GFQn2
+I9NVVL?G@JFaKPjb>9jkA]1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_AChannel.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_AChannel.v
+!i122 974
+L0 20 482
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_AChannel.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_AChannel.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@a@channel
+vcaxi4interconnect_DWC_UpConv_BChannel
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_BChannel.v
+R1
+R18
+!i10b 1
+!s100 ^Fbn4h23E?Y`lHb^]RK9Z0
+IQnQdMB[XQL5OdRVR^4`4B0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_BChannel.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_BChannel.v
+!i122 975
+L0 29 170
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_BChannel.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_BChannel.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@b@channel
+vcaxi4interconnect_DWC_UpConv_preCalcAChannel
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcAChannel.v
+R1
+Z21 !s110 1721783298
+!i10b 1
+!s100 QaIJXO80WA<YiaeNTj8S22
+ID0H2GCLAjGihJi3@l_h;<1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcAChannel.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcAChannel.v
+!i122 986
+L0 24 169
+R3
+R4
+r1
+!s85 0
+31
+Z22 !s108 1721783298.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcAChannel.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcAChannel.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_pre@calc@a@channel
+vcaxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcRChan_Ctrl.v
+R1
+R21
+!i10b 1
+!s100 RLo?GcGNDnVV;[W=zDQT61
+ITh_TGmE?e]L:n_^K0:Koe0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcRChan_Ctrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcRChan_Ctrl.v
+!i122 978
+L0 24 127
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcRChan_Ctrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_preCalcRChan_Ctrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_pre@calc@r@chan_@ctrl
+vcaxi4interconnect_DWC_UpConv_RChan_Ctrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChan_Ctrl.v
+R1
+R18
+!i10b 1
+!s100 Jg@?FYj?TRRaFRM7D6PTS3
+ID_U:HiQG<5Wah1V[UN_FB2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChan_Ctrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChan_Ctrl.v
+!i122 977
+L0 20 433
+R3
+R4
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChan_Ctrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChan_Ctrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@r@chan_@ctrl
+vcaxi4interconnect_DWC_UpConv_RChannel
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel.v
+R1
+R21
+!i10b 1
+!s100 0h8]BVDoGH2[iI`CKd[Vm1
+Ibj;F`FWJFQUY4[c7C3Z1K3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel.v
+!i122 980
+L0 32 531
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_RChannel.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@r@channel
+vcaxi4interconnect_DWC_UpConv_WChan_Hold_Reg
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_Hold_Reg.v
+R1
+R21
+!i10b 1
+!s100 Hnh_1N:YDZ:k9m56Y:S5z3
+IJZYfI98=H3gnMTB[YH;2U3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_Hold_Reg.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_Hold_Reg.v
+!i122 981
+L0 22 127
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_Hold_Reg.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_Hold_Reg.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@w@chan_@hold_@reg
+vcaxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_ReadDataFifoCtrl.v
+R1
+R21
+!i10b 1
+!s100 hHob2VbaIaeQnAGdY<TLS0
+IQ@3nI5=X3AzY8?g_RMc9O3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_ReadDataFifoCtrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_ReadDataFifoCtrl.v
+!i122 982
+L0 19 442
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_ReadDataFifoCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChan_ReadDataFifoCtrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@w@chan_@read@data@fifo@ctrl
+vcaxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_Wchan_WriteDataFifoCtrl.v
+R1
+R21
+!i10b 1
+!s100 DW][6Yf>U]1KXW<G6@A4f2
+I=noQ23=0M3Pc]oZl_g;RC0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_Wchan_WriteDataFifoCtrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_Wchan_WriteDataFifoCtrl.v
+!i122 983
+L0 36 313
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_Wchan_WriteDataFifoCtrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_Wchan_WriteDataFifoCtrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@wchan_@write@data@fifo@ctrl
+vcaxi4interconnect_DWC_UpConv_WChannel
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChannel.v
+R1
+R21
+!i10b 1
+!s100 GU9D4KXlk>0YfJBzR9n>M2
+IHURHQkl7K<Z_kNooMA5RT3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChannel.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChannel.v
+!i122 985
+L0 33 355
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChannel.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/DWC_UpConv_WChannel.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@d@w@c_@up@conv_@w@channel
+vcaxi4interconnect_FIFO
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO.v
+R1
+R15
+!i10b 1
+!s100 E35;XH=2cJejFZS4A38[k0
+IBMKoW6c0YfMPPAAgTTVJb3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO.v
+!i122 966
+L0 20 122
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@f@i@f@o
+vcaxi4interconnect_FIFO_CTRL
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_CTRL.v
+R1
+R15
+!i10b 1
+!s100 EaK`<l=ejb8C8N4Ki2VJB0
+I3`ndg>JHJBC<4]=IG@HDS0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_CTRL.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_CTRL.v
+!i122 965
+L0 25 148
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_CTRL.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_CTRL.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@f@i@f@o_@c@t@r@l
+vcaxi4interconnect_FIFO_downsizing
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_downsizing.v
+R1
+R21
+!i10b 1
+!s100 J`2PfXmUiU27F_zPElhka2
+IYRgF0jeiJ;_KS_7oiCiaP3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_downsizing.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_downsizing.v
+!i122 979
+L0 20 156
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_downsizing.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_downsizing.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@f@i@f@o_downsizing
+vcaxi4interconnect_FIFO_upsizing
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_upsizing.v
+R1
+R21
+!i10b 1
+!s100 z@cD=aTRW<[j4ATe6Gk_j2
+IQd9c2ANLN4b;]<]XQ[T<B1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_upsizing.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_upsizing.v
+!i122 984
+L0 22 182
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_upsizing.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/FIFO_upsizing.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@f@i@f@o_upsizing
+vcaxi4interconnect_FifoDualPort
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/FifoDualPort.v
+R1
+R13
+!i10b 1
+!s100 =`E8N6gKB>ZUj9b[L<zeo0
+IK4mEJV3l5>aF5=L5d0;;b1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/FifoDualPort.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/FifoDualPort.v
+!i122 944
+L0 23 401
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/FifoDualPort.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/FifoDualPort.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@fifo@dual@port
+vcaxi4interconnect_Hold_Reg_Ctrl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Hold_Reg_Ctrl.v
+R1
+R15
+!i10b 1
+!s100 >KTBPL@l;j9a817nLJ7Mz1
+I^S@``b4o64IN6NEWaKiB?1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Hold_Reg_Ctrl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Hold_Reg_Ctrl.v
+!i122 961
+L0 21 34
+R3
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Hold_Reg_Ctrl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/Hold_Reg_Ctrl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@hold_@reg_@ctrl
+vcaxi4interconnect_MasterAddressDecoder
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterAddressDecoder.v
+R1
+R8
+!i10b 1
+!s100 kIzQH2?cPVL<J>]XhCjhk0
+IhN[oJLO?_[jHA__79^OnU0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterAddressDecoder.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterAddressDecoder.v
+!i122 925
+L0 24 77
+R3
+R4
+r1
+!s85 0
+31
+Z23 !s108 1721783291.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterAddressDecoder.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterAddressDecoder.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@master@address@decoder
+vcaxi4interconnect_MasterControl
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterControl.v
+R1
+R8
+!i10b 1
+!s100 i:YmfM1B@a6NA3Wa5E9A?2
+IG3:8e<70GBm:P0zV;VMS=1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterControl.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterControl.v
+!i122 929
+L0 23 145
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterControl.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/MasterControl.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@master@control
+vcaxi4interconnect_MasterConvertor
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MasterConvertor.v
+R1
+Z24 !s110 1721783299
+!i10b 1
+!s100 fV0LO9lVjDDo4;8NOol@[2
+ITJj@@_nQ>zYTE@LigXUPZ1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MasterConvertor.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MasterConvertor.v
+!i122 992
+L0 23 952
+R3
+R4
+r1
+!s85 0
+31
+Z25 !s108 1721783299.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MasterConvertor.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MasterConvertor.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@master@convertor
+vcaxi4interconnect_MstrAHBtoAXI4Converter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrAHBtoAXI4Converter.v
+R1
+R11
+!i10b 1
+!s100 k>`gjCa:oBod58X?U;J1Q3
+I`g5=FaR0TC>N<;2R=eE9Q1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrAHBtoAXI4Converter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrAHBtoAXI4Converter.v
+!i122 952
+L0 23 179
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrAHBtoAXI4Converter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrAHBtoAXI4Converter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@mstr@a@h@bto@a@x@i4@converter
+vcaxi4interconnect_MstrClockDomainCrossing
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrClockDomainCrossing.v
+R1
+R15
+!i10b 1
+!s100 ]jDD]ognf@@R@k[PA]^[:2
+I<^WD4RM]2TBS=KC1AhK082
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrClockDomainCrossing.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrClockDomainCrossing.v
+!i122 959
+L0 21 344
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrClockDomainCrossing.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrClockDomainCrossing.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@mstr@clock@domain@crossing
+vcaxi4interconnect_MstrDataWidthConv
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrDataWidthConv.v
+R1
+R24
+!i10b 1
+!s100 ?7CBZ:cIY;l17olbjWUK^3
+I414IHX_^e3zzI1@3K?cgT3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrDataWidthConv.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrDataWidthConv.v
+!i122 988
+L0 23 452
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrDataWidthConv.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrDataWidthConv.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@mstr@data@width@conv
+vcaxi4interconnect_MstrProtocolConverter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrProtocolConverter.v
+R1
+R24
+!i10b 1
+!s100 YKVQWL7kmNeI1zFlJNKhR2
+IBYcS?c=ab5>M_n`<GRDF:2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrProtocolConverter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrProtocolConverter.v
+!i122 989
+L0 25 352
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrProtocolConverter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/MstrProtocolConverter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@mstr@protocol@converter
+vcaxi4interconnect_RAM_BLOCK
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v
+R1
+R11
+!i10b 1
+!s100 OR0Q;8UZabK=4FA=mE?<d0
+I;4;nd`oXlEZDlahD?Rj@W0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v
+!i122 957
+L0 22 53
+R3
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RAM_BLOCK.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@r@a@m_@b@l@o@c@k
+vcaxi4interconnect_RDataController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RDataController.v
+R1
+R17
+!i10b 1
+!s100 DZKLd;AbFdhidOh[9bB171
+I@hDHoTR<[WjJU@7ZbV_S03
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RDataController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RDataController.v
+!i122 941
+L0 24 312
+R3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RDataController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RDataController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@r@data@controller
+vcaxi4interconnect_RdFifoDualPort
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v
+R1
+R17
+!i10b 1
+!s100 ;;HZ;PzU8`TJ2R<b^J9510
+IgLHFRl]U?8j`dKS7HU=aJ1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v
+!i122 937
+L0 23 390
+R3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RdFifoDualPort.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@rd@fifo@dual@port
+vcaxi4interconnect_ReadDataController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataController.v
+R1
+R17
+!i10b 1
+!s100 AV2Dz0JOHMX766bYID;Pa2
+I=^<DlG7BUJjAGP=PD?5m11
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataController.v
+!i122 940
+L0 24 282
+R3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@read@data@controller
+vcaxi4interconnect_ReadDataMux
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataMux.v
+R1
+R17
+!i10b 1
+!s100 TbC7z6`bF_@Y]V=^8IncD0
+I:8OH_o07Peb178NmQd]<d0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataMux.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataMux.v
+!i122 938
+L0 23 1269
+R3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataMux.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ReadDataMux.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@read@data@mux
+vcaxi4interconnect_RegisterSlice
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegisterSlice.v
+R1
+R24
+!i10b 1
+!s100 [B<]mOzUY4]:@zI:=__J62
+IY>20l]7TD<19B79j?k<B?1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegisterSlice.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegisterSlice.v
+!i122 991
+L0 22 407
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegisterSlice.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegisterSlice.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@register@slice
+vcaxi4interconnect_RegSliceFull
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegSliceFull.v
+R1
+R24
+!i10b 1
+!s100 EM9RCQC5kn]9?fdEbTSMX2
+IJ9?E@bA6GNJ1VH=8h1z;c0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegSliceFull.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegSliceFull.v
+!i122 990
+L0 23 186
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegSliceFull.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/RegSliceFull.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@reg@slice@full
+vcaxi4interconnect_RequestQual
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RequestQual.v
+R1
+R17
+!i10b 1
+!s100 D7H`5kk6Xz_mZ[5ADl8R@1
+I?H2`9@D:GIUMo79hj1`4O2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RequestQual.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RequestQual.v
+!i122 939
+L0 23 51
+R3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RequestQual.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RequestQual.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@request@qual
+vcaxi4interconnect_ResetSycnc
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ResetSycnc.v
+R1
+!s110 1721783291
+!i10b 1
+!s100 >424C>Lfh<mlWh2iZFi`Z1
+IAR0<odcD5X1>KF1g2K_PK1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ResetSycnc.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ResetSycnc.v
+!i122 924
+L0 22 39
+R3
+R4
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ResetSycnc.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/ResetSycnc.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@reset@sycnc
+vcaxi4interconnect_RespController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RespController.v
+R1
+R13
+!i10b 1
+!s100 CWM^bj^9HY`GZAdj?Z5WU0
+Ihk]=<ocYGWZZcS7IjHCLK1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RespController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RespController.v
+!i122 943
+L0 24 140
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RespController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RespController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@resp@controller
+vcaxi4interconnect_revision
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Revision.v
+R1
+R8
+!i10b 1
+!s100 caC26ghbkfF7fDFbo>4>z1
+IZ?Kcm?_oHLXFn0Q<P=4`U0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Revision.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Revision.v
+!i122 933
+L0 22 19
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Revision.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/Revision.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vcaxi4interconnect_RoundRobinArb
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v
+R1
+R8
+!i10b 1
+!s100 <PaAdZ19SDY^_X:4Rc70i2
+IKRBa6OUH_X:4;@Aj@cVZT0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v
+!i122 930
+L0 23 191
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/RoundRobinArb.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@round@robin@arb
+vcaxi4interconnect_SlaveConvertor
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlaveConvertor.v
+R1
+Z26 !s110 1721783300
+!i10b 1
+!s100 M>[UT>c9?80lf7EZ?@N7F2
+I<RZY:`<U[d`cPk5[MAHQ<3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlaveConvertor.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlaveConvertor.v
+!i122 1000
+L0 24 834
+R3
+R4
+r1
+!s85 0
+31
+Z27 !s108 1721783300.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlaveConvertor.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlaveConvertor.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slave@convertor
+vcaxi4interconnect_SlaveDataMuxController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/SlaveDataMuxController.v
+R1
+R13
+!i10b 1
+!s100 <HFJWSG^i[hd=2FD9U1Jk0
+IT:_YeUYFhDc8B`GiGi[eF0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/SlaveDataMuxController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/SlaveDataMuxController.v
+!i122 942
+L0 22 1530
+R3
+R4
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/SlaveDataMuxController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/SlaveDataMuxController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slave@data@mux@controller
+vcaxi4interconnect_SlvAxi4ProtConvAXI4ID
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvAXI4ID.v
+R1
+R24
+!i10b 1
+!s100 Skgf[TFf[4;:ZNga_S[hH1
+Ind3:EW1?YnE2DY0^Y;C@U2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvAXI4ID.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvAXI4ID.v
+!i122 995
+L0 19 95
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvAXI4ID.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvAXI4ID.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slv@axi4@prot@conv@a@x@i4@i@d
+vcaxi4interconnect_SlvAxi4ProtConvRead
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v
+R1
+R24
+!i10b 1
+!s100 5]0bQccFPkc_TFJfkYj=X2
+IaeLPjWEAAVHTYScUlU1672
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v
+!i122 996
+L0 24 610
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvRead.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slv@axi4@prot@conv@read
+vcaxi4interconnect_SlvAxi4ProtConvWrite
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v
+R1
+R26
+!i10b 1
+!s100 DCZ^SgN9E3=h;CUc@o]1V1
+Iko[`LSgVPAH5SYl^CL88b0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v
+!i122 997
+L0 24 955
+R3
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtConvWrite.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slv@axi4@prot@conv@write
+vcaxi4interconnect_SlvAxi4ProtocolConv
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtocolConv.v
+R1
+R26
+!i10b 1
+!s100 B[;gNlRk^g1oOU[gbC7F=0
+IoC`BJlT9F07J:FVem[<Ho0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtocolConv.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtocolConv.v
+!i122 998
+L0 25 272
+R3
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtocolConv.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvAxi4ProtocolConv.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slv@axi4@protocol@conv
+vcaxi4interconnect_SlvClockDomainCrossing
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvClockDomainCrossing.v
+R1
+R24
+!i10b 1
+!s100 G_3h6?LinhV:Q[7H2Uf6c3
+ImZCjEQ_F9UAPBVOOQ^c<n2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvClockDomainCrossing.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvClockDomainCrossing.v
+!i122 993
+L0 21 343
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvClockDomainCrossing.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvClockDomainCrossing.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slv@clock@domain@crossing
+vcaxi4interconnect_SlvDataWidthConverter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvDataWidthConverter.v
+R1
+R24
+!i10b 1
+!s100 k65OPP>U14nR==bd[cZG83
+Ig9PzAk6FD4PT3mde:eaXm0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvDataWidthConverter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvDataWidthConverter.v
+!i122 994
+L0 23 459
+R3
+R4
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvDataWidthConverter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvDataWidthConverter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slv@data@width@converter
+vcaxi4interconnect_SlvProtocolConverter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvProtocolConverter.v
+R1
+R26
+!i10b 1
+!s100 =?SJL`chQV0>khhem]lS>3
+I`No<4ma8R>H8DKa@3_lic3
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvProtocolConverter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvProtocolConverter.v
+!i122 999
+L0 26 561
+R3
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvProtocolConverter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/SlvProtocolConverter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@slv@protocol@converter
+vcaxi4interconnect_TargetMuxController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TargetMuxController.v
+R1
+R8
+!i10b 1
+!s100 d1jNR@SaP0N4:AAaHgo=k3
+IH;[J5@Mk3YJfL3<Geka>]2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TargetMuxController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TargetMuxController.v
+!i122 931
+L0 23 942
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TargetMuxController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TargetMuxController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@target@mux@controller
+vcaxi4interconnect_TransactionController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TransactionController.v
+R1
+R8
+!i10b 1
+!s100 DPgcV>^B<c50HTfbLI7>A1
+I64BZfF8<`il^dc?FoJobR1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TransactionController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TransactionController.v
+!i122 928
+L0 24 315
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TransactionController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/TransactionController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@transaction@controller
+vcaxi4interconnect_UpConverter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/UpConverter.v
+R1
+R24
+!i10b 1
+!s100 4CUeVO4i?bTdDIEN_KCUS0
+In6jZaKMF9PnhF2Z>eDgAn1
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/UpConverter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/UpConverter.v
+!i122 987
+L0 20 585
+R3
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/UpConverter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4Convertors/UpConverter.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@up@converter
+vcaxi4interconnect_WDataController
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WDataController.v
+R1
+R13
+!i10b 1
+!s100 @QcC?5mGCAl?M6;ZoUAkG2
+Ij95T_zBmJ:Yc?ID>e;knX2
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WDataController.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WDataController.v
+!i122 946
+L0 25 362
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WDataController.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WDataController.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@w@data@controller
+vcaxi4interconnect_WriteDataMux
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WriteDataMux.v
+R1
+R13
+!i10b 1
+!s100 @RM7a>E[:^:f[4T3B8JUZ1
+IDeU0I1TFV7eHGV=kBW3<82
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WriteDataMux.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WriteDataMux.v
+!i122 945
+L0 23 545
+R3
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WriteDataMux.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/Axi4CrossBar/WriteDataMux.v|
+!s101 -O0
+!i113 1
+R6
+R7
+ncaxi4interconnect_@write@data@mux
+vCOREAXI4INTERCONNECT
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/CoreAxi4Interconnect.v
+R1
+R26
+!i10b 1
+!s100 NmB_ac0_a]k7<h?C8gZU:1
+IIUCm;iB;PSOBD:>c12UWC0
+S1
+R0
+R9
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/CoreAxi4Interconnect.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/CoreAxi4Interconnect.v
+!i122 1001
+L0 25 9989
+R3
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/CoreAxi4Interconnect.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/Actel/DirectCore/COREAXI4INTERCONNECT/2.8.103/rtl/vlog/core/CoreAxi4Interconnect.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@c@o@r@e@a@x@i4@i@n@t@e@r@c@o@n@n@e@c@t
+vCOREAXI4INTERCONNECT_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/COREAXI4INTERCONNECT_C0/COREAXI4INTERCONNECT_C0.v
+R1
+R26
+!i10b 1
+!s100 TffAz<XNi5zWa>aa=GC<U3
+ISXM7D_FzTL8VP0aUi2c6:2
+S1
+R0
+w1721155875
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/COREAXI4INTERCONNECT_C0/COREAXI4INTERCONNECT_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/COREAXI4INTERCONNECT_C0/COREAXI4INTERCONNECT_C0.v
+!i122 1002
+L0 1476 5416
+R3
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/COREAXI4INTERCONNECT_C0/COREAXI4INTERCONNECT_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/component/work/COREAXI4INTERCONNECT_C0/COREAXI4INTERCONNECT_C0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@c@o@r@e@a@x@i4@i@n@t@e@r@c@o@n@n@e@c@t_@c0
+vmask532
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask532.v
+R1
+R2
+!i10b 1
+!s100 ]3gU:KniLS_5mYT:Uooce1
+IPJ:>A20MG2HTIe=Y8:i6]3
+S1
+R0
+w1719940297
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask532.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask532.v
+!i122 1003
+L0 21 15
+R3
+R4
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask532.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask532.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vmask_axi532
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask_axi532.v
+R1
+R2
+!i10b 1
+!s100 ::5aR;QeG^_V`YV^VgPlk2
+IDUYXF0?O7kzTCPABGl]iE3
+S1
+R0
+w1721224755
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask_axi532.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask_axi532.v
+!i122 1004
+L0 21 235
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask_axi532.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/mask_axi532.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vmaster_AXI
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/master_AXI.v
+R1
+R2
+!i10b 1
+!s100 NE?K9figSViEXY9VR5Ro23
+IGIlm[L3JXSGnPbnnEL0MV2
+S1
+R0
+w1721193571
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/master_AXI.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/master_AXI.v
+!i122 1005
+L0 21 232
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/master_AXI.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/hdl/master_AXI.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nmaster_@a@x@i

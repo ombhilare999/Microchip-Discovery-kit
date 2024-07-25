@@ -1,0 +1,209 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+Modified Files: 3
+FID:  path (prevtimestamp, timestamp)
+5        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\MSS_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04)
+6        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04)
+20       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\hdl\counter.v (2024-06-24 11:11:15, 2024-07-25 11:04:31)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 73
+MID:  lib.cell.view
+0        work.APBM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+1        work.APBS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+2        work.BANKCTRLM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+3        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+4        work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+5        work.BANKEN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+6        work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+7        work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+16       work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+17       work.CRN_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+18       work.CRN_INT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+19       work.CRYPTO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+20       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+21       work.DEBUG.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+22       work.DLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+23       work.DRI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+24       work.ENFORCE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+25       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+26       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+27       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+28       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+29       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+30       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+31       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+32       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+33       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+34       work.ICB_INT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+35       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+36       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+37       work.INIT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+38       work.IOD.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+39       work.LANECTRL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+40       work.LANERST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+41       work.MSS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\MSS_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+42       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+43       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+44       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+45       work.PCIE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+46       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+47       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+50       work.PF_SPI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+53       work.PLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+54       work.QUADRST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+55       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+56       work.SCB.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+57       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+58       work.SYSRESET.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+59       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+60       work.TAMPER.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+61       work.TVS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+62       work.TX_PLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+63       work.UPROM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+64       work.USPI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+65       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+66       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+67       work.VREFCTRL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+68       work.XCVR.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+69       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+70       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+71       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+72       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+73       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+74       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+75       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+76       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+77       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+78       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+79       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+80       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+81       work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+82       work.XCVR_TEST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+83       work.XCVR_VV.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v (2024-07-03 11:49:41, 2024-07-25 11:05:04) <-- (module definition)
+84       work.counter.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\hdl\counter.v (2024-06-24 11:11:15, 2024-07-25 11:04:31) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 18
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v (2024-01-04 11:10:06)
+1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v (2024-01-04 11:04:40)
+2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_objects.v (2024-01-04 11:04:40)
+3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-01-04 11:04:40)
+4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\umr_capim.v (2024-01-04 11:08:34)
+7        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0.v (2024-06-24 14:53:17)
+8        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v (2024-06-24 14:53:17)
+9        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_NstagesSync.v (2024-06-24 14:53:17)
+10       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_async.v (2024-06-24 14:53:17)
+11       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_fwft.v (2024-06-24 14:53:17)
+12       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_grayToBinConv.v (2024-06-24 14:53:17)
+13       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync.v (2024-06-24 14:53:17)
+14       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync_scntr.v (2024-06-24 14:53:17)
+15       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_CCC_C0\PF_CCC_C0.v (2024-06-24 11:31:44)
+16       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v (2024-06-24 11:31:44)
+17       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v (2024-06-24 12:10:28)
+18       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v (2024-06-24 12:10:28)
+19       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\mydesign\mydesign.v (2024-07-03 10:46:22)
+
+*******************************************************************
+Unchanged modules: 13
+MID:  lib.cell.view
+8        work.COREFIFO_C0.verilog
+9        work.COREFIFO_C0_COREFIFO_C0_0_COREFIFO.verilog
+10       work.COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync.verilog
+11       work.COREFIFO_C0_COREFIFO_C0_0_corefifo_async.verilog
+12       work.COREFIFO_C0_COREFIFO_C0_0_corefifo_fwft.verilog
+13       work.COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv.verilog
+14       work.COREFIFO_C0_COREFIFO_C0_0_corefifo_sync.verilog
+15       work.COREFIFO_C0_COREFIFO_C0_0_corefifo_sync_scntr.verilog
+48       work.PF_CCC_C0.verilog
+49       work.PF_CCC_C0_PF_CCC_C0_0_PF_CCC.verilog
+51       work.PF_TPSRAM_C0.verilog
+52       work.PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.verilog
+85       work.mydesign.verilog

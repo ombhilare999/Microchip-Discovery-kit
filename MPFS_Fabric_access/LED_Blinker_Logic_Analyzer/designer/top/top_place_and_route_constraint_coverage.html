@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <p>SmartTime Version 2024.1.0.3</p>
+        <p>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Wed Jun 26 02:30:09 2024 </p>
+        <table cellpadding="4">
+            <tr/>
+            <tr>
+                <td>Design</td>
+                <td>top</td>
+            </tr>
+            <tr>
+                <td>Family</td>
+                <td>PolarFireSoC</td>
+            </tr>
+            <tr>
+                <td>Die</td>
+                <td>MPFS095T</td>
+            </tr>
+            <tr>
+                <td>Package</td>
+                <td>FCSG325</td>
+            </tr>
+            <tr>
+                <td>Temperature Range</td>
+                <td>0 - 100 C</td>
+            </tr>
+            <tr>
+                <td>Voltage Range</td>
+                <td>0.97 - 1.03 V</td>
+            </tr>
+            <tr>
+                <td>Speed Grade</td>
+                <td>-1</td>
+            </tr>
+        </table>
+        <p/>
+        <p/>
+        <h2>Coverage Summary</h2>
+        <p/>
+        <table cellpadding="4">
+            <tr>
+                <th>Type of check</th>
+                <th>Constrained</th>
+                <th>UnConstrained</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Setup</td>
+                <td>            3</td>
+                <td>            1</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Recovery</td>
+                <td>            0</td>
+                <td>            0</td>
+                <td>            0</td>
+            </tr>
+            <tr>
+                <td>Output Setup</td>
+                <td>            0</td>
+                <td>            4</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Total Setup</td>
+                <td>            3</td>
+                <td>            5</td>
+                <td>            8</td>
+            </tr>
+            <tr>
+                <td>Hold</td>
+                <td>            3</td>
+                <td>            1</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Removal</td>
+                <td>            0</td>
+                <td>            0</td>
+                <td>            0</td>
+            </tr>
+            <tr>
+                <td>Output Hold</td>
+                <td>            0</td>
+                <td>            4</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Total Hold</td>
+                <td>            3</td>
+                <td>            5</td>
+                <td>            8</td>
+            </tr>
+        </table>
+        <h3>Clock domain: </h3>
+        <p>clk</p>
+        <p/>
+        <table cellpadding="4">
+            <tr>
+                <th>Type of check</th>
+                <th>Constrained</th>
+                <th>UnConstrained</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Setup</td>
+                <td>            3</td>
+                <td>            1</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Recovery</td>
+                <td>            0</td>
+                <td>            0</td>
+                <td>            0</td>
+            </tr>
+            <tr>
+                <td>Output Setup</td>
+                <td>            0</td>
+                <td>            4</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Total Setup</td>
+                <td>            3</td>
+                <td>            5</td>
+                <td>            8</td>
+            </tr>
+            <tr>
+                <td>Hold</td>
+                <td>            3</td>
+                <td>            1</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Removal</td>
+                <td>            0</td>
+                <td>            0</td>
+                <td>            0</td>
+            </tr>
+            <tr>
+                <td>Output Hold</td>
+                <td>            0</td>
+                <td>            4</td>
+                <td>            4</td>
+            </tr>
+            <tr>
+                <td>Total Hold</td>
+                <td>            3</td>
+                <td>            5</td>
+                <td>            8</td>
+            </tr>
+        </table>
+        <h4>Enhancement Suggestions</h4>
+        <p/>
+        <p> - Max input delay constraint missing on ports:</p>
+        <p/>
+        <ul>
+            <li>inSwitch[0]</li>
+            <li>inSwitch[1]</li>
+            <li>rstn</li>
+            <li>valid</li>
+        </ul>
+        <p/>
+        <p> - Min input delay constraint missing on ports:</p>
+        <p/>
+        <ul>
+            <li>inSwitch[0]</li>
+            <li>inSwitch[1]</li>
+            <li>rstn</li>
+            <li>valid</li>
+        </ul>
+        <p/>
+        <p/>
+        <p> - Max output delay constraint missing on ports:</p>
+        <p/>
+        <ul>
+            <li>outBit1</li>
+            <li>outBit2</li>
+            <li>outBit3</li>
+            <li>outBit4</li>
+        </ul>
+        <p/>
+        <p> - Min output delay constraint missing on ports:</p>
+        <p/>
+        <ul>
+            <li>outBit1</li>
+            <li>outBit2</li>
+            <li>outBit3</li>
+            <li>outBit4</li>
+        </ul>
+        <p/>
+        <p/>
+        <p> - Setup unconstrained for the following pin:</p>
+        <p/>
+        <ul>
+            <li>master/outValid:D</li>
+        </ul>
+        <p/>
+        <p> - Hold unconstrained for the following pin:</p>
+        <p/>
+        <ul>
+            <li>master/outValid:D</li>
+        </ul>
+        <p/>
+        <h3>Input to Output</h3>
+        <table cellpadding="4">
+            <tr>
+                <th>Type of check</th>
+                <th>Constrained</th>
+                <th>UnConstrained</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Output Setup</td>
+                <td>            0</td>
+                <td>            0</td>
+                <td>            0</td>
+            </tr>
+            <tr>
+                <td>Output Hold</td>
+                <td>            0</td>
+                <td>            0</td>
+                <td>            0</td>
+            </tr>
+        </table>
+    </body>
+</html>

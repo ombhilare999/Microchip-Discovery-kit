@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
+<text>Date: Thu Jul 25 11:09:11 2024
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 1.8V</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>axi_lite_tut</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>803</cell>
+ <cell>93516</cell>
+ <cell>0.86</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>1076</cell>
+ <cell>93516</cell>
+ <cell>1.15</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>240</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>243</cell>
+ <cell>80</cell>
+ <cell>303.75</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>243</cell>
+ <cell>80</cell>
+ <cell>303.75</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>40</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>6</cell>
+ <cell>876</cell>
+ <cell>0.68</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>0</cell>
+ <cell>308</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>0</cell>
+ <cell>292</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>8</cell>
+ <cell>48</cell>
+ <cell>16.67</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>731</cell>
+ <cell>1004</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>72</cell>
+ <cell>72</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>803</cell>
+ <cell>1076</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>6</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>2</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>106</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>137</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>862</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : NN_1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I_1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : mask_axi532_0/n_value5</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: mask_axi532_0/N_4_inferred_clock_RNIUKK26/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : mask_axi532_0/n_value4</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: mask_axi532_0/N_3_inferred_clock_RNIT5BO2/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0/M_MASK_N_OUT4</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: master_AXI_0/N_2_inferred_clock_RNI2VAB/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0/M_MASK_N_OUT5</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: master_AXI_0/N_1_inferred_clock_RNI1G115/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : mask_axi532_0/slave_axi_data13_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: mask_axi532_0/N_2_inferred_clock_RNISM1E7/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : mask_axi532_0/n_value3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: mask_axi532_0/N_5_inferred_clock_RNIV3UC1/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0/M_MASK_N_OUT3</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: master_AXI_0/N_3_inferred_clock_RNI3EKL3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>691</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/sysReset</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/arst_aclk_sync/sysReset</cell>
+</row>
+<row>
+ <cell>147</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : aresetn_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: aresetn_ibuf</cell>
+</row>
+<row>
+ <cell>41</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0_AXI4mslave0_ARVALID</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_AXILtePC/SlvPCRd/currStateARd[0]</cell>
+</row>
+<row>
+ <cell>41</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0_AXI4mslave0_AWVALID</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_AXILtePC/SlvPCWr/currStateAWr[0]</cell>
+</row>
+<row>
+ <cell>40</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveARREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk2.arrs/currState[0]</cell>
+</row>
+<row>
+ <cell>40</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveAWREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk1.awrs/currState[0]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0_master_AWADDR[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: master_AXI_0/master_axi_awaddr[2]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0_master_AWREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/currState[0]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0_master_ARREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk2.arrs/currState[0]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveRREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/currState[0]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>691</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/sysReset</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/arst_aclk_sync/sysReset</cell>
+</row>
+<row>
+ <cell>147</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : aresetn_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: aresetn_ibuf</cell>
+</row>
+<row>
+ <cell>41</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0_AXI4mslave0_ARVALID</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_AXILtePC/SlvPCRd/currStateARd[0]</cell>
+</row>
+<row>
+ <cell>41</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0_AXI4mslave0_AWVALID</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_AXILtePC/SlvPCWr/currStateAWr[0]</cell>
+</row>
+<row>
+ <cell>40</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveARREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk2.arrs/currState[0]</cell>
+</row>
+<row>
+ <cell>40</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveAWREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk1.awrs/currState[0]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0_master_AWADDR[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: master_AXI_0/master_axi_awaddr[2]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0_master_AWREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/currState[0]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : master_AXI_0_master_ARREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk2.arrs/currState[0]</cell>
+</row>
+<row>
+ <cell>39</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveRREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/currState[0]</cell>
+</row>
+</table>
+</doc>

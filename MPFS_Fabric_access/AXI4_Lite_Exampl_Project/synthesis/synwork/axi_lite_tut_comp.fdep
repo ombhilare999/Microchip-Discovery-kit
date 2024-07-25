@@ -1,0 +1,505 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\synthesis\\synwork\\axi_lite_tut_comp.srs|-top|axi_lite_tut|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v":1704384606
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\polarfire_syn_comps.v":1721920122
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\ResetSycnc.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\MasterAddressDecoder.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\DependenceChecker.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\BitScan0.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\TransactionController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\MasterControl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\RoundRobinArb.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\TargetMuxController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\AddressController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\Revision.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\DERR_Slave.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\DualPort_FF_SyncWr_SyncRd.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\DualPort_Ram_SyncWr_SyncRd.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\RdFifoDualPort.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\ReadDataMux.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\RequestQual.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\ReadDataController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\RDataController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\SlaveDataMuxController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\RespController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\FifoDualPort.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\WriteDataMux.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\WDataController.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4CrossBar\\Axi4CrossBar.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\AHBL_Ctrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\AXI4_Read_Ctrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\AXI4_Write_Ctrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\AHB_SM.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\MstrAHBtoAXI4Converter.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\Bin2Gray.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\CDC_grayCodeCounter.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\CDC_rdCtrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\CDC_wrCtrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\RAM_BLOCK.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\CDC_FIFO.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\MstrClockDomainCrossing.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_CmdFifoWriteCtrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\Hold_Reg_Ctrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_Hold_Reg_Rd.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_preCalcCmdFifoWrCtrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_widthConvrd.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\FIFO_CTRL.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\FIFO.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\byte2bit.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_readWidthConv.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_Hold_Reg_Wr.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_widthConvwr.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_brespCtrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_DownConv_writeWidthConv.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DownConverter.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_AChannel.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_BChannel.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_RChannel_SlvRid_Arb.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_RChan_Ctrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_preCalcRChan_Ctrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\FIFO_downsizing.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_RChannel.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_WChan_Hold_Reg.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_WChan_ReadDataFifoCtrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_Wchan_WriteDataFifoCtrl.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\FIFO_upsizing.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_WChannel.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\DWC_UpConv_preCalcAChannel.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\UpConverter.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\MstrDataWidthConv.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\MstrProtocolConverter.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\RegSliceFull.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\RegisterSlice.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\MasterConvertor.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlvClockDomainCrossing.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlvDataWidthConverter.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlvAxi4ProtConvAXI4ID.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlvAxi4ProtConvRead.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlvAxi4ProtConvWrite.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlvAxi4ProtocolConv.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlvProtocolConverter.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\Axi4Convertors\\SlaveConvertor.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\Actel\\DirectCore\\COREAXI4INTERCONNECT\\2.8.103\\rtl\\vlog\\core\\CoreAxi4Interconnect.v":1719601954
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\work\\COREAXI4INTERCONNECT_C0\\COREAXI4INTERCONNECT_C0.v":1721155875
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\hdl\\mask532.v":1721920099
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\hdl\\mask_axi532.v":1721224755
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\hdl\\master_AXI.v":1721193571
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\work\\axi_lite_tut\\axi_lite_tut.v":1720632389
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesignCanvas\\tutorial\\component\\MSS_syn_comps.v":1721920122
+0			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v" verilog
+1			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v" verilog
+2			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterAddressDecoder.v" verilog
+3			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DependenceChecker.v" verilog
+4			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\BitScan0.v" verilog
+5			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TransactionController.v" verilog
+6			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterControl.v" verilog
+7			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RoundRobinArb.v" verilog
+8			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TargetMuxController.v" verilog
+9			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\AddressController.v" verilog
+10			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Revision.v" verilog
+11			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DERR_Slave.v" verilog
+12			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_FF_SyncWr_SyncRd.v" verilog
+13			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_Ram_SyncWr_SyncRd.v" verilog
+14			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RdFifoDualPort.v" verilog
+15			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataMux.v" verilog
+16			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RequestQual.v" verilog
+17			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataController.v" verilog
+18			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RDataController.v" verilog
+19			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\SlaveDataMuxController.v" verilog
+20			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RespController.v" verilog
+21			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\FifoDualPort.v" verilog
+22			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WriteDataMux.v" verilog
+23			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WDataController.v" verilog
+24			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v" verilog
+25			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHBL_Ctrl.v" verilog
+26			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Read_Ctrl.v" verilog
+27			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Write_Ctrl.v" verilog
+28			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHB_SM.v" verilog
+29			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrAHBtoAXI4Converter.v" verilog
+30			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Bin2Gray.v" verilog
+31			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_grayCodeCounter.v" verilog
+32			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_rdCtrl.v" verilog
+33			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_wrCtrl.v" verilog
+34			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v" verilog
+35			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v" verilog
+36			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v" verilog
+37			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v" verilog
+38			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Hold_Reg_Ctrl.v" verilog
+39			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Rd.v" verilog
+40			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v" verilog
+41			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v" verilog
+42			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v" verilog
+43			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v" verilog
+44			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\byte2bit.v" verilog
+45			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v" verilog
+46			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Wr.v" verilog
+47			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v" verilog
+48			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_brespCtrl.v" verilog
+49			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v" verilog
+50			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DownConverter.v" verilog
+51			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_AChannel.v" verilog
+52			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_BChannel.v" verilog
+53			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel_SlvRid_Arb.v" verilog
+54			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChan_Ctrl.v" verilog
+55			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcRChan_Ctrl.v" verilog
+56			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_downsizing.v" verilog
+57			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel.v" verilog
+58			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_Hold_Reg.v" verilog
+59			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_ReadDataFifoCtrl.v" verilog
+60			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_Wchan_WriteDataFifoCtrl.v" verilog
+61			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_upsizing.v" verilog
+62			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChannel.v" verilog
+63			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcAChannel.v" verilog
+64			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\UpConverter.v" verilog
+65			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v" verilog
+66			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v" verilog
+67			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v" verilog
+68			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v" verilog
+69			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v" verilog
+70			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v" verilog
+71			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v" verilog
+72			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v" verilog
+73			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvRead.v" verilog
+74			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvWrite.v" verilog
+75			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtocolConv.v" verilog
+76			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v" verilog
+77			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v" verilog
+78			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v" verilog
+79			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\work\COREAXI4INTERCONNECT_C0\COREAXI4INTERCONNECT_C0.v" verilog
+80			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\hdl\mask532.v" verilog
+81			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\hdl\mask_axi532.v" verilog
+82			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\hdl\master_AXI.v" verilog
+83			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\work\axi_lite_tut\axi_lite_tut.v" verilog
+84			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 -1
+5 4
+6 5 3
+7 -1
+8 -1
+9 7 6 8
+10 -1
+11 10
+12 -1
+13 -1
+14 13 12
+15 -1
+16 -1
+17 14 7 16 15
+18 17
+19 -1
+20 19 7
+21 12 13
+22 -1
+23 22 21
+24 11 20 23 18 9
+25 -1
+26 -1
+27 -1
+28 26 27 25
+29 28
+30 -1
+31 30
+32 -1
+33 -1
+34 -1
+35 32 33 31 34
+36 35
+37 -1
+38 -1
+39 38
+40 38
+41 -1
+42 -1
+43 34 42
+44 -1
+45 44 41 39 43 40 37
+46 38
+47 -1
+48 -1
+49 48 40 37 47 46 43
+50 45 49
+51 -1
+52 48 43
+53 -1
+54 -1
+55 38
+56 42 34
+57 53 55 54 56 43
+58 38
+59 -1
+60 -1
+61 34 42
+62 59 60 58 43 61
+63 38
+64 57 52 62 63 51
+65 64 50
+66 -1
+67 -1
+68 67
+69 29 1 36 65 66 68
+70 35
+71 50 64
+72 43
+73 21
+74 21
+75 73 74
+76 72 75
+77 1 70 76 71 68
+78 77 69 24 1
+79 78
+80 -1
+81 80
+82 -1
+83 82 81 79
+84 -1
+#Dependency Lists(Users Of)
+0 -1
+1 78 77 69
+2 3
+3 6
+4 5
+5 6
+6 9
+7 20 17 9
+8 9
+9 24
+10 11
+11 24
+12 21 14
+13 21 14
+14 17
+15 17
+16 17
+17 18
+18 24
+19 20
+20 24
+21 74 73 23
+22 23
+23 24
+24 78
+25 28
+26 28
+27 28
+28 29
+29 69
+30 31
+31 35
+32 35
+33 35
+34 61 56 43 35
+35 70 36
+36 69
+37 49 45
+38 63 58 55 46 40 39
+39 45
+40 49 45
+41 45
+42 61 56 43
+43 72 62 57 52 49 45
+44 45
+45 50
+46 49
+47 49
+48 52 49
+49 50
+50 71 65
+51 64
+52 64
+53 57
+54 57
+55 57
+56 57
+57 64
+58 62
+59 62
+60 62
+61 62
+62 64
+63 64
+64 71 65
+65 69
+66 69
+67 68
+68 77 69
+69 78
+70 77
+71 77
+72 76
+73 75
+74 75
+75 76
+76 77
+77 78
+78 79
+79 83
+80 81
+81 83
+82 83
+83 -1
+84 -1
+#Design Unit to File Association
+module work MSS 84
+module work axi_lite_tut 83
+module work master_AXI 82
+module work mask_axi532 81
+module work mask532 80
+module work COREAXI4INTERCONNECT_C0 79
+module work COREAXI4INTERCONNECT 78
+module work caxi4interconnect_SlaveConvertor 77
+module work caxi4interconnect_SlvProtocolConverter 76
+module work caxi4interconnect_SlvAxi4ProtocolConv 75
+module work caxi4interconnect_SlvAxi4ProtConvWrite 74
+module work caxi4interconnect_SlvAxi4ProtConvRead 73
+module work caxi4interconnect_SlvAxi4ProtConvAXI4ID 72
+module work caxi4interconnect_SlvDataWidthConverter 71
+module work caxi4interconnect_SlvClockDomainCrossing 70
+module work caxi4interconnect_MasterConvertor 69
+module work caxi4interconnect_RegisterSlice 68
+module work caxi4interconnect_RegSliceFull 67
+module work caxi4interconnect_MstrProtocolConverter 66
+module work caxi4interconnect_MstrDataWidthConv 65
+module work caxi4interconnect_UpConverter 64
+module work caxi4interconnect_DWC_UpConv_preCalcAChannel 63
+module work caxi4interconnect_DWC_UpConv_WChannel 62
+module work caxi4interconnect_FIFO_upsizing 61
+module work caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl 60
+module work caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl 59
+module work caxi4interconnect_DWC_UpConv_WChan_Hold_Reg 58
+module work caxi4interconnect_DWC_UpConv_RChannel 57
+module work caxi4interconnect_FIFO_downsizing 56
+module work caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl 55
+module work caxi4interconnect_DWC_UpConv_RChan_Ctrl 54
+module work caxi4interconnect_DWC_RChannel_SlvRid_Arb 53
+module work caxi4interconnect_DWC_UpConv_BChannel 52
+module work caxi4interconnect_DWC_UpConv_AChannel 51
+module work caxi4interconnect_DownConverter 50
+module work caxi4interconnect_DWC_DownConv_writeWidthConv 49
+module work caxi4interconnect_DWC_brespCtrl 48
+module work caxi4interconnect_DWC_DownConv_widthConvwr 47
+module work caxi4interconnect_DWC_DownConv_Hold_Reg_Wr 46
+module work caxi4interconnect_DWC_DownConv_readWidthConv 45
+module work caxi4interconnect_byte2bit 44
+module work caxi4interconnect_FIFO 43
+module work caxi4interconnect_FIFO_CTRL 42
+module work caxi4interconnect_DWC_DownConv_widthConvrd 41
+module work caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl 40
+module work caxi4interconnect_DWC_DownConv_Hold_Reg_Rd 39
+module work caxi4interconnect_Hold_Reg_Ctrl 38
+module work caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl 37
+module work caxi4interconnect_MstrClockDomainCrossing 36
+module work caxi4interconnect_CDC_FIFO 35
+module work caxi4interconnect_RAM_BLOCK 34
+module work caxi4interconnect_CDC_wrCtrl 33
+module work caxi4interconnect_CDC_rdCtrl 32
+module work caxi4interconnect_CDC_grayCodeCounter 31
+module work caxi4interconnect_Bin2Gray 30
+module work caxi4interconnect_MstrAHBtoAXI4Converter 29
+module work caxi4interconnect_AHB_SM 28
+module work caxi4interconnect_AXI4_Write_Ctrl 27
+module work caxi4interconnect_AXI4_Read_Ctrl 26
+module work caxi4interconnect_AHBL_Ctrl 25
+module work caxi4interconnect_Axi4CrossBar 24
+module work caxi4interconnect_WDataController 23
+module work caxi4interconnect_WriteDataMux 22
+module work caxi4interconnect_FifoDualPort 21
+module work caxi4interconnect_RespController 20
+module work caxi4interconnect_SlaveDataMuxController 19
+module work caxi4interconnect_RDataController 18
+module work caxi4interconnect_ReadDataController 17
+module work caxi4interconnect_RequestQual 16
+module work caxi4interconnect_ReadDataMux 15
+module work caxi4interconnect_RdFifoDualPort 14
+module work caxi4interconnect_DualPort_RAM_SyncWr_SyncRd 13
+module work caxi4interconnect_DualPort_FF_SyncWr_SyncRd 12
+module work caxi4interconnect_DERR_Slave 11
+module work caxi4interconnect_revision 10
+module work caxi4interconnect_AddressController 9
+module work caxi4interconnect_TargetMuxController 8
+module work caxi4interconnect_RoundRobinArb 7
+module work caxi4interconnect_MasterControl 6
+module work caxi4interconnect_TransactionController 5
+module work caxi4interconnect_BitScan0 4
+module work caxi4interconnect_DependenceChecker 3
+module work caxi4interconnect_MasterAddressDecoder 2
+module work caxi4interconnect_ResetSycnc 1
+module work CLKBUF_DIFF_ODT 0
+module work CLKBUF_DIFF 0
+module work PFSOC_SCSM 0
+module work CORELNKTMR_V 0
+module work XCVR 0
+module work XCVR_VV 0
+module work XCVR_TEST 0
+module work XCVR_REF_CLK 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_PMA 0
+module work XCVR_PIPE 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK 0
+module work XCVR_8B10B 0
+module work XCVR_64B6XB 0
+module work VREFCTRL 0
+module work VREFBANKDYN 0
+module work VOLTAGEDETECT 0
+module work USPI 0
+module work UPROM 0
+module work TX_PLL 0
+module work TVS 0
+module work TAMPER 0
+module work SYS_SERVICES 0
+module work SYSRESET 0
+module work SYSCTRL_RESET_STATUS 0
+module work SCB 0
+module work QUADRST 0
+module work QUADRST_PCIE 0
+module work PLL 0
+module work PF_SPI 0
+module work PCIE 0
+module work PCIE_COMMON 0
+module work OSC_RC2MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC160MHZ 0
+module work LANERST 0
+module work LANECTRL 0
+module work IOD 0
+module work INIT 0
+module work ICB_NGMUX 0
+module work ICB_MUXING 0
+module work ICB_INT 0
+module work ICB_CLKSTOP 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKINT 0
+module work ICB_CLKDIV 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_BANKCLK 0
+module work HS_IO_CLK 0
+module work GPSS_COMMON 0
+module work GLITCHDETECT 0
+module work ENFORCE 0
+module work DRI 0
+module work DLL 0
+module work DEBUG 0
+module work CRYPTO_SOC 0
+module work CRYPTO 0
+module work CRN_INT 0
+module work CRN_COMMON 0
+module work BANKEN 0
+module work BANKCTRL_HSIO 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRLM 0
+module work APBS 0
+module work APBM 0

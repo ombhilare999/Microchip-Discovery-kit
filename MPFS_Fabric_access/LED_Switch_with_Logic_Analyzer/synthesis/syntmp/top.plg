@@ -1,0 +1,11 @@
+@P:  Worst Slack : 9.362
+@P:  clk - Estimated Frequency : 1567.4 MHz
+@P:  clk - Requested Frequency : 100.0 MHz
+@P:  clk - Estimated Period : 0.638
+@P:  clk - Requested Period : 10.000
+@P:  clk - Slack : 9.362
+@P: top Part : mpfs095tfcvg784-1
+@P: top Register bits  : 4 
+@P: top DSP Blocks  : 0
+@P: top I/O primitives : 9
+@P:  CPU Time : 0h:00m:04s

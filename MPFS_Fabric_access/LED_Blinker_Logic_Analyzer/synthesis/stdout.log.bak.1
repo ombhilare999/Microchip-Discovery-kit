@@ -1,0 +1,129 @@
+
+                               Synplify (R) Base 
+
+                  Version V-2023.09M for win64 - Jan 04, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+Hostname:    HAMAS
+Date:        Thu Jul 25 10:28:48 2024
+Version:     V-2023.09M
+
+Arguments:   -product synplify_base top_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server hamas 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+
+% run_tcl -fg top_syn.tcl
+scm2hydra_preserve_rtl_sig is not supported in current product.
+add_dut_hierarchy is not supported in current product.
+prepare_readback is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+scm2hydra_preserve_rtl_sig is not supported in current product.
+add_dut_hierarchy is not supported in current product.
+prepare_readback is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "top_syn.tcl"
+% project -run  
+log file: "C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\top.srr"
+Running: Hanshaking_Test in foreground
+
+Running top_syn|Hanshaking_Test
+
+Running Flow: compile (Compile) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:28:54 2024
+
+Running Flow: compile_flow (Compile Process) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:28:54 2024
+
+Running: identify_db_generator (Identify Database Generator) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:28:54 2024
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synlog\top_identify_db_generator.srr to C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\identify.srr
+
+identify_db_generator completed with warnings
+# Thu Jul 25 10:28:55 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Running: identify_compile (Identify Compile) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:28:55 2024
+
+identify_compile completed
+# Thu Jul 25 10:28:56 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: compiler (Compile Input) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:28:56 2024
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synwork\top_comp.srs to C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\top.srs
+
+compiler completed
+# Thu Jul 25 10:29:01 2024
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:29:01 2024
+
+multi_srs_gen completed
+# Thu Jul 25 10:29:01 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synwork\top_mult.srs to C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\top.srs
+Complete: Compile Process on top_syn|Hanshaking_Test
+
+Running: premap (Premap) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:29:01 2024
+
+premap completed with warnings
+# Thu Jul 25 10:29:16 2024
+
+Return Code: 1
+Run Time:00h:00m:15s
+Complete: Compile on top_syn|Hanshaking_Test
+
+Running Flow: map (Map) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:29:16 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on top_syn|Hanshaking_Test
+# Thu Jul 25 10:29:16 2024
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synwork\top_m.srm to C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\top.srm
+
+fpga_mapper completed with warnings
+# Thu Jul 25 10:29:22 2024
+
+Return Code: 1
+Run Time:00h:00m:06s
+Complete: Map on top_syn|Hanshaking_Test
+Complete: Logic Synthesis on top_syn|Hanshaking_Test
+0
+% project -close C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/top_syn.prj
+exit status=0
+License checkin: synplifypro_actel

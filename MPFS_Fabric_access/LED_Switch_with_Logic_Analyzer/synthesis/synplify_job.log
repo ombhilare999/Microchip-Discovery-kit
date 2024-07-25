@@ -1,0 +1,109 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "10:54:21    25-Jul-2024",
+	"Working Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+},
+"axi_debug" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "10:53:56",
+   "Runtime" : "25s",
+   "Executable Run Time" : "24s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "10:53:56",
+      "Runtime" : "25s",
+      "Executable Run Time" : "24s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:53:56",
+         "Runtime" : "20s",
+         "Executable Run Time" : "19s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "10:53:56",
+            "Runtime" : "06s",
+            "Executable Run Time" : "05s",
+            "identify_db_generator" : {
+               "executable" : "bin64/c_ver.exe",
+               "Run Directory" : "axi_debug",
+               "Run State" : "Complete",
+               "Return Code" : "1",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:53:56",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "identify_compile" : {
+               "executable" : "bin/identify_instrumentor_shell.exe",
+               "Run Directory" : "axi_debug",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:53:56",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "axi_debug",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:53:57",
+               "Run Time" : "05s",
+               "Exe Run Time" : "04s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "axi_debug",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:54:02",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "axi_debug",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:54:02",
+            "Run Time" : "14s",
+            "Exe Run Time" : "14s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:54:16",
+         "Runtime" : "05s",
+         "Executable Run Time" : "05s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "axi_debug",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:54:16",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

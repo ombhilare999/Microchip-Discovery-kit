@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "11:09:04    25-Jul-2024",
+	"Working Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "11:08:43",
+   "Runtime" : "21s",
+   "Executable Run Time" : "20s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "11:08:43",
+      "Runtime" : "21s",
+      "Executable Run Time" : "20s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "11:08:43",
+         "Runtime" : "17s",
+         "Executable Run Time" : "16s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "11:08:43",
+            "Runtime" : "11s",
+            "Executable Run Time" : "10s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "11:08:43",
+               "Run Time" : "10s",
+               "Exe Run Time" : "09s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "11:08:53",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "11:08:54",
+            "Run Time" : "06s",
+            "Exe Run Time" : "06s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "11:09:00",
+         "Runtime" : "04s",
+         "Executable Run Time" : "04s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesignCanvas/tutorial/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "11:09:00",
+            "Run Time" : "04s",
+            "Exe Run Time" : "04s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

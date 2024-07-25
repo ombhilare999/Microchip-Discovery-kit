@@ -1,0 +1,5 @@
+SERNO,END_INSTANCE,END_CLOCK,START_CLOCK,START_INSTANCE,CDC_TYPE,SYNCHRONIZER,NUMBER_OF_SYNCHRONIZER_FFs,SAFE_CDC,DESCRIPTION
+1,slaveAXI_0.outBit1,clockDivider|N_1_inferred_clock,clk,masterAXI_0.dataOut[1:0],Different Clock Domains,NO,0,NO,Combinatorial logic detected at clock domain crossing.
+2,slaveAXI_0.outBit4,clockDivider|N_1_inferred_clock,clk,masterAXI_0.dataOut[1:0],Different Clock Domains,NO,0,NO,Combinatorial logic detected at clock domain crossing.
+3,slaveAXI_0.outBit2,clockDivider|N_1_inferred_clock,clk,masterAXI_0.dataOut[1:0],Different Clock Domains,NO,0,NO,Combinatorial logic detected at clock domain crossing.
+4,slaveAXI_0.outBit3,clockDivider|N_1_inferred_clock,clk,masterAXI_0.dataOut[1:0],Different Clock Domains,NO,0,NO,Combinatorial logic detected at clock domain crossing.

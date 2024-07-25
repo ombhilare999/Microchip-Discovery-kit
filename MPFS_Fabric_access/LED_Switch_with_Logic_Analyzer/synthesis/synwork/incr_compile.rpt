@@ -1,0 +1,196 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+Modified Files: 10
+FID:  path (prevtimestamp, timestamp)
+5        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\AXI_Example\AXI_Handshaking_Tut\component\MSS_syn_comps.v (2024-06-26 02:29:20, N/A)
+6        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\AXI_Example\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (2024-06-26 02:29:20, N/A)
+7        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\AXI_Example\AXI_Handshaking_Tut\hdl\masterAXI.v (2024-06-26 01:49:28, N/A)
+8        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\AXI_Example\AXI_Handshaking_Tut\hdl\slaveAXI.v (2024-06-23 23:57:41, N/A)
+9        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\AXI_Example\AXI_Handshaking_Tut\hdl\top.v (2024-06-24 00:05:03, N/A)
+10       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v (N/A, 2024-07-14 19:20:46)
+11       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46)
+12       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v (N/A, 2024-06-26 01:49:28)
+13       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v (N/A, 2024-07-14 19:20:22)
+14       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v (N/A, 2024-06-24 00:05:03)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 75
+MID:  lib.cell.view
+0        work.APBM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+1        work.APBS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+2        work.BANKCTRLM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+3        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+4        work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+5        work.BANKEN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+6        work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+7        work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+8        work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+9        work.CRN_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+10       work.CRN_INT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+11       work.CRYPTO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+12       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+13       work.DEBUG.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+14       work.DLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+15       work.DRI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+16       work.ENFORCE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+17       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+18       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+19       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+20       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+21       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+22       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+23       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+24       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+25       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+26       work.ICB_INT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+27       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+28       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+29       work.INIT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+30       work.IOD.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+31       work.LANECTRL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+32       work.LANERST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+33       work.MSS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+34       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+35       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+36       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+37       work.PCIE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+38       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+39       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+40       work.PF_SPI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+41       work.PLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+42       work.QUADRST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+43       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+44       work.SCB.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+45       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+46       work.SYSRESET.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+47       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+48       work.TAMPER.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+49       work.TVS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+50       work.TX_PLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+51       work.UPROM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+52       work.USPI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+53       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+54       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+55       work.VREFCTRL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+56       work.XCVR.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+57       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+58       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+59       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+60       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+61       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+62       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+63       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+64       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+65       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+66       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+67       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+68       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+69       work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+70       work.XCVR_TEST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+71       work.XCVR_VV.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v (N/A, 2024-07-14 19:20:46) <-- (module definition)
+72       work.masterAXI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v (N/A, 2024-06-26 01:49:28) <-- (module definition)
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v (N/A, 2024-06-24 00:05:03) <-- (may instantiate this module)
+73       work.slaveAXI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v (N/A, 2024-07-14 19:20:22) <-- (module definition)
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v (N/A, 2024-06-24 00:05:03) <-- (may instantiate this module)
+74       work.top.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v (N/A, 2024-06-24 00:05:03) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 5
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v (2024-01-04 11:10:06)
+1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v (2024-01-04 11:04:40)
+2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_objects.v (2024-01-04 11:04:40)
+3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-01-04 11:04:40)
+4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\umr_capim.v (2024-01-04 11:08:34)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

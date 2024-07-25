@@ -1,0 +1,43 @@
+Software Version: 2024.1.0.3
+Programmer 'E20085VHQA' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20085VHQA' : FlashPro5
+Opened 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Switch_with_Logic_Analyzer\designer\top\top_fp\top.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'MPFS095T'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Switch_with_Logic_Analyzer/designer/top/top.ppd' has been loaded successfully.
+DESIGN : top;  CHECKSUM : AE36;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20085VHQA' : Scan Chain...
+Programmer 'E20085VHQA' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20085VHQA' : Check Chain...
+programmer 'E20085VHQA' : Scan and Check Chain PASSED.
+programmer 'E20085VHQA' : device 'MPFS095T' : Executing action PROGRAM
+Programmer 'E20085VHQA' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT Algo_version[16] = 0002
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT IDCODE[32] = 0f8181cf
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT ISC_ENABLE_RESULT[32] = 00000000
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT CRCERR[1] = 0
+programmer 'E20085VHQA' : device 'MPFS095T' : Programming Mode: JTAG
+programmer 'E20085VHQA' : device 'MPFS095T' : Programming FPGA Array and sNVM...
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT BITS component bitstream digest[256] = 584f74c77f21a67759e49dfa0fb13932175513fd28f14e8e38f85233a6fcfe90
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT Fabric component bitstream digest[256] = 7e5ed0430db7040e08200a44c870b28cfc340b4cb13ee2d198ec2592f182bf8b
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT sNVM component bitstream digest[256] = fb8994bd7d2ab270956f3257e634f776578f7fa6a4139c6d87f5a04034ec4acc
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT EOB component bitstream digest[256] = 9a79a7e12ec21ab57d4659c583c242f43d1af7a20a818924cc4e020d152c7a13
+programmer 'E20085VHQA' : device 'MPFS095T' : ===================================================================================
+programmer 'E20085VHQA' : device 'MPFS095T' : EXPORT DSN[128] = 8ecfee4d5231796c2b566d26dc64e73c
+programmer 'E20085VHQA' : device 'MPFS095T' : ===================================================================================
+programmer 'E20085VHQA' : device 'MPFS095T' : Finished: Thu Jul 25 11:49:59 2024 (Elapsed time 00:00:48)
+programmer 'E20085VHQA' : device 'MPFS095T' : Executing action PROGRAM PASSED.
+programmer 'E20085VHQA' : Chain programming PASSED.
+Chain Programming Finished: Thu Jul 25 11:49:59 2024 (Elapsed time 00:00:48)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

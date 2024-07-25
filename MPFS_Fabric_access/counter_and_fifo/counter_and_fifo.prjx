@@ -1,0 +1,846 @@
+KEY LIBERO "2024.1"
+KEY CAPTURE "2024.1.0.3"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC095T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC095T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\counter_and_fifo"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "mydesign::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719261289"
+SIZE="1298"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\clock_driver.v,tb_hdl"
+STATE="utd"
+TIME="1719244774"
+SIZE="697"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_driver.v,tb_hdl"
+STATE="utd"
+TIME="1719244774"
+SIZE="13955"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_monitor.v,tb_hdl"
+STATE="utd"
+TIME="1719244774"
+SIZE="22096"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\g4_dp_ext_mem.v,tb_hdl"
+STATE="utd"
+TIME="1719244774"
+SIZE="3801"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WeqR.v,tb_hdl"
+STATE="utd"
+TIME="1719244774"
+SIZE="2194"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WgtR.v,tb_hdl"
+STATE="utd"
+TIME="1719244774"
+SIZE="2287"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WltR.v,tb_hdl"
+STATE="utd"
+TIME="1719244774"
+SIZE="1981"
+PARENT="<project>\component\Actel\DirectCore\COREFIFO\3.0.101\COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\PF_CCC\2.2.220\PF_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719243104"
+SIZE="279"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\PF_TPSRAM\1.1.108\PF_TPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719245428"
+SIZE="246"
+PARENT="<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719256716"
+SIZE="468"
+PARENT="<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
+STATE="utd"
+TIME="1719256716"
+SIZE="451"
+PARENT="<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719295309"
+SIZE="472"
+PARENT="<project>\component\work\PULSE_GEN_C0\PULSE_GEN_C0.cxf"
+PARENT="<project>\component\work\PULSE_GEN_C1\PULSE_GEN_C1.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v,tb_hdl"
+STATE="utd"
+TIME="1719256801"
+SIZE="569"
+PARENT="<project>\component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719256753"
+SIZE="472"
+PARENT="<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
+STATE="utd"
+TIME="1719256753"
+SIZE="414"
+PARENT="<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719256716"
+SIZE="1593"
+ENDFILE
+VALUE "<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.v,tb_hdl"
+STATE="utd"
+TIME="1719256716"
+SIZE="1886"
+PARENT="<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719255198"
+SIZE="6470"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="7446"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719255197"
+SIZE="3613"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="1021"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\mti\scripts\runall.do,do"
+STATE="utd"
+TIME="1719255197"
+SIZE="23"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\mti\scripts\wave.do,do"
+STATE="utd"
+TIME="1719255197"
+SIZE="3286"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="71769"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_async.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="55217"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_fwft.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="13479"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_grayToBinConv.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="2743"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_NstagesSync.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="2522"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="33523"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync_scntr.v,hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="23720"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="19026"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME=" -all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\test\user\top_define.v,tb_hdl"
+STATE="utd"
+TIME="1719255197"
+SIZE="401"
+PARENT="<project>\component\work\COREFIFO_C0\COREFIFO_C0_0\COREFIFO_C0_COREFIFO_C0_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719261290"
+SIZE="5496"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="6320"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719261289"
+SIZE="3613"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="1027"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\mti\scripts\runall.do,do"
+STATE="utd"
+TIME="1719261289"
+SIZE="23"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\mti\scripts\wave.do,do"
+STATE="utd"
+TIME="1719261289"
+SIZE="3286"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\COREFIFO.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="71769"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_async.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="55217"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_fwft.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="13479"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_grayToBinConv.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="2743"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_NstagesSync.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="2522"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_sync.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="33523"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_sync_scntr.v,hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="23720"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="19026"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME=" -all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\test\user\top_define.v,tb_hdl"
+STATE="utd"
+TIME="1719261289"
+SIZE="401"
+PARENT="<project>\component\work\COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\mydesign\mydesign.cxf,actgen_cxf"
+STATE="utd"
+TIME="1720017983"
+SIZE="3170"
+ENDFILE
+VALUE "<project>\component\work\mydesign\mydesign.v,hdl"
+STATE="utd"
+TIME="1720017982"
+SIZE="6017"
+PARENT="<project>\component\work\mydesign\mydesign.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719243105"
+SIZE="18356"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0.v,hdl"
+STATE="utd"
+TIME="1719243104"
+SIZE="10315"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719243104"
+SIZE="479"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v,hdl"
+STATE="utd"
+TIME="1719243104"
+SIZE="3890"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719245428"
+SIZE="5026"
+ENDFILE
+VALUE "<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v,hdl"
+STATE="utd"
+TIME="1719245428"
+SIZE="3759"
+PARENT="<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719245428"
+SIZE="772"
+PARENT="<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v,hdl"
+STATE="utd"
+TIME="1719245428"
+SIZE="2527"
+PARENT="<project>\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PULSE_GEN_C0\PULSE_GEN_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719256801"
+SIZE="1672"
+ENDFILE
+VALUE "<project>\component\work\PULSE_GEN_C0\PULSE_GEN_C0.v,tb_hdl"
+STATE="utd"
+TIME="1719256801"
+SIZE="1998"
+PARENT="<project>\component\work\PULSE_GEN_C0\PULSE_GEN_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PULSE_GEN_C1\PULSE_GEN_C1.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719295310"
+SIZE="1672"
+ENDFILE
+VALUE "<project>\component\work\PULSE_GEN_C1\PULSE_GEN_C1.v,tb_hdl"
+STATE="utd"
+TIME="1719295309"
+SIZE="1998"
+PARENT="<project>\component\work\PULSE_GEN_C1\PULSE_GEN_C1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719256753"
+SIZE="1602"
+ENDFILE
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
+STATE="utd"
+TIME="1719256753"
+SIZE="1920"
+PARENT="<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\testbench\testbench.cxf,actgen_cxf"
+STATE="utd"
+TIME="1719296021"
+SIZE="2729"
+ENDFILE
+VALUE "<project>\component\work\testbench\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1719296021"
+SIZE="3157"
+PARENT="<project>\component\work\testbench\testbench.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\hdl\counter.v,hdl"
+STATE="utd"
+TIME="1721919871"
+SIZE="932"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1720017986"
+SIZE="5650"
+ENDFILE
+VALUE "<project>\synthesis\mydesign.so,so"
+STATE="utd"
+TIME="1721919915"
+SIZE="290"
+ENDFILE
+VALUE "<project>\synthesis\mydesign.vm,syn_vm"
+STATE="utd"
+TIME="1721919915"
+SIZE="82308"
+ENDFILE
+VALUE "<project>\synthesis\mydesign_syn.prj,prj"
+STATE="utd"
+TIME="1721919961"
+SIZE="5292"
+ENDFILE
+VALUE "<project>\synthesis\mydesign_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1721919915"
+SIZE="1549"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "mydesign::work"
+FILE "<project>\component\work\mydesign\mydesign.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
+VALUE "<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.v,tb_hdl"
+VALUE "<project>\component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v,tb_hdl"
+VALUE "<project>\component\work\PULSE_GEN_C1\PULSE_GEN_C1.v,tb_hdl"
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
+VALUE "<project>\component\work\testbench\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST mydesign
+VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
+VALUE "<project>\component\work\CLK_GEN_C0\CLK_GEN_C0.v,tb_hdl"
+VALUE "<project>\component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v,tb_hdl"
+VALUE "<project>\component\work\PULSE_GEN_C1\PULSE_GEN_C1.v,tb_hdl"
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
+VALUE "<project>\component\work\testbench\testbench.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=10000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "mydesign::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "COREFIFO_C0::work","component\work\COREFIFO_C0\COREFIFO_C0.v","TRUE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_COREFIFO::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_COREFIFO::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_corefifo_fwft::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_corefifo_sync_scntr::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync_scntr.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_corefifo_sync::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_ram_wrapper::work","","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_corefifo_async::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_async.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_corefifo_fwft::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_corefifo_sync::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_corefifo_sync_scntr::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync_scntr.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_ram_wrapper::work","","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1::work","component\work\COREFIFO_C1\COREFIFO_C1.v","TRUE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_COREFIFO::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_COREFIFO::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_corefifo_fwft::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_corefifo_sync_scntr::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_sync_scntr.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_corefifo_sync::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_sync.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_ram_wrapper::work","","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_corefifo_async::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_async.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_corefifo_fwft::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_fwft.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_corefifo_sync::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_sync.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_corefifo_sync_scntr::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_sync_scntr.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_ram_wrapper::work","","FALSE","FALSE"
+ENDLIST
+LIST "counter::work","hdl\counter.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_corefifo_async::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_async.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_NstagesSync.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_grayToBinConv.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_grayToBinConv.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_NstagesSync.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_corefifo_async::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_async.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_corefifo_NstagesSync::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_NstagesSync.v","FALSE","FALSE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_corefifo_grayToBinConv::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_grayToBinConv.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_corefifo_grayToBinConv::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_grayToBinConv.v","FALSE","FALSE"
+ENDLIST
+LIST "COREFIFO_C1_COREFIFO_C1_0_corefifo_NstagesSync::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\corefifo_NstagesSync.v","FALSE","FALSE"
+ENDLIST
+LIST "mydesign::work","component\work\mydesign\mydesign.v","TRUE","FALSE"
+SUBBLOCK "COREFIFO_C0::work","component\work\COREFIFO_C0\COREFIFO_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_CCC_C0::work","component\work\PF_CCC_C0\PF_CCC_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_TPSRAM_C0::work","component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v","TRUE","FALSE"
+SUBBLOCK "counter::work","hdl\counter.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_CCC_C0::work","component\work\PF_CCC_C0\PF_CCC_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_CCC_C0_PF_CCC_C0_0_PF_CCC::work","component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_CCC_C0_PF_CCC_C0_0_PF_CCC::work","component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_TPSRAM_C0::work","component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM::work","component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM::work","component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v","FALSE","FALSE"
+ENDLIST
+LIST "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "CLK_GEN_C0::work","component\work\CLK_GEN_C0\CLK_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
+ENDLIST
+LIST "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
+ENDLIST
+LIST "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
+ENDLIST
+LIST "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
+SUBBLOCK "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
+SUBBLOCK "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WeqR::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WeqR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WgtR::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WgtR.v","FALSE","TRUE"
+ENDLIST
+LIST "MEM_WltR::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\MEM_WltR.v","FALSE","TRUE"
+ENDLIST
+LIST "PULSE_GEN::work","component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "PULSE_GEN_C0::work","component\work\PULSE_GEN_C0\PULSE_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "PULSE_GEN::work","component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "PULSE_GEN_C1::work","component\work\PULSE_GEN_C1\PULSE_GEN_C1.v","TRUE","TRUE"
+SUBBLOCK "PULSE_GEN::work","component\Actel\Simulation\PULSE_GEN\1.0.1\PULSE_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "testbench::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "COREFIFO_C0_COREFIFO_C0_0_COREFIFO::work","component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+SUBBLOCK "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
+SUBBLOCK "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
+SUBBLOCK "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
+SUBBLOCK "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
+ENDLIST
+LIST "testbench::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "COREFIFO_C1_COREFIFO_C1_0_COREFIFO::work","component\work\COREFIFO_C1\COREFIFO_C1_0\rtl\vlog\core\COREFIFO.v","FALSE","FALSE"
+SUBBLOCK "clock_driver::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\clock_driver.v","FALSE","TRUE"
+SUBBLOCK "fifo_driver::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_driver.v","FALSE","TRUE"
+SUBBLOCK "fifo_monitor::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\fifo_monitor.v","FALSE","TRUE"
+SUBBLOCK "g4_dp_ext_mem::work","component\Actel\DirectCore\COREFIFO\3.0.101\rtl\vlog\test\user\g4_dp_ext_mem.v","FALSE","TRUE"
+ENDLIST
+LIST "testbench::work","component\work\testbench\testbench.v","TRUE","TRUE"
+SUBBLOCK "CLK_GEN_C0::work","component\work\CLK_GEN_C0\CLK_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "PULSE_GEN_C1::work","component\work\PULSE_GEN_C1\PULSE_GEN_C1.v","TRUE","TRUE"
+SUBBLOCK "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "mydesign::work","component\work\mydesign\mydesign.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+LIST "mydesign::work"
+ACTIVETESTBENCH "testbench::work","component\work\testbench\testbench.v","TRUE"
+ENDLIST
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

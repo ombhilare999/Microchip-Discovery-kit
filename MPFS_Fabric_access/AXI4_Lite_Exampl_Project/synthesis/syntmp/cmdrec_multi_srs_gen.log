@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  axi_lite_tut  -multisrs  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\synwork\axi_lite_tut_comp.srs  -osyn  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\synwork\axi_lite_tut_mult.srs  -log  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\synlog\axi_lite_tut_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top axi_lite_tut -multisrs ..\synwork\axi_lite_tut_comp.srs -osyn ..\synwork\axi_lite_tut_mult.srs -log ..\synlog\axi_lite_tut_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\axi_lite_tut_comp.srs|io:i|time:1721920132|size:409193|exec:0|csum:4FB329475435EACC2783F2D27A527792
+file:..\synwork\axi_lite_tut_mult.srs|io:o|time:1721920134|size:7474|exec:0|csum:
+file:..\synlog\axi_lite_tut_multi_srs_gen.srr|io:o|time:1721920134|size:4213|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

@@ -1,0 +1,1 @@
+logical_instance_name-ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b9_SoW_TWsrw[14:0] Physical_names-[ident_coreinst/IICE_INST/b3_SoW/b3_SoW/b9_SoW_TWsrw_b9_SoW_TWsrw_0_0/INST_RAM1K20_IP@@] Cascade_type-Width Port_A_Depth-1024 Port_A_Width-15 Port_B_Depth-1024 Port_B_Width-15 RAM_type-0 RAM_Port_type-1 Memory_Source-3 ECC-0 

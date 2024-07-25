@@ -1,0 +1,213 @@
+# Thu Jul 25 10:54:02 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
+
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\designer\top\synthesis.fdc
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.sdc
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top_scck.rpt 
+See clock summary report "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
+
+NConnInternalConnection caching is on
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\hdl\masteraxi.v":42:0:42:8|Found instance master.dataOut[1:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Making connections to hyper_source modules
+@N: MF625 |Insert Identify debug core
+*** Launch instrumentor shell: "C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin\identify_instrumentor_shell.exe" -srs_gen_hw "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.v" -prj "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\scratchproject.prs" -idb "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.db" -isrs C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\top_mult.srs -curimpl axi_debug -write_fdc -log C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.log  -tsl VnlUMnqr -fidc C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.idc
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":72:6:72:11|Found instance genblk1.b3_ORb[32:1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_FZFFLXYE[8:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_jAA_KlCO with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2569:10:2569:15|Found instance genblk9.b7_nYJ_BFM[14:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2845:12:2845:17|Found instance genblk4.b8_2S5I_CuY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_FZFFLXYE[8:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_jAA_KlCO with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2569:10:2569:15|Found instance genblk9.b7_nYJ_BFM[10:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2845:12:2845:17|Found instance genblk4.b8_2S5I_CuY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6939:3:6939:8|Found instance genblk4.b10_nYhI3_umjB with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7398:6:7398:11|Found instance genblk4.b9_ibScJX_E2 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7369:6:7369:11|Found instance genblk3.b8_vABZ3qsY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6674:3:6674:8|Found instance b4_oYh0[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6657:3:6657:8|Found instance b7_OSr_J90 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6646:3:6646:8|Found instance b8_uUT_CqMr[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6674:3:6674:8|Found instance b4_oYh0[4:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6657:3:6657:8|Found instance b7_OSr_J90 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6646:3:6646:8|Found instance b8_uUT_CqMr[4:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.fdc
+
+Making connections to hyper_source modules
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8264:28:8264:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit4_output_leds_regular_5, tag slave.ident_ihs_outBit4 to syn_hyper_source slave.ident_hs_outBit4
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8257:28:8257:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit3_output_leds_regular_4, tag slave.ident_ihs_outBit3 to syn_hyper_source slave.ident_hs_outBit3
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8250:28:8250:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit2_output_leds_regular_3, tag slave.ident_ihs_outBit2 to syn_hyper_source slave.ident_hs_outBit2
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8243:28:8243:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit1_output_leds_regular_2, tag slave.ident_ihs_outBit1 to syn_hyper_source slave.ident_hs_outBit1
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8236:28:8236:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_data_output_leds_regular_6, tag slave.ident_ihs_data to syn_hyper_source slave.ident_hs_data
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8229:28:8229:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk_output_leds_regular, tag slave.ident_ihs_clk to syn_hyper_source slave.ident_hs_clk
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8222:28:8222:70|Connected syn_hyper_connect ident_coreinst.ident_hyperc_inSwitch_output_leds_regular_0, tag ident_ihs_inSwitch to syn_hyper_source ident_hs_inSwitch
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8205:28:8205:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_ready_IICE_regular_3, tag master.ident_ihs_ready to syn_hyper_source master.ident_hs_ready
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8198:28:8198:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outValid_IICE_regular_2, tag master.ident_ihs_outValid to syn_hyper_source master.ident_hs_outValid
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8191:28:8191:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_dataOut_IICE_regular_0, tag master.ident_ihs_dataOut to syn_hyper_source master.ident_hs_dataOut
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8184:28:8184:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk_IICE_regular, tag master.ident_ihs_clk to syn_hyper_source master.ident_hs_clk
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 252MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 253MB)
+
+
+Making connections to hyper_source modules
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7482:7:7482:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_regular_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_regular_x(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7647:22:7647:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_regular_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_regular_x(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7933:7:7933:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.output_leds_regular_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.output_leds_regular_x(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8104:22:8104:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.output_leds_regular_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.output_leds_regular_x(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 253MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 253MB)
+
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7398:6:7398:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_0(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7398:6:7398:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7424:2:7424:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_0(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7424:2:7424:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF on CLKINT  I_1 
+@N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX on CLKINT  I_2 
+@N: FX1184 |Applying syn_allowed_resources blockrams=308 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 254MB peak: 254MB)
+
+@W: Z241 :"c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/synthesis/axi_debug/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O 
+
+
+Clock Summary
+******************
+
+          Start                                                Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------
+0 -       clk                                                  100.0 MHz     10.000        declared     default_clkgroup          283  
+                                                                                                                                       
+0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      9    
+                                                                                                                                       
+0 -       System                                               100.0 MHz     10.000        system       system_clkgroup           0    
+                                                                                                                                       
+0 -       jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_1     473  
+                                                                                                                                       
+0 -       jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     10.000        inferred     Inferred_clkgroup_0_3     58   
+                                                                                                                                       
+0 -       jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     10.000        inferred     Inferred_clkgroup_0_2     9    
+=======================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                     Clock     Source                                                             Clock Pin                                                                                       Non-clock Pin                                            Non-clock Pin                                                
+Clock                                                Load      Pin                                                                Seq Example                                                                                     Seq Example                                              Comb Example                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                                                  283       clk(port)                                                          ident_coreinst.output_leds_INST.b20_i2WM2X_F8tsl_Ae1cdJ4.C                                      -                                                        I_1.A(CLKINT)                                                
+                                                                                                                                                                                                                                                                                                                                                        
+ident_coreinst.comm_block_INST.dr2_tck               9         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[8:0].C                                   -                                                        -                                                            
+                                                                                                                                                                                                                                                                                                                                                        
+System                                               0         -                                                                  -                                                                                               -                                                        -                                                            
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|identify_clk_int_inferred_clock     473       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw.UDRCK(UJTAG)     ident_coreinst.comm_block_INST.b9_ORb_xNywD.genblk1\.b3_ORb[32:1].C                             -                                                        ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.I(BUFG)
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|b9_nv_oQwfYF                        58        ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3.OUT(and)       ident_coreinst.output_leds_INST.b3_SoW.genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[7:0].C     ident_coreinst.output_leds_INST.b3_SoW.b8_jAA_KlCO.E     ident_coreinst.comm_block_INST.jtagi.I_1.A(CLKINT)           
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|b10_8Kz_rKlrtX                      9         ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_3.OUT(and)     ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[8:0].C                        -                                                        ident_coreinst.comm_block_INST.jtagi.I_2.A(CLKINT)           
+========================================================================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6674:3:6674:8|Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock which controls 473 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b4_oYh0[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":368:6:368:11|Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX which controls 9 sequential elements including ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[8:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7351:6:7351:11|Found inferred clock jtag_interface_x|b9_nv_oQwfYF which controls 58 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk2\.b3_nUT[8:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 254MB peak: 255MB)
+
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_0(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_1(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 258MB peak: 258MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 260MB peak: 260MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 172MB peak: 260MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:11s cputime
+# Thu Jul 25 10:54:15 2024
+
+###########################################################]

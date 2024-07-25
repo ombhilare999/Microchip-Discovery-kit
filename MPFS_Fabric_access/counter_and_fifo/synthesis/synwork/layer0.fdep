@@ -1,0 +1,162 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\synthesis\\synwork\\mydesign_comp.srs|-top|mydesign|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v":1704384606
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\polarfire_syn_comps.v":1721919904
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0_0\\rtl\\vlog\\core\\corefifo_fwft.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0_0\\rtl\\vlog\\core\\corefifo_sync_scntr.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0_0\\rtl\\vlog\\core\\corefifo_sync.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0_0\\rtl\\vlog\\core\\corefifo_NstagesSync.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0_0\\rtl\\vlog\\core\\corefifo_grayToBinConv.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0_0\\rtl\\vlog\\core\\corefifo_async.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0_0\\rtl\\vlog\\core\\COREFIFO.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\COREFIFO_C0\\COREFIFO_C0.v":1719255197
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\PF_CCC_C0\\PF_CCC_C0_0\\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":1719243104
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\PF_CCC_C0\\PF_CCC_C0.v":1719243104
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\PF_TPSRAM_C0\\PF_TPSRAM_C0_0\\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v":1719245428
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\PF_TPSRAM_C0\\PF_TPSRAM_C0.v":1719245428
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\hdl\\counter.v":1721919871
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\work\\mydesign\\mydesign.v":1720017982
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\SmartDesign_Intro\\counter_and_fifo\\component\\MSS_syn_comps.v":1721919904
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v" verilog
+1			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_fwft.v" verilog
+2			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync_scntr.v" verilog
+3			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_sync.v" verilog
+4			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_NstagesSync.v" verilog
+5			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_grayToBinConv.v" verilog
+6			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_async.v" verilog
+7			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v" verilog
+8			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0.v" verilog
+9			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v" verilog
+10			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_CCC_C0\PF_CCC_C0.v" verilog
+11			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v" verilog
+12			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v" verilog
+13			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\hdl\counter.v" verilog
+14			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\mydesign\mydesign.v" verilog
+15			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 4 5
+7 6 2 3 1
+8 7
+9 0
+10 9
+11 -1
+12 11
+13 -1
+14 8 13 10 12
+15 -1
+#Dependency Lists(Users Of)
+0 9
+1 7
+2 7
+3 7
+4 6
+5 6
+6 7
+7 8
+8 14
+9 10
+10 14
+11 12
+12 14
+13 14
+14 -1
+15 -1
+#Design Unit to File Association
+module work APBM 0
+module work APBS 0
+module work BANKCTRLM 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRL_HSIO 0
+module work BANKEN 0
+module work CRN_COMMON 0
+module work CRN_INT 0
+module work CRYPTO 0
+module work CRYPTO_SOC 0
+module work DEBUG 0
+module work DLL 0
+module work DRI 0
+module work ENFORCE 0
+module work GLITCHDETECT 0
+module work GPSS_COMMON 0
+module work HS_IO_CLK 0
+module work ICB_BANKCLK 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_CLKDIV 0
+module work ICB_CLKINT 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKSTOP 0
+module work ICB_INT 0
+module work ICB_MUXING 0
+module work ICB_NGMUX 0
+module work INIT 0
+module work IOD 0
+module work LANECTRL 0
+module work LANERST 0
+module work OSC_RC160MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC2MHZ 0
+module work PCIE_COMMON 0
+module work PCIE 0
+module work PF_SPI 0
+module work PLL 0
+module work QUADRST_PCIE 0
+module work QUADRST 0
+module work SCB 0
+module work SYSCTRL_RESET_STATUS 0
+module work SYSRESET 0
+module work SYS_SERVICES 0
+module work TAMPER 0
+module work TVS 0
+module work TX_PLL 0
+module work UPROM 0
+module work USPI 0
+module work VOLTAGEDETECT 0
+module work VREFBANKDYN 0
+module work VREFCTRL 0
+module work XCVR_64B6XB 0
+module work XCVR_8B10B 0
+module work XCVR_APB_LINK 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE 0
+module work XCVR_PMA 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK 0
+module work XCVR_TEST 0
+module work XCVR_VV 0
+module work XCVR 0
+module work CORELNKTMR_V 0
+module work PFSOC_SCSM 0
+module work CLKBUF_DIFF 0
+module work CLKBUF_DIFF_ODT 0
+module work COREFIFO_C0_COREFIFO_C0_0_corefifo_fwft 1
+module work COREFIFO_C0_COREFIFO_C0_0_corefifo_sync_scntr 2
+module work COREFIFO_C0_COREFIFO_C0_0_corefifo_sync 3
+module work COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync 4
+module work COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv 5
+module work COREFIFO_C0_COREFIFO_C0_0_corefifo_async 6
+module work COREFIFO_C0_COREFIFO_C0_0_COREFIFO 7
+module work COREFIFO_C0 8
+module work PF_CCC_C0_PF_CCC_C0_0_PF_CCC 9
+module work PF_CCC_C0 10
+module work PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM 11
+module work PF_TPSRAM_C0 12
+module work counter 13
+module work mydesign 14
+module work MSS 15

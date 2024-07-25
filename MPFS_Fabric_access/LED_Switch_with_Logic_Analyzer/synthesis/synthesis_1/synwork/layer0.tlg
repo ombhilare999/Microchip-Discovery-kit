@@ -1,0 +1,22 @@
+Selecting top level module top
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v":21:7:21:15|Synthesizing module masterAXI in library work.
+Running optimization stage 1 on masterAXI .......
+Finished optimization stage 1 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v":21:7:21:14|Synthesizing module slaveAXI in library work.
+Running optimization stage 1 on slaveAXI .......
+Finished optimization stage 1 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v":21:7:21:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 97MB)
+Running optimization stage 2 on slaveAXI .......
+Finished optimization stage 2 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 97MB)
+Running optimization stage 2 on masterAXI .......
+Finished optimization stage 2 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\synwork\layer0.duruntime
+
+

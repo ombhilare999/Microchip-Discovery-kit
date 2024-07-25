@@ -1,0 +1,50 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BZ173 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker_logic_analyzer\synthesis\hanshaking_test\instr_sources\syn_dics.v":7012:4:7012:7|ROM b5_iSWcC_1[2:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog)) mapped in logic.
+@N: MO106 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker_logic_analyzer\synthesis\hanshaking_test\instr_sources\syn_dics.v":7012:4:7012:7|Found ROM b5_iSWcC_1[2:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x(verilog)) with 14 words by 3 bits.
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker_logic_analyzer\synthesis\hanshaking_test\instr_sources\syn_dics.v":6933:3:6933:8|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x(verilog) instance genblk4\.b7_nYhI39s[9:0] 
+@N: FX493 |Applying initial value "0" on instance iclksync_status.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance iclksync_current_state.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance b13_nAzGfFM_sLsv3_i[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[1].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[2].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[3].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[4].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[5].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[6].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[7].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[8].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk2\.b3_nUT[9].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[0].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[1].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[2].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[3].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[4].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[0].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[1].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[2].
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker_logic_analyzer\synthesis\hanshaking_test\instr_sources\syn_dics.v":3024:6:3024:11|Removing sequential instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[2:0] (in view: VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: FX493 |Applying initial value "1" on instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[5].
+@N: FX493 |Applying initial value "0" on instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[7].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[0].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[1].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[2].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[3].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[4].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[5].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[6].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[7].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[8].
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker_logic_analyzer\synthesis\hanshaking_test\instr_sources\syn_dics.v":6979:2:6979:7|Removing sequential instance b5_nUTGT.b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.IICE_regular_x(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\git_microchip\led_blinker_logic_analyzer\synthesis\hanshaking_test\instr_sources\syn_dics.v":7605:2:7605:7|Removing sequential instance ident_coreinst.IICE_INST.b13_PSyil9s_FMZ_L (in view: work.top(verilog)) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: BW278 :"c:/users/user/onedrive/desktop/microship_ece552/git_microchip/led_blinker_logic_analyzer/synthesis/hanshaking_test/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck source pin ident_coreinst.comm_block_INST.dr2_tck_keep.OUT[0]
+@N: BW279 :"c:/users/user/onedrive/desktop/microship_ece552/git_microchip/led_blinker_logic_analyzer/synthesis/hanshaking_test/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck drive pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.Y
+@N: BW280 :"c:/users/user/onedrive/desktop/microship_ece552/git_microchip/led_blinker_logic_analyzer/synthesis/hanshaking_test/instr_sources/syn_dics.fdc":2:0:2:0|Forward annotating clock ident_coreinst.comm_block_INST.dr2_tck on drive pins would add that clock to 251 clock pins including ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0.A_CLK
+@N: MT615 |Found clock clk with period 10.00ns 
+@N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

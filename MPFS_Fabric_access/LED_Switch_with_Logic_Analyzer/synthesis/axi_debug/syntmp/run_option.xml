@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<!-- 
+  Synopsys, Inc.
+  Version V-2023.09M
+  Project file C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\syntmp\run_option.xml
+  Written on Thu Jul 25 10:53:56 2024
+
+
+--> 
+<project_attribute_list name="Project Settings"> 
+     <option name="project_name" display_name="Project Name">top_syn</option>
+     <option name="device_name" display_name="Device Name">axi_debug: Microchip PolarFireSoC : MPFS095T</option>
+     <option name="impl_name" display_name="Implementation Name">axi_debug</option>
+     <option name="top_module" display_name="Top Module">top</option>
+     <option name="retiming" display_name="Retiming">0</option>
+     <option name="resource_sharing" display_name="Resource Sharing">1</option>
+     <option name="maxfan" display_name="Fanout Guide">10000</option>
+     <option name="disable_io_insertion" display_name="Disable I/O Insertion">0</option>
+     <option name="no_sequential_opt" display_name="Disable Sequential Optimizations">0</option>
+     <option name="symbolic_fsm_compiler" display_name="FSM Compiler">1</option>
+</project_attribute_list>
+

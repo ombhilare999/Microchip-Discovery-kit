@@ -1,0 +1,91 @@
+# Microchip NMAT TXT File
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: top 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Thu Jul 25 11:43:41 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io clk R18
+set_io dataIn[0] U17
+set_io dataIn[1] Y16
+set_io inValid R17
+set_io outBit1 T18
+set_io outBit2 V17
+set_io outBit3 U20
+set_io outBit4 U21
+set_io rstn AA19
+
+#
+# Core cell constraints
+#
+
+set_location clockDivider_0/counter[3] 15 10
+set_location clockDivider_0/clk_out 32 10
+set_location PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1 720 15
+set_location clockDivider_0/counter[9] 21 10
+set_location clockDivider_0/counter[5] 17 10
+set_location clockDivider_0/counter[18] 30 10
+set_location slaveAXI_0/outBit3_r 46 9
+set_location clockDivider_0/counter[0] 34 10
+set_location clockDivider_0/counter6_14 33 9
+set_location slaveAXI_0/outBit3 46 10
+set_location PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1 12 2
+set_location slaveAXI_0/ready_r 43 9
+set_location clockDivider_0/clk_out_RNO 32 9
+set_location clockDivider_0/counter6 52 9
+set_location slaveAXI_0/outBit1 44 10
+set_location masterAXI_0/outValid_r 39 9
+set_location clockDivider_0/counter[6] 18 10
+set_location clockDivider_0/counter[8] 20 10
+set_location clockDivider_0/counter6_10 51 9
+set_location slaveAXI_0/ready 43 10
+set_location slaveAXI_0/outBit4_0 37 9
+set_location clockDivider_0/counter6_16 48 9
+set_location clockDivider_0/counter[7] 19 10
+set_location clockDivider_0/counter[10] 22 10
+set_location clockDivider_0/counter_RNO[0] 34 9
+set_location PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_DELAY 7 7
+set_location PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_1 4 7
+set_location clockDivider_0/counter[15] 27 10
+set_location clockDivider_0/N_1_inferred_clock_RNI7EQI1 1153 0
+set_location masterAXI_0/dataOut[0] 38 10
+set_location clockDivider_0/counter[16] 28 10
+set_location clockDivider_0/counter[17] 29 10
+set_location clockDivider_0/counter[2] 14 10
+set_location clockDivider_0/N_1_inferred_clock_RNI7EQI1/U0_RGB1 723 15
+set_location clockDivider_0/counter6_11 35 9
+set_location clockDivider_0/counter[11] 23 10
+set_location clockDivider_0/counter6_5 49 9
+set_location PF_CCC_C0_0/PF_CCC_C0_0/clkint_0 1152 0
+set_location masterAXI_0/outValid 39 10
+set_location clockDivider_0/counter[14] 26 10
+set_location slaveAXI_0/outBit4 37 10
+set_location masterAXI_0/un1_inValid_RNIH7OGA 38 9
+set_location masterAXI_0/un1_inValid 42 9
+set_location slaveAXI_0/outBit2_0 45 9
+set_location masterAXI_0/dataOut[1] 42 10
+set_location PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0 0 8
+set_location I_1/U0_RGB1 724 17
+set_location I_1 1155 0
+set_location clockDivider_0/counter[4] 16 10
+set_location clockDivider_0/counter[19] 31 10
+set_location slaveAXI_0/outBit2 45 10
+set_location clockDivider_0/counter[13] 25 10
+set_location clockDivider_0/counter[12] 24 10
+set_location slaveAXI_0/outBit1_r 44 9
+set_location clockDivider_0/counter[1] 13 10
+set_location clockDivider_0/counter6_13 36 9
+set_location clockDivider_0/un1_counter_1_s_1_52 12 9
+set_location I_1/U0_IOBA 1599 215
+set_location clockDivider_0/un1_counter_1_s_1_52_CC_0 12 11
+set_location clockDivider_0/un1_counter_1_s_1_52_CC_1 24 11

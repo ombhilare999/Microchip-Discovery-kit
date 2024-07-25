@@ -1,0 +1,199 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/simulation
+vclockDivider
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/clockDivider.v
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1721888762
+!i10b 1
+!s100 L>_gd7KKI;nMa=dCVVgR91
+IH_D=j4z]OLQzOFaA]]bz33
+S1
+Z2 dC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/simulation
+w1721886830
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/clockDivider.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/clockDivider.v
+!i122 35
+L0 21 21
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z5 !s108 1721888762.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/clockDivider.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/clockDivider.v|
+!s101 -O0
+!i113 1
+Z6 o-sv -work presynth -O0
+Z7 tCvgOpt 0
+nclock@divider
+vmasterAXI
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/masterAXI.v
+R0
+R1
+!i10b 1
+!s100 klEVff`V6dn2HTb;g0KY22
+IC5mGS3kmXfeJV[ealD9oP0
+S1
+R2
+w1721886815
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/masterAXI.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/masterAXI.v
+!i122 36
+L0 21 31
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/masterAXI.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/masterAXI.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nmaster@a@x@i
+vPF_CCC_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0.v
+R0
+R1
+!i10b 1
+!s100 3`oV=8`S11G3D2AjF<2N[0
+I?=BioYXI;gSm6EDZ5XeYi1
+S1
+R2
+Z8 w1721872403
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0.v
+!i122 34
+L0 264 66
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1721888761.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@c@c@c_@c0
+vPF_CCC_C0_PF_CCC_C0_0_PF_CCC
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+R0
+!s110 1721888761
+!i10b 1
+!s100 c=f_[1lz<>;oAz:0^?PzA0
+IUN4:YT7kk0R=TbP@gmd3W1
+S1
+R2
+R8
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+!i122 33
+L0 5 62
+R3
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@p@f_@c@c@c_@c0_@p@f_@c@c@c_@c0_0_@p@f_@c@c@c
+vslaveAXI
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/slaveAXI.v
+R0
+R1
+!i10b 1
+!s100 m]7Z7::Cz953AnVN2QKh92
+IdjcfaSleeG1_c1RlM@f0h3
+S1
+R2
+w1721887987
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/slaveAXI.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/slaveAXI.v
+!i122 37
+L0 21 56
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/slaveAXI.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/hdl/slaveAXI.v|
+!s101 -O0
+!i113 1
+R6
+R7
+nslave@a@x@i
+vtop
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/top/top.v
+R0
+R1
+!i10b 1
+!s100 0U4>Vmh^:bFe4m3ReZIOY0
+IS]KdijXI@2Nm_=2^K>Q<U2
+S1
+R2
+w1721888521
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/top/top.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/top/top.v
+!i122 38
+L0 9 110
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/top/top.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/component/work/top/top.v|
+!s101 -O0
+!i113 1
+R6
+R7
+vtop_tb
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/stimulus/top_tb.v
+R0
+R1
+!i10b 1
+!s100 =W9RjEAX;<U9HGRQIbJ0_3
+ITG@Qddk^7RDY01`3nZ<V40
+S1
+R2
+w1721888743
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/stimulus/top_tb.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/stimulus/top_tb.v
+!i122 39
+L0 30 90
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/stimulus|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_SmartDesign/stimulus -sv -work presynth -O0
+R7

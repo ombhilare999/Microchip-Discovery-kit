@@ -1,0 +1,51 @@
+
+
+
+                             Identify (R) Debugger 
+
+                  Version V-2023.09M for win64 - Jan 04, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2024.1\Identify\bin64\mbin\identify_debugger.exe
+Install:     C:\Microchip\Libero_SoC_v2024.1\Identify
+Hostname:    HAMAS
+Date:        Tue Jul 23 21:51:51 2024
+Version:     V-2023.09M
+
+Arguments:   -product identify_debugger top_syn.prj
+ProductType: identify_debugger
+
+License checkout: identdebugger_actel
+License: identdebugger_actel from server hamas 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+
+Note: Opening debugger view for project 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\top_syn.prj'
+Note: The debugger obtained its own license
+DI199 Loading activations from file 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\last_run.adc'.
+Setting trigger time to 'middle' for IICE 'IICE'
+/master/ready enable in condition 0 in IICE 'IICE'
+Setting trigger time to 'middle' for IICE 'output_leds'
+/slave/data enable in condition 0 in IICE 'output_leds'
+License reconnected
+% activation save {last_run.adc}
+Saving activations to file 'last_run.adc'
+Unloading current instrumentation 'axi_debug'

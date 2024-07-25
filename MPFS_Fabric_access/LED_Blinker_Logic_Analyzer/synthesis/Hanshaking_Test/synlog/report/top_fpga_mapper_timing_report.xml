@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synlog\top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>545.1 MHz</data>
+<data>8.165</data>
+</row>
+<row>
+<data>clk</data>
+<data>100.0 MHz</data>
+<data>115.0 MHz</data>
+<data>0.653</data>
+</row>
+<row>
+<data>clockDivider|N_1_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>706.1 MHz</data>
+<data>8.584</data>
+</row>
+<row>
+<data>ident_coreinst.comm_block_INST.dr2_tck</data>
+<data>1.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>999.658</data>
+</row>
+<row>
+<data>jtag_interface_x|b9_nv_oQwfYF</data>
+<data>100.0 MHz</data>
+<data>484.6 MHz</data>
+<data>7.936</data>
+</row>
+<row>
+<data>jtag_interface_x|b10_8Kz_rKlrtX</data>
+<data>100.0 MHz</data>
+<data>252.6 MHz</data>
+<data>6.042</data>
+</row>
+<row>
+<data>jtag_interface_x|identify_clk_int_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>291.5 MHz</data>
+<data>6.569</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>249.8 MHz</data>
+<data>5.996</data>
+</row>
+</report_table>

@@ -1,0 +1,25 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM (20K),Chip Globals,PLL
+Primitives/Primitives,0,0,0,0,9,0,1,0
+clkDiv/Primitives,29,21,0,0,0,0,1,0
+clk_ccc/PF_CCC_C0_0/Primitives,0,0,0,0,0,0,1,1
+ident_coreinst/IICE_INST/Primitives,0,10,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b3_SoW/Primitives,74,75,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b3_SoW/b3_SoW/Primitives,10,0,36,36,0,1,0,0
+ident_coreinst/IICE_INST/b3_SoW/b6_SoWyQD/Primitives,46,34,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b3_SoW/genblk4.b11_oGA_BXsO_OS/Primitives,3,5,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b3_SoW/genblk5.b11_oGA_BXsO_OT/Primitives,2,18,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b3_SoW/samplerStatus/Primitives,24,24,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b3_SoW/virOut/Primitives,2,32,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b4_PfFz/b5_PbrtL/Primitives,1,3,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b4_PfFz/b7_PbTtl9G/b7_1LbcgKF/Primitives,6,0,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b5_nUTGT/Primitives,129,124,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/Primitives,5,32,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b5_nUTGT/iclksync_current_state/Primitives,11,13,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b5_nUTGT/iclksync_status/Primitives,9,13,0,0,0,0,0,0
+ident_coreinst/IICE_INST/b8_uKr_IFLY/Primitives,10,0,0,0,0,0,0,0
+ident_coreinst/comm_block_INST/b7_Rcmi_ql/Primitives,1,16,0,0,0,0,0,0
+ident_coreinst/comm_block_INST/b9_ORb_xNywD/Primitives,2,32,0,0,0,0,0,0
+ident_coreinst/comm_block_INST/jtagi/Primitives,47,0,0,0,0,0,3,0
+master/Primitives,3,3,0,0,0,0,0,0
+slave/Primitives,5,5,0,0,0,0,0,0

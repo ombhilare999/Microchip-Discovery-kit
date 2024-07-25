@@ -1,0 +1,9 @@
+/inSwitch i:ident_hs_inSwitch
+/master/dataOut i:master.ident_hs_dataOut
+/master/outValid i:master.ident_hs_outValid
+/master/ready i:master.ident_hs_ready
+/slave/data i:slave.ident_hs_data
+/slave/outBit1 i:slave.ident_hs_outBit1
+/slave/outBit2 i:slave.ident_hs_outBit2
+/slave/outBit3 i:slave.ident_hs_outBit3
+/slave/outBit4 i:slave.ident_hs_outBit4

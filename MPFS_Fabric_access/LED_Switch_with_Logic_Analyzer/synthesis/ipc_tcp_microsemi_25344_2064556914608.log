@@ -1,0 +1,11 @@
+1721005453 -21:04:13 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58109
+Logfile:   C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis/ipc_tcp_microsemi_25344_2064556914608.log
+Reconnect: 0
+Use ipv6:  0
+
+1721005453 -21:04:13 -10035 -::HaveSocketEvent, wait for ::select
+1721005453 -21:04:13 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 15 tv.tv_usec: 0
+1721005454 -21:04:14 -0 -::HaveSocketEvent, ::getpeername own: '127.0.0.1' peer: '127.0.0.1'
+1721005454 -21:04:14 -10035 -::HaveSocketEvent, ::select, retval >= 0, success

@@ -1,0 +1,8 @@
+/dataAXI i:ident_hs_dataAXI
+/outBit1 i:ident_hs_outBit1
+/outBit2 i:ident_hs_outBit2
+/outBit3 i:ident_hs_outBit3
+/outBit4 i:ident_hs_outBit4
+/readyAXI i:ident_hs_readyAXI
+/valid i:ident_hs_valid
+/validAXI i:ident_hs_validAXI

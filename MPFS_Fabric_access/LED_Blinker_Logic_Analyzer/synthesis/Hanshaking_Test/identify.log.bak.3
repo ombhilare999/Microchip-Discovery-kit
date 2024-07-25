@@ -1,0 +1,90 @@
+Running in restricted mode: identify_job
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Identify (R) Instrumentor
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : Hanshaking_Test
+
+Arguments:   -product identify_instrumentor -srs_gen_hw C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v -prj C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\scratchproject.prs -idb C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\identify.db -isrs C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synwork\top_mult.srs -curimpl Hanshaking_Test -write_fdc -log C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\identify.log -tsl LmhXMjrm -fidc C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\identify.idc
+ProductType: identify_instrumentor
+
+
+
+
+
+
+
+*** Integrated Instrumentor ***
+Added instrumentation 'Hanshaking_Test' to the project
+Loading instrumentation 'Hanshaking_Test'
+Setting IICE sampler (data compression) to 1 for IICE named 'IICE'
+Setting IICE sampler (memory module type) to 'LSRAM' for IICE named 'IICE'
+Setting IICE sampler (sampledepth) to 1024 for IICE named 'IICE'
+Setting IICE sample clock to '/clk' for IICE named 'IICE'
+Setting IICE sampler (data compression) to 1 for IICE named 'output_led'
+Setting IICE sampler (memory module type) to 'LSRAM' for IICE named 'output_led'
+Setting IICE sampler (sampledepth) to 1024 for IICE named 'output_led'
+Setting IICE sample clock to '/clock_1Hz' for IICE named 'output_led'
+Generating debug IP
+Checking netlist 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synwork\top_mult.srs'
+Checking netlist 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\synwork\top_mult.srs'
+The design does not contain a UJTAG_WRAPPER instance.
+OK, the design does not contain a UJTAG instance.
+ Generating IICE 'IICE' for the following settings:
+      Design settings:
+          Device family          PolarFire
+          Communication port     builtin
+          Skew-resistant logic   off
+          Export Trigger         no
+          Import Trigger         0
+      Sample Buffer:
+          Type                   behavioral
+          Depth                  1024
+          Width                  9 bits
+          RAM type               LSRAM
+          Qualified sampling     off
+          Always armed sampling  off
+          Data compression       1
+      Trigger controller:
+          Preconfigured          no
+          Type                   Simple Triggering
+          Total-trigger Delay    1 cycles
+ 
+ Generating IICE 'output_led' for the following settings:
+      Design settings:
+          Device family          PolarFire
+          Communication port     builtin
+          Skew-resistant logic   off
+          Export Trigger         no
+          Import Trigger         0
+      Sample Buffer:
+          Type                   behavioral
+          Depth                  1024
+          Width                  10 bits
+          RAM type               LSRAM
+          Qualified sampling     off
+          Always armed sampling  off
+          Data compression       1
+      Trigger controller:
+          Preconfigured          no
+          Type                   Simple Triggering
+          Total-trigger Delay    1 cycles
+ 
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 8, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 8, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+	IICE=output_led 
+		Total instrumentation in bits: Sample Only 7, Trigger Only 0, Sample and trigger 3, Assertions 0
+		Instrumentation in bits: 		Sample Only 7, Sample and trigger 3, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+exit status=0
+Unloading current instrumentation 'Hanshaking_Test'

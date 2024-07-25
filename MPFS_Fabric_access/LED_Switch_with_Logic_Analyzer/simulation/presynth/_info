@@ -1,0 +1,118 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/simulation
+vmasterAXI
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/masterAXI.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1719202280
+!i10b 1
+!s100 TLN:;gPei889Hbnjk<E5j2
+In5fh?2;95c=j9AMdSD0Hc3
+S1
+R0
+w1719201353
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/masterAXI.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/masterAXI.v
+!i122 8
+Z3 L0 21 28
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z6 !s108 1719202280.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/masterAXI.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/masterAXI.v|
+!s101 -O0
+!i113 1
+Z7 o-sv -work presynth -O0
+Z8 tCvgOpt 0
+nmaster@a@x@i
+vslaveAXI
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/slaveAXI.v
+R1
+R2
+!i10b 1
+!s100 i@ciUY;n]iV9j<loKeYJK1
+Ij@eZjANX3GMJYA6]=^3LO1
+S1
+R0
+w1719201461
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/slaveAXI.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/slaveAXI.v
+!i122 9
+R3
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/slaveAXI.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/slaveAXI.v|
+!s101 -O0
+!i113 1
+R7
+R8
+nslave@a@x@i
+vtop
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/top.v
+R1
+R2
+!i10b 1
+!s100 RIGe@RHiIh1l50R<GlV>Z1
+I5GGK8U?iho5VP7G?<4Lf;3
+S1
+R0
+w1719201903
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/top.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/top.v
+!i122 10
+L0 21 62
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/top.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/hdl/top.v|
+!s101 -O0
+!i113 1
+R7
+R8
+vtop_tb
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/stimulus/top_tb.v
+R1
+R2
+!i10b 1
+!s100 N9[H[<HI[R4UO4J6O3_Wc2
+IeV0gQ<QKn>g9PZb2hWg2K1
+S1
+R0
+w1719202158
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/stimulus/top_tb.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/stimulus/top_tb.v
+!i122 11
+L0 30 90
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/stimulus/top_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/stimulus|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/stimulus/top_tb.v|
+!s101 -O0
+!i113 1
+R7
+!s92 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example/AXI_Handshaking_Tut/stimulus -sv -work presynth -O0
+R8

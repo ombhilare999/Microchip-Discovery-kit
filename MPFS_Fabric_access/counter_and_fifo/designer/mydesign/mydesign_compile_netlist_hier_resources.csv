@@ -1,0 +1,11 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM (20K),Chip Globals,PLL
+COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Primitives,99,72,0,0,0,0,0,0
+COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/Primitives,0,14,0,0,0,0,0,0
+COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/Primitives,6,0,0,0,0,0,0,0
+COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/Primitives,0,14,0,0,0,0,0,0
+COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/Primitives,6,0,0,0,0,0,0,0
+PF_CCC_C0_0/PF_CCC_C0_0/Primitives,0,0,0,0,0,0,1,1
+PF_TPSRAM_C0_0/PF_TPSRAM_C0_0/Primitives,0,0,36,36,0,1,0,0
+Primitives/Primitives,2,0,0,0,41,0,1,0
+counter_0/Primitives,22,20,0,0,0,0,0,0

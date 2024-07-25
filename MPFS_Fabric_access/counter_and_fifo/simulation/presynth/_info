@@ -1,0 +1,610 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/simulation
+vCLK_GEN
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1720017994
+!i10b 1
+!s100 ENAZ0SKCmSE9YR07;fg641
+Iz9zbHHJE@c9PG27Yc@]240
+S1
+R0
+Z3 w1719256716
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+!i122 193
+L0 2 26
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z6 !s108 1720017994.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s101 -O0
+!i113 1
+Z7 o-sv -work presynth -O0
+Z8 !s92 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench -sv -work presynth -O0
+Z9 tCvgOpt 0
+n@c@l@k_@g@e@n
+vCLK_GEN_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0/CLK_GEN_C0.v
+R1
+R2
+!i10b 1
+!s100 :ODK6k@^G:f2>9<J5]Kde1
+I=?3FLh8bT^2UBX@KHENN:3
+S1
+R0
+R3
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0/CLK_GEN_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0/CLK_GEN_C0.v
+!i122 194
+Z10 L0 23 33
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0/CLK_GEN_C0.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0/CLK_GEN_C0.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@c@l@k_@g@e@n_@c0
+vCOREFIFO_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0.v
+R1
+R2
+!i10b 1
+!s100 ;6UB:`i>bbNBfoUKoD>WU2
+IX^cV4f2o?E4T1SCj7NlfM2
+S1
+R0
+Z11 w1719255197
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0.v
+!i122 186
+L0 49 195
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0
+vCOREFIFO_C0_COREFIFO_C0_0_COREFIFO
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/COREFIFO.v
+R1
+R2
+!i10b 1
+!s100 fA>z]C=Ul_fbF;CPRmXm_0
+I3oK54o89ne=K=8f<H>h[12
+S1
+R0
+R11
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/COREFIFO.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/COREFIFO.v
+!i122 185
+L0 29 1457
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/COREFIFO.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/COREFIFO.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0_@c@o@r@e@f@i@f@o_@c0_0_@c@o@r@e@f@i@f@o
+vCOREFIFO_C0_COREFIFO_C0_0_corefifo_async
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_async.v
+R1
+R2
+!i10b 1
+!s100 6h9`75VT2>WDM0M3YUOiP2
+IM6E8c<UKGeYPzA_B7]kg40
+S1
+R0
+R11
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_async.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_async.v
+!i122 184
+L0 28 1306
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_async.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_async.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0_@c@o@r@e@f@i@f@o_@c0_0_corefifo_async
+vCOREFIFO_C0_COREFIFO_C0_0_corefifo_fwft
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_fwft.v
+R1
+Z12 !s110 1720017993
+!i10b 1
+!s100 MAJiSj@35NJhAmIhj_;Q90
+I<74=ceY4:YgKL6ieIOzTE0
+S1
+R0
+R11
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_fwft.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_fwft.v
+!i122 179
+L0 28 348
+R4
+R5
+r1
+!s85 0
+31
+Z13 !s108 1720017993.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_fwft.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_fwft.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0_@c@o@r@e@f@i@f@o_@c0_0_corefifo_fwft
+vCOREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_grayToBinConv.v
+R1
+R12
+!i10b 1
+!s100 _Z<JOII?Z;H8o<`g8IHl:1
+In?D<7SK7^zli]XnNRk>KQ1
+S1
+R0
+R11
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_grayToBinConv.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_grayToBinConv.v
+!i122 183
+L0 29 51
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_grayToBinConv.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_grayToBinConv.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0_@c@o@r@e@f@i@f@o_@c0_0_corefifo_gray@to@bin@conv
+vCOREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_NstagesSync.v
+R1
+R12
+!i10b 1
+!s100 gNEzMON`M2c8969l>2N0O2
+IBPOW>W:o@7CFG@h1Eg1<R1
+S1
+R0
+R11
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_NstagesSync.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_NstagesSync.v
+!i122 182
+L0 29 69
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_NstagesSync.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_NstagesSync.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0_@c@o@r@e@f@i@f@o_@c0_0_corefifo_@nstages@sync
+vCOREFIFO_C0_COREFIFO_C0_0_corefifo_sync
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync.v
+R1
+R12
+!i10b 1
+!s100 BJ=;JRhI3RR6J<EB:Yl]03
+ImOZT=]8F[0T5bK7G^h7:J0
+S1
+R0
+R11
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync.v
+!i122 181
+L0 28 837
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0_@c@o@r@e@f@i@f@o_@c0_0_corefifo_sync
+vCOREFIFO_C0_COREFIFO_C0_0_corefifo_sync_scntr
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync_scntr.v
+R1
+R12
+!i10b 1
+!s100 K42@c8JDLSEc9AEOaRDhn1
+IM`R:M?:7]R0ndW1mCQmI?2
+S1
+R0
+R11
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync_scntr.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync_scntr.v
+!i122 180
+L0 28 633
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync_scntr.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C0/COREFIFO_C0_0/rtl/vlog/core/corefifo_sync_scntr.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@c@o@r@e@f@i@f@o_@c0_@c@o@r@e@f@i@f@o_@c0_0_corefifo_sync_scntr
+vcounter
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/hdl/counter.v
+R1
+R2
+!i10b 1
+!s100 bM6LOWn>nDi9E8V>CQFnB0
+I5CldFbhZHo?KhAAKjQM^P2
+S1
+R0
+w1719241875
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/hdl/counter.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/hdl/counter.v
+!i122 191
+L0 21 16
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/hdl/counter.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/hdl/counter.v|
+!s101 -O0
+!i113 1
+R7
+R9
+vmydesign
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/mydesign/mydesign.v
+R1
+R2
+!i10b 1
+!s100 FDlCRaiOzJ1CMR7KnOUl_1
+Ilh3FXjl[WhEa1d9D`?<b^3
+S1
+R0
+w1720017982
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/mydesign/mydesign.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/mydesign/mydesign.v
+!i122 192
+L0 9 181
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/mydesign/mydesign.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/mydesign/mydesign.v|
+!s101 -O0
+!i113 1
+R7
+R9
+vPF_CCC_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0.v
+R1
+R2
+!i10b 1
+!s100 1^hm=IgX_Nf5HYHaX9mdY3
+I4cbgfGCzoR=RAgXHXzAN52
+S1
+R0
+Z14 w1719243104
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0.v
+!i122 188
+L0 264 70
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@p@f_@c@c@c_@c0
+vPF_CCC_C0_PF_CCC_C0_0_PF_CCC
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+R1
+R2
+!i10b 1
+!s100 j1<5=;YCU3[ZV^6db4In70
+IV;HhVgHi<ViL[L0hY8lCf2
+S1
+R0
+R14
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+!i122 187
+L0 5 64
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@p@f_@c@c@c_@c0_@p@f_@c@c@c_@c0_0_@p@f_@c@c@c
+vPF_TPSRAM_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v
+R1
+R2
+!i10b 1
+!s100 YRM;nn[8^5iM`7mG9]_6L2
+I^T?=W@><6<1ZLolkK9f`a0
+S1
+R0
+Z15 w1719245428
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v
+!i122 190
+L0 59 67
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@p@f_@t@p@s@r@a@m_@c0
+vPF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v
+R1
+R2
+!i10b 1
+!s100 cX1IU;79X_<>DI^cl>Z=Z2
+IV92R[N]iPa7SYJY>onmnB0
+S1
+R0
+R15
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v
+!i122 189
+L0 5 55
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R9
+n@p@f_@t@p@s@r@a@m_@c0_@p@f_@t@p@s@r@a@m_@c0_0_@p@f_@t@p@s@r@a@m
+vPULSE_GEN
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1/PULSE_GEN.v
+R1
+Z16 !s110 1720017995
+!i10b 1
+!s100 >eg;S9MiQ7RZh_R9A_S302
+IgdmaZAS[1G:4n><cHGRK_1
+S1
+R0
+Z17 w1719256801
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1/PULSE_GEN.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1/PULSE_GEN.v
+!i122 195
+L0 3 36
+R4
+R5
+r1
+!s85 0
+31
+Z18 !s108 1720017995.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1/PULSE_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1/PULSE_GEN.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@p@u@l@s@e_@g@e@n
+vPULSE_GEN_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C0/PULSE_GEN_C0.v
+R1
+!s110 1719291867
+!i10b 1
+!s100 HDEb2J5f]gaf?zN2=8niL1
+I;<DJ_CiiN>dl::5@@YlYn3
+S1
+R0
+R17
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C0/PULSE_GEN_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C0/PULSE_GEN_C0.v
+!i122 57
+Z19 L0 24 34
+R4
+R5
+r1
+!s85 0
+31
+!s108 1719291867.000000
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C0/PULSE_GEN_C0.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C0/PULSE_GEN_C0.v|
+!s101 -O0
+!i113 1
+R7
+!s92 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C0 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0 +incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench -sv -work presynth -O0
+R9
+n@p@u@l@s@e_@g@e@n_@c0
+vPULSE_GEN_C1
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1/PULSE_GEN_C1.v
+R1
+R16
+!i10b 1
+!s100 MNOTzmYz=`=MeHAP^=m`i2
+IcY4fHVh?;lD`k4]_[8VAm3
+S1
+R0
+w1719295309
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1/PULSE_GEN_C1.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1/PULSE_GEN_C1.v
+!i122 196
+R19
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1/PULSE_GEN_C1.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1/PULSE_GEN_C1.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@p@u@l@s@e_@g@e@n_@c1
+vRESET_GEN
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+R1
+R16
+!i10b 1
+!s100 ;?Qa1bG`6VmX_Chmk5E6D1
+IFR^0o8<eM4C:gh4=T99Lj0
+S1
+R0
+Z20 w1719256753
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+!i122 197
+L0 3 25
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@r@e@s@e@t_@g@e@n
+vRESET_GEN_C0
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+R1
+R16
+!i10b 1
+!s100 cW2f<moCbQ`HDdLU4CG0b1
+IFPDEjDjdP@^@ld=h58UIb3
+S1
+R0
+R20
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+!i122 198
+R10
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0/RESET_GEN_C0.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0/RESET_GEN_C0.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@r@e@s@e@t_@g@e@n_@c0
+vtestbench
+2C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench/testbench.v
+R1
+R16
+!i10b 1
+!s100 F<414aiTj8dO7lol3:flg3
+IE9AYZLM^GdO6T7lE5D[0=1
+S1
+R0
+w1719296021
+8C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench/testbench.v
+FC:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench/testbench.v
+!i122 199
+L0 9 97
+R4
+R5
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench/testbench.v|
+!s90 -reportprogress|300|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/CLK_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/PULSE_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/PULSE_GEN_C1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0|+incdir+C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench|-sv|-work|presynth|C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/testbench/testbench.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9

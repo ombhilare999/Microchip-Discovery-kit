@@ -1,0 +1,29 @@
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim:A'.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       4 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     3 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    450    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    254    0      0      'I_1' 
+    46     0      2      'ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS37' 
+    9      0      0      'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE5' 
+
+Info: Demotion information: 
+      Disconnected 2 data pins from global 'ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS37'. This behavior is controlled by the 'Minimum fanout of non-clock nets to be kept on globals' threshold in the tool options for the Synthesize step. Typically, the low-skew global resources are used for clock and reset nets. When using global resources for data nets, consider the data path effect of global insertion delay and added buffer delay when the net drives carry chain logic.
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

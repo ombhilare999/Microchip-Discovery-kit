@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Wed Jul 24 21:53:25 2024
+Project   :  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\AXI_Example_Smart_Design\AXI_Handshaking_Tut
+Component :  PF_CCC_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example_Smart_Design/AXI_Handshaking_Tut/component/work/PF_CCC_C0/PF_CCC_C0_0/PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example_Smart_Design/AXI_Handshaking_Tut/component/work/PF_CCC_C0/PF_CCC_C0.v
+
+Constraint files:
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/AXI_Example_Smart_Design/AXI_Handshaking_Tut/component/work/PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.sdc

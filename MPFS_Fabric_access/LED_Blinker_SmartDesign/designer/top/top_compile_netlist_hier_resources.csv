@@ -1,0 +1,7 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,PLL
+PF_CCC_C0_0/PF_CCC_C0_0/Primitives,0,0,0,1,1
+Primitives/Primitives,0,0,9,1,0
+clockDivider_0/Primitives,29,21,0,1,0
+masterAXI_0/Primitives,3,3,0,0,0
+slaveAXI_0/Primitives,5,5,0,0,0

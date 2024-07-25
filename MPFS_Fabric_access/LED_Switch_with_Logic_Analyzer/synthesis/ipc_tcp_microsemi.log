@@ -1,0 +1,26 @@
+1721922669 -11:51:09 -0 -Client create_ipc, start a new server process in mode B !
+1721922669 -11:51:09 -0 -Server started !?
+1721922669 -11:51:09 -0 -client create_ipc modus B, open client jtagapi_c::g_pmC !
+1721922669 -11:51:09 -0 -second timeout[ms] for myJTAGClient: long: -15000
+1721922669 -11:51:09 -0 -Check for server mode B !
+1721922670 -11:51:10 -0 -check JTAG-clients (JTAG-server is in standalone mode): no JTAG-clients found !
+
+1721922670 -11:51:10 -0 -Use a new started server process, switch to mode B !
+1721922670 -11:51:10 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1721922670 -11:51:10 -0 -use a started server process in mode: not standalone
+1721922793 -11:53:13 -0 -Check for server mode B !
+1721922793 -11:53:13 -0 -check JTAG-clients (JTAG-server is not in standalone mode):
+---- JTAG-client 0 ------
+ JTAG handle: 0x03a5d608, shared used: 1
+ has connected: yes, with cabletype: 11 (ACTEL_BUILTINJTAG)
+ portnum is: 0, speed is: 0, portname is: usb
+ error if any: none.
+
+
+1721922793 -11:53:13 -0 -Use a new started server process, switch to mode B !
+1721922793 -11:53:13 -0 -Use a new started server process in mode B (exit after ends last connection)!
+1721922793 -11:53:13 -0 -Client can use_ipc, use same running client & server (types) !
+1721923100 -11:58:20 -0 -Call shutdown_connection_and_server !
+1721923100 -11:58:20 -0 -Call comlinkhw->close() !
+1721923100 -11:58:20 -0 -Client jtagexit (server shutdown if last connection, running in mode B) !
+1721923100 -11:58:20 -0 -Client shutdown (jtagapi_c::g_pmC == NULL) !

@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  mydesign  -multisrs  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\synthesis\synwork\mydesign_comp.srs  -osyn  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\synthesis\synwork\mydesign_mult.srs  -log  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\synthesis\synlog\mydesign_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top mydesign -multisrs ..\synwork\mydesign_comp.srs -osyn ..\synwork\mydesign_mult.srs -log ..\synlog\mydesign_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\mydesign_comp.srs|io:i|time:1721919910|size:32075|exec:0|csum:2475525F56A01A1DBCE65A15033B0546
+file:..\synwork\mydesign_mult.srs|io:o|time:1721919911|size:4527|exec:0|csum:
+file:..\synlog\mydesign_multi_srs_gen.srr|io:o|time:1721919911|size:1215|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

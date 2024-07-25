@@ -1,0 +1,9 @@
+n work caxi4interconnect_SlaveConvertor_Z11 verilog;
+av .compile_point_summary_status "Mapped";
+av .compile_point_summary_reason "No database";
+av .compile_point_update_model 0;
+av .compile_point_fast_synthesis "No";
+av .compile_point_cputime_used 3.29688;
+av .compile_point_starttime_stamp "Tue Jul 23 21:06:54 2024";
+av .compile_point_endtime_stamp "Tue Jul 23 21:06:57 2024";
+av .compile_point_realtime_used 3.039;

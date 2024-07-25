@@ -1,0 +1,41 @@
+Resource Usage Report for axi_lite_tut 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          8 uses
+CFG1           6 uses
+CFG2           54 uses
+CFG3           329 uses
+CFG4           236 uses
+
+Carry cells:
+ARI1            102 uses - used for arithmetic functions
+ARI1            4 uses - used for Wide-Mux implementation
+Total ARI1      106 uses
+
+
+Sequential Cells: 
+SLE            1004 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 243
+I/O primitives: 243
+INBUF          106 uses
+OUTBUF         137 uses
+
+
+Global Clock Buffers: 8
+
+Total LUTs:    731
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 72; LUTs = 72;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1004 + 72 + 0 + 0 = 1076;
+Total number of LUTs after P&R:  731 + 72 + 0 + 0 = 803;
+

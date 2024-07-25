@@ -1,0 +1,121 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : Hanshaking_Test
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+34       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.cdc (2024-07-25 10:36:58, 2024-07-25 10:37:46)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 13
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v (2024-01-04 11:10:06)
+1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v (2024-01-04 11:04:40)
+2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_objects.v (2024-01-04 11:04:40)
+3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-01-04 11:04:40)
+4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\umr_capim.v (2024-01-04 11:08:34)
+26       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\component\MSS_syn_comps.v (2024-07-25 10:36:35)
+27       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\component\polarfire_syn_comps.v (2024-07-25 10:36:35)
+28       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\component\work\PF_CCC_C0\PF_CCC_C0.v (2024-07-24 21:53:23)
+29       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v (2024-07-24 21:53:23)
+30       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\hdl\clockDivider.v (2024-07-25 01:53:50)
+31       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\hdl\masterAXI.v (2024-07-25 01:53:35)
+32       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\hdl\slaveAXI.v (2024-07-25 02:13:07)
+33       C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\hdl\top.v (2024-07-25 01:53:45)
+
+*******************************************************************
+Unchanged modules: 78
+MID:  lib.cell.view
+0        work.APBM.verilog
+1        work.APBS.verilog
+2        work.BANKCTRLM.verilog
+3        work.BANKCTRL_GPIO.verilog
+4        work.BANKCTRL_HSIO.verilog
+5        work.BANKEN.verilog
+6        work.CLKBUF_DIFF.verilog
+7        work.CLKBUF_DIFF_ODT.verilog
+8        work.CORELNKTMR_V.verilog
+9        work.CRN_COMMON.verilog
+10       work.CRN_INT.verilog
+11       work.CRYPTO.verilog
+12       work.CRYPTO_SOC.verilog
+13       work.DEBUG.verilog
+14       work.DLL.verilog
+15       work.DRI.verilog
+16       work.ENFORCE.verilog
+17       work.GLITCHDETECT.verilog
+18       work.GPSS_COMMON.verilog
+19       work.HS_IO_CLK.verilog
+20       work.ICB_BANKCLK.verilog
+21       work.ICB_CLKDIV.verilog
+22       work.ICB_CLKDIVDELAY.verilog
+23       work.ICB_CLKINT.verilog
+24       work.ICB_CLKSTOP.verilog
+25       work.ICB_CLKSTOP_EN.verilog
+26       work.ICB_INT.verilog
+27       work.ICB_MUXING.verilog
+28       work.ICB_NGMUX.verilog
+29       work.INIT.verilog
+30       work.IOD.verilog
+31       work.LANECTRL.verilog
+32       work.LANERST.verilog
+33       work.MSS.verilog
+34       work.OSC_RC160MHZ.verilog
+35       work.OSC_RC200MHZ.verilog
+36       work.OSC_RC2MHZ.verilog
+37       work.PCIE.verilog
+38       work.PCIE_COMMON.verilog
+39       work.PFSOC_SCSM.verilog
+75       work.PF_CCC_C0.verilog
+76       work.PF_CCC_C0_PF_CCC_C0_0_PF_CCC.verilog
+40       work.PF_SPI.verilog
+41       work.PLL.verilog
+42       work.QUADRST.verilog
+43       work.QUADRST_PCIE.verilog
+44       work.SCB.verilog
+45       work.SYSCTRL_RESET_STATUS.verilog
+46       work.SYSRESET.verilog
+47       work.SYS_SERVICES.verilog
+48       work.TAMPER.verilog
+49       work.TVS.verilog
+50       work.TX_PLL.verilog
+51       work.UPROM.verilog
+52       work.USPI.verilog
+53       work.VOLTAGEDETECT.verilog
+54       work.VREFBANKDYN.verilog
+55       work.VREFCTRL.verilog
+56       work.XCVR.verilog
+57       work.XCVR_64B6XB.verilog
+58       work.XCVR_8B10B.verilog
+59       work.XCVR_APB_LINK.verilog
+60       work.XCVR_APB_LINK_V.verilog
+61       work.XCVR_APB_LINK_V2.verilog
+62       work.XCVR_DUAL_PCS.verilog
+63       work.XCVR_PIPE.verilog
+64       work.XCVR_PIPE_AXI0.verilog
+65       work.XCVR_PIPE_AXI1.verilog
+66       work.XCVR_PMA.verilog
+67       work.XCVR_REF_CLK.verilog
+68       work.XCVR_REF_CLK_N.verilog
+69       work.XCVR_REF_CLK_P.verilog
+70       work.XCVR_TEST.verilog
+71       work.XCVR_VV.verilog
+77       work.clockDivider.verilog
+72       work.masterAXI.verilog
+73       work.slaveAXI.verilog
+74       work.top.verilog

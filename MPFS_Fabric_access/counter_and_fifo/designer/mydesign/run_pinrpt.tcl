@@ -1,0 +1,11 @@
+DESIGN=mydesign
+DESDIR=C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\designer\mydesign
+TARGET_DIR=C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\designer\mydesign
+FAM=PolarFireSoC
+DIE=PA5SOC095T
+PACKAGE=fcsg325
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+PINRPT_BOARDLAYOUT=1
+BANK_REPORT=1
+IOREG_REPORT=1

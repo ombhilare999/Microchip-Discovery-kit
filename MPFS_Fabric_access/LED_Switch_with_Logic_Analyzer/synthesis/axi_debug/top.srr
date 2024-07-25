@@ -1,0 +1,1821 @@
+#Build: Synplify Pro (R) V-2023.09M, Build 146R, Jan  4 2024
+#install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: HAMAS
+
+# Thu Jul 25 10:53:56 2024
+
+#Implementation: axi_debug
+
+$ Running Identify Instrumentor. See log file:
+@N::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synlog\top_identify_compile.log"|
+#Thu Jul 25 10:53:56 2024
+
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":20:6:20:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":60:6:60:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":87:6:87:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":117:6:117:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":167:6:167:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":212:6:212:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":231:6:231:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":280:6:280:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":334:6:334:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":656:14:656:14|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":760:6:760:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":794:6:794:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1058:6:1058:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1368:6:1368:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1395:6:1395:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1440:6:1440:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1473:6:1473:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1491:6:1491:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1517:6:1517:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1558:6:1558:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1580:6:1580:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1598:6:1598:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1615:6:1615:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1634:6:1634:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1651:6:1651:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1680:6:1680:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1711:6:1711:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1801:6:1801:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2025:6:2025:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2186:6:2186:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2202:6:2202:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2218:6:2218:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2234:6:2234:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2266:6:2266:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2647:6:2647:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3660:6:3660:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3731:6:3731:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3860:6:3860:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3878:6:3878:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3895:6:3895:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3910:6:3910:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3925:6:3925:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3952:6:3952:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4066:6:4066:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4097:6:4097:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4143:6:4143:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4254:6:4254:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4438:6:4438:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4479:6:4479:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4505:6:4505:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4522:6:4522:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4599:6:4599:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":5363:6:5363:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6173:6:6173:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6282:6:6282:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6320:6:6320:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6393:6:6393:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":7282:6:7282:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":8339:6:8339:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":9298:6:9298:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10034:6:10034:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10749:6:10749:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10783:6:10783:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10819:6:10819:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10866:6:10866:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10900:6:10900:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":11766:6:11766:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12809:6:12809:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12821:26:12821:26|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12832:6:12832:6|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12845:6:12845:6|User defined pragma syn_black_box detected
+
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v" (library work)
+@W: CS141 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12851:0:12851:8|Unrecognized synthesis directive history. Verify the correct directive name.
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v" (library work)
+@W: CS141 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v":50:0:50:8|Unrecognized synthesis directive history. Verify the correct directive name.
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v" (library work)
+@W: CS141 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v":49:0:49:8|Unrecognized synthesis directive history. Verify the correct directive name.
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v":797:6:797:6|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v":21:7:21:15|Synthesizing module masterAXI in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v":21:7:21:14|Synthesizing module slaveAXI in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v":21:7:21:9|Synthesizing module top in library work.
+@END
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 97MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 25 10:53:56 2024
+
+###########################################################]
+Running in restricted mode: identify_job
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Identify (R) Instrumentor
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+
+Arguments:   -product identify_instrumentor -tsl VnlUMnqr -af _CMD_IDENTIFY_COMPILE.CML
+ProductType: identify_instrumentor
+
+
+
+
+
+
+
+*** Integrated Instrumentor ***
+Added instrumentation 'synthesis' to the project
+Added instrumentation 'axi_debug' to the project
+Loading instrumentation 'axi_debug'
+Setting IICE sampler (data compression) to 1 for IICE named 'IICE'
+Setting IICE sampler (memory module type) to 'LSRAM' for IICE named 'IICE'
+Setting IICE sampler (sampledepth) to 512 for IICE named 'IICE'
+Setting IICE sample clock to '/master/clk' for IICE named 'IICE'
+Setting IICE sampler (data compression) to 1 for IICE named 'output_leds'
+Setting IICE sampler (memory module type) to 'LSRAM' for IICE named 'output_leds'
+Setting IICE sampler (sampledepth) to 512 for IICE named 'output_leds'
+Setting IICE sample clock to '/slave/clk' for IICE named 'output_leds'
+Instrumenting design `top' in directory C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 3, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+	IICE=output_leds 
+		Total instrumentation in bits: Sample Only 6, Trigger Only 0, Sample and trigger 2, Assertions 0
+		Instrumentation in bits: 		Sample Only 6, Sample and trigger 2, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+exit status=0
+Unloading current instrumentation 'axi_debug'
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys HDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+@N::Reading compiler constraint file C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.cdc
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4067:13:4067:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4098:13:4098:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4144:13:4144:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4255:13:4255:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4439:13:4439:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4480:13:4480:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4506:13:4506:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4523:13:4523:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":4600:13:4600:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":5364:13:5364:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6174:13:6174:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6283:13:6283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6321:13:6321:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":6394:13:6394:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":7283:13:7283:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":8340:13:8340:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":9299:13:9299:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10035:13:10035:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10750:13:10750:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10784:13:10784:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10820:13:10820:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10867:13:10867:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":10901:13:10901:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":11767:13:11767:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12810:13:12810:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12822:15:12822:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12833:13:12833:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v":12846:13:12846:25|User defined pragma syn_black_box detected
+
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v" (library work)
+@I::"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v" (library work)
+@W: CG100 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v":798:13:798:25|User defined pragma syn_black_box detected
+
+Verilog syntax check successful!
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.cdc changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v changed - recompiling
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v changed - recompiling
+Selecting top level module top
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=104'b01101001011001000110010101101110011101000101111101101001011010000111001101011111011000110110110001101011
+   Generated name = syn_hyper_source_1s_ident_ihs_clk
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_clk .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=144'b011010010110010001100101011011100111010001011111011010010110100001110011010111110110111101110101011101000101011001100001011011000110100101100100
+   Generated name = syn_hyper_source_1s_ident_ihs_outValid
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outValid .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outValid (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=120'b011010010110010001100101011011100111010001011111011010010110100001110011010111110111001001100101011000010110010001111001
+   Generated name = syn_hyper_source_1s_ident_ihs_ready
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_ready .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_ready (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101100100011000010111010001100001010011110111010101110100
+   Generated name = syn_hyper_source_2s_ident_ihs_dataOut
+Running optimization stage 1 on syn_hyper_source_2s_ident_ihs_dataOut .......
+Finished optimization stage 1 on syn_hyper_source_2s_ident_ihs_dataOut (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v":21:7:21:15|Synthesizing module masterAXI in library work.
+Running optimization stage 1 on masterAXI .......
+Finished optimization stage 1 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=112'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101100100011000010111010001100001
+   Generated name = syn_hyper_source_2s_ident_ihs_data
+Running optimization stage 1 on syn_hyper_source_2s_ident_ihs_data .......
+Finished optimization stage 1 on syn_hyper_source_2s_ident_ihs_data (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110001
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit1
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit1 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110010
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit2
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit2 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit2 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110011
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit3
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit3 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=136'b0110100101100100011001010110111001110100010111110110100101101000011100110101111101101111011101010111010001000010011010010111010000110100
+   Generated name = syn_hyper_source_1s_ident_ihs_outBit4
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit4 .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_outBit4 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v":21:7:21:14|Synthesizing module slaveAXI in library work.
+Running optimization stage 1 on slaveAXI .......
+Finished optimization stage 1 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+	tag=144'b011010010110010001100101011011100111010001011111011010010110100001110011010111110110100101101110010100110111011101101001011101000110001101101000
+   Generated name = syn_hyper_source_2s_ident_ihs_inSwitch
+Running optimization stage 1 on syn_hyper_source_2s_ident_ihs_inSwitch .......
+Finished optimization stage 1 on syn_hyper_source_2s_ident_ihs_inSwitch (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v":21:7:21:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_2s_ident_ihs_inSwitch .......
+Finished optimization stage 2 on syn_hyper_source_2s_ident_ihs_inSwitch (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on slaveAXI .......
+Finished optimization stage 2 on slaveAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit4 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit4 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit3 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit2 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit2 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit1 .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outBit1 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_2s_ident_ihs_data .......
+Finished optimization stage 2 on syn_hyper_source_2s_ident_ihs_data (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on masterAXI .......
+Finished optimization stage 2 on masterAXI (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_2s_ident_ihs_dataOut .......
+Finished optimization stage 2 on syn_hyper_source_2s_ident_ihs_dataOut (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_ready .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_ready (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_outValid .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_outValid (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_clk .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_clk (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 98MB peak: 98MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Jul 25 10:54:00 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 25 10:54:01 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\top_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Thu Jul 25 10:54:01 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+File C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\top_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jul 25 10:54:02 2024
+
+###########################################################]
+Premap Report
+
+# Thu Jul 25 10:54:02 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
+
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\designer\top\synthesis.fdc
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.sdc
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top_scck.rpt 
+See clock summary report "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
+
+NConnInternalConnection caching is on
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\hdl\masteraxi.v":42:0:42:8|Found instance master.dataOut[1:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Making connections to hyper_source modules
+@N: MF625 |Insert Identify debug core
+*** Launch instrumentor shell: "C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin\identify_instrumentor_shell.exe" -srs_gen_hw "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.v" -prj "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\scratchproject.prs" -idb "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.db" -isrs C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\top_mult.srs -curimpl axi_debug -write_fdc -log C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.log  -tsl VnlUMnqr -fidc C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.idc
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":72:6:72:11|Found instance genblk1.b3_ORb[32:1] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_FZFFLXYE[8:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_jAA_KlCO with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2569:10:2569:15|Found instance genblk9.b7_nYJ_BFM[14:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2845:12:2845:17|Found instance genblk4.b8_2S5I_CuY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_FZFFLXYE[8:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2527:2:2527:7|Found instance b8_jAA_KlCO with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2569:10:2569:15|Found instance genblk9.b7_nYJ_BFM[10:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2845:12:2845:17|Found instance genblk4.b8_2S5I_CuY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6939:3:6939:8|Found instance genblk4.b10_nYhI3_umjB with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7398:6:7398:11|Found instance genblk4.b9_ibScJX_E2 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7369:6:7369:11|Found instance genblk3.b8_vABZ3qsY with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6674:3:6674:8|Found instance b4_oYh0[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6657:3:6657:8|Found instance b7_OSr_J90 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6646:3:6646:8|Found instance b8_uUT_CqMr[3:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6674:3:6674:8|Found instance b4_oYh0[4:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6657:3:6657:8|Found instance b7_OSr_J90 with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6646:3:6646:8|Found instance b8_uUT_CqMr[4:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.fdc
+
+Making connections to hyper_source modules
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8264:28:8264:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit4_output_leds_regular_5, tag slave.ident_ihs_outBit4 to syn_hyper_source slave.ident_hs_outBit4
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8257:28:8257:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit3_output_leds_regular_4, tag slave.ident_ihs_outBit3 to syn_hyper_source slave.ident_hs_outBit3
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8250:28:8250:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit2_output_leds_regular_3, tag slave.ident_ihs_outBit2 to syn_hyper_source slave.ident_hs_outBit2
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8243:28:8243:69|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outBit1_output_leds_regular_2, tag slave.ident_ihs_outBit1 to syn_hyper_source slave.ident_hs_outBit1
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8236:28:8236:66|Connected syn_hyper_connect ident_coreinst.ident_hyperc_data_output_leds_regular_6, tag slave.ident_ihs_data to syn_hyper_source slave.ident_hs_data
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8229:28:8229:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk_output_leds_regular, tag slave.ident_ihs_clk to syn_hyper_source slave.ident_hs_clk
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8222:28:8222:70|Connected syn_hyper_connect ident_coreinst.ident_hyperc_inSwitch_output_leds_regular_0, tag ident_ihs_inSwitch to syn_hyper_source ident_hs_inSwitch
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8205:28:8205:60|Connected syn_hyper_connect ident_coreinst.ident_hyperc_ready_IICE_regular_3, tag master.ident_ihs_ready to syn_hyper_source master.ident_hs_ready
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8198:28:8198:63|Connected syn_hyper_connect ident_coreinst.ident_hyperc_outValid_IICE_regular_2, tag master.ident_ihs_outValid to syn_hyper_source master.ident_hs_outValid
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8191:28:8191:62|Connected syn_hyper_connect ident_coreinst.ident_hyperc_dataOut_IICE_regular_0, tag master.ident_ihs_dataOut to syn_hyper_source master.ident_hs_dataOut
+@N: BN397 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8184:28:8184:56|Connected syn_hyper_connect ident_coreinst.ident_hyperc_clk_IICE_regular, tag master.ident_ihs_clk to syn_hyper_source master.ident_hs_clk
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 252MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 253MB)
+
+
+Making connections to hyper_source modules
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7482:7:7482:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_regular_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.IICE_regular_x(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7647:22:7647:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_regular_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.IICE_regular_x(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7933:7:7933:20|Tristate driver b10_PbTt39_Y2x (in view: VhdlGenLib.output_leds_regular_x(verilog)) on net b10_PbTt39_Y2x (in view: VhdlGenLib.output_leds_regular_x(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8104:22:8104:37|Tristate driver b12_ocsGfWYY_Lyh (in view: VhdlGenLib.output_leds_regular_x(verilog)) on net b12_ocsGfWYY_Lyh (in view: VhdlGenLib.output_leds_regular_x(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 253MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 252MB peak: 253MB)
+
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7398:6:7398:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_0(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7398:6:7398:11|Removing sequential instance genblk4\.b9_ibScJX_E2 (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_1(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7424:2:7424:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_0(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7424:2:7424:7|Removing sequential instance b11_ibScJX_E2_P (in view: VhdlGenLib.b8_nR_ymqrG_9s_5s_0_0s_0s_0_255s_x_1(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF on CLKINT  I_1 
+@N: FP130 |Promoting Net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX on CLKINT  I_2 
+@N: FX1184 |Applying syn_allowed_resources blockrams=308 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 254MB peak: 254MB)
+
+@W: Z241 :"c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/synthesis/axi_debug/instr_sources/syn_dics.fdc":2:0:2:0|Source for clock ident_coreinst.comm_block_INST.dr2_tck should be moved to net ident_coreinst.comm_block_INST.jtagi.b7_oSD_3vW connected to driving cell pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O 
+
+
+Clock Summary
+******************
+
+          Start                                                Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------
+0 -       clk                                                  100.0 MHz     10.000        declared     default_clkgroup          283  
+                                                                                                                                       
+0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      9    
+                                                                                                                                       
+0 -       System                                               100.0 MHz     10.000        system       system_clkgroup           0    
+                                                                                                                                       
+0 -       jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_1     473  
+                                                                                                                                       
+0 -       jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     10.000        inferred     Inferred_clkgroup_0_3     58   
+                                                                                                                                       
+0 -       jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     10.000        inferred     Inferred_clkgroup_0_2     9    
+=======================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                     Clock     Source                                                             Clock Pin                                                                                       Non-clock Pin                                            Non-clock Pin                                                
+Clock                                                Load      Pin                                                                Seq Example                                                                                     Seq Example                                              Comb Example                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                                                  283       clk(port)                                                          ident_coreinst.output_leds_INST.b20_i2WM2X_F8tsl_Ae1cdJ4.C                                      -                                                        I_1.A(CLKINT)                                                
+                                                                                                                                                                                                                                                                                                                                                        
+ident_coreinst.comm_block_INST.dr2_tck               9         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[8:0].C                                   -                                                        -                                                            
+                                                                                                                                                                                                                                                                                                                                                        
+System                                               0         -                                                                  -                                                                                               -                                                        -                                                            
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|identify_clk_int_inferred_clock     473       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw.UDRCK(UJTAG)     ident_coreinst.comm_block_INST.b9_ORb_xNywD.genblk1\.b3_ORb[32:1].C                             -                                                        ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.I(BUFG)
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|b9_nv_oQwfYF                        58        ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3.OUT(and)       ident_coreinst.output_leds_INST.b3_SoW.genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[7:0].C     ident_coreinst.output_leds_INST.b3_SoW.b8_jAA_KlCO.E     ident_coreinst.comm_block_INST.jtagi.I_1.A(CLKINT)           
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|b10_8Kz_rKlrtX                      9         ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_3.OUT(and)     ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[8:0].C                        -                                                        ident_coreinst.comm_block_INST.jtagi.I_2.A(CLKINT)           
+========================================================================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6674:3:6674:8|Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock which controls 473 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.iclksync_status.b4_oYh0[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":368:6:368:11|Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX which controls 9 sequential elements including ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[8:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7351:6:7351:11|Found inferred clock jtag_interface_x|b9_nv_oQwfYF which controls 58 sequential elements including ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk2\.b3_nUT[8:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 254MB peak: 255MB)
+
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_0(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_1(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 258MB peak: 258MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 260MB peak: 260MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:11s; Memory used current: 172MB peak: 260MB)
+
+Process took 0h:00m:13s realtime, 0h:00m:11s cputime
+# Thu Jul 25 10:54:15 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Jul 25 10:54:16 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 200MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+Dissolving instances under view:VhdlGenLib.b11_OFWNT9s_8tZ_Z5_x(verilog) (flattening)
+
+Dissolving instances under view:VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog) (flattening)
+
+
+Making connections to hyper_source modules
+@N: BZ173 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7018:4:7018:7|ROM b5_iSWcC_1[2:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_0(verilog)) mapped in logic.
+@N: MO106 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7018:4:7018:7|Found ROM b5_iSWcC_1[2:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_0(verilog)) with 14 words by 3 bits.
+@N: BZ173 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7018:4:7018:7|ROM b5_iSWcC_1[2:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_1(verilog)) mapped in logic.
+@N: MO106 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7018:4:7018:7|Found ROM b5_iSWcC_1[2:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_1(verilog)) with 14 words by 3 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
+
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_0(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6939:3:6939:8|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x_0(verilog) instance genblk4\.b7_nYhI39s[8:0] 
+@N: FX493 |Applying initial value "0" on instance iclksync_status.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance iclksync_current_state.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance b13_nAzGfFM_sLsv3_i[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[1].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[2].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[3].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[4].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[5].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[6].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[7].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk2\.b3_nUT[8].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[0].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[1].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[2].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[3].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[4].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[0].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[1].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[2].
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":3030:6:3030:11|Removing sequential instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[2:0] (in view: VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@W: FX107 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2707:4:2707:9|RAM b3_SoW.b9_SoW_TWsrw[9:0] (in view: VhdlGenLib.b11_OFWNT9s_8tZ_Z3_x(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX493 |Applying initial value "1" on instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[5].
+@N: FX493 |Applying initial value "0" on instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[7].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[0].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[1].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[2].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[3].
+Encoding state machine b13_nAzGfFM_sLsv3[13:0] (in view: VhdlGenLib.b7_OCByLXC_Z1_x_1(verilog))
+original code -> new code
+   0000 -> 00000000000000
+   0001 -> 00000000000011
+   0010 -> 00000000000101
+   0011 -> 00000000001001
+   0100 -> 00000000010001
+   0101 -> 00000000100001
+   0110 -> 00000001000001
+   0111 -> 00000010000001
+   1000 -> 00000100000001
+   1001 -> 00001000000001
+   1010 -> 00010000000001
+   1011 -> 00100000000001
+   1100 -> 01000000000001
+   1101 -> 10000000000001
+@N: MO231 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6939:3:6939:8|Found counter in view:VhdlGenLib.b7_OCByLXC_Z1_x_1(verilog) instance genblk4\.b7_nYhI39s[8:0] 
+@N: FX493 |Applying initial value "0" on instance iclksync_status.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance iclksync_current_state.b5_uU_cL.
+@N: FX493 |Applying initial value "0" on instance b13_nAzGfFM_sLsv3_i[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[0].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[1].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[2].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[3].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[4].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[5].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[6].
+@N: FX493 |Applying initial value "1" on instance cntrl_chain.genblk2\.b3_nUT[7].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk2\.b3_nUT[8].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[0].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[1].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[2].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[3].
+@N: FX493 |Applying initial value "0" on instance cntrl_chain.genblk1\.b3_nfs[4].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[0].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[1].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[2].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[3].
+@N: FX493 |Applying initial value "1" on instance b5_PbrtL.b6_OKctIF[4].
+@N: FX493 |Applying initial value "0" on instance b5_PbrtL.b6_OKctIF[5].
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":3030:6:3030:11|Removing sequential instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[2:0] (in view: VhdlGenLib.b11_OFWNT9s_8tZ_Z5_x(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@W: FX107 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":2707:4:2707:9|RAM b3_SoW.b9_SoW_TWsrw[13:0] (in view: VhdlGenLib.b11_OFWNT9s_8tZ_Z5_x(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: FX493 |Applying initial value "1" on instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[5].
+@N: FX493 |Applying initial value "0" on instance genblk4\.b11_oGA_BXsO_OS.genblk2\.b8_nczQ_DYg[7].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[0].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[1].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[2].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[3].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[4].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[5].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[6].
+@N: FX493 |Applying initial value "1" on instance genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[7].
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6447:2:6447:7|Removing instance ident_coreinst.IICE_INST.b4_PfFz.b7_PbTtl9G.b7_1LbcgKF.b11_uUG_C9CrTXy because it is equivalent to instance ident_coreinst.IICE_INST.b3_SoW.b6_SoWyQD.genblk2.b5_oRB_C[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6985:2:6985:7|Removing sequential instance b5_nUTGT.b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.IICE_regular_x(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7740:2:7740:7|Removing instance ident_coreinst.output_leds_INST.b4_PfFz.b7_PbTtl9G.b7_1LbcgKG.b11_uUG_C9CrTXy because it is equivalent to instance ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.genblk2.b5_oRB_C[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7740:2:7740:7|Removing instance ident_coreinst.output_leds_INST.b4_PfFz.b7_PbTtl9G.b7_1LbcgKF.b11_uUG_C9CrTXy because it is equivalent to instance ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.genblk2.b5_oRB_C[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":6985:2:6985:7|Removing sequential instance b5_nUTGT.b13_xYTFKCkrt_FH9 (in view: VhdlGenLib.output_leds_regular_x(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
+
+
+Available hyper_sources - for debug and ip models
+HyperSrc tag ident_ihs_inSwitch
+HyperSrc tag master.ident_ihs_clk
+HyperSrc tag slave.ident_ihs_clk
+HyperSrc tag master.ident_ihs_outValid
+HyperSrc tag master.ident_ihs_ready
+HyperSrc tag master.ident_ihs_dataOut
+HyperSrc tag slave.ident_ihs_data
+HyperSrc tag slave.ident_ihs_outBit1
+HyperSrc tag slave.ident_ihs_outBit2
+HyperSrc tag slave.ident_ihs_outBit3
+HyperSrc tag slave.ident_ihs_outBit4
+HyperSrc tag ident_coreinst.IICE_INST.ident_ihs_IICE_master_clock
+HyperSrc tag ident_coreinst.output_leds_INST.ident_ihs_IICE_master_clock
+HyperSrc tag ident_coreinst.IICE_INST.Identify_IICE_trigger_ext
+HyperSrc tag ident_coreinst.output_leds_INST.Identify_output_leds_trigger_ext
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_uireg
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_urstb
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrupd
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrck
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrcap
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_udrsh
+HyperSrc tag ident_coreinst.comm_block_INST.jtagi.ujtag_wrapper_utdi
+
+Making connections to hyper_source modules
+@W: BN401 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":234:20:234:44|Missing syn_hyper_source with tag ujtag_wrapper_utdo. Connecting to default value '0'
+Deleting unused hyper source sample_clock_hs (in view: VhdlGenLib.output_leds_regular_x(verilog))
+Deleting unused hyper source sample_clock_hs (in view: VhdlGenLib.IICE_regular_x(verilog))
+Deleting unused hyper source trigger_hs (in view: VhdlGenLib.IICE_regular_x(verilog))
+Deleting unused hyper source trigger_hs (in view: VhdlGenLib.output_leds_regular_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_uireg (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_urstb (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrupd (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrck (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrcap (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_udrsh (in view: VhdlGenLib.jtag_interface_x(verilog))
+Deleting unused hyper source hypers_ujtag_wrapper_utdi (in view: VhdlGenLib.jtag_interface_x(verilog))
+NConnInternalConnection caching is on
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":8048:2:8048:7|Removing sequential instance ident_coreinst.output_leds_INST.b13_PSyil9s_FMZ_L (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\synthesis\axi_debug\instr_sources\syn_dics.v":7591:2:7591:7|Removing sequential instance ident_coreinst.IICE_INST.b13_PSyil9s_FMZ_L (in view: work.top(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 270MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 271MB peak: 271MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 272MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 272MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 272MB peak: 272MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 301MB peak: 301MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     0.72ns		 685 /       779
+   2		0h:00m:02s		     0.72ns		 669 /       779
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 302MB peak: 302MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 302MB peak: 302MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 302MB peak: 302MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 302MB peak: 303MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 246MB peak: 303MB)
+
+Writing Analyst data base C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synwork\top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 296MB peak: 303MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: BW278 :"c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/synthesis/axi_debug/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck source pin ident_coreinst.comm_block_INST.dr2_tck_keep.OUT[0]
+@N: BW279 :"c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/synthesis/axi_debug/instr_sources/syn_dics.fdc":2:0:2:0|Clock ident_coreinst.comm_block_INST.dr2_tck drive pin ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.Y
+@N: BW280 :"c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/synthesis/axi_debug/instr_sources/syn_dics.fdc":2:0:2:0|Forward annotating clock ident_coreinst.comm_block_INST.dr2_tck on drive pins would add that clock to 441 clock pins including ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0.A_CLK
+@W: BW295 :"c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/synthesis/axi_debug/instr_sources/syn_dics.fdc":2:0:2:0|Forward annotation of clocks to input pins not allowed for this technology. Forward annotating clock ident_coreinst.comm_block_INST.dr2_tck on driving pins
+@W: BW156 :"c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/synthesis/axi_debug/instr_sources/syn_dics.fdc":3:0:3:0|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 297MB peak: 303MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 297MB peak: 303MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 294MB peak: 303MB)
+
+@N: MT615 |Found clock clk with period 10.00ns 
+@N: MT615 |Found clock ident_coreinst.comm_block_INST.dr2_tck with period 1000.00ns 
+@W: MT420 |Found inferred clock jtag_interface_x|identify_clk_int_inferred_clock with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.identify_clk_int.
+@W: MT420 |Found inferred clock jtag_interface_x|b10_8Kz_rKlrtX with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX.
+@W: MT420 |Found inferred clock jtag_interface_x|b9_nv_oQwfYF with period 10.00ns. Please declare a user-defined clock on net ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Thu Jul 25 10:54:21 2024
+#
+
+
+Top view:               top
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\designer\top\synthesis.fdc
+                       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 0.972
+
+                                                     Requested     Estimated      Requested     Estimated                 Clock        Clock                
+Starting Clock                                       Frequency     Frequency      Period        Period        Slack       Type         Group                
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                                                  100.0 MHz     124.1 MHz      10.000        8.057         0.972       declared     default_clkgroup     
+ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       2922.3 MHz     1000.000      0.342         999.658     declared     identify_jtag_group1 
+jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     495.1 MHz      10.000        2.020         7.980       inferred     Inferred_clkgroup_0_3
+jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     216.1 MHz      10.000        4.628         5.372       inferred     Inferred_clkgroup_0_2
+jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     292.2 MHz      10.000        3.423         6.577       inferred     Inferred_clkgroup_0_1
+System                                               100.0 MHz     193.0 MHz      10.000        5.181         4.819       system       system_clkgroup      
+============================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                          Ending                                            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                            System                                            |  10.000      4.819    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            clk                                               |  10.000      6.726    |  No paths    -      |  10.000      6.756  |  No paths    -    
+System                                            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    997.890  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      4.785    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|b10_8Kz_rKlrtX                   |  10.000      8.303    |  No paths    -      |  No paths    -      |  No paths    -    
+System                                            jtag_interface_x|b9_nv_oQwfYF                     |  10.000      6.235    |  No paths    -      |  No paths    -      |  No paths    -    
+clk                                               clk                                               |  10.000      7.013    |  10.000      4.597  |  5.000       0.972  |  5.000       1.781
+clk                                               jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  Diff grp    -    
+ident_coreinst.comm_block_INST.dr2_tck            System                                            |  1000.000    998.160  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            ident_coreinst.comm_block_INST.dr2_tck            |  1000.000    999.658  |  No paths    -      |  No paths    -      |  No paths    -    
+ident_coreinst.comm_block_INST.dr2_tck            jtag_interface_x|b10_8Kz_rKlrtX                   |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  System                                            |  10.000      7.459    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  clk                                               |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|identify_clk_int_inferred_clock  |  10.000      6.577    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|identify_clk_int_inferred_clock  jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   System                                            |  10.000      5.372    |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   clk                                               |  Diff grp    -        |  No paths    -      |  Diff grp    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b10_8Kz_rKlrtX                   jtag_interface_x|b9_nv_oQwfYF                     |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     clk                                               |  Diff grp    -        |  No paths    -      |  Diff grp    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     jtag_interface_x|identify_clk_int_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+jtag_interface_x|b9_nv_oQwfYF                     jtag_interface_x|b9_nv_oQwfYF                     |  10.000      7.980    |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                           Starting                                                    Arrival          
+Instance                                                                   Reference     Type     Pin     Net                          Time        Slack
+                                                                           Clock                                                                        
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.output_leds_INST.b20_i2WM2X_F8tsl_Ae1cdJ4                   clk           SLE      Q       b20_i2WM2X_F8tsl_Ae1cdJ4     0.218       0.972
+ident_coreinst.IICE_INST.b20_i2WM2X_F8tsl_Ae1cdJ4                          clk           SLE      Q       b20_i2WM2X_F8tsl_Ae1cdJ4     0.218       1.153
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.genblk1\.b9_PSyil9s_2     clk           SLE      Q       b9_PSyil9s_2                 0.218       1.241
+ident_coreinst.IICE_INST.b5_nUTGT.b3_nfs[0]                                clk           SLE      Q       b3_nfs[0]                    0.201       1.263
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.genblk4\.b8_2S5I_CuY      clk           SLE      Q       b8_2S5I_CuY                  0.201       1.322
+ident_coreinst.IICE_INST.b3_SoW.b6_SoWyQD.genblk1\.b9_PSyil9s_2            clk           SLE      Q       b9_PSyil9s_2                 0.218       1.407
+ident_coreinst.output_leds_INST.b5_nUTGT.b3_nfs[0]                         clk           SLE      Q       b3_nfs[0]                    0.201       1.440
+ident_coreinst.IICE_INST.b3_SoW.b6_SoWyQD.genblk4\.b8_2S5I_CuY             clk           SLE      Q       b8_2S5I_CuY                  0.201       1.708
+ident_coreinst.output_leds_INST.b5_nUTGT.b13_nAzGfFM_sLsv3[12]             clk           SLE      Q       b13_nAzGfFM_sLsv3[12]        0.218       1.781
+ident_coreinst.output_leds_INST.b5_nUTGT.b13_nAzGfFM_sLsv3[11]             clk           SLE      Q       b13_nAzGfFM_sLsv3[11]        0.218       1.807
+========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                Starting                                                                    Required          
+Instance                                                                        Reference     Type        Pin          Net                                  Time         Slack
+                                                                                Clock                                                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.output_leds_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     clk           RAM1K20     B_WEN[0]     b13_oRB_MqCD2_t_x_RNIK2TBF1_Y[1]     4.149        0.972
+ident_coreinst.output_leds_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     clk           RAM1K20     B_WEN[1]     b13_oRB_MqCD2_t_x_RNIK2TBF1_Y[1]     4.149        0.972
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            clk           RAM1K20     B_WEN[0]     b13_oRB_MqCD2_t_x_RNI26GP13_Y[1]     4.149        1.153
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            clk           RAM1K20     B_WEN[1]     b13_oRB_MqCD2_t_x_RNI26GP13_Y[1]     4.149        1.153
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.genblk4\.b8_2S5I_CuY           clk           SLE         D            b5_PRWcJ37                           5.000        1.781
+ident_coreinst.output_leds_INST.b5_nUTGT.genblk4\.b7_nYhI39s[0]                 clk           SLE         EN           b7_nYhI39se                          4.873        1.882
+ident_coreinst.output_leds_INST.b5_nUTGT.genblk4\.b7_nYhI39s[1]                 clk           SLE         EN           b7_nYhI39se                          4.873        1.882
+ident_coreinst.output_leds_INST.b5_nUTGT.genblk4\.b7_nYhI39s[2]                 clk           SLE         EN           b7_nYhI39se                          4.873        1.882
+ident_coreinst.output_leds_INST.b5_nUTGT.genblk4\.b7_nYhI39s[3]                 clk           SLE         EN           b7_nYhI39se                          4.873        1.882
+ident_coreinst.output_leds_INST.b5_nUTGT.genblk4\.b7_nYhI39s[4]                 clk           SLE         EN           b7_nYhI39se                          4.873        1.882
+==============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.851
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.149
+
+    - Propagation time:                      3.178
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.972
+
+    Number of logic level(s):                3
+    Starting point:                          ident_coreinst.output_leds_INST.b20_i2WM2X_F8tsl_Ae1cdJ4 / Q
+    Ending point:                            ident_coreinst.output_leds_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0 / B_WEN[0]
+    The start point is clocked by            clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            clk [falling] (rise=0.000 fall=5.000 period=10.000) on pin B_CLK
+
+Instance / Net                                                                                                         Pin          Pin               Arrival     No. of    
+Name                                                                                                       Type        Name         Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.output_leds_INST.b20_i2WM2X_F8tsl_Ae1cdJ4                                                   SLE         Q            Out     0.218     0.218 r     -         
+b20_i2WM2X_F8tsl_Ae1cdJ4                                                                                   Net         -            -       0.764     -           21        
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.b6_nZ5I_F_1_RNIFHSKH_0                                    CFG4        D            In      -         0.983 r     -         
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.b6_nZ5I_F_1_RNIFHSKH_0                                    CFG4        Y            Out     0.232     1.214 r     -         
+b9_m1_e_0                                                                                                  Net         -            -       0.118     -           1         
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.b6_nZ5I_F_1_RNI1ESND1                                     CFG4        D            In      -         1.333 r     -         
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.b6_nZ5I_F_1_RNI1ESND1                                     CFG4        Y            Out     0.168     1.500 r     -         
+b9_N_3_mux_0                                                                                               Net         -            -       0.547     -           3         
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.genblk4\.genblk1\[1\]\.b13_oRB_MqCD2_t_x_RNIK2TBF1[1]     ARI1        C            In      -         2.047 r     -         
+ident_coreinst.output_leds_INST.b3_SoW.b6_SoWyQD.genblk4\.genblk1\[1\]\.b13_oRB_MqCD2_t_x_RNIK2TBF1[1]     ARI1        Y            Out     0.307     2.354 f     -         
+b13_oRB_MqCD2_t_x_RNIK2TBF1_Y[1]                                                                           Net         -            -       0.824     -           4         
+ident_coreinst.output_leds_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0                                RAM1K20     B_WEN[0]     In      -         3.178 f     -         
+============================================================================================================================================================================
+Total path delay (propagation time + setup) of 4.028 is 1.775(44.1%) logic and 2.253(55.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: ident_coreinst.comm_block_INST.dr2_tck
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                        Arrival            
+Instance                                                      Reference                                  Type     Pin     Net                 Time        Slack  
+                                                              Clock                                                                                              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[0]     0.218       998.160
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[1]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[2]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[3]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[4]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[5]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[6]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[7]     0.218       999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[8]     ident_coreinst.comm_block_INST.dr2_tck     SLE      Q       b9_OvyH3_saL[8]     0.218       999.658
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                              Starting                                                                          Required            
+Instance                                                      Reference                                  Type      Pin      Net                 Time         Slack  
+                                                              Clock                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw             ident_coreinst.comm_block_INST.dr2_tck     UJTAG     UTDO     b9_PLF_6lNa2        1000.000     998.160
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[1]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[1]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[2]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[2]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[3]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[3]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[4]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[4]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[5]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[5]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[6]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[6]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[7]     1000.000     999.658
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[7]     ident_coreinst.comm_block_INST.dr2_tck     SLE       D        b9_OvyH3_saL[8]     1000.000     999.658
+====================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      1.840
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 998.160
+
+    Number of logic level(s):                3
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            ident_coreinst.comm_block_INST.dr2_tck [rising] (rise=0.000 fall=500.000 period=1000.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                          Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[0]     SLE       Q        Out     0.218     0.218 r     -         
+b9_OvyH3_saL[0]                                               Net       -        -       0.124     -           2         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1_1         CFG4      B        In      -         0.342 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1_1         CFG4      Y        Out     0.083     0.425 r     -         
+b9_PLF_6lNa2_1_1                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1_2         CFG4      C        In      -         0.543 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1_2         CFG4      Y        Out     0.148     0.691 r     -         
+b9_PLF_6lNa2_1_2                                              Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1           CFG4      B        In      -         0.809 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1           CFG4      Y        Out     0.083     0.892 r     -         
+b9_PLF_6lNa2                                                  Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw             UJTAG     UTDO     In      -         1.840 r     -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 1.840 is 0.532(28.9%) logic and 1.308(71.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|b9_nv_oQwfYF
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                            Starting                                                            Arrival          
+Instance                                                                    Reference                         Type     Pin     Net              Time        Slack
+                                                                            Clock                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]            jtag_interface_x|b9_nv_oQwfYF     SLE      Q       b6_nfs_IF[1]     0.218       7.980
+ident_coreinst.output_leds_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]     jtag_interface_x|b9_nv_oQwfYF     SLE      Q       b6_nfs_IF[1]     0.218       8.006
+=================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                              Starting                                                                  Required          
+Instance                                                                      Reference                         Type     Pin     Net                    Time         Slack
+                                                                              Clock                                                                                       
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY            jtag_interface_x|b9_nv_oQwfYF     SLE      SLn     b6_nfs_IF_i[1]         9.944        7.980
+ident_coreinst.output_leds_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      SLn     b6_nfs_IF_i[1]         9.944        8.006
+ident_coreinst.output_leds_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY     jtag_interface_x|b9_nv_oQwfYF     SLE      EN      N_139_i                9.873        8.730
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY            jtag_interface_x|b9_nv_oQwfYF     SLE      EN      b11_vABZ3qsY_XH_or     9.873        8.766
+==========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.056
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.944
+
+    - Propagation time:                      1.964
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 7.980
+
+    Number of logic level(s):                1
+    Starting point:                          ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY / SLn
+    The start point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|b9_nv_oQwfYF [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                         Pin      Pin               Arrival     No. of    
+Name                                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs[1]              SLE      Q        Out     0.218     0.218 r     -         
+b6_nfs_IF[1]                                                                  Net      -        -       0.781     -           23        
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs_RNICFF83[1]     CFG1     A        In      -         0.999 r     -         
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk1\.b3_nfs_RNICFF83[1]     CFG1     Y        Out     0.046     1.045 f     -         
+b6_nfs_IF_i[1]                                                                Net      -        -       0.918     -           35        
+ident_coreinst.IICE_INST.b5_nUTGT.cntrl_chain.genblk3\.b8_vABZ3qsY            SLE      SLn      In      -         1.964 f     -         
+========================================================================================================================================
+Total path delay (propagation time + setup) of 2.020 is 0.320(15.9%) logic and 1.699(84.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|b10_8Kz_rKlrtX
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                         Starting                                                                      Arrival          
+Instance                                                                 Reference                           Type     Pin     Net                      Time        Slack
+                                                                         Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[3]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[2]     0.218       5.372
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[5]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[4]     0.201       5.418
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[7]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[6]     0.201       5.427
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[6]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[5]     0.201       5.455
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[0]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b11_uRrc_WYOFjZ[0]       0.218       5.644
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[4]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[3]     0.218       5.717
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[2]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b13_nvmFL_fx2rbuQ[1]     0.201       5.944
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[1]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b11_uRrc_WYOFjZ[1]       0.218       6.477
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[8]     jtag_interface_x|b10_8Kz_rKlrtX     SLE      Q       b12_ORbIwXaEF_bd         0.218       7.559
+========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                      Starting                                                                Required          
+Instance                                              Reference                           Type      Pin      Net              Time         Slack
+                                                      Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     jtag_interface_x|b10_8Kz_rKlrtX     UJTAG     UTDO     b9_PLF_6lNa2     10.000       5.372
+================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      4.628
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.372
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[3] / Q
+    Ending point:                            ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UTDO
+    The start point is clocked by            jtag_interface_x|b10_8Kz_rKlrtX [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                     Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[3]     SLE       Q        Out     0.218     0.218 r     -         
+b13_nvmFL_fx2rbuQ[2]                                                     Net       -        -       0.594     -           6         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_PbTt39_ab_0_a2_0_0               CFG4      D        In      -         0.813 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_PbTt39_ab_0_a2_0_0               CFG4      Y        Out     0.168     0.980 r     -         
+b9_PbTt39_ab_0_a2_0_0                                                    Net       -        -       0.563     -           4         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_PbTt39_ab_0_a2_0                 CFG4      D        In      -         1.544 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_PbTt39_ab_0_a2_0                 CFG4      Y        Out     0.168     1.711 r     -         
+N_59                                                                     Net       -        -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_OFWNT9_ab_0_a2                   CFG2      A        In      -         2.290 r     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_OFWNT9_ab_0_a2                   CFG2      Y        Out     0.051     2.341 r     -         
+b9_OFWNT9_ab                                                             Net       -        -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_a0_4                   CFG4      C        In      -         2.888 r     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_a0_4                   CFG4      Y        Out     0.132     3.020 f     -         
+b9_PLF_6lNa2_a0_4                                                        Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_a0_12                  CFG4      D        In      -         3.138 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_a0_12                  CFG4      Y        Out     0.192     3.330 f     -         
+b9_PLF_6lNa2_a0_12                                                       Net       -        -       0.118     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1                      CFG4      D        In      -         3.448 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_PLF_6lNa2_1                      CFG4      Y        Out     0.232     3.680 r     -         
+b9_PLF_6lNa2                                                             Net       -        -       0.948     -           1         
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        UJTAG     UTDO     In      -         4.628 r     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 4.628 is 1.160(25.1%) logic and 3.468(74.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: jtag_interface_x|identify_clk_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                    Starting                                                                                  Arrival          
+Instance                                                            Reference                                            Type     Pin     Net                 Time        Slack
+                                                                    Clock                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM[0]              jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b7_nYJ_BFM[0]       0.218       6.577
+ident_coreinst.output_leds_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[0]     0.201       6.639
+ident_coreinst.output_leds_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[4]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[4]     0.201       6.639
+ident_coreinst.output_leds_INST.b3_SoW.genblk9\.b7_nYJ_BFM[0]       jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b7_nYJ_BFM[0]       0.218       6.662
+ident_coreinst.output_leds_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[1]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[1]     0.218       6.663
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[0]            jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[0]     0.201       6.705
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[3]            jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[3]     0.201       6.705
+ident_coreinst.output_leds_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[5]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[5]     0.201       6.707
+ident_coreinst.output_leds_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[2]     jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[2]     0.218       6.728
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs[1]            jtag_interface_x|identify_clk_int_inferred_clock     SLE      Q       b9_v_mzCDYXs[1]     0.218       6.729
+===============================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                Starting                                                                                              Required          
+Instance                                                                        Reference                                            Type        Pin            Net                   Time         Slack
+                                                                                Clock                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[12]     b9_v_mzCDYXs_4[8]     9.385        6.577
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[7]     9.385        6.585
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[6]     9.385        6.593
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[9]      b9_v_mzCDYXs_4[5]     9.385        6.601
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[8]      b9_v_mzCDYXs_4[4]     9.385        6.609
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[7]      b9_v_mzCDYXs_4[3]     9.385        6.617
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[6]      b9_v_mzCDYXs_4[2]     9.385        6.625
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[5]      b9_v_mzCDYXs_4[1]     9.385        6.633
+ident_coreinst.output_leds_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[12]     b9_v_mzCDYXs_8[8]     9.385        6.639
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0            jtag_interface_x|identify_clk_int_inferred_clock     RAM1K20     A_ADDR[4]      b9_v_mzCDYXs_4[0]     9.385        6.641
+========================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      2.807
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.577
+
+    Number of logic level(s):                12
+    Starting point:                          ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM[0] / Q
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0 / A_ADDR[12]
+    The start point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                             Pin            Pin               Arrival     No. of    
+Name                                                                           Type        Name           Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM[0]                         SLE         Q              Out     0.218     0.218 r     -         
+b7_nYJ_BFM[0]                                                                  Net         -              -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIT08ID[0]                CFG4        B              In      -         0.765 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNIT08ID[0]                CFG4        Y              Out     0.083     0.848 r     -         
+m54_m3_0_a2_2                                                                  Net         -              -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNI6O7EM1[0]               ARI1        C              In      -         0.966 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNI6O7EM1[0]               ARI1        FCO            Out     0.393     1.359 r     -         
+b9_v_mzCDYXs_cry_0_cy                                                          Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIHBDPQ1[0]             ARI1        FCI            In      -         1.359 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIHBDPQ1[0]             ARI1        FCO            Out     0.008     1.367 r     -         
+b9_v_mzCDYXs_cry_0                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNITVI4V1[1]             ARI1        FCI            In      -         1.367 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNITVI4V1[1]             ARI1        FCO            Out     0.008     1.375 r     -         
+b9_v_mzCDYXs_cry_1                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIALOF32[2]             ARI1        FCI            In      -         1.375 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIALOF32[2]             ARI1        FCO            Out     0.008     1.383 r     -         
+b9_v_mzCDYXs_cry_2                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIOBUQ72[3]             ARI1        FCI            In      -         1.383 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIOBUQ72[3]             ARI1        FCO            Out     0.008     1.391 r     -         
+b9_v_mzCDYXs_cry_3                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNI7346C2[4]             ARI1        FCI            In      -         1.391 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNI7346C2[4]             ARI1        FCO            Out     0.008     1.399 r     -         
+b9_v_mzCDYXs_cry_4                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNINR9HG2[5]             ARI1        FCI            In      -         1.399 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNINR9HG2[5]             ARI1        FCO            Out     0.008     1.407 r     -         
+b9_v_mzCDYXs_cry_5                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNI8LFSK2[6]             ARI1        FCI            In      -         1.407 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNI8LFSK2[6]             ARI1        FCO            Out     0.008     1.415 r     -         
+b9_v_mzCDYXs_cry_6                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIQFL7P2[7]             ARI1        FCI            In      -         1.415 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIQFL7P2[7]             ARI1        FCO            Out     0.008     1.423 r     -         
+b9_v_mzCDYXs_cry_7                                                             Net         -              -       0.000     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIDBRIT2[8]             ARI1        FCI            In      -         1.423 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b9_v_mzCDYXs_RNIDBRIT2[8]             ARI1        S              Out     0.300     1.724 r     -         
+b9_v_mzCDYXs_RNIDBRIT2_S[8]                                                    Net         -              -       0.124     -           2         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0_RNO_7     CFG3        C              In      -         1.847 r     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0_RNO_7     CFG3        Y              Out     0.148     1.995 r     -         
+b9_v_mzCDYXs_4[8]                                                              Net         -              -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0           RAM1K20     A_ADDR[12]     In      -         2.807 r     -         
+==================================================================================================================================================
+Total path delay (propagation time + setup) of 3.423 is 1.822(53.2%) logic and 1.601(46.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                           Arrival          
+Instance                                              Reference     Type      Pin          Net                           Time        Slack
+                                                      Clock                                                                               
+------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[4]     b6_uS_MrX[3]                  0.000       4.785
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[3]     b6_uS_MrX[2]                  0.000       4.827
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[2]     b6_uS_MrX[1]                  0.000       4.856
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[5]     b6_uS_MrX[4]                  0.000       4.936
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[1]     b6_uS_MrX[0]                  0.000       5.004
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UIREG[6]     b3_1Um                        0.000       5.678
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UDRSH        b9_8Kz_2grFt                  0.000       6.148
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UDRCAP       b11_8Kz_BqzYRrb               0.000       7.078
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UDRUPD       b9_Rcmi_KsDw_UDRUPD           0.000       8.419
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw     System        UJTAG     UTDI         IICE_regular_comm2iice[7]     0.000       9.016
+==========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                         Starting                                                       Required          
+Instance                                                                 Reference     Type        Pin            Net                   Time         Slack
+                                                                         Clock                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[4]      b9_v_mzCDYXs_4[0]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[5]      b9_v_mzCDYXs_4[1]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[6]      b9_v_mzCDYXs_4[2]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[7]      b9_v_mzCDYXs_4[3]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[8]      b9_v_mzCDYXs_4[4]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[9]      b9_v_mzCDYXs_4[5]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[10]     b9_v_mzCDYXs_4[6]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[11]     b9_v_mzCDYXs_4[7]     9.385        4.785
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0     System        RAM1K20     A_ADDR[12]     b9_v_mzCDYXs_4[8]     9.385        4.785
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                        System        UJTAG       UTDO           b9_PLF_6lNa2          10.000       4.819
+==========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.615
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.385
+
+    - Propagation time:                      4.599
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.785
+
+    Number of logic level(s):                6
+    Starting point:                          ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw / UIREG[4]
+    Ending point:                            ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0 / A_ADDR[4]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            jtag_interface_x|identify_clk_int_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+
+Instance / Net                                                                           Pin           Pin               Arrival     No. of    
+Name                                                                         Type        Name          Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw                            UJTAG       UIREG[4]      Out     0.000     0.000 r     -         
+b6_uS_MrX[3]                                                                 Net         -             -       0.118     -           1         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_1                  CFG2        B             In      -         0.118 r     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b11_nFG0rDY_9e2c_1                  CFG2        Y             Out     0.088     0.206 f     -         
+b9_96_cLqgOF5_2                                                              Net         -             -       0.547     -           3         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                           CFG4        B             In      -         0.752 f     -         
+ident_coreinst.comm_block_INST.jtagi.b9_96_cLqgOF5                           CFG4        Y             Out     0.077     0.830 f     -         
+b9_96_cLqgOF5                                                                Net         -             -       0.662     -           11        
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_PbTt39_ab_0_a2_0                     CFG4        C             In      -         1.492 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_PbTt39_ab_0_a2_0                     CFG4        Y             Out     0.145     1.637 f     -         
+N_59                                                                         Net         -             -       0.579     -           5         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_OFWNT9_ab_0_a2                       CFG2        A             In      -         2.217 f     -         
+ident_coreinst.IICE_INST.b8_uKr_IFLY.b9_OFWNT9_ab_0_a2                       CFG2        Y             Out     0.048     2.264 f     -         
+b9_OFWNT9_ab                                                                 Net         -             -       0.547     -           3         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNI4QHE81[0]             CFG4        D             In      -         2.811 f     -         
+ident_coreinst.IICE_INST.b3_SoW.genblk9\.b7_nYJ_BFM_RNI4QHE81[0]             CFG4        Y             Out     0.192     3.003 f     -         
+N_198_i                                                                      Net         -             -       0.738     -           18        
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0_RNO     CFG3        A             In      -         3.740 f     -         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0_RNO     CFG3        Y             Out     0.047     3.788 r     -         
+b9_v_mzCDYXs_4[0]                                                            Net         -             -       0.812     -           1         
+ident_coreinst.IICE_INST.b3_SoW.b3_SoW.b9_SoW_TWsrw_b9_SoW_TWsrw_0_0         RAM1K20     A_ADDR[4]     In      -         4.599 r     -         
+===============================================================================================================================================
+Total path delay (propagation time + setup) of 5.215 is 1.212(23.2%) logic and 4.003(76.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 296MB peak: 303MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 296MB peak: 303MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          4 uses
+UJTAG           1 use
+CFG1           19 uses
+CFG2           133 uses
+CFG3           229 uses
+CFG4           248 uses
+
+Carry cells:
+ARI1            58 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            755 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 14
+I/O primitives: 9
+INBUF          5 uses
+OUTBUF         4 uses
+
+
+Global Clock Buffers: 4
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K20) : 2 of 308 (0%)
+
+Total LUTs:    687
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 72; LUTs = 72;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  755 + 0 + 72 + 0 = 827;
+Total number of LUTs after P&R:  687 + 0 + 72 + 0 = 759;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 132MB peak: 303MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Thu Jul 25 10:54:21 2024
+
+###########################################################]

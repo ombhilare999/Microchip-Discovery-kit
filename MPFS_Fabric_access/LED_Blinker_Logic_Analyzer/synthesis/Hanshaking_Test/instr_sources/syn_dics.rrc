@@ -1,0 +1,9 @@
+outBit1
+dataAXI
+readyAXI
+outBit3
+outBit2
+valid
+validAXI
+clk
+outBit4

@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Jun 24 15:19:13 2024
+Project   :  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo
+Component :  RESET_GEN_C0
+Family    :  PolarFireSoC
+
+
+Stimulus files for all Simulation tools:
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+

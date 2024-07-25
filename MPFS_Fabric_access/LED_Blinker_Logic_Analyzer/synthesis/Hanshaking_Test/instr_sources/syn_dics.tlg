@@ -1,0 +1,413 @@
+Selecting top level module syn_identify_core
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=216'b011010010110010001100101011011100111010001011111011010010110100001110011010111110100100101001001010000110100010101011111011011010110000101110011011101000110010101110010010111110110001101101100011011110110001101101011
+   Generated name = syn_hyper_source_1s_ident_ihs_IICE_master_clock
+Running optimization stage 1 on syn_hyper_source_1s_ident_ihs_IICE_master_clock .......
+Finished optimization stage 1 on syn_hyper_source_1s_ident_ihs_IICE_master_clock (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6608:7:6608:26|Synthesizing module b16_n2FydH_ab_FH9_K4 in library work.
+
+	b5_Dj4n7=32'b00000000000000000000000000000101
+   Generated name = b16_n2FydH_ab_FH9_K4_5s
+Running optimization stage 1 on b16_n2FydH_ab_FH9_K4_5s .......
+Finished optimization stage 1 on b16_n2FydH_ab_FH9_K4_5s (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6608:7:6608:26|Synthesizing module b16_n2FydH_ab_FH9_K4 in library work.
+
+	b5_Dj4n7=32'b00000000000000000000000000000100
+   Generated name = b16_n2FydH_ab_FH9_K4_4s
+Running optimization stage 1 on b16_n2FydH_ab_FH9_K4_4s .......
+Finished optimization stage 1 on b16_n2FydH_ab_FH9_K4_4s (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7260:7:7260:17|Synthesizing module b8_nR_ymqrG in library work.
+
+	b7_nUTZIuY=32'b00000000000000000000000000001010
+	b8_Nr4_94ip=32'b00000000000000000000000000000101
+	b8_Nr4_a8Up=5'b00000
+	b9_VNkO_AHpU=32'b00000000000000000000000000000000
+	b17_9ik_ncH_A7mWMdHkl=32'b00000000000000000000000000000000
+	b8_Wy0n_V19=5'b00000
+	b8_Wy0n_V8l=32'b00000000000000000000000111111111
+   Generated name = b8_nR_ymqrG_10s_5s_0_0s_0s_0_511s
+Running optimization stage 1 on b8_nR_ymqrG_10s_5s_0_0s_0s_0_511s .......
+Finished optimization stage 1 on b8_nR_ymqrG_10s_5s_0_0s_0s_0_511s (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6696:7:6696:16|Synthesizing module b7_OCByLXC in library work.
+
+	b7_nUTZIuY=32'b00000000000000000000000000001010
+	b10_c70EHoH6Cp=10'b0000000001
+	b16_Wi_gYoK3Po69bvZx=32'b00000000000000000000000000000000
+	b11_Nku_poqpEpq=32'b00000000000000000000000000000000
+	b20_V72f_899_QU_PFNCPmDu=32'b00000000000000000000000000000001
+	b12_9ik_1V_3o_5K=32'b00000000000000000000000000000000
+	b17_Vl8gbo_7EWU_FHJJY=32'b00000000000000000000000000001010
+	b9_VNkO_AHpU=32'b00000000000000000000000000000000
+	b17_9ik_ncH_A7mWMdHkl=32'b00000000000000000000000000000000
+	b8_Wy0n_V19=5'b00000
+	b8_Wy0n_V8l=32'b00000000000000000000000111111111
+	b18_6w28_31eB_UBe_pGxy=32'b00000000000000000000000000000001
+	b18_0D269_SdJT_Wd_Cv2i=32'b00000000000000000000000000000001
+	b13_Ocm0f_TkA86EZ=4'b0000
+	b13_Ocm0f_A7A86Rv=4'b0001
+	b13_Ocm0f_HiP76Rv=4'b0010
+	b13_Ocm0f_p5BT6Rv=4'b0011
+	b12_Ocm0f_Q7B8qG=4'b0100
+	b24_Ocm0f_HiP_gP0IFZ1mI_iIhO=4'b0101
+	b24_Ocm0f_HiP_gP0IFZ1mI_MXwB=4'b0110
+	b29_Ocm0f_HiP_gP0IFZ1mI_iIhO_vHEr=4'b0111
+	b29_Ocm0f_HiP_gP0IFZ1mI_MXwB_vHEr=4'b1000
+	b19_Ocm0f_HiP_8DFJ3s_0T=4'b1001
+	b21_Ocm0f_HiP_8DFJ3s_0T_z=4'b1010
+	b20_Ocm0f_p5BT_EZoHR0_CK=4'b1011
+	b25_Ocm0f_p5BT_EZoHR0_CK_Iv3x=4'b1100
+	b17_Ocm0f_TkQcUqbQVN5=4'b1101
+	b8_Nr4_94ip=32'b00000000000000000000000000000101
+	b8_Nr4_a8Up=5'b00000
+	b7_Nr4_Yh8=5'b00001
+	b9_Nr4_YoSpQ=5'b00010
+	b7_Nr4_aj9=5'b11101
+	b22_Nr4_Yh8_K58DYdFN5_avNJ=5'b00100
+	b22_Nr4_Yh8_K58DYdFN5_EK2w=5'b01000
+	b17_Nr4_Yh8_CTNEmG_rg=5'b10000
+	b9_Vz2n_4X6U=5'b00000
+	b9_Vz2n_O64Y=5'b00001
+	b11_Vz2n_1V6Qca=5'b00010
+	b10_Vz2n_397o8=5'b00011
+	b9_Vz2n_AT6B=5'b00100
+	b8_Vz2n_S6k=5'b00101
+	b8_Vz2n_48l=5'b01000
+   Generated name = b7_OCByLXC_Z1
+Running optimization stage 1 on b7_OCByLXC_Z1 .......
+Finished optimization stage 1 on b7_OCByLXC_Z1 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":9:7:9:22|Synthesizing module syn_hyper_source in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=200'b01001001011001000110010101101110011101000110100101100110011110010101111101001001010010010100001101000101010111110111010001110010011010010110011101100111011001010111001001011111011001010111100001110100
+   Generated name = syn_hyper_source_1s_Identify_IICE_trigger_ext
+Running optimization stage 1 on syn_hyper_source_1s_Identify_IICE_trigger_ext .......
+Finished optimization stage 1 on syn_hyper_source_1s_Identify_IICE_trigger_ext (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6423:7:6423:17|Synthesizing module b8_1LbcQDr1 in library work.
+
+	b8_0a_lc56p=1'b1
+	b8_1Lbc_28p=3'b000
+	b9_1Lbc_tdTy=3'b001
+	b14_1Lbc_8RkQ_XEM1=3'b010
+	b13_1Lbc_dR4_ca9i=3'b100
+	b13_1Lbc_jdC_ca9i=3'b101
+	b11_1Lbc_V_uUG4=3'b110
+	b10_1Lbc_V_3Pc=3'b111
+   Generated name = b8_1LbcQDr1_1_0_1_2_4_5_6_7
+Running optimization stage 1 on b8_1LbcQDr1_1_0_1_2_4_5_6_7 .......
+Finished optimization stage 1 on b8_1LbcQDr1_1_0_1_2_4_5_6_7 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6509:7:6509:23|Synthesizing module b13_PSyil9s1fkJ_K in library work.
+Running optimization stage 1 on b13_PSyil9s1fkJ_K .......
+Finished optimization stage 1 on b13_PSyil9s1fkJ_K (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6464:7:6464:14|Synthesizing module b5_nvmFL in library work.
+
+	b5_2Rs0m=32'b00000000000000000000000000000011
+   Generated name = b5_nvmFL_3s
+Running optimization stage 1 on b5_nvmFL_3s .......
+Finished optimization stage 1 on b5_nvmFL_3s (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6534:7:6534:17|Synthesizing module b8_PfFzrNYI in library work.
+Running optimization stage 1 on b8_PfFzrNYI .......
+Finished optimization stage 1 on b8_PfFzrNYI (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6313:7:6313:12|Synthesizing module b3_uKr in library work.
+@W: CG296 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6355:11:6357:75|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6383:30:6383:45|Referenced variable b12_ocsGfWYY_Lyh is not in sensitivity list.
+Running optimization stage 1 on b3_uKr .......
+@W: CL207 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6374:2:6374:3|All reachable assignments to b6_nKW_fF assign 1, register removed by optimization.
+Finished optimization stage 1 on b3_uKr (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 96MB)
+@W: CG168 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7690:1:7690:6|Type of parameter b18_6i_6aB87B_fAXHVtZh on the instance b3_SoW is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2936:7:2936:29|Synthesizing module b19_nczQ_DYg_YFaRM_oUoP in library work.
+
+	b5_Dj4n7=32'b00000000000000000000000000100000
+	b7_57Y994K=32'b00000000000000000000000000000001
+   Generated name = b19_nczQ_DYg_YFaRM_oUoP_32s_1s
+Running optimization stage 1 on b19_nczQ_DYg_YFaRM_oUoP_32s_1s .......
+Finished optimization stage 1 on b19_nczQ_DYg_YFaRM_oUoP_32s_1s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 107MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2936:7:2936:29|Synthesizing module b19_nczQ_DYg_YFaRM_oUoP in library work.
+
+	b5_Dj4n7=32'b00000000000000000000000000011000
+	b7_57Y994K=32'b00000000000000000000000000000001
+   Generated name = b19_nczQ_DYg_YFaRM_oUoP_24s_1s
+Running optimization stage 1 on b19_nczQ_DYg_YFaRM_oUoP_24s_1s .......
+Finished optimization stage 1 on b19_nczQ_DYg_YFaRM_oUoP_24s_1s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2665:7:2665:23|Synthesizing module b13_vFW_xNywD_EdR in library work.
+
+	b10_oFTt_arxt4=32'b00000000000000000000000000001111
+	b13_iLsGfWL_Gqyva=32'b00000000000000000000000000001010
+	b5_ooG0m=32'b00000000000000000000010000000000
+	b8_vFWZ3nCa=32'b00000000000000000000000000001100
+   Generated name = b13_vFW_xNywD_EdR_15s_10s_1024s_12s
+Running optimization stage 1 on b13_vFW_xNywD_EdR_15s_10s_1024s_12s .......
+@N: CL134 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2701:4:2701:9|Found RAM b9_SoW_TWsrw, depth=1024, width=15
+Finished optimization stage 1 on b13_vFW_xNywD_EdR_15s_10s_1024s_12s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+@W: CG168 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2620:4:2620:12|Type of parameter b18_6i_6aB87B_fAXHVtZh on the instance b6_SoWyQD is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2733:7:2733:21|Synthesizing module b11_SoWyP0zEFKY in library work.
+
+	b9_Vjx_R4Xlx=32'b00000000000000000000000000001111
+	b7_crO_j2S=32'b00000000000000000000000000000000
+	b9_crO_R4Xlx=32'b00000000000000000000000000000110
+	b15_c70EHoH_rJ_KWLZ=32'b00000000000000000000000000000000
+	b11_c70EHoH_BUD=32'b00000000000000000000000000000001
+	b15_c70EHoH_BUD_Wvc=32'b00000000000000000000000000000001
+	b14_6w28aATpE_eA21=32'b00000000000000000000000000000000
+	b19_YkH9y3_loSD9iv_BZ6Y=32'b00000000000000000000000000000000
+	b13_0jf_o6U5E_aDm=32'b00000000000000000000000000000010
+	b12_0aYfj_dkCC7W=32'b00000000000000000000000000000001
+	b18_6i_6aB87B_fAXHVtZh=32'b11111111111111111111111111111111
+	b15_XhR9b_9do_NC2XC=32'b00000000000000000000000000000110
+   Generated name = b11_SoWyP0zEFKY_Z2
+@W: CG360 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2782:8:2782:19|Removing wire b9_db5G_vMEj, as there is no assignment to it.
+@W: CG133 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2784:7:2784:21|Object b11_db5G_vMEj_y is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on b11_SoWyP0zEFKY_Z2 .......
+@W: CL169 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2831:4:2831:9|Pruning unused register genblk3[2].b13_oRB_MqCD2_EdR[2]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2831:4:2831:9|Pruning unused register genblk3[1].b13_oRB_MqCD2_EdR[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2823:12:2823:17|Pruning unused register genblk2.b13_oRB_MqCD2_EdR[0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2872:15:2872:20|Pruning unused register genblk4.genblk1[2].b13_oRB_MqCD2_t_x_8[2]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2823:12:2823:17|Pruning unused bits 14 to 9 of genblk2.b5_oRB_C[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2839:12:2839:17|Register bit genblk4.b9_oRB_IFM_2[14] is always 0.
+@N: CL189 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2839:12:2839:17|Register bit genblk4.b9_oRB_IFM_2[13] is always 0.
+@N: CL189 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2839:12:2839:17|Register bit genblk4.b9_oRB_IFM_2[12] is always 0.
+@N: CL189 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2839:12:2839:17|Register bit genblk4.b9_oRB_IFM_2[11] is always 0.
+@N: CL189 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2839:12:2839:17|Register bit genblk4.b9_oRB_IFM_2[10] is always 0.
+@N: CL189 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2839:12:2839:17|Register bit genblk4.b9_oRB_IFM_2[9] is always 0.
+@W: CL279 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2839:12:2839:17|Pruning register bits 14 to 9 of genblk4.b9_oRB_IFM_2[14:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on b11_SoWyP0zEFKY_Z2 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2177:7:2177:21|Synthesizing module b11_OFWNT9s_8tZ in library work.
+
+	b9_Vjx_eo2lx=32'b00000000000000000000010000000000
+	b9_Vjx_R4Xlx=32'b00000000000000000000000000000000
+	b14_Vjx_c8XT_z6GeE=32'b00000000000000000000000000001010
+	b15_Vjx_p21ii_NC2XC=32'b00000000000000000000000000001001
+	b9_WjRr_jVdU=96'b010010010100100101000011010001010101111101110010011001010110011101110101011011000110000101110010
+	b8_Nz1_94ip=32'b00000000000000000000000000000001
+	b7_crO_j2S=32'b00000000000000000000000000000000
+	b9_crO_R4Xlx=32'b00000000000000000000000000000110
+	b11_Nku_poqpEpq=32'b00000000000000000000000000000000
+	b15_c70EHoH_rJ_KWLZ=32'b00000000000000000000000000000000
+	b11_c70EHoH_BUD=32'b00000000000000000000000000000001
+	b14_6w28aATpE_eA21=32'b00000000000000000000000000000000
+	b19_YkH9y3_loSD9iv_BZ6Y=32'b00000000000000000000000000000000
+	b10_4wIEYd_kN0=32'b00000000000000000000000000000000
+	b11_9ik_qSTC7cU=32'b00000000000000000000000000000001
+	b7_57Y994K=32'b00000000000000000000000000000001
+	b9_VNkO_AHpU=32'b00000000000000000000000000000000
+	b24_9ik_es87ISX_XJNC2m_z6RwK=32'b00000000000000000000000000000000
+	b12_0aYfj_dkCC7W=32'b00000000000000000000000000000001
+	b17_9ik_ncH_A7mWMdHkl=32'b00000000000000000000000000000000
+	b17_Wy0n_8DC_JmqZ_tNy=32'b00000000000000000000000000100111
+	b10_Wy0n_817zm=32'b00000000000000000000000000000000
+	b17_Wy0n_3VdJTq_21OJY=32'b00000000000000000000001111111111
+	b18_6i_6aB87B_fAXHVtZh=32'b11111111111111111111111111111111
+	b8_ssx9_SVd=32'b00000000000000000000000000001100
+	b13_crO_94q_hSaSV=32'b00000000000000000000000000001111
+	b11_9ik_ihB_A7m=32'b00000000000000000000000000000000
+	b20_9ik_e697_J4K7vZs02CK=32'b00000000000000000000000000000001
+	b7_ah_9e8H=6'b111000
+	b14_Vl8gboH_z88SbG=6'b111001
+   Generated name = b11_OFWNT9s_8tZ_Z3
+@W: CG168 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2317:9:2317:23|Type of parameter INIT_CTRL_REG on the instance b11_oGA_BXsO_OS is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2980:7:2980:28|Synthesizing module b18_nczQ_DYg_rbYq_Amnd in library work.
+
+	b5_Dj4n7=32'b00000000000000000000000000001000
+	b7_57Y994K=32'b00000000000000000000000000000001
+	b17_9ik_ncH_A7mWMdHkl=32'b00000000000000000000000000000000
+	INIT_CTRL_REG=8'b00100111
+   Generated name = b18_nczQ_DYg_rbYq_Amnd_8s_1s_0s_39s
+Running optimization stage 1 on b18_nczQ_DYg_rbYq_Amnd_8s_1s_0s_39s .......
+Finished optimization stage 1 on b18_nczQ_DYg_rbYq_Amnd_8s_1s_0s_39s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@W: CG168 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2345:9:2345:23|Type of parameter INIT_CTRL_REG on the instance b11_oGA_BXsO_OT is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2980:7:2980:28|Synthesizing module b18_nczQ_DYg_rbYq_Amnd in library work.
+
+	b5_Dj4n7=32'b00000000000000000000000000001001
+	b7_57Y994K=32'b00000000000000000000000000000001
+	b17_9ik_ncH_A7mWMdHkl=32'b00000000000000000000000000000000
+	INIT_CTRL_REG=9'b111111111
+   Generated name = b18_nczQ_DYg_rbYq_Amnd_9s_1s_0s_511
+Running optimization stage 1 on b18_nczQ_DYg_rbYq_Amnd_9s_1s_0s_511 .......
+Finished optimization stage 1 on b18_nczQ_DYg_rbYq_Amnd_9s_1s_0s_511 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@W: CS263 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2624:16:2624:34|Port-width mismatch for port b3_oRB. The port definition is 15 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2626:18:2626:25|Port-width mismatch for port b5_ofmZd. The port definition is 15 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on b11_OFWNT9s_8tZ_Z3 .......
+@W: CL169 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2521:2:2521:7|Pruning unused register b14_2_St6KCa_jHv_9[9:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2512:2:2512:7|Register bit b7_SZJ1fDs is always 0.
+Finished optimization stage 1 on b11_OFWNT9s_8tZ_Z3 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7453:7:7453:18|Synthesizing module IICE_regular in library work.
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7577:1:7577:8|Input b11_nUTZ3qM_tkL on instance b5_nUTGT is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7636:9:7636:19|Input b12_nYByBFtg_Lyh on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7636:9:7636:19|Input b10_ncrIKf_Y2x on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7636:9:7636:19|Input b11_PfzyLE4_tkL on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7636:9:7636:19|Input b7_nKW_3wy on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7636:9:7636:19|Input b13_nK_ZfNYwt_Z4D on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7636:9:7636:19|Input b16_wS5e_v5a1Vbb_A78 on instance b8_uKr_IFLY is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7690:1:7690:6|Input b7_OFWNT9L on instance b3_SoW is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7486:7:7486:20|Removing wire b10_PbTt39_Y2x, as there is no assignment to it.
+@W: CG360 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7499:7:7499:21|Removing wire b11_nYByBFtg_XH, as there is no assignment to it.
+@W: CG360 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7557:7:7557:21|Removing wire b11_nUTZ3qM_tkL, as there is no assignment to it.
+Running optimization stage 1 on IICE_regular .......
+Finished optimization stage 1 on IICE_regular (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":31:7:31:32|Synthesizing module syn_hyper_connect_internal in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+   Generated name = syn_hyper_connect_internal_1s
+Running optimization stage 1 on syn_hyper_connect_internal_1s .......
+Finished optimization stage 1 on syn_hyper_connect_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":31:7:31:32|Synthesizing module syn_hyper_connect_internal in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000010
+   Generated name = syn_hyper_connect_internal_2s
+Running optimization stage 1 on syn_hyper_connect_internal_2s .......
+Finished optimization stage 1 on syn_hyper_connect_internal_2s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":1442:7:1442:11|Synthesizing module UJTAG in library work.
+Running optimization stage 1 on UJTAG .......
+Finished optimization stage 1 on UJTAG (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":25:7:25:31|Synthesizing module syn_hyper_source_internal in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000001000
+   Generated name = syn_hyper_source_internal_8s
+Running optimization stage 1 on syn_hyper_source_internal_8s .......
+Finished optimization stage 1 on syn_hyper_source_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":25:7:25:31|Synthesizing module syn_hyper_source_internal in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+   Generated name = syn_hyper_source_internal_1s
+Running optimization stage 1 on syn_hyper_source_internal_1s .......
+Finished optimization stage 1 on syn_hyper_source_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v":16:7:16:23|Synthesizing module syn_hyper_connect in library __hyper__lib__.
+
+	w=32'b00000000000000000000000000000001
+	tag=144'b011101010110101001110100011000010110011101011111011101110111001001100001011100000111000001100101011100100101111101110101011101000110010001101111
+	dflt=32'b00000000000000000000000000000000
+	mustconnect=1'b0
+   Generated name = syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0
+Running optimization stage 1 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 .......
+Finished optimization stage 1 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":112:7:112:20|Synthesizing module jtag_interface in library work.
+Running optimization stage 1 on jtag_interface .......
+Finished optimization stage 1 on jtag_interface (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":326:7:326:26|Synthesizing module b16_Rcmi_qlx9_yHpm7y in library work.
+
+	b15_Ng27p_V9EG_BY6Z=32'b00000000000000000000000000000110
+	b9_bw8_a4Kpz=32'b00000000000000000000000000000001
+	b9_VNkO_AHpU=32'b00000000000000000000000000000000
+	b17_9ik_ncH_A7mWMdHkl=32'b00000000000000000000000000000000
+	b9_KDx_R4Xlx=32'b00000000000000000000000000001000
+	b12_WjRr_o87k_7A=32'b00000000000000000000000000000000
+	b12_WjRr_o87k_3C=32'b00000000000000000000000000000000
+	b13_Ng27p_V9EG_DW=32'b00000000000000000000000000000001
+	b13_Ng27p_V9EG_zY=32'b00000000000000000000000000000110
+	b12_Vjxmck6TU_7A=32'b00000000000000000000000000000111
+	b6_Na8_b2=32'b00000000000000000000000000001000
+   Generated name = b16_Rcmi_qlx9_yHpm7y_Z4
+@W: CS101 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":416:22:416:35|Index 8 is out of range for variable b10_dZst39_EF3
+Running optimization stage 1 on b16_Rcmi_qlx9_yHpm7y_Z4 .......
+Finished optimization stage 1 on b16_Rcmi_qlx9_yHpm7y_Z4 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":48:7:48:27|Synthesizing module b17_ORbIwXaEF_FH9YoPA in library work.
+
+	b15_Vjxmck6TU_NC2XC=32'b00000000000000000000000000100000
+	b15_Vjxmck6TU_kEZUZ=32'b10010100100110001010101111011101
+	b9_VNkO_AHpU=32'b00000000000000000000000000000000
+	b8_gaY_i2Xp=32'b00000000000000000000000000000000
+   Generated name = b17_ORbIwXaEF_FH9YoPA_32s_2493033437_0s_0s
+Running optimization stage 1 on b17_ORbIwXaEF_FH9YoPA_32s_2493033437_0s_0s .......
+Finished optimization stage 1 on b17_ORbIwXaEF_FH9YoPA_32s_2493033437_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":422:7:422:16|Synthesizing module comm_block in library work.
+Running optimization stage 1 on comm_block .......
+Finished optimization stage 1 on comm_block (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7711:32:7711:32|Synthesizing module syn_identify_core in library work.
+Running optimization stage 1 on syn_identify_core .......
+Finished optimization stage 1 on syn_identify_core (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 108MB)
+Running optimization stage 2 on syn_identify_core .......
+Finished optimization stage 2 on syn_identify_core (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on comm_block .......
+Finished optimization stage 2 on comm_block (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b17_ORbIwXaEF_FH9YoPA_32s_2493033437_0s_0s .......
+Finished optimization stage 2 on b17_ORbIwXaEF_FH9YoPA_32s_2493033437_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b16_Rcmi_qlx9_yHpm7y_Z4 .......
+Finished optimization stage 2 on b16_Rcmi_qlx9_yHpm7y_Z4 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on jtag_interface .......
+Finished optimization stage 2 on jtag_interface (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 .......
+Finished optimization stage 2 on syn_hyper_connect_1s_ujtag_wrapper_utdo_0s_0 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on syn_hyper_source_internal_1s .......
+Finished optimization stage 2 on syn_hyper_source_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on syn_hyper_source_internal_8s .......
+Finished optimization stage 2 on syn_hyper_source_internal_8s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on UJTAG .......
+Finished optimization stage 2 on UJTAG (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on syn_hyper_connect_internal_2s .......
+Finished optimization stage 2 on syn_hyper_connect_internal_2s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on syn_hyper_connect_internal_1s .......
+Finished optimization stage 2 on syn_hyper_connect_internal_1s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on IICE_regular .......
+@W: CL156 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7486:7:7486:20|*Input b10_PbTt39_Y2x to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7661:22:7661:37|*Input b12_ocsGfWYY_Lyh to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Finished optimization stage 2 on IICE_regular (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b18_nczQ_DYg_rbYq_Amnd_9s_1s_0s_511 .......
+Finished optimization stage 2 on b18_nczQ_DYg_rbYq_Amnd_9s_1s_0s_511 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b18_nczQ_DYg_rbYq_Amnd_8s_1s_0s_39s .......
+Finished optimization stage 2 on b18_nczQ_DYg_rbYq_Amnd_8s_1s_0s_39s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b11_OFWNT9s_8tZ_Z3 .......
+@W: CL247 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2241:34:2241:50|Input port bit 0 of b13_OFWNT9L_bx2TS[9:0] is unused
+
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2240:44:2240:53|Input b7_OFWNT9L is unused.
+Finished optimization stage 2 on b11_OFWNT9s_8tZ_Z3 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b11_SoWyP0zEFKY_Z2 .......
+@W: CL246 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2750:33:2750:38|Input port bits 14 to 9 of b3_oRB[14:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2751:33:2751:40|Input port bits 14 to 9 of b5_ofmZd[14:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2752:14:2752:29|Input b12_3AmQIEra2_bd is unused.
+Finished optimization stage 2 on b11_SoWyP0zEFKY_Z2 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b13_vFW_xNywD_EdR_15s_10s_1024s_12s .......
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":2673:7:2673:21|Input b11_jWS_3vW_sXP is unused.
+Finished optimization stage 2 on b13_vFW_xNywD_EdR_15s_10s_1024s_12s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 108MB)
+Running optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_24s_1s .......
+Finished optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_24s_1s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 113MB)
+Running optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_32s_1s .......
+Finished optimization stage 2 on b19_nczQ_DYg_YFaRM_oUoP_32s_1s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 113MB)
+Running optimization stage 2 on b3_uKr .......
+Finished optimization stage 2 on b3_uKr (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 113MB)
+Running optimization stage 2 on b8_PfFzrNYI .......
+Finished optimization stage 2 on b8_PfFzrNYI (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 113MB)
+Running optimization stage 2 on b5_nvmFL_3s .......
+Finished optimization stage 2 on b5_nvmFL_3s (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 113MB)
+Running optimization stage 2 on b13_PSyil9s1fkJ_K .......
+Finished optimization stage 2 on b13_PSyil9s1fkJ_K (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 113MB)
+Running optimization stage 2 on b8_1LbcQDr1_1_0_1_2_4_5_6_7 .......
+Finished optimization stage 2 on b8_1LbcQDr1_1_0_1_2_4_5_6_7 (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 113MB)
+Running optimization stage 2 on syn_hyper_source_1s_Identify_IICE_trigger_ext .......
+Finished optimization stage 2 on syn_hyper_source_1s_Identify_IICE_trigger_ext (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 113MB)
+Running optimization stage 2 on b7_OCByLXC_Z1 .......
+@N: CL201 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6969:2:6969:7|Trying to extract state machine for register b13_nAzGfFM_sLsv3.
+Extracted state machine for register b13_nAzGfFM_sLsv3
+State machine has 14 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1100
+   1101
+@W: CL249 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6969:2:6969:7|Initial value is not supported on state machine b13_nAzGfFM_sLsv3
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6767:8:6767:27|Input b16_OFWNT9s_9Xs4h_d4 is unused.
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":6765:8:6765:22|Input b11_nUTZ3qM_tkL is unused.
+Finished optimization stage 2 on b7_OCByLXC_Z1 (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 113MB)
+Running optimization stage 2 on b8_nR_ymqrG_10s_5s_0_0s_0s_0_511s .......
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr_sources\syn_dics.v":7293:8:7293:17|Input b7_nFG0rDY is unused.
+Finished optimization stage 2 on b8_nR_ymqrG_10s_5s_0_0s_0s_0_511s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 113MB)
+Running optimization stage 2 on b16_n2FydH_ab_FH9_K4_4s .......
+Finished optimization stage 2 on b16_n2FydH_ab_FH9_K4_4s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 113MB)
+Running optimization stage 2 on b16_n2FydH_ab_FH9_K4_5s .......
+Finished optimization stage 2 on b16_n2FydH_ab_FH9_K4_5s (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 113MB)
+Running optimization stage 2 on syn_hyper_source_1s_ident_ihs_IICE_master_clock .......
+Finished optimization stage 2 on syn_hyper_source_1s_ident_ihs_IICE_master_clock (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 113MB)

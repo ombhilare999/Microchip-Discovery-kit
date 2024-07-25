@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synlog\top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>clk</data>
+<data>100.0 MHz</data>
+<data>124.1 MHz</data>
+<data>0.972</data>
+</row>
+<row>
+<data>ident_coreinst.comm_block_INST.dr2_tck</data>
+<data>1.0 MHz</data>
+<data>2922.3 MHz</data>
+<data>999.658</data>
+</row>
+<row>
+<data>jtag_interface_x|b9_nv_oQwfYF</data>
+<data>100.0 MHz</data>
+<data>495.1 MHz</data>
+<data>7.980</data>
+</row>
+<row>
+<data>jtag_interface_x|b10_8Kz_rKlrtX</data>
+<data>100.0 MHz</data>
+<data>216.1 MHz</data>
+<data>5.372</data>
+</row>
+<row>
+<data>jtag_interface_x|identify_clk_int_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>292.2 MHz</data>
+<data>6.577</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>193.0 MHz</data>
+<data>4.819</data>
+</row>
+</report_table>

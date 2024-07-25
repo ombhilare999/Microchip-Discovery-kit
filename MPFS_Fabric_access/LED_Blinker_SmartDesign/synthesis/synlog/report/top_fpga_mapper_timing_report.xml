@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_SmartDesign\synthesis\synlog\top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>557.1 MHz</data>
+<data>8.205</data>
+</row>
+<row>
+<data>clk</data>
+<data>100.0 MHz</data>
+<data>1409.4 MHz</data>
+<data>9.290</data>
+</row>
+<row>
+<data>clockDivider|N_1_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>706.1 MHz</data>
+<data>8.584</data>
+</row>
+</report_table>

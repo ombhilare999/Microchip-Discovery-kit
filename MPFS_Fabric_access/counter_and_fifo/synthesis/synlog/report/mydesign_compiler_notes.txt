@@ -1,0 +1,27 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG334 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v":447:13:447:25|Read directive translate_off.
+@N: CG333 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v":459:13:459:24|Read directive translate_on.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":121:7:121:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v":29:7:29:40|Synthesizing module COREFIFO_C0_COREFIFO_C0_0_COREFIFO in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_NstagesSync.v":29:7:29:52|Synthesizing module COREFIFO_C0_COREFIFO_C0_0_corefifo_NstagesSync in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_grayToBinConv.v":29:7:29:54|Synthesizing module COREFIFO_C0_COREFIFO_C0_0_corefifo_grayToBinConv in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_async.v":28:7:28:46|Synthesizing module COREFIFO_C0_COREFIFO_C0_0_corefifo_async in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0.v":49:7:49:17|Synthesizing module COREFIFO_C0 in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\hdl\counter.v":21:7:21:13|Synthesizing module counter in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\polarfire_syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v":5:7:5:34|Synthesizing module PF_CCC_C0_PF_CCC_C0_0_PF_CCC in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_CCC_C0\PF_CCC_C0.v":264:7:264:15|Synthesizing module PF_CCC_C0 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v":5:7:5:43|Synthesizing module PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v":59:7:59:18|Synthesizing module PF_TPSRAM_C0 in library work.
+@N: CG364 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\mydesign\mydesign.v":9:7:9:14|Synthesizing module mydesign in library work.
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\corefifo_async.v":121:31:121:36|Input re_top is unused.
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v":171:36:171:38|Input CLK is unused.
+@N: CL159 :"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\component\work\COREFIFO_C0\COREFIFO_C0_0\rtl\vlog\core\COREFIFO.v":174:36:174:42|Input RESET_N is unused.
+@N|Running in 64-bit mode
+

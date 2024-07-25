@@ -1,0 +1,151 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Thu Jul 25 11:05:22 2024
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS095T     |
+| Package                | FCSG325      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+---------------------------------------------------------------------------------------------------------------------------+
+| Topcell | mydesign                                                                                                                  |
+| Format  | Verilog                                                                                                                   |
+| Source  | C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\synthesis\mydesign.vm |
++---------+---------------------------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 171  | 93516 | 0.18       |
+| DFF                       | 156  | 93516 | 0.17       |
+| I/O Register              | 0    | 240   | 0.00       |
+| User I/O                  | 41   | 80    | 51.25      |
+| -- Single-ended I/O       | 41   | 80    | 51.25      |
+| -- Differential I/O Pairs | 0    | 40    | 0.00       |
+| uSRAM                     | 0    | 876   | 0.00       |
+| LSRAM                     | 1    | 308   | 0.32       |
+| Math                      | 0    | 292   | 0.00       |
+| H-Chip Global             | 2    | 48    | 4.17       |
+| PLL                       | 1    | 8     | 12.50      |
+| DLL                       | 0    | 8     | 0.00       |
+| CRN_INT                   | 1    | 24    | 4.17       |
+| Transceiver Lanes         | 0    | 2     | 0.00       |
+| Transceiver PCIe          | 0    | 2     | 0.00       |
+| ICB_CLKINT                | 1    | 68    | 1.47       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 135  | 120 |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 36   | 36  |
+| Math Interface Logic  | 0    | 0   |
+| Total Used            | 171  | 156 |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 7      | 6    |
+| 8      | 1    |
+| 20     | 1    |
+| Total  | 8    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 38           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------------+
+| Fanout | Type    | Name                                             |
++--------+---------+--------------------------------------------------+
+| 70     | INT_NET | Net   : PF_CCC_C0_0_OUT0_FABCLK_0                |
+|        |         | Driver: PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1 |
+|        |         | Source: NETLIST                                  |
+| 52     | INT_NET | Net   : NN_1                                     |
+|        |         | Driver: I_1/U0_RGB1                              |
+|        |         | Source: NETLIST                                  |
++--------+---------+--------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                   |
++--------+---------+----------------------------------------------------------------------------------------+
+| 121    | INT_NET | Net   : AND2_1_Y                                                                       |
+|        |         | Driver: AND2_1                                                                         |
+| 20     | INT_NET | Net   : counter_0/data_out_or_Z[19]                                                    |
+|        |         | Driver: counter_0/data_out_or[19]                                                      |
+| 19     | INT_NET | Net   : COREFIFO_C0_0_MEMWE                                                            |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/memwe_0_a3               |
+| 14     | INT_NET | Net   : genblk10.empty_r_RNIENJD_Y                                                     |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r_RNIENJD |
+| 6      | INT_NET | Net   : WRCNT_c[6]                                                                     |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[6]      |
+| 6      | INT_NET | Net   : AND2_0_Y                                                                       |
+|        |         | Driver: AND2_0                                                                         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr[5]                  |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[5]         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr[4]                  |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[4]         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr[3]                  |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[3]         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_0_c2           |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[1]         |
++--------+---------+----------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                   |
++--------+---------+----------------------------------------------------------------------------------------+
+| 121    | INT_NET | Net   : AND2_1_Y                                                                       |
+|        |         | Driver: AND2_1                                                                         |
+| 20     | INT_NET | Net   : counter_0/data_out_or_Z[19]                                                    |
+|        |         | Driver: counter_0/data_out_or[19]                                                      |
+| 19     | INT_NET | Net   : COREFIFO_C0_0_MEMWE                                                            |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/memwe_0_a3               |
+| 14     | INT_NET | Net   : genblk10.empty_r_RNIENJD_Y                                                     |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r_RNIENJD |
+| 6      | INT_NET | Net   : WRCNT_c[6]                                                                     |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[6]      |
+| 6      | INT_NET | Net   : AND2_0_Y                                                                       |
+|        |         | Driver: AND2_0                                                                         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr[5]                  |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[5]         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr[4]                  |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[4]         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr[3]                  |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[3]         |
+| 6      | INT_NET | Net   : COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_0_c2           |
+|        |         | Driver: COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[1]         |
++--------+---------+----------------------------------------------------------------------------------------+
+

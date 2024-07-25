@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</p>
+        <p>Date: Thu Jul 25 02:14:33 2024
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clk_ccc/PF_CCC_C0_0/clkint_0/U0</td>
+                <td>(1152, 0)</td>
+                <td>clk_ccc/PF_CCC_C0_0/clkint_0/U0_Y</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>clkDiv/N_1_inferred_clock_RNI2PS36/U0</td>
+                <td>(1153, 0)</td>
+                <td>clkDiv/N_1_inferred_clock_RNI2PS36/U0_Y</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>I_1/U0</td>
+                <td>(1155, 0)</td>
+                <td>I_1/U0_Y</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> Port Name </th>
+                <th> Pin Number </th>
+                <th> I/O Function </th>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clk</td>
+                <td>R18</td>
+                <td>HSIO56PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0</td>
+                <td>clk_ibuf/U_IOPAD:Y</td>
+                <td>(2028, 169)</td>
+                <td>I_1/U0</td>
+                <td>clk_ibuf/YIN</td>
+                <td>HARDWIRED</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Fabric to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clkDiv/clk_out:Q</td>
+                <td>(33, 10)</td>
+                <td>clkDiv/N_1_inferred_clock_RNI2PS36/U0</td>
+                <td>clkDiv/N_1</td>
+                <td>ROUTED</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clk_ccc/PF_CCC_C0_0/pll_inst_0:OUT0</td>
+                <td>(0, 8)</td>
+                <td>clk_ccc/PF_CCC_C0_0/clkint_0/U0</td>
+                <td>clk_ccc/PF_CCC_C0_0/pll_inst_0_clkint_0</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>CCC Input Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> Port Name </th>
+                <th> Pin Number </th>
+                <th> I/O Function </th>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> CCC Location </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clk</td>
+                <td>R18</td>
+                <td>HSIO56PB0/CLKIN_N_8/CCC_NE_CLKIN_N_8/CCC_NE_PLL1_OUT0</td>
+                <td>clk_ibuf/U_IOIN:Y</td>
+                <td>(2028, 169)</td>
+                <td>clk_ccc/PF_CCC_C0_0/pll_inst_0:REF_CLK_0</td>
+                <td>(0, 8)</td>
+                <td>clk_ibuf_Z</td>
+                <td>ROUTED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Local Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> Local Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clk_ccc/PF_CCC_C0_0/clkint_0/U0</td>
+                <td>(1152, 0)</td>
+                <td>clk_ccc/PF_CCC_C0_0/clkint_0/U0_Y</td>
+                <td>21</td>
+                <td/>
+                <td>(720, 15)</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>clkDiv/N_1_inferred_clock_RNI2PS36/U0</td>
+                <td>(1153, 0)</td>
+                <td>clkDiv/N_1_inferred_clock_RNI2PS36/U0_Y</td>
+                <td>4</td>
+                <td/>
+                <td>(723, 15)</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>I_1/U0</td>
+                <td>(1155, 0)</td>
+                <td>I_1/U0_Y</td>
+                <td>4</td>
+                <td/>
+                <td>(724, 17)</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Clock Signals Summary</h2>
+        <table cellpadding="4">
+            <tr/>
+            <tr>
+                <td>The number of clock signals through  H-Chip Global resources</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through     Row Global resources</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through  Sector Global resources</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through Cluster Global resources</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <p/>
+    </body>
+</html>

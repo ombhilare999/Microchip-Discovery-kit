@@ -1,0 +1,349 @@
+# Thu Jul 25 11:08:54 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 214MB peak: 214MB)
+
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\designer\axi_lite_tut\synthesis.fdc
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut_scck.rpt 
+See clock summary report "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
+
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvdwc. Apply syn_hier to module using name v:caxi4interconnect_SlvDataWidthConverter_Z6.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z7.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvCDC. Apply syn_hier to module using name v:caxi4interconnect_SlvClockDomainCrossing_Z10.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances genblk2\.mstrProtConv. Apply syn_hier to module using name v:caxi4interconnect_MstrProtocolConverter_4s_0s_32s_32s_1_1s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrDWC. Apply syn_hier to module using name v:caxi4interconnect_MstrDataWidthConv_Z3.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrCDC. Apply syn_hier to module using name v:caxi4interconnect_MstrClockDomainCrossing_Z4.
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 247MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 247MB peak: 249MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\mask_axi532.v":242:2:242:10|Found instance mask_axi532_0.init_write_output with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\mask_axi532.v":199:2:199:10|Found instance mask_axi532_0.slave_axi_rdata[31:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\master_axi.v":149:2:149:10|Found instance master_AXI_0.master_axi_wdata[31:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\master_axi.v":209:2:209:10|Found instance master_AXI_0.master_axi_araddr[31:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\master_axi.v":114:2:114:10|Found instance master_AXI_0.master_axi_awaddr[31:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvdwc. Apply syn_hier to module using name v:caxi4interconnect_SlvDataWidthConverter_Z6.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z7.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvCDC. Apply syn_hier to module using name v:caxi4interconnect_SlvClockDomainCrossing_Z10.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances genblk2\.mstrProtConv. Apply syn_hier to module using name v:caxi4interconnect_MstrProtocolConverter_4s_0s_32s_32s_1_1s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrDWC. Apply syn_hier to module using name v:caxi4interconnect_MstrDataWidthConv_Z3.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrCDC. Apply syn_hier to module using name v:caxi4interconnect_MstrClockDomainCrossing_Z4.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvdwc. Apply syn_hier to module using name v:caxi4interconnect_SlvDataWidthConverter_Z6.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z7.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvCDC. Apply syn_hier to module using name v:caxi4interconnect_SlvClockDomainCrossing_Z10.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances genblk2\.mstrProtConv. Apply syn_hier to module using name v:caxi4interconnect_MstrProtocolConverter_4s_0s_32s_32s_1_1s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrDWC. Apply syn_hier to module using name v:caxi4interconnect_MstrDataWidthConv_Z3.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrCDC. Apply syn_hier to module using name v:caxi4interconnect_MstrClockDomainCrossing_Z4.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 313MB peak: 313MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 313MB peak: 314MB)
+
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvdwc. Apply syn_hier to module using name v:caxi4interconnect_SlvDataWidthConverter_Z6.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z7.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvCDC. Apply syn_hier to module using name v:caxi4interconnect_SlvClockDomainCrossing_Z10.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances genblk2\.mstrProtConv. Apply syn_hier to module using name v:caxi4interconnect_MstrProtocolConverter_4s_0s_32s_32s_1_1s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrDWC. Apply syn_hier to module using name v:caxi4interconnect_MstrDataWidthConv_Z3.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances mstrCDC. Apply syn_hier to module using name v:caxi4interconnect_MstrClockDomainCrossing_Z4.
+
+Start optimization across hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 314MB peak: 314MB)
+
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1837:2:1837:15|Tristate driver SLAVE31_WVALID (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WVALID (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1836:2:1836:14|Tristate driver SLAVE31_WUSER_1 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WUSER_1 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_8 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_8 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_7 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_7 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_6 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_6 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_5 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_5 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_4 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_4 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_3 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_3 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_2 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_2 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":1834:2:1834:14|Tristate driver SLAVE31_WSTRB_1 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) on net SLAVE31_WSTRB_1 (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) has its enable tied to GND.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":871:4:871:10|Removing instance mstrCDC (in view: work.caxi4interconnect_MasterConvertor_Z5(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":760:4:760:10|Removing instance mstrDWC (in view: work.caxi4interconnect_MasterConvertor_Z5(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":313:1:313:6|Removing sequential instance latARLOCK[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":313:1:313:6|Removing sequential instance latARPROT[2:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":313:1:313:6|Removing sequential instance latARCACHE[3:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_Z9(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":321:0:321:5|Removing sequential instance fifoOneAvail (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":270:0:270:5|Removing sequential instance fifoRdValid (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoNearFull (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoOverRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoUnderRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_36s_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":321:0:321:5|Removing sequential instance fifoOneAvail (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":270:0:270:5|Removing sequential instance fifoRdValid (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoNearFull (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoOverRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoUnderRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":396:0:396:5|Removing sequential instance latAWLOCK[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_Z8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":396:0:396:5|Removing sequential instance latAWCACHE[3:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_Z8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":396:0:396:5|Removing sequential instance latAWPROT[2:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_Z8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":641:0:641:5|Removing sequential instance countWrData[3:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_Z8(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":321:0:321:5|Removing sequential instance fifoOneAvail (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":270:0:270:5|Removing sequential instance fifoRdValid (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoNearFull (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoOverRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoUnderRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_37s_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":321:0:321:5|Removing sequential instance fifoOneAvail (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":270:0:270:5|Removing sequential instance fifoRdValid (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoNearFull (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoOverRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoUnderRunErr (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":522:4:522:9|Removing instance slvdwc (in view: work.caxi4interconnect_SlaveConvertor_Z11(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":754:4:754:9|Removing instance slvCDC (in view: work.caxi4interconnect_SlaveConvertor_Z11(verilog)) because it does not drive other instances.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\coreaxi4interconnect.v":9615:2:9615:6|Removing instance axicb (in view: work.COREAXI4INTERCONNECT_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance sDat[1] (in view: work.caxi4interconnect_RegSliceFull_38s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance holdDat[1] (in view: work.caxi4interconnect_RegSliceFull_38s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance sDat[4:3] (in view: work.caxi4interconnect_RegSliceFull_5s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance holdDat[4:3] (in view: work.caxi4interconnect_RegSliceFull_5s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\dualport_ram_syncwr_syncrd.v":96:0:96:5|Removing sequential instance fifoRdAddrQ1[3:0] (in view: work.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_10s_0s_16s_1(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":403:6:403:10|Removing instance genblk1\.DPRam (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoWrAddr[3:0] (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoRdAddr[3:0] (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":803:0:803:5|Removing sequential instance latBID[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_Z8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\dualport_ram_syncwr_syncrd.v":96:0:96:5|Removing sequential instance fifoRdAddrQ1[3:0] (in view: work.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd_4s_10s_0s_16s_0(verilog)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":403:6:403:10|Removing instance genblk1\.DPRam (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoWrAddr[3:0] (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\fifodualport.v":171:0:171:5|Removing sequential instance fifoRdAddr[3:0] (in view: work.caxi4interconnect_FifoDualPort_0_2s_4s_10s_1_0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance sDat[1] (in view: work.caxi4interconnect_RegSliceFull_40s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance holdDat[1] (in view: work.caxi4interconnect_RegSliceFull_40s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":80:1:80:6|Removing sequential instance sDat[1] (in view: work.caxi4interconnect_RegSliceFull_39s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":68:1:68:6|Removing sequential instance holdDat[1] (in view: work.caxi4interconnect_RegSliceFull_39s_0_1_3_2(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":637:4:637:15|Removing instance genblk2\.mstrProtConv (in view: work.caxi4interconnect_MasterConvertor_Z5(verilog)) because it does not drive other instances.
+
+Finished optimization across hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 315MB peak: 315MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 315MB peak: 315MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 315MB peak: 315MB)
+
+@N: FP130 |Promoting Net aclk on CLKINT  I_1 
+@N: FP130 |Promoting Net master_AXI_0.M_MASK_N_OUT5 on CLKINT  I_1 
+@N: FP130 |Promoting Net master_AXI_0.M_MASK_N_OUT4 on CLKINT  I_2 
+@N: FP130 |Promoting Net mask_axi532_0.slave_axi_data13 on CLKINT  I_1 
+@N: FP130 |Promoting Net mask_axi532_0.n_value4 on CLKINT  I_2 
+@N: FP130 |Promoting Net mask_axi532_0.n_value5 on CLKINT  I_3 
+@N: FP130 |Promoting Net master_AXI_0.M_MASK_N_OUT3 on CLKINT  I_3 
+@N: FP130 |Promoting Net mask_axi532_0.n_value3 on CLKINT  I_4 
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z7.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.
+@N: FX1185 |Applying syn_allowed_resources blockrams=4 on compile point caxi4interconnect_SlaveConvertor_Z11 
+@N: FX1184 |Applying syn_allowed_resources blockrams=308 on top level netlist axi_lite_tut 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 316MB peak: 316MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                               Requested     Requested     Clock        Clock          Clock
+Level     Clock                                               Frequency     Period        Type         Group          Load 
+---------------------------------------------------------------------------------------------------------------------------
+0 -       axi_lite_tut|aclk                                   100.0 MHz     10.000        inferred     (multiple)     950  
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_2_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_3_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_4_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       master_AXI_32s_32s|N_1_inferred_clock               100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       master_AXI_32s_32s|N_2_inferred_clock               100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_5_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     5    
+                                                                                                                           
+0 -       master_AXI_32s_32s|N_3_inferred_clock               100.0 MHz     10.000        inferred     (multiple)     5    
+                                                                                                                           
+0 -       mask_axi532_32s_32s|n_value6_inferred_clock         100.0 MHz     10.000        inferred     (multiple)     1    
+                                                                                                                           
+0 -       master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
+===========================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                    Clock     Source                                      Clock Pin                                    Non-clock Pin     Non-clock Pin              
+Clock                                               Load      Pin                                         Seq Example                                  Seq Example       Comb Example               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+axi_lite_tut|aclk                                   950       aclk(port)                                  master_AXI_0.master_axi_awaddr[31:0].C       -                 I_1.A(CLKINT)              
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_2_inferred_clock              32        mask_axi532_0.slave_axi_data13.OUT(and)     mask_axi532_0.slave_axi_data[0].C            -                 mask_axi532_0.I_1.A(CLKINT)
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_3_inferred_clock              32        mask_axi532_0.n_value4.OUT(and)             mask_axi532_0.data_value[0].C                -                 mask_axi532_0.I_2.A(CLKINT)
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_4_inferred_clock              32        mask_axi532_0.n_value5.OUT(and)             mask_axi532_0.S_MASK_ADDR[0].C               -                 mask_axi532_0.I_3.A(CLKINT)
+                                                                                                                                                                                                    
+master_AXI_32s_32s|N_1_inferred_clock               32        master_AXI_0.M_MASK_N_OUT5.OUT(and)         master_AXI_0.M_MASK_OUTPUT_ADDR_OUT[0].C     -                 master_AXI_0.I_1.A(CLKINT) 
+                                                                                                                                                                                                    
+master_AXI_32s_32s|N_2_inferred_clock               32        master_AXI_0.M_MASK_N_OUT4.OUT(and)         master_AXI_0.M_MASK_DATA_OUT[0].C            -                 master_AXI_0.I_2.A(CLKINT) 
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_5_inferred_clock              5         mask_axi532_0.n_value3.OUT(and)             mask_axi532_0.n_value[0].C                   -                 mask_axi532_0.I_4.A(CLKINT)
+                                                                                                                                                                                                    
+master_AXI_32s_32s|N_3_inferred_clock               5         master_AXI_0.M_MASK_N_OUT3.OUT(and)         master_AXI_0.M_MASK_N_OUT[0].C               -                 master_AXI_0.I_3.A(CLKINT) 
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|n_value6_inferred_clock         1         mask_axi532_0.n_value6.OUT(and)             mask_axi532_0.init_write.C                   -                 -                          
+                                                                                                                                                                                                    
+master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock     1         master_AXI_0.M_MASK_N_OUT6.OUT(and)         master_AXI_0.M_MASK_VALID_OUT.C              -                 -                          
+====================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4crossbar\resetsycnc.v":44:0:44:5|Found inferred clock axi_lite_tut|aclk which controls 950 sequential elements including COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.arst_aclk_sync.sysReset_f1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\master_axi.v":241:4:241:5|Found inferred clock master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock which controls 1 sequential elements including master_AXI_0.M_MASK_VALID_OUT. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\master_axi.v":241:4:241:5|Found inferred clock master_AXI_32s_32s|N_1_inferred_clock which controls 32 sequential elements including master_AXI_0.M_MASK_OUTPUT_ADDR_OUT[31]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\master_axi.v":241:4:241:5|Found inferred clock master_AXI_32s_32s|N_2_inferred_clock which controls 32 sequential elements including master_AXI_0.M_MASK_DATA_OUT[31]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\master_axi.v":241:4:241:5|Found inferred clock master_AXI_32s_32s|N_3_inferred_clock which controls 5 sequential elements including master_AXI_0.M_MASK_N_OUT[4]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\mask_axi532.v":108:4:108:5|Found inferred clock mask_axi532_32s_32s|n_value6_inferred_clock which controls 1 sequential elements including mask_axi532_0.init_write. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\mask_axi532.v":210:4:210:5|Found inferred clock mask_axi532_32s_32s|N_2_inferred_clock which controls 32 sequential elements including mask_axi532_0.slave_axi_data[31]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\mask_axi532.v":108:4:108:5|Found inferred clock mask_axi532_32s_32s|N_3_inferred_clock which controls 32 sequential elements including mask_axi532_0.data_value[31]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\mask_axi532.v":108:4:108:5|Found inferred clock mask_axi532_32s_32s|N_4_inferred_clock which controls 32 sequential elements including mask_axi532_0.S_MASK_ADDR[31]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\hdl\mask_axi532.v":108:4:108:5|Found inferred clock mask_axi532_32s_32s|N_5_inferred_clock which controls 5 sequential elements including mask_axi532_0.n_value[4]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.
+@N: BN225 |Writing default property annotation file C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 308MB peak: 316MB)
+
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_64s_0_1_3_1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_64s_0_1_3_1(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_64s_0_1_3_0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_64s_0_1_3_0(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_37s_0_1_3_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_37s_0_1_3_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_39s_0_1_3_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_39s_0_1_3_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_4s_0_1_3_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_4s_0_1_3_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_65s_0_1_3_1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_65s_0_1_3_1(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_65s_0_1_3_0(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_65s_0_1_3_0(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_38s_0_1_3_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_38s_0_1_3_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_40s_0_1_3_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_40s_0_1_3_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_5s_0_1_3_2(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\regslicefull.v":185:1:185:6|There are no possible illegal states for state machine currState[3:0] (in view: work.caxi4interconnect_RegSliceFull_5s_0_1_3_2(verilog)); safe FSM implementation is not required.
+Encoding state machine currStateAWr[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_Z8(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvwrite.v":429:1:429:6|There are no possible illegal states for state machine currStateAWr[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvWrite_Z8(verilog)); safe FSM implementation is not required.
+Encoding state machine currStateARd[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_Z9(verilog))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slvaxi4protconvread.v":341:1:341:6|There are no possible illegal states for state machine currStateARd[1:0] (in view: work.caxi4interconnect_SlvAxi4ProtConvRead_Z9(verilog)); safe FSM implementation is not required.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_2s_32s_32s_0s_1s.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\slaveconvertor.v":24:7:24:38|syn_hier attribute not currently supported on instances slvProtConv. Apply syn_hier to module using name v:caxi4interconnect_SlvProtocolConverter_Z7.
+@W: BN108 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesigncanvas\tutorial\component\actel\directcore\coreaxi4interconnect\2.8.103\rtl\vlog\core\axi4convertors\masterconvertor.v":23:7:23:39|syn_hier attribute not currently supported on instances rgsl. Apply syn_hier to module using name v:caxi4interconnect_RegisterSlice_1_1_1_1_1_1s_32s_32s_0s_1s.
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 308MB peak: 316MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 309MB peak: 316MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 201MB peak: 316MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:05s cputime
+# Thu Jul 25 11:09:00 2024
+
+###########################################################]

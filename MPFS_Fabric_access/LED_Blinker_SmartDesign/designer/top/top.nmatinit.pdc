@@ -1,0 +1,91 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: top 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Thu Jul 25 11:43:41 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io -port_name clk -DIRECTION INPUT -pin_name R18 -fixed false
+set_io -port_name dataIn\[0\] -DIRECTION INPUT -pin_name U17 -fixed false
+set_io -port_name dataIn\[1\] -DIRECTION INPUT -pin_name Y16 -fixed false
+set_io -port_name inValid -DIRECTION INPUT -pin_name R17 -fixed false
+set_io -port_name outBit1 -DIRECTION OUTPUT -pin_name T18 -fixed false
+set_io -port_name outBit2 -DIRECTION OUTPUT -pin_name V17 -fixed false
+set_io -port_name outBit3 -DIRECTION OUTPUT -pin_name U20 -fixed false
+set_io -port_name outBit4 -DIRECTION OUTPUT -pin_name U21 -fixed false
+set_io -port_name rstn -DIRECTION INPUT -pin_name AA19 -fixed false
+
+#
+# Core cell constraints
+#
+
+set_location -inst_name clockDivider_0/counter\[3\] -fixed false -x 15 -y 10
+set_location -inst_name clockDivider_0/clk_out -fixed false -x 32 -y 10
+set_location -inst_name PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1 -fixed false -x 720 -y 15
+set_location -inst_name clockDivider_0/counter\[9\] -fixed false -x 21 -y 10
+set_location -inst_name clockDivider_0/counter\[5\] -fixed false -x 17 -y 10
+set_location -inst_name clockDivider_0/counter\[18\] -fixed false -x 30 -y 10
+set_location -inst_name slaveAXI_0/outBit3_r -fixed false -x 46 -y 9
+set_location -inst_name clockDivider_0/counter\[0\] -fixed false -x 34 -y 10
+set_location -inst_name clockDivider_0/counter6_14 -fixed false -x 33 -y 9
+set_location -inst_name slaveAXI_0/outBit3 -fixed false -x 46 -y 10
+set_location -inst_name PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1 -fixed false -x 12 -y 2
+set_location -inst_name slaveAXI_0/ready_r -fixed false -x 43 -y 9
+set_location -inst_name clockDivider_0/clk_out_RNO -fixed false -x 32 -y 9
+set_location -inst_name clockDivider_0/counter6 -fixed false -x 52 -y 9
+set_location -inst_name slaveAXI_0/outBit1 -fixed false -x 44 -y 10
+set_location -inst_name masterAXI_0/outValid_r -fixed false -x 39 -y 9
+set_location -inst_name clockDivider_0/counter\[6\] -fixed false -x 18 -y 10
+set_location -inst_name clockDivider_0/counter\[8\] -fixed false -x 20 -y 10
+set_location -inst_name clockDivider_0/counter6_10 -fixed false -x 51 -y 9
+set_location -inst_name slaveAXI_0/ready -fixed false -x 43 -y 10
+set_location -inst_name slaveAXI_0/outBit4_0 -fixed false -x 37 -y 9
+set_location -inst_name clockDivider_0/counter6_16 -fixed false -x 48 -y 9
+set_location -inst_name clockDivider_0/counter\[7\] -fixed false -x 19 -y 10
+set_location -inst_name clockDivider_0/counter\[10\] -fixed false -x 22 -y 10
+set_location -inst_name clockDivider_0/counter_RNO\[0\] -fixed false -x 34 -y 9
+set_location -inst_name PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_DELAY -fixed false -x 7 -y 7
+set_location -inst_name PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_1 -fixed false -x 4 -y 7
+set_location -inst_name clockDivider_0/counter\[15\] -fixed false -x 27 -y 10
+set_location -inst_name clockDivider_0/N_1_inferred_clock_RNI7EQI1 -fixed false -x 1153 -y 0
+set_location -inst_name masterAXI_0/dataOut\[0\] -fixed false -x 38 -y 10
+set_location -inst_name clockDivider_0/counter\[16\] -fixed false -x 28 -y 10
+set_location -inst_name clockDivider_0/counter\[17\] -fixed false -x 29 -y 10
+set_location -inst_name clockDivider_0/counter\[2\] -fixed false -x 14 -y 10
+set_location -inst_name clockDivider_0/N_1_inferred_clock_RNI7EQI1/U0_RGB1 -fixed false -x 723 -y 15
+set_location -inst_name clockDivider_0/counter6_11 -fixed false -x 35 -y 9
+set_location -inst_name clockDivider_0/counter\[11\] -fixed false -x 23 -y 10
+set_location -inst_name clockDivider_0/counter6_5 -fixed false -x 49 -y 9
+set_location -inst_name PF_CCC_C0_0/PF_CCC_C0_0/clkint_0 -fixed false -x 1152 -y 0
+set_location -inst_name masterAXI_0/outValid -fixed false -x 39 -y 10
+set_location -inst_name clockDivider_0/counter\[14\] -fixed false -x 26 -y 10
+set_location -inst_name slaveAXI_0/outBit4 -fixed false -x 37 -y 10
+set_location -inst_name masterAXI_0/un1_inValid_RNIH7OGA -fixed false -x 38 -y 9
+set_location -inst_name masterAXI_0/un1_inValid -fixed false -x 42 -y 9
+set_location -inst_name slaveAXI_0/outBit2_0 -fixed false -x 45 -y 9
+set_location -inst_name masterAXI_0/dataOut\[1\] -fixed false -x 42 -y 10
+set_location -inst_name PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0 -fixed false -x 0 -y 8
+set_location -inst_name I_1/U0_RGB1 -fixed false -x 724 -y 17
+set_location -inst_name I_1 -fixed false -x 1155 -y 0
+set_location -inst_name clockDivider_0/counter\[4\] -fixed false -x 16 -y 10
+set_location -inst_name clockDivider_0/counter\[19\] -fixed false -x 31 -y 10
+set_location -inst_name slaveAXI_0/outBit2 -fixed false -x 45 -y 10
+set_location -inst_name clockDivider_0/counter\[13\] -fixed false -x 25 -y 10
+set_location -inst_name clockDivider_0/counter\[12\] -fixed false -x 24 -y 10
+set_location -inst_name slaveAXI_0/outBit1_r -fixed false -x 44 -y 9
+set_location -inst_name clockDivider_0/counter\[1\] -fixed false -x 13 -y 10
+set_location -inst_name clockDivider_0/counter6_13 -fixed false -x 36 -y 9
+set_location -inst_name clockDivider_0/un1_counter_1_s_1_52 -fixed false -x 12 -y 9
+set_location -inst_name I_1/U0_IOBA -fixed false -x 1599 -y 215
+set_location -inst_name clockDivider_0/un1_counter_1_s_1_52_CC_0 -fixed false -x 12 -y 11
+set_location -inst_name clockDivider_0/un1_counter_1_s_1_52_CC_1 -fixed false -x 24 -y 11

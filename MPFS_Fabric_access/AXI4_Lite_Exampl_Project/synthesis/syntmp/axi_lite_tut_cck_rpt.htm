@@ -1,0 +1,333 @@
+<html><body><samp><pre>
+<!@TC:1721920123>
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+
+# Written on Thu Jul 25 11:09:00 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "axi_lite_tut"
+Constraint File(s):      "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\designer\axi_lite_tut\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 2 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                        Ending                                              |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+axi_lite_tut|aclk                               axi_lite_tut|aclk                                   |     10.000           |     No paths         |     No paths         |     No paths                         
+axi_lite_tut|aclk                               master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock     |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               master_AXI_32s_32s|N_1_inferred_clock               |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               master_AXI_32s_32s|N_2_inferred_clock               |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               master_AXI_32s_32s|N_3_inferred_clock               |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               mask_axi532_32s_32s|n_value6_inferred_clock         |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               mask_axi532_32s_32s|N_2_inferred_clock              |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               mask_axi532_32s_32s|N_3_inferred_clock              |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               mask_axi532_32s_32s|N_4_inferred_clock              |     No paths         |     No paths         |     Diff grp         |     No paths                         
+axi_lite_tut|aclk                               mask_axi532_32s_32s|N_5_inferred_clock              |     No paths         |     No paths         |     Diff grp         |     No paths                         
+mask_axi532_32s_32s|n_value6_inferred_clock     axi_lite_tut|aclk                                   |     No paths         |     No paths         |     No paths         |     Diff grp                         
+mask_axi532_32s_32s|n_value6_inferred_clock     mask_axi532_32s_32s|N_2_inferred_clock              |     No paths         |     Diff grp         |     No paths         |     No paths                         
+mask_axi532_32s_32s|N_2_inferred_clock          axi_lite_tut|aclk                                   |     No paths         |     No paths         |     No paths         |     Diff grp                         
+mask_axi532_32s_32s|N_3_inferred_clock          mask_axi532_32s_32s|N_2_inferred_clock              |     No paths         |     Diff grp         |     No paths         |     No paths                         
+mask_axi532_32s_32s|N_4_inferred_clock          mask_axi532_32s_32s|N_2_inferred_clock              |     No paths         |     Diff grp         |     No paths         |     No paths                         
+mask_axi532_32s_32s|N_5_inferred_clock          mask_axi532_32s_32s|N_2_inferred_clock              |     No paths         |     Diff grp         |     No paths         |     No paths                         
+===============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK43></a>Unconstrained Start/End Points</a>
+******************************
+
+p:M_MASK_ADDR[0]
+p:M_MASK_ADDR[1]
+p:M_MASK_ADDR[2]
+p:M_MASK_ADDR[3]
+p:M_MASK_ADDR[4]
+p:M_MASK_ADDR[5]
+p:M_MASK_ADDR[6]
+p:M_MASK_ADDR[7]
+p:M_MASK_ADDR[8]
+p:M_MASK_ADDR[9]
+p:M_MASK_ADDR[10]
+p:M_MASK_ADDR[11]
+p:M_MASK_ADDR[12]
+p:M_MASK_ADDR[13]
+p:M_MASK_ADDR[14]
+p:M_MASK_ADDR[15]
+p:M_MASK_ADDR[16]
+p:M_MASK_ADDR[17]
+p:M_MASK_ADDR[18]
+p:M_MASK_ADDR[19]
+p:M_MASK_ADDR[20]
+p:M_MASK_ADDR[21]
+p:M_MASK_ADDR[22]
+p:M_MASK_ADDR[23]
+p:M_MASK_ADDR[24]
+p:M_MASK_ADDR[25]
+p:M_MASK_ADDR[26]
+p:M_MASK_ADDR[27]
+p:M_MASK_ADDR[28]
+p:M_MASK_ADDR[29]
+p:M_MASK_ADDR[30]
+p:M_MASK_ADDR[31]
+p:M_MASK_DATA[0]
+p:M_MASK_DATA[1]
+p:M_MASK_DATA[2]
+p:M_MASK_DATA[3]
+p:M_MASK_DATA[4]
+p:M_MASK_DATA[5]
+p:M_MASK_DATA[6]
+p:M_MASK_DATA[7]
+p:M_MASK_DATA[8]
+p:M_MASK_DATA[9]
+p:M_MASK_DATA[10]
+p:M_MASK_DATA[11]
+p:M_MASK_DATA[12]
+p:M_MASK_DATA[13]
+p:M_MASK_DATA[14]
+p:M_MASK_DATA[15]
+p:M_MASK_DATA[16]
+p:M_MASK_DATA[17]
+p:M_MASK_DATA[18]
+p:M_MASK_DATA[19]
+p:M_MASK_DATA[20]
+p:M_MASK_DATA[21]
+p:M_MASK_DATA[22]
+p:M_MASK_DATA[23]
+p:M_MASK_DATA[24]
+p:M_MASK_DATA[25]
+p:M_MASK_DATA[26]
+p:M_MASK_DATA[27]
+p:M_MASK_DATA[28]
+p:M_MASK_DATA[29]
+p:M_MASK_DATA[30]
+p:M_MASK_DATA[31]
+p:M_MASK_DATA_OUT[0]
+p:M_MASK_DATA_OUT[1]
+p:M_MASK_DATA_OUT[2]
+p:M_MASK_DATA_OUT[3]
+p:M_MASK_DATA_OUT[4]
+p:M_MASK_DATA_OUT[5]
+p:M_MASK_DATA_OUT[6]
+p:M_MASK_DATA_OUT[7]
+p:M_MASK_DATA_OUT[8]
+p:M_MASK_DATA_OUT[9]
+p:M_MASK_DATA_OUT[10]
+p:M_MASK_DATA_OUT[11]
+p:M_MASK_DATA_OUT[12]
+p:M_MASK_DATA_OUT[13]
+p:M_MASK_DATA_OUT[14]
+p:M_MASK_DATA_OUT[15]
+p:M_MASK_DATA_OUT[16]
+p:M_MASK_DATA_OUT[17]
+p:M_MASK_DATA_OUT[18]
+p:M_MASK_DATA_OUT[19]
+p:M_MASK_DATA_OUT[20]
+p:M_MASK_DATA_OUT[21]
+p:M_MASK_DATA_OUT[22]
+p:M_MASK_DATA_OUT[23]
+p:M_MASK_DATA_OUT[24]
+p:M_MASK_DATA_OUT[25]
+p:M_MASK_DATA_OUT[26]
+p:M_MASK_DATA_OUT[27]
+p:M_MASK_DATA_OUT[28]
+p:M_MASK_DATA_OUT[29]
+p:M_MASK_DATA_OUT[30]
+p:M_MASK_DATA_OUT[31]
+p:M_MASK_N[0]
+p:M_MASK_N[1]
+p:M_MASK_N[2]
+p:M_MASK_N[3]
+p:M_MASK_N[4]
+p:M_MASK_N_OUT[0]
+p:M_MASK_N_OUT[1]
+p:M_MASK_N_OUT[2]
+p:M_MASK_N_OUT[3]
+p:M_MASK_N_OUT[4]
+p:M_MASK_OUTPUT_ADDR[0]
+p:M_MASK_OUTPUT_ADDR[1]
+p:M_MASK_OUTPUT_ADDR[2]
+p:M_MASK_OUTPUT_ADDR[3]
+p:M_MASK_OUTPUT_ADDR[4]
+p:M_MASK_OUTPUT_ADDR[5]
+p:M_MASK_OUTPUT_ADDR[6]
+p:M_MASK_OUTPUT_ADDR[7]
+p:M_MASK_OUTPUT_ADDR[8]
+p:M_MASK_OUTPUT_ADDR[9]
+p:M_MASK_OUTPUT_ADDR[10]
+p:M_MASK_OUTPUT_ADDR[11]
+p:M_MASK_OUTPUT_ADDR[12]
+p:M_MASK_OUTPUT_ADDR[13]
+p:M_MASK_OUTPUT_ADDR[14]
+p:M_MASK_OUTPUT_ADDR[15]
+p:M_MASK_OUTPUT_ADDR[16]
+p:M_MASK_OUTPUT_ADDR[17]
+p:M_MASK_OUTPUT_ADDR[18]
+p:M_MASK_OUTPUT_ADDR[19]
+p:M_MASK_OUTPUT_ADDR[20]
+p:M_MASK_OUTPUT_ADDR[21]
+p:M_MASK_OUTPUT_ADDR[22]
+p:M_MASK_OUTPUT_ADDR[23]
+p:M_MASK_OUTPUT_ADDR[24]
+p:M_MASK_OUTPUT_ADDR[25]
+p:M_MASK_OUTPUT_ADDR[26]
+p:M_MASK_OUTPUT_ADDR[27]
+p:M_MASK_OUTPUT_ADDR[28]
+p:M_MASK_OUTPUT_ADDR[29]
+p:M_MASK_OUTPUT_ADDR[30]
+p:M_MASK_OUTPUT_ADDR[31]
+p:M_MASK_OUTPUT_ADDR_OUT[0]
+p:M_MASK_OUTPUT_ADDR_OUT[1]
+p:M_MASK_OUTPUT_ADDR_OUT[2]
+p:M_MASK_OUTPUT_ADDR_OUT[3]
+p:M_MASK_OUTPUT_ADDR_OUT[4]
+p:M_MASK_OUTPUT_ADDR_OUT[5]
+p:M_MASK_OUTPUT_ADDR_OUT[6]
+p:M_MASK_OUTPUT_ADDR_OUT[7]
+p:M_MASK_OUTPUT_ADDR_OUT[8]
+p:M_MASK_OUTPUT_ADDR_OUT[9]
+p:M_MASK_OUTPUT_ADDR_OUT[10]
+p:M_MASK_OUTPUT_ADDR_OUT[11]
+p:M_MASK_OUTPUT_ADDR_OUT[12]
+p:M_MASK_OUTPUT_ADDR_OUT[13]
+p:M_MASK_OUTPUT_ADDR_OUT[14]
+p:M_MASK_OUTPUT_ADDR_OUT[15]
+p:M_MASK_OUTPUT_ADDR_OUT[16]
+p:M_MASK_OUTPUT_ADDR_OUT[17]
+p:M_MASK_OUTPUT_ADDR_OUT[18]
+p:M_MASK_OUTPUT_ADDR_OUT[19]
+p:M_MASK_OUTPUT_ADDR_OUT[20]
+p:M_MASK_OUTPUT_ADDR_OUT[21]
+p:M_MASK_OUTPUT_ADDR_OUT[22]
+p:M_MASK_OUTPUT_ADDR_OUT[23]
+p:M_MASK_OUTPUT_ADDR_OUT[24]
+p:M_MASK_OUTPUT_ADDR_OUT[25]
+p:M_MASK_OUTPUT_ADDR_OUT[26]
+p:M_MASK_OUTPUT_ADDR_OUT[27]
+p:M_MASK_OUTPUT_ADDR_OUT[28]
+p:M_MASK_OUTPUT_ADDR_OUT[29]
+p:M_MASK_OUTPUT_ADDR_OUT[30]
+p:M_MASK_OUTPUT_ADDR_OUT[31]
+p:M_MASK_READ_WRITE_TRANSACTION
+p:M_MASK_START_TRANSACTION
+p:M_MASK_VALID
+p:M_MASK_VALID_OUT
+p:M_READY_RESPONSE_ERROR
+p:M_WRITE_RESPONSE_ERROR
+p:S_MASK_ADDR[0]
+p:S_MASK_ADDR[1]
+p:S_MASK_ADDR[2]
+p:S_MASK_ADDR[3]
+p:S_MASK_ADDR[4]
+p:S_MASK_ADDR[5]
+p:S_MASK_ADDR[6]
+p:S_MASK_ADDR[7]
+p:S_MASK_ADDR[8]
+p:S_MASK_ADDR[9]
+p:S_MASK_ADDR[10]
+p:S_MASK_ADDR[11]
+p:S_MASK_ADDR[12]
+p:S_MASK_ADDR[13]
+p:S_MASK_ADDR[14]
+p:S_MASK_ADDR[15]
+p:S_MASK_ADDR[16]
+p:S_MASK_ADDR[17]
+p:S_MASK_ADDR[18]
+p:S_MASK_ADDR[19]
+p:S_MASK_ADDR[20]
+p:S_MASK_ADDR[21]
+p:S_MASK_ADDR[22]
+p:S_MASK_ADDR[23]
+p:S_MASK_ADDR[24]
+p:S_MASK_ADDR[25]
+p:S_MASK_ADDR[26]
+p:S_MASK_ADDR[27]
+p:S_MASK_ADDR[28]
+p:S_MASK_ADDR[29]
+p:S_MASK_ADDR[30]
+p:S_MASK_ADDR[31]
+p:S_MASK_DATA[0]
+p:S_MASK_DATA[1]
+p:S_MASK_DATA[2]
+p:S_MASK_DATA[3]
+p:S_MASK_DATA[4]
+p:S_MASK_DATA[5]
+p:S_MASK_DATA[6]
+p:S_MASK_DATA[7]
+p:S_MASK_DATA[8]
+p:S_MASK_DATA[9]
+p:S_MASK_DATA[10]
+p:S_MASK_DATA[11]
+p:S_MASK_DATA[12]
+p:S_MASK_DATA[13]
+p:S_MASK_DATA[14]
+p:S_MASK_DATA[15]
+p:S_MASK_DATA[16]
+p:S_MASK_DATA[17]
+p:S_MASK_DATA[18]
+p:S_MASK_DATA[19]
+p:S_MASK_DATA[20]
+p:S_MASK_DATA[21]
+p:S_MASK_DATA[22]
+p:S_MASK_DATA[23]
+p:S_MASK_DATA[24]
+p:S_MASK_DATA[25]
+p:S_MASK_DATA[26]
+p:S_MASK_DATA[27]
+p:S_MASK_DATA[28]
+p:S_MASK_DATA[29]
+p:S_MASK_DATA[30]
+p:S_MASK_DATA[31]
+p:S_MASK_VALID
+p:aresetn
+
+
+<a name=InapplicableconstraintsCCK44></a>Inapplicable constraints</a>
+************************
+
+(none)
+
+
+<a name=ApplicableConstraintsWithIssuesCCK45></a>Applicable constraints with issues</a>
+**********************************
+
+(none)
+
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK46></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+(none)
+
+
+<a name=LibraryReportCCK47></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

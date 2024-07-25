@@ -1,0 +1,82 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+
+# Written on Thu Jul 25 11:08:54 2024
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\designer\axi_lite_tut\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                               Requested     Requested     Clock        Clock          Clock
+Level     Clock                                               Frequency     Period        Type         Group          Load 
+---------------------------------------------------------------------------------------------------------------------------
+0 -       axi_lite_tut|aclk                                   100.0 MHz     10.000        inferred     (multiple)     950  
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_2_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_3_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_4_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       master_AXI_32s_32s|N_1_inferred_clock               100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       master_AXI_32s_32s|N_2_inferred_clock               100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                           
+0 -       mask_axi532_32s_32s|N_5_inferred_clock              100.0 MHz     10.000        inferred     (multiple)     5    
+                                                                                                                           
+0 -       master_AXI_32s_32s|N_3_inferred_clock               100.0 MHz     10.000        inferred     (multiple)     5    
+                                                                                                                           
+0 -       mask_axi532_32s_32s|n_value6_inferred_clock         100.0 MHz     10.000        inferred     (multiple)     1    
+                                                                                                                           
+0 -       master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
+===========================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                    Clock     Source                                      Clock Pin                                    Non-clock Pin     Non-clock Pin              
+Clock                                               Load      Pin                                         Seq Example                                  Seq Example       Comb Example               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+axi_lite_tut|aclk                                   950       aclk(port)                                  master_AXI_0.master_axi_awaddr[31:0].C       -                 I_1.A(CLKINT)              
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_2_inferred_clock              32        mask_axi532_0.slave_axi_data13.OUT(and)     mask_axi532_0.slave_axi_data[0].C            -                 mask_axi532_0.I_1.A(CLKINT)
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_3_inferred_clock              32        mask_axi532_0.n_value4.OUT(and)             mask_axi532_0.data_value[0].C                -                 mask_axi532_0.I_2.A(CLKINT)
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_4_inferred_clock              32        mask_axi532_0.n_value5.OUT(and)             mask_axi532_0.S_MASK_ADDR[0].C               -                 mask_axi532_0.I_3.A(CLKINT)
+                                                                                                                                                                                                    
+master_AXI_32s_32s|N_1_inferred_clock               32        master_AXI_0.M_MASK_N_OUT5.OUT(and)         master_AXI_0.M_MASK_OUTPUT_ADDR_OUT[0].C     -                 master_AXI_0.I_1.A(CLKINT) 
+                                                                                                                                                                                                    
+master_AXI_32s_32s|N_2_inferred_clock               32        master_AXI_0.M_MASK_N_OUT4.OUT(and)         master_AXI_0.M_MASK_DATA_OUT[0].C            -                 master_AXI_0.I_2.A(CLKINT) 
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|N_5_inferred_clock              5         mask_axi532_0.n_value3.OUT(and)             mask_axi532_0.n_value[0].C                   -                 mask_axi532_0.I_4.A(CLKINT)
+                                                                                                                                                                                                    
+master_AXI_32s_32s|N_3_inferred_clock               5         master_AXI_0.M_MASK_N_OUT3.OUT(and)         master_AXI_0.M_MASK_N_OUT[0].C               -                 master_AXI_0.I_3.A(CLKINT) 
+                                                                                                                                                                                                    
+mask_axi532_32s_32s|n_value6_inferred_clock         1         mask_axi532_0.n_value6.OUT(and)             mask_axi532_0.init_write.C                   -                 -                          
+                                                                                                                                                                                                    
+master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock     1         master_AXI_0.M_MASK_N_OUT6.OUT(and)         master_AXI_0.M_MASK_VALID_OUT.C              -                 -                          
+====================================================================================================================================================================================================

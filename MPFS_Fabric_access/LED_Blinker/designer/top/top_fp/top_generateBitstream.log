@@ -1,0 +1,16 @@
+Software Version: 2024.1.0.3
+Opened 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\designer\top\top_fp\top.pro'
+PDB file 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\designer\top\top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : 9D8D;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\designer\top\top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\designer\top\top.ppd'; file programs Fabric and sNVM.
+BITS component bitstream digest: 584f74c77f21a67759e49dfa0fb13932175513fd28f14e8e38f85233a6fcfe90
+Fabric component bitstream digest: f33e351ab852850ec6f7e0a773149f57b86adb20cf198363002d6832ff1efb95
+sNVM component bitstream digest: fb8994bd7d2ab270956f3257e634f776578f7fa6a4139c6d87f5a04034ec4acc
+EOB component bitstream digest: f63e501779119531b6cbbded518d3841390c4ca2819b893cda141dcebd880337
+Entire bitstream digest: 9aa304424d5f1b962f038f08b4eb324772ea4934e18682d3ee567e286f93e9e2
+Finished: Thu Jul 25 02:16:25 2024 (Elapsed time 00:00:28)
+
+Project saved.
+Project closed.

@@ -1,0 +1,278 @@
+# Microchip NMAT TXT File
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: mydesign 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Wed Jul  3 11:50:39 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io AEMPTY A12
+set_io AFULL D13
+set_io OVERFLOW E12
+set_io Q[0] D21
+set_io Q[1] B21
+set_io Q[2] D18
+set_io Q[3] D17
+set_io Q[4] D16
+set_io Q[5] G18
+set_io Q[6] E20
+set_io Q[7] A19
+set_io Q[8] B19
+set_io Q[9] E17
+set_io Q[10] E18
+set_io Q[11] F19
+set_io Q[12] G17
+set_io Q[13] B20
+set_io Q[14] B17
+set_io Q[15] F20
+set_io Q[16] A18
+set_io Q[17] F18
+set_io Q[18] E21
+set_io Q[19] A17
+set_io RDCNT[0] E14
+set_io RDCNT[1] A15
+set_io RDCNT[2] A13
+set_io RDCNT[3] B15
+set_io RDCNT[4] E13
+set_io RDCNT[5] D11
+set_io RDCNT[6] D12
+set_io REF_CLK_0 A20
+set_io UNDERFLOW W20
+set_io WRCNT[0] G12
+set_io WRCNT[1] B14
+set_io WRCNT[2] C16
+set_io WRCNT[3] B12
+set_io WRCNT[4] C11
+set_io WRCNT[5] E15
+set_io WRCNT[6] A14
+set_io en B16
+set_io rstn D15
+
+#
+# Core cell constraints
+#
+
+set_location counter_0/data_out[11] 706 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_mem_reg[1][2] 468 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_5_m[3] 467 12
+set_location PF_CCC_C0_0/PF_CCC_C0_0/clkint_0/U0_RGB1 720 15
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_mem_reg[1][0] 476 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_0_axbxc2 475 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/bin_out_5_0_a2[3] 482 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_bin_sync2[2] 457 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[1] 469 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r[1] 494 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[0] 444 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/bin_out_7_0_a2[1] 451 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_gray_3[1] 470 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_reg[2] 475 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr[5] 479 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r[3] 459 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/bin_out_4_i_o2[4] 462 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/almostemptyi_2_sqmuxa_i_0 453 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_reg[3] 491 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r[2] 495 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_reg[2] 465 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/almostemptyi_2_sqmuxa_i_o2_0 458 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r[0] 493 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_mem_reg[1][4] 482 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_cry_2_RNO 456 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r[5] 460 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r[2] 687 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_gray[2] 464 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/bin_out_1_0_a2[0] 452 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_bin_sync2[0] 448 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_gray_3[0] 499 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r_4_f0 446 6
+set_location counter_0/data_out[1] 696 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[0] 501 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r[1] 686 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[4] 448 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[5] 449 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[6] 450 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_mem_reg[1][6] 481 13
+set_location counter_0/data_out[12] 707 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_bin_sync2[5] 466 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r[5] 498 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r_RNIAHOPH[0] 692 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r[4] 689 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r_RNO[6] 462 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_bin_sync2[1] 450 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_reg[1] 455 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_gray_3[2] 464 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.afull_r 453 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_gray_3[2] 477 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_bin_sync2[0] 452 10
+set_location PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_1 4 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr[6] 480 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r_RNO[3] 459 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_gray[0] 499 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_0_ac0_3 479 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr[4] 478 10
+set_location counter_0/data_out[14] 709 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_0_ac0_7 466 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r_RNO[4] 461 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_bin_sync2[5] 449 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_0_ac0_5 465 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r[3] 688 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr[2] 476 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/almostfulli_assert_i_0_a3_0_0 452 12
+set_location I_1 1161 0
+set_location counter_0/data_out[13] 708 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_5_m[5] 464 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_bin_sync2[1] 451 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_reg[4] 471 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_gray_3[3] 487 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_mem_reg[1][1] 474 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[3] 447 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r_RNO[1] 451 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/bin_out_4_i_o2[4] 467 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_reg[4] 490 13
+set_location counter_0/data_out[19] 714 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_reg[6] 455 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r10_0_a2 448 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_mem_reg[1][5] 483 13
+set_location counter_0/data_out[18] 713 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_mem_reg[1][3] 467 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/almostfulli_assert_i_0_o3 454 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_mem_reg[1][1] 457 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r[0] 445 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_gray_3[0] 478 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_gray[3] 463 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_gray_3[5] 453 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/bin_out_1_0_a2[0] 448 9
+set_location counter_0/data_out[10] 705 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_reg[1] 473 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_gray[3] 487 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_bin_sync2[3] 458 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_gray[1] 470 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.overflow_r 502 13
+set_location counter_0/data_out[2] 697 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[5] 473 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr[3] 477 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/almostemptyi_2_sqmuxa_i_o2_0_RNIT2VFG 452 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_gray_3[4] 486 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r[6] 462 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r[1] 451 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_mem_reg[1][3] 488 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[1] 445 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r_RNO[5] 460 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.afull_r_RNO 453 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r_RNO[2] 444 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_gray[1] 454 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.overflow_r_RNO 502 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_RNO[0] 501 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r[0] 685 13
+set_location PF_CCC_C0_0/PF_CCC_C0_0/clkint_0 1152 0
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_gray[2] 477 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_reg[3] 466 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_gray_3[5] 480 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_mem_reg[1][0] 503 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_gray_3[4] 468 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/bin_out_1_1_i_o2[0] 449 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr[1] 475 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/emptyilto6_0_a2_0 447 6
+set_location counter_0/data_out[7] 702 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_bin_sync2[3] 464 10
+set_location counter_0/data_out[9] 704 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_reg[0] 479 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_mem_reg[1][5] 457 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r[2] 446 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_gray[6] 456 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_gray[4] 486 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r_RNO[0] 445 6
+set_location counter_0/data_out_RNO[0] 719 12
+set_location PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0 0 8
+set_location counter_0/data_out[4] 699 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_bin_sync2[4] 467 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_5_m[1] 469 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.aempty_r 454 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[6] 474 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_5_m[4] 463 12
+set_location counter_0/data_out[15] 710 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_bin_sync2[6] 461 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_mem_reg[1][6] 459 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[4] 472 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr[0] 465 10
+set_location counter_0/data_out[0] 719 13
+set_location counter_0/data_out_or[19] 652 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r[4] 497 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_gray[4] 468 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_mem_reg[1][4] 472 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_reg[0] 496 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_reg[5] 484 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[2] 470 13
+set_location counter_0/data_out[16] 711 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r9_0_a2 450 6
+set_location counter_0/data_out[8] 703 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r[3] 492 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_gray[6] 489 13
+set_location AND2_0 444 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/bin_out_6_0_a2[2] 463 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/memwe_0_a3 455 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_bin_sync2[4] 462 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_gray[5] 480 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_cry_0_RNO 446 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_bin_sync2[6] 447 10
+set_location PF_CCC_C0_0/PF_CCC_C0_0/clkint_0_1 12 2
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/almostemptyi_2_sqmuxa_i_a2 449 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_0_axbxc6 476 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/bin_out_6_0_a2[2] 457 6
+set_location counter_0/data_out[17] 712 13
+set_location I_1/U0_RGB1 723 17
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_NstagesSync/shift_reg[6] 485 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wrcnt_r_RNIR6VQ[6] 445 9
+set_location counter_0/data_out[6] 701 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.afull_r_RNO_0 451 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r[2] 444 7
+set_location counter_0/data_out[3] 698 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_gray[5] 453 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r_RNIMS2J4[0] 500 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wptr_bin_sync2[2] 463 10
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rdcnt_r[4] 461 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_grayToBinConv/bin_out_5_0_a2[3] 464 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r 446 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_RNO[0] 465 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr[3] 471 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/bin_out_7_0_a2[1] 450 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Wr_corefifo_grayToBinConv/bin_out_1_1_i_o2[0] 466 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.aempty_r_RNO 454 6
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r[5] 690 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/rptr_gray_3[3] 463 6
+set_location PF_CCC_C0_0/PF_CCC_C0_0/pll_inst_0_DELAY 7 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_gray[0] 478 13
+set_location counter_0/data_out[5] 700 13
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_mem_reg[1][2] 456 7
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/Rd_corefifo_NstagesSync/shift_reg[5] 454 10
+set_location AND2_1 447 9
+set_location PF_TPSRAM_C0_0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C0 684 17
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_cry_0 444 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_RNI3FKA6[0] 456 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r_RNIVPKMQ[2] 684 12
+set_location counter_0/data_out_s_24 695 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r_RNIENJD 454 9
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_s_26 468 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r_RNI1BKS6[2] 492 12
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_s_25 474 9
+set_location I_1/U0_IOBA 1605 5
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r_RNIENJD_CC_0 454 11
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.empty_r_RNIENJD_CC_1 456 11
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memraddr_r_RNI1BKS6[2]_CC_0 492 14
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.memwaddr_r_RNIVPKMQ[2]_CC_0 684 14
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_s_25_CC_0 474 11
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.rptr_s_25_CC_1 480 11
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_RNI3FKA6[0]_CC_0 456 14
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/genblk10.wptr_s_26_CC_0 468 14
+set_location COREFIFO_C0_0/COREFIFO_C0_0/genblk16.U_corefifo_async/wdiff_bus_cry_0_CC_0 444 14
+set_location counter_0/data_out_s_24_CC_0 695 14
+set_location counter_0/data_out_s_24_CC_1 696 14
+set_location counter_0/data_out_s_24_CC_2 708 14

@@ -1,0 +1,108 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\synthesis\\axi_debug\\synwork\\top_comp.srs|-top|top|-instrdir|C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\synthesis\\axi_debug\\instr_sources|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-srs_instrumentation|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\synthesis\\axi_debug\\instr_sources\\syn_dics.cdc":1721919237
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v":1704384606
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\component\\polarfire_syn_comps.v":1721919235
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\hdl\\masterAXI.v":1721919215
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\hdl\\slaveAXI.v":1721919153
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\hdl\\top.v":1721919198
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\component\\MSS_syn_comps.v":1721919235
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\polarfire_syn_comps.v" verilog
+1			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\masterAXI.v" verilog
+2			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\slaveAXI.v" verilog
+3			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\hdl\top.v" verilog
+4			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\component\MSS_syn_comps.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 1 2
+4 -1
+#Dependency Lists(Users Of)
+0 -1
+1 3
+2 3
+3 -1
+4 -1
+#Design Unit to File Association
+module work APBM 0
+module work APBS 0
+module work BANKCTRLM 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRL_HSIO 0
+module work BANKEN 0
+module work CRN_COMMON 0
+module work CRN_INT 0
+module work CRYPTO 0
+module work CRYPTO_SOC 0
+module work DEBUG 0
+module work DLL 0
+module work DRI 0
+module work ENFORCE 0
+module work GLITCHDETECT 0
+module work GPSS_COMMON 0
+module work HS_IO_CLK 0
+module work ICB_BANKCLK 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_CLKDIV 0
+module work ICB_CLKINT 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKSTOP 0
+module work ICB_INT 0
+module work ICB_MUXING 0
+module work ICB_NGMUX 0
+module work INIT 0
+module work IOD 0
+module work LANECTRL 0
+module work LANERST 0
+module work OSC_RC160MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC2MHZ 0
+module work PCIE_COMMON 0
+module work PCIE 0
+module work PF_SPI 0
+module work PLL 0
+module work QUADRST_PCIE 0
+module work QUADRST 0
+module work SCB 0
+module work SYSCTRL_RESET_STATUS 0
+module work SYSRESET 0
+module work SYS_SERVICES 0
+module work TAMPER 0
+module work TVS 0
+module work TX_PLL 0
+module work UPROM 0
+module work USPI 0
+module work VOLTAGEDETECT 0
+module work VREFBANKDYN 0
+module work VREFCTRL 0
+module work XCVR_64B6XB 0
+module work XCVR_8B10B 0
+module work XCVR_APB_LINK 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK_V2 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE 0
+module work XCVR_PMA 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK 0
+module work XCVR_TEST 0
+module work XCVR_VV 0
+module work XCVR 0
+module work CORELNKTMR_V 0
+module work PFSOC_SCSM 0
+module work CLKBUF_DIFF 0
+module work CLKBUF_DIFF_ODT 0
+module work masterAXI 1
+module work slaveAXI 2
+module work top 3
+module work MSS 4

@@ -1,0 +1,170 @@
+
+
+
+                             Identify (R) Debugger 
+
+                  Version V-2023.09M for win64 - Jan 04, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2024.1\Identify\bin64\mbin\identify_debugger.exe
+Install:     C:\Microchip\Libero_SoC_v2024.1\Identify
+Hostname:    HAMAS
+Date:        Thu Jul 25 10:01:33 2024
+Version:     V-2023.09M
+
+Arguments:   -product identify_debugger top_syn.prj
+ProductType: identify_debugger
+
+License checkout: identdebugger_actel
+License: identdebugger_actel from server hamas 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+
+Note: Opening debugger view for project 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\top_syn.prj'
+Note: The debugger obtained its own license
+DI200 Instrumentation file 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\instr.db' is newer than activation file 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\last_run.adc'.
+Setting trigger time to 'middle' for IICE 'IICE'
+/readyAXI enable in condition 0 in IICE 'IICE'
+Setting trigger time to 'middle' for IICE 'output_led'
+Error: Signal '/dataAXI' was not instrumented for triggering for trigger condition '0' in IICE 'output_led'
+  at line 17 of C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/Hanshaking_Test/last_run.adc. Command was "watch enable -iice {output_led} -condition 0 -language verilog {/dataAXI} {2'b10}"
+% iice current {IICE}
+% watch enable -language verilog  {readyAXI} {1'b1}
+/readyAXI enable in condition 0 in IICE 'IICE'
+% watch enable -language verilog  {readyAXI} {1'b0} {1'b1}
+/readyAXI enable in condition 0 in IICE 'IICE'
+% iice current {output_led}
+% watch enable -language verilog  {inSwitch} {2'b01}
+/inSwitch enable in condition 0 in IICE 'output_led'
+% run -iice {output_led}
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E20085VHQA Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPFS095"
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+DI179 IICE 'output_led' configured. Waiting for trigger.
+% run -interrupt -iice all
+Disable IICE for Interrupt: 'IICE'
+Disable IICE for Interrupt: 'output_led'
+IICE 'IICE' Interrupted
+IICE 'output_led' Interrupted
+trigger_addr: (27) 
+% write vcd {C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/Hanshaking_Test/output_led.vcd} -iice output_led -gtkwave -comment {Written by QT debugger}
+% waveform show
+9776
+% waveform show
+14580
+% run -iice {output_led}
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E20085VHQA Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPFS095"
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+DI179 IICE 'output_led' configured. Waiting for trigger.
+% run -cancel -iice all
+Disable IICE for Stop: 'IICE'
+Disable IICE for Stop: 'output_led'
+IICE 'IICE' Stopped
+IICE 'output_led' Stopped
+% watch enable -language verilog  {inSwitch} {2'b0}
+/inSwitch enable in condition 0 in IICE 'output_led'
+% run -iice {output_led}
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E20085VHQA Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPFS095"
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+DI179 IICE 'output_led' configured. Waiting for trigger.
+% run -cancel -iice all
+Disable IICE for Stop: 'IICE'
+Disable IICE for Stop: 'output_led'
+IICE 'IICE' Stopped
+IICE 'output_led' Stopped
+% iice current {IICE}
+% run -iice {IICE}
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E20085VHQA Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPFS095"
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+DI179 IICE 'IICE' configured. Waiting for trigger.
+DI155 IICE 'IICE': Trigger detected. Downloading samples.
+trigger_addr: (465) 
+% write vcd {C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/Hanshaking_Test/IICE.vcd} -iice IICE -gtkwave -comment {Written by QT debugger}
+% waveform show
+17596
+% iice current {output_led}
+% watch enable -language verilog  {inSwitch} {2'bX}
+/inSwitch enable in condition 0 in IICE 'output_led'
+% run -iice {output_led}
+ Info: Attempting to connect to: usb Info: Type: FlashPro5 Info: ID: E20085VHQA Info: Connection: usb2.0 Info: Revision: UndefRev  !
+ 
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+Auto-detecting the device chain...
+   Device at chain position 1 is "MPFS095"
+Auto-detecting port names...
+E20085VHQA 
+Checking communication with the Microsemi_BuiltinJTAG cable and the hardware...
+The hardware is responding correctly.
+DI179 IICE 'output_led' configured. Waiting for trigger.
+% run -interrupt -iice all
+Disable IICE for Interrupt: 'IICE'
+Disable IICE for Interrupt: 'output_led'
+IICE 'IICE' Interrupted
+IICE 'output_led' Interrupted
+trigger_addr: (53) 
+% write vcd {C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/Hanshaking_Test/output_led.vcd} -iice output_led -gtkwave -comment {Written by QT debugger}
+% waveform show
+8220
+% activation save {last_run.adc}
+Saving activations to file 'last_run.adc'
+Unloading current instrumentation 'Hanshaking_Test'

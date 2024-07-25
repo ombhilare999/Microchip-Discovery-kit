@@ -1,0 +1,1 @@
+logical_instance_name-PF_TPSRAM_C0_0/PF_TPSRAM_C0_0 Physical_names-[PF_TPSRAM_C0_0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C0/INST_RAM1K20_IP@@] Cascade_type-Width Port_A_Depth-64 Port_A_Width-20 Port_B_Depth-64 Port_B_Width-20 RAM_type-0 RAM_Port_type-0 Memory_Source-0 ECC-0 

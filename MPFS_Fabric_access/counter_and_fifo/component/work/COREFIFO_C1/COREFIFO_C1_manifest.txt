@@ -1,0 +1,35 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Mon Jun 24 16:34:50 2024
+Project   :  C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo
+Component :  COREFIFO_C1
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/core/COREFIFO.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/core/corefifo_sync.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/core/corefifo_sync_scntr.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/core/corefifo_async.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/core/corefifo_NstagesSync.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/core/corefifo_grayToBinConv.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/core/corefifo_fwft.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/mti/scripts/wave.do
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/mti/scripts/runall.do
+
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/coreparameters.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/test/user/top_define.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/DirectCore/COREFIFO/3.0.101/rtl/vlog/test/user/clock_driver.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/DirectCore/COREFIFO/3.0.101/rtl/vlog/test/user/fifo_driver.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/DirectCore/COREFIFO/3.0.101/rtl/vlog/test/user/fifo_monitor.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/DirectCore/COREFIFO/3.0.101/rtl/vlog/test/user/g4_dp_ext_mem.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1/COREFIFO_C1_0/rtl/vlog/test/user/testbench.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/DirectCore/COREFIFO/3.0.101/rtl/vlog/test/user/MEM_WeqR.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/DirectCore/COREFIFO/3.0.101/rtl/vlog/test/user/MEM_WgtR.v
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/Actel/DirectCore/COREFIFO/3.0.101/rtl/vlog/test/user/MEM_WltR.v
+
+Constraint files:
+    C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/SmartDesign_Intro/counter_and_fifo/component/work/COREFIFO_C1\COREFIFO_C1_0\COREFIFO_C1_COREFIFO_C1_0_COREFIFO.sdc

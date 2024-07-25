@@ -1,0 +1,7 @@
+1721918775 -10:46:15 -17629453 -ipcServer::ipcServer params
+Port:      58109
+Logfile:   C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/ipc_tcp_microsemi_srv_8840_19740344.log
+Reconnect: 0
+Use ipv6:  0
+
+1721918820 -10:47:00 -1 -ipcServer.RunServer, loop stopped normal.

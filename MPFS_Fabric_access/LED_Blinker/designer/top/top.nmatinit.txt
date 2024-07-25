@@ -1,0 +1,91 @@
+# Microchip NMAT TXT File
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: top 
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325 , Speed grade: -1 
+
+# Date generated: Thu Jul 25 02:14:47 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io clk R18
+set_io inSwitch[0] U17
+set_io inSwitch[1] Y16
+set_io outBit1 T18
+set_io outBit2 V17
+set_io outBit3 U20
+set_io outBit4 U21
+set_io rstn AA19
+set_io valid R17
+
+#
+# Core cell constraints
+#
+
+set_location slave/outBit1 38 10
+set_location clkDiv/counter[6] 18 10
+set_location clkDiv/counter[9] 21 10
+set_location clkDiv/counter[5] 17 10
+set_location slave/outBit2_0 37 9
+set_location slave/outBit1_r 38 9
+set_location clkDiv/clk_out_RNO 33 9
+set_location clkDiv/counter[7] 19 10
+set_location master/un1_inValid 47 9
+set_location clkDiv/counter[17] 29 10
+set_location clkDiv/counter6_14 32 9
+set_location slave/outBit3_r 42 9
+set_location clkDiv/counter[16] 28 10
+set_location clkDiv/counter[4] 16 10
+set_location clkDiv/counter6_5 44 9
+set_location clkDiv/counter[1] 13 10
+set_location clkDiv/counter6_11 34 9
+set_location clkDiv/counter[8] 20 10
+set_location clk_ccc/PF_CCC_C0_0/pll_inst_0_DELAY 7 7
+set_location clk_ccc/PF_CCC_C0_0/clkint_0 1152 0
+set_location slave/ready 46 10
+set_location master/outValid 41 10
+set_location clkDiv/counter6_13 51 9
+set_location clkDiv/counter[14] 26 10
+set_location clkDiv/counter6_16 50 9
+set_location slave/outBit2 37 10
+set_location slave/outBit4_0 43 9
+set_location clkDiv/counter[11] 23 10
+set_location clkDiv/counter6_10 49 9
+set_location clkDiv/counter[10] 22 10
+set_location clk_ccc/PF_CCC_C0_0/pll_inst_0 0 8
+set_location clkDiv/counter[3] 15 10
+set_location slave/outBit3 42 10
+set_location master/dataOut[0] 44 10
+set_location clkDiv/counter[18] 30 10
+set_location clk_ccc/PF_CCC_C0_0/clkint_0/U0_RGB1 720 15
+set_location clkDiv/counter[0] 35 10
+set_location clkDiv/counter[19] 31 10
+set_location master/dataOut[1] 36 10
+set_location clkDiv/clk_out 33 10
+set_location master/un1_inValid_RNI0NRAB 36 9
+set_location clkDiv/counter[2] 14 10
+set_location clkDiv/N_1_inferred_clock_RNI2PS36/U0_RGB1 723 15
+set_location clkDiv/counter_RNO[0] 35 9
+set_location clkDiv/counter6 48 9
+set_location slave/ready_r 46 9
+set_location I_1/U0_RGB1 724 17
+set_location I_1 1155 0
+set_location clkDiv/N_1_inferred_clock_RNI2PS36 1153 0
+set_location clkDiv/counter[12] 24 10
+set_location clk_ccc/PF_CCC_C0_0/pll_inst_0_1 4 7
+set_location clkDiv/counter[13] 25 10
+set_location slave/outBit4 43 10
+set_location clk_ccc/PF_CCC_C0_0/clkint_0_1 12 2
+set_location master/outValid_r 41 9
+set_location clkDiv/counter[15] 27 10
+set_location clkDiv/un1_counter_1_s_1_52 12 9
+set_location I_1/U0_IOBA 1599 215
+set_location clkDiv/un1_counter_1_s_1_52_CC_0 12 11
+set_location clkDiv/un1_counter_1_s_1_52_CC_1 24 11

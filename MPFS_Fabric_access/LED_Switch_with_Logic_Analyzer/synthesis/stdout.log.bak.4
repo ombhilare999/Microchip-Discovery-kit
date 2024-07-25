@@ -1,0 +1,186 @@
+
+                               Synplify (R) Base 
+
+                  Version V-2023.09M for win64 - Jan 04, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+Hostname:    HAMAS
+Date:        Sun Jul 14 19:41:53 2024
+Version:     V-2023.09M
+
+Arguments:   -product synplify_base top_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server hamas 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+
+% run_tcl -fg top_syn.tcl
+scm2hydra_preserve_rtl_sig is not supported in current product.
+add_dut_hierarchy is not supported in current product.
+prepare_readback is not supported in current product.
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "top_syn.tcl"
+% impl -add C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis/axi_debug synthesis
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\top.srs to C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\top.srs
+% set_option -technology POLARFIRESOC
+% set_option -write_verilog 1
+Note: Opening integrated instrumentor
+% edit_instr
+@N: Check out instrumentor license 'identinstrumentor_actel'
+Running: identify_ui_flow in background
+
+Running Flow: identify_ui_flow
+# Sun Jul 14 19:59:04 2024
+
+Running: identify_db_generator (Identify Database Generator)
+# Sun Jul 14 19:59:04 2024
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\synlog\top_identify_db_generator.srr to C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.srr
+
+identify_db_generator completed with warnings
+# Sun Jul 14 19:59:05 2024
+
+Return Code: 1
+Run Time:00h:00m:01s
+Instrumentor%
+
+
+*** Integrated Instrumentor ***
+Added instrumentation 'synthesis' to the project
+Added instrumentation 'axi_debug' to the project
+Loading instrumentation 'axi_debug'
+Warning: Could not open IDC file 'C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis/axi_debug/identify.idc'.
+Complete: identify_ui_flow
+Loaded XDM (Hierarchy) data base - elapsed time 0:0 Blocks=3
+@N Implementation 'C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\top_syn.prj|synthesis' design hierarchy loaded from database
+Setting IICE sample clock to '/master/clk' for IICE named 'IICE'
+Instrument Signal /master/ready for trigger and sample in IICE
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 0, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /master/dataOut for sample in IICE
+		Total instrumentation in bits: Sample Only 2, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 2, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /master/outValid for sample in IICE
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 3, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Setting IICE sampler (sampledepth) to 512 for IICE named 'IICE'
+Setting IICE sampler (data compression) to 1 for IICE named 'IICE'
+Error: Unsupported value 'AUTO' for memory type
+Setting IICE sampler (sampledepth) to 128 for IICE named 'IICE'
+Error: Unsupported value 'AUTO' for memory type
+Setting IICE sampler (memory module type) to 'LSRAM' for IICE named 'IICE'
+Setting IICE sampler (sampledepth) to 512 for IICE named 'IICE'
+Setting IICE sampler (data compression) to 1 for IICE named 'output_leds'
+Error: Unsupported value 'AUTO' for memory type
+Setting IICE sample clock to '/slave/clk' for IICE named 'output_leds'
+Instrument Signal /slave/data for trigger and sample in output_leds
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 2, Assertions 0
+		Instrumentation in bits: 		Sample Only 0, Sample and trigger 2, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /slave/outBit1 for trigger and sample in output_leds
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 3, Assertions 0
+		Instrumentation in bits: 		Sample Only 0, Sample and trigger 3, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /slave/outBit2 for trigger and sample in output_leds
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 4, Assertions 0
+		Instrumentation in bits: 		Sample Only 0, Sample and trigger 4, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /slave/outBit3 for trigger and sample in output_leds
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 5, Assertions 0
+		Instrumentation in bits: 		Sample Only 0, Sample and trigger 5, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /slave/outBit4 for trigger and sample in output_leds
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 6, Assertions 0
+		Instrumentation in bits: 		Sample Only 0, Sample and trigger 6, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /master/dataIn for trigger and sample in output_leds
+		Total instrumentation in bits: Sample Only 0, Trigger Only 0, Sample and trigger 8, Assertions 0
+		Instrumentation in bits: 		Sample Only 0, Sample and trigger 8, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		Total instrumentation in bits: Sample Only 2, Trigger Only 0, Sample and trigger 6, Assertions 0
+		Instrumentation in bits: 		Sample Only 2, Sample and trigger 6, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 5, Assertions 0
+		Instrumentation in bits: 		Sample Only 3, Sample and trigger 5, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		Total instrumentation in bits: Sample Only 4, Trigger Only 0, Sample and trigger 4, Assertions 0
+		Instrumentation in bits: 		Sample Only 4, Sample and trigger 4, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		Total instrumentation in bits: Sample Only 5, Trigger Only 0, Sample and trigger 3, Assertions 0
+		Instrumentation in bits: 		Sample Only 5, Sample and trigger 3, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /slave/data for trigger and sample in output_leds
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 5, Assertions 0
+		Instrumentation in bits: 		Sample Only 3, Sample and trigger 5, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		Total instrumentation in bits: Sample Only 4, Trigger Only 0, Sample and trigger 4, Assertions 0
+		Instrumentation in bits: 		Sample Only 4, Sample and trigger 4, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+		Total instrumentation in bits: Sample Only 4, Trigger Only 0, Sample and trigger 2, Assertions 0
+		Instrumentation in bits: 		Sample Only 4, Sample and trigger 2, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrument Signal /inSwitch for sample in output_leds
+		Total instrumentation in bits: Sample Only 6, Trigger Only 0, Sample and trigger 2, Assertions 0
+		Instrumentation in bits: 		Sample Only 6, Sample and trigger 2, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Setting IICE sampler (sampledepth) to 512 for IICE named 'output_leds'
+Setting IICE sampler (memory module type) to 'LSRAM' for IICE named 'output_leds'
+Instrumenting design `top' in directory C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 3, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+	IICE=output_leds 
+		Total instrumentation in bits: Sample Only 6, Trigger Only 0, Sample and trigger 2, Assertions 0
+		Instrumentation in bits: 		Sample Only 6, Sample and trigger 2, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\identify.idc referenced by implementation axi_debug was automatically added to project.
+Instrumenting design `top' in directory C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 3, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+	IICE=output_leds 
+		Total instrumentation in bits: Sample Only 6, Trigger Only 0, Sample and trigger 2, Assertions 0
+		Instrumentation in bits: 		Sample Only 6, Sample and trigger 2, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+Instrumenting design `top' in directory C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug
+Current instrumentation information: 	IICE=IICE 
+		Total instrumentation in bits: Sample Only 3, Trigger Only 0, Sample and trigger 1, Assertions 0
+		Instrumentation in bits: 		Sample Only 3, Sample and trigger 1, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+	IICE=output_leds 
+		Total instrumentation in bits: Sample Only 6, Trigger Only 0, Sample and trigger 2, Assertions 0
+		Instrumentation in bits: 		Sample Only 6, Sample and trigger 2, Assertions 0
+		Maximum sample clock frequency is same as maximum user clock frequency (as reported by P&R)
+License checkin: identinstrumentor_actel
+@N: Check in instrumentor license 'identinstrumentor_actel'
+Unloading current instrumentation 'axi_debug'
+% project -save C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis/top_syn.prj 
+% project -close C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis/top_syn.prj
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,16 @@
+Project Name: counter_and_fifo
+Location: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : MPFS095T-1FCSG325E
+Family         : PolarFireSoC
+Die            : MPFS095T
+Package        : FCSG325
+Speed          : -1
+Core Voltage   : 1.0
+Range          : EXT

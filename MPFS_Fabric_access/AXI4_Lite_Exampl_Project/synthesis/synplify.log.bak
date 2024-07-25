@@ -1,0 +1,101 @@
+
+                               Synplify Pro (R) 
+
+                  Version V-2023.09M for win64 - Jan 04, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+Hostname:    HAMAS
+Date:        Tue Jul 23 21:06:24 2024
+Version:     V-2023.09M
+
+Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log axi_lite_tut_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server hamas 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+log file: "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut.srr"
+Running: synthesis in foreground
+
+Running axi_lite_tut_syn|synthesis
+
+Running Flow: compile (Compile) on axi_lite_tut_syn|synthesis
+# Tue Jul 23 21:06:25 2024
+
+Running Flow: compile_flow (Compile Process) on axi_lite_tut_syn|synthesis
+# Tue Jul 23 21:06:25 2024
+
+Running: compiler (Compile Input) on axi_lite_tut_syn|synthesis
+# Tue Jul 23 21:06:25 2024
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\synwork\axi_lite_tut_comp.srs to C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut.srs
+
+compiler completed
+# Tue Jul 23 21:06:39 2024
+
+Return Code: 0
+Run Time:00h:00m:13s
+
+Running: multi_srs_gen (Multi-srs Generator) on axi_lite_tut_syn|synthesis
+# Tue Jul 23 21:06:39 2024
+
+multi_srs_gen completed
+# Tue Jul 23 21:06:40 2024
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\synwork\axi_lite_tut_mult.srs to C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut.srs
+Complete: Compile Process on axi_lite_tut_syn|synthesis
+
+Running: premap (Premap) on axi_lite_tut_syn|synthesis
+# Tue Jul 23 21:06:40 2024
+
+premap completed with warnings
+# Tue Jul 23 21:06:52 2024
+
+Return Code: 1
+Run Time:00h:00m:12s
+Complete: Compile on axi_lite_tut_syn|synthesis
+
+Running Flow: map (Map) on axi_lite_tut_syn|synthesis
+# Tue Jul 23 21:06:52 2024
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on axi_lite_tut_syn|synthesis
+# Tue Jul 23 21:06:52 2024
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\synwork\axi_lite_tut_m.srm to C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut.srm
+
+fpga_mapper completed with warnings
+# Tue Jul 23 21:07:01 2024
+
+Return Code: 1
+Run Time:00h:00m:09s
+Complete: Map on axi_lite_tut_syn|synthesis
+Complete: Logic Synthesis on axi_lite_tut_syn|synthesis
+Copied C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\axi_lite_tut.srr to C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\synthesis\backup\axi_lite_tut.srr
+TCL script complete: "axi_lite_tut_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

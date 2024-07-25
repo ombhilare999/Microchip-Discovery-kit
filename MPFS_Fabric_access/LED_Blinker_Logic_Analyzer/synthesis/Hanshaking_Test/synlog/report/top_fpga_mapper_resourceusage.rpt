@@ -1,0 +1,41 @@
+Resource Usage Report for top 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+CLKINT          6 uses
+PLL             1 use
+UJTAG           1 use
+CFG1           13 uses
+CFG2           70 uses
+CFG3           116 uses
+CFG4           144 uses
+
+Carry cells:
+ARI1            52 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            460 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 14
+I/O primitives: 9
+INBUF          5 uses
+OUTBUF         4 uses
+
+
+Global Clock Buffers: 6
+
+Total LUTs:    395
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 36; LUTs = 36;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  460 + 0 + 36 + 0 = 496;
+Total number of LUTs after P&R:  395 + 0 + 36 + 0 = 431;
+

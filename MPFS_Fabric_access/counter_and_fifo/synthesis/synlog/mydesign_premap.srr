@@ -1,0 +1,116 @@
+# Thu Jul 25 11:05:11 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
+
+Reading constraint file: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\designer\mydesign\synthesis.fdc
+@L: C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\synthesis\mydesign_scck.rpt 
+See clock summary report "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\synthesis\mydesign_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 251MB)
+
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo.v":1110:3:1110:8|Removing sequential instance re_pulse_d1 (in view: work.COREFIFO_C0_COREFIFO_C0_0_COREFIFO_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo.v":1110:3:1110:8|Removing sequential instance RE_d1 (in view: work.COREFIFO_C0_COREFIFO_C0_0_COREFIFO_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo.v":1040:3:1040:8|Removing sequential instance re_set (in view: work.COREFIFO_C0_COREFIFO_C0_0_COREFIFO_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo.v":1110:3:1110:8|Removing sequential instance REN_d1 (in view: work.COREFIFO_C0_COREFIFO_C0_0_COREFIFO_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net REF_CLK_0 on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=308 on top level netlist mydesign 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                               Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                               Frequency     Period        Type         Group          Load 
+-------------------------------------------------------------------------------------------------------------------------------------------
+0 -       PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     70   
+                                                                                                                                           
+0 -       mydesign|REF_CLK_0                                                  100.0 MHz     10.000        inferred     (multiple)     54   
+===========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                    Clock     Source                                           Clock Pin                                                                          Non-clock Pin     Non-clock Pin                           
+Clock                                                               Load      Pin                                              Seq Example                                                                        Seq Example       Comb Example                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock     70        PF_CCC_C0_0.PF_CCC_C0_0.pll_inst_0.OUT0(PLL)     counter_0.data_out[19:0].C                                                         -                 PF_CCC_C0_0.PF_CCC_C0_0.clkint_0.I(BUFG)
+                                                                                                                                                                                                                                                                            
+mydesign|REF_CLK_0                                                  54        REF_CLK_0(port)                                  PF_TPSRAM_C0_0.PF_TPSRAM_C0_0.PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C0.B_CLK     -                 I_1.A(CLKINT)                           
+============================================================================================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo_nstagessync.v":71:0:71:5|Found inferred clock mydesign|REF_CLK_0 which controls 54 sequential elements including COREFIFO_C0_0.COREFIFO_C0_0.genblk16\.U_corefifo_async.Wr_corefifo_NstagesSync.shift_mem_reg\[1\][6:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\smartdesign_intro\counter_and_fifo\component\work\corefifo_c0\corefifo_c0_0\rtl\vlog\core\corefifo_nstagessync.v":71:0:71:5|Found inferred clock PF_CCC_C0_PF_CCC_C0_0_PF_CCC|pll_inst_0_clkint_0_inferred_clock which controls 70 sequential elements including COREFIFO_C0_0.COREFIFO_C0_0.genblk16\.U_corefifo_async.Rd_corefifo_NstagesSync.shift_mem_reg\[1\][6:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesign_Intro\counter_and_fifo\synthesis\mydesign.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 253MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 253MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 255MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jul 25 11:05:13 2024
+
+###########################################################]

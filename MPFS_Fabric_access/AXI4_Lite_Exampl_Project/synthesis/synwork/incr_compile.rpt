@@ -1,0 +1,347 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+Modified Files: 3
+FID:  path (prevtimestamp, timestamp)
+83       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\MSS_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42)
+84       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42)
+87       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\hdl\mask532.v (2024-07-02 13:11:37, 2024-07-25 11:08:19)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 73
+MID:  lib.cell.view
+0        work.APBM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+1        work.APBS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+2        work.BANKCTRLM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+3        work.BANKCTRL_GPIO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+4        work.BANKCTRL_HSIO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+5        work.BANKEN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+6        work.CLKBUF_DIFF.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+7        work.CLKBUF_DIFF_ODT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+10       work.CORELNKTMR_V.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+11       work.CRN_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+12       work.CRN_INT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+13       work.CRYPTO.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+14       work.CRYPTO_SOC.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+15       work.DEBUG.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+16       work.DLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+17       work.DRI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+18       work.ENFORCE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+19       work.GLITCHDETECT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+20       work.GPSS_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+21       work.HS_IO_CLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+22       work.ICB_BANKCLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+23       work.ICB_CLKDIV.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+24       work.ICB_CLKDIVDELAY.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+25       work.ICB_CLKINT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+26       work.ICB_CLKSTOP.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+27       work.ICB_CLKSTOP_EN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+28       work.ICB_INT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+29       work.ICB_MUXING.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+30       work.ICB_NGMUX.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+31       work.INIT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+32       work.IOD.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+33       work.LANECTRL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+34       work.LANERST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+35       work.MSS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\MSS_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+36       work.OSC_RC160MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+37       work.OSC_RC200MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+38       work.OSC_RC2MHZ.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+39       work.PCIE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+40       work.PCIE_COMMON.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+41       work.PFSOC_SCSM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+42       work.PF_SPI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+43       work.PLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+44       work.QUADRST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+45       work.QUADRST_PCIE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+46       work.SCB.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+47       work.SYSCTRL_RESET_STATUS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+48       work.SYSRESET.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+49       work.SYS_SERVICES.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+50       work.TAMPER.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+51       work.TVS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+52       work.TX_PLL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+53       work.UPROM.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+54       work.USPI.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+55       work.VOLTAGEDETECT.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+56       work.VREFBANKDYN.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+57       work.VREFCTRL.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+58       work.XCVR.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+59       work.XCVR_64B6XB.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+60       work.XCVR_8B10B.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+61       work.XCVR_APB_LINK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+62       work.XCVR_APB_LINK_V.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+63       work.XCVR_APB_LINK_V2.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+64       work.XCVR_DUAL_PCS.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+65       work.XCVR_PIPE.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+66       work.XCVR_PIPE_AXI0.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+67       work.XCVR_PIPE_AXI1.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+68       work.XCVR_PMA.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+69       work.XCVR_REF_CLK.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+70       work.XCVR_REF_CLK_N.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+71       work.XCVR_REF_CLK_P.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+72       work.XCVR_TEST.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+73       work.XCVR_VV.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\polarfire_syn_comps.v (2024-07-23 21:06:19, 2024-07-25 11:08:42) <-- (module definition)
+152      work.mask532.verilog may have changed because the following files changed:
+                        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\hdl\mask532.v (2024-07-02 13:11:37, 2024-07-25 11:08:19) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 87
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\acg5.v (2024-01-04 11:10:06)
+1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v (2024-01-04 11:04:40)
+2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_objects.v (2024-01-04 11:04:40)
+3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-01-04 11:04:40)
+4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\umr_capim.v (2024-01-04 11:08:34)
+5        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHBL_Ctrl.v (2024-06-28 15:12:34)
+6        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AHB_SM.v (2024-06-28 15:12:34)
+7        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Read_Ctrl.v (2024-06-28 15:12:34)
+8        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\AXI4_Write_Ctrl.v (2024-06-28 15:12:34)
+9        C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Bin2Gray.v (2024-06-28 15:12:34)
+10       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_FIFO.v (2024-06-28 15:12:34)
+11       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_grayCodeCounter.v (2024-06-28 15:12:34)
+12       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_rdCtrl.v (2024-06-28 15:12:34)
+13       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\CDC_wrCtrl.v (2024-06-28 15:12:34)
+14       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_CmdFifoWriteCtrl.v (2024-06-28 15:12:34)
+15       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Rd.v (2024-06-28 15:12:34)
+16       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_Hold_Reg_Wr.v (2024-06-28 15:12:34)
+17       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_preCalcCmdFifoWrCtrl.v (2024-06-28 15:12:34)
+18       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_readWidthConv.v (2024-06-28 15:12:34)
+19       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvrd.v (2024-06-28 15:12:34)
+20       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_widthConvwr.v (2024-06-28 15:12:34)
+21       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_DownConv_writeWidthConv.v (2024-06-28 15:12:34)
+22       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_AChannel.v (2024-06-28 15:12:34)
+23       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_BChannel.v (2024-06-28 15:12:34)
+24       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChan_Ctrl.v (2024-06-28 15:12:34)
+25       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel.v (2024-06-28 15:12:34)
+26       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_RChannel_SlvRid_Arb.v (2024-06-28 15:12:34)
+27       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_Hold_Reg.v (2024-06-28 15:12:34)
+28       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChan_ReadDataFifoCtrl.v (2024-06-28 15:12:34)
+29       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_WChannel.v (2024-06-28 15:12:34)
+30       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_Wchan_WriteDataFifoCtrl.v (2024-06-28 15:12:34)
+31       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcAChannel.v (2024-06-28 15:12:34)
+32       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_UpConv_preCalcRChan_Ctrl.v (2024-06-28 15:12:34)
+33       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DWC_brespCtrl.v (2024-06-28 15:12:34)
+34       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\DownConverter.v (2024-06-28 15:12:34)
+35       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO.v (2024-06-28 15:12:34)
+36       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v (2024-06-28 15:12:34)
+37       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_downsizing.v (2024-06-28 15:12:34)
+38       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\FIFO_upsizing.v (2024-06-28 15:12:34)
+39       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\Hold_Reg_Ctrl.v (2024-06-28 15:12:34)
+40       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MasterConvertor.v (2024-06-28 15:12:34)
+41       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrAHBtoAXI4Converter.v (2024-06-28 15:12:34)
+42       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v (2024-06-28 15:12:34)
+43       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v (2024-06-28 15:12:34)
+44       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v (2024-06-28 15:12:34)
+45       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v (2024-06-28 15:12:34)
+46       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegSliceFull.v (2024-06-28 15:12:34)
+47       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\RegisterSlice.v (2024-06-28 15:12:34)
+48       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v (2024-06-28 15:12:34)
+49       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v (2024-06-28 15:12:34)
+50       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvRead.v (2024-06-28 15:12:34)
+51       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvWrite.v (2024-06-28 15:12:34)
+52       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtocolConv.v (2024-06-28 15:12:34)
+53       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v (2024-06-28 15:12:34)
+54       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v (2024-06-28 15:12:34)
+55       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v (2024-06-28 15:12:34)
+56       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\UpConverter.v (2024-06-28 15:12:34)
+57       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4Convertors\byte2bit.v (2024-06-28 15:12:34)
+58       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\AddressController.v (2024-06-28 15:12:34)
+59       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v (2024-06-28 15:12:34)
+60       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\BitScan0.v (2024-06-28 15:12:34)
+61       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DERR_Slave.v (2024-06-28 15:12:34)
+62       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DependenceChecker.v (2024-06-28 15:12:34)
+63       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_FF_SyncWr_SyncRd.v (2024-06-28 15:12:34)
+64       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\DualPort_Ram_SyncWr_SyncRd.v (2024-06-28 15:12:34)
+65       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\FifoDualPort.v (2024-06-28 15:12:34)
+66       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterAddressDecoder.v (2024-06-28 15:12:34)
+67       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\MasterControl.v (2024-06-28 15:12:34)
+68       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RDataController.v (2024-06-28 15:12:34)
+69       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RdFifoDualPort.v (2024-06-28 15:12:34)
+70       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataController.v (2024-06-28 15:12:34)
+71       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ReadDataMux.v (2024-06-28 15:12:34)
+72       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RequestQual.v (2024-06-28 15:12:34)
+73       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v (2024-06-28 15:12:34)
+74       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RespController.v (2024-06-28 15:12:34)
+75       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\Revision.v (2024-06-28 15:12:34)
+76       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\RoundRobinArb.v (2024-06-28 15:12:34)
+77       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\SlaveDataMuxController.v (2024-06-28 15:12:34)
+78       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TargetMuxController.v (2024-06-28 15:12:34)
+79       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\TransactionController.v (2024-06-28 15:12:34)
+80       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WDataController.v (2024-06-28 15:12:34)
+81       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\Axi4CrossBar\WriteDataMux.v (2024-06-28 15:12:34)
+82       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.8.103\rtl\vlog\core\CoreAxi4Interconnect.v (2024-06-28 15:12:34)
+85       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\work\COREAXI4INTERCONNECT_C0\COREAXI4INTERCONNECT_C0.v (2024-07-16 14:51:15)
+86       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\component\work\axi_lite_tut\axi_lite_tut.v (2024-07-10 13:26:29)
+88       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\hdl\mask_axi532.v (2024-07-17 09:59:15)
+89       C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\SmartDesignCanvas\tutorial\hdl\master_AXI.v (2024-07-17 01:19:31)
+
+*******************************************************************
+Unchanged modules: 82
+MID:  lib.cell.view
+8        work.COREAXI4INTERCONNECT.verilog
+9        work.COREAXI4INTERCONNECT_C0.verilog
+74       work.axi_lite_tut.verilog
+75       work.caxi4interconnect_AHBL_Ctrl.verilog
+76       work.caxi4interconnect_AHB_SM.verilog
+77       work.caxi4interconnect_AXI4_Read_Ctrl.verilog
+78       work.caxi4interconnect_AXI4_Write_Ctrl.verilog
+79       work.caxi4interconnect_AddressController.verilog
+80       work.caxi4interconnect_Axi4CrossBar.verilog
+81       work.caxi4interconnect_Bin2Gray.verilog
+82       work.caxi4interconnect_BitScan0.verilog
+83       work.caxi4interconnect_CDC_FIFO.verilog
+84       work.caxi4interconnect_CDC_grayCodeCounter.verilog
+85       work.caxi4interconnect_CDC_rdCtrl.verilog
+86       work.caxi4interconnect_CDC_wrCtrl.verilog
+87       work.caxi4interconnect_DERR_Slave.verilog
+88       work.caxi4interconnect_DWC_DownConv_CmdFifoWriteCtrl.verilog
+89       work.caxi4interconnect_DWC_DownConv_Hold_Reg_Rd.verilog
+90       work.caxi4interconnect_DWC_DownConv_Hold_Reg_Wr.verilog
+91       work.caxi4interconnect_DWC_DownConv_preCalcCmdFifoWrCtrl.verilog
+92       work.caxi4interconnect_DWC_DownConv_readWidthConv.verilog
+93       work.caxi4interconnect_DWC_DownConv_widthConvrd.verilog
+94       work.caxi4interconnect_DWC_DownConv_widthConvwr.verilog
+95       work.caxi4interconnect_DWC_DownConv_writeWidthConv.verilog
+96       work.caxi4interconnect_DWC_RChannel_SlvRid_Arb.verilog
+97       work.caxi4interconnect_DWC_UpConv_AChannel.verilog
+98       work.caxi4interconnect_DWC_UpConv_BChannel.verilog
+99       work.caxi4interconnect_DWC_UpConv_RChan_Ctrl.verilog
+100      work.caxi4interconnect_DWC_UpConv_RChannel.verilog
+101      work.caxi4interconnect_DWC_UpConv_WChan_Hold_Reg.verilog
+102      work.caxi4interconnect_DWC_UpConv_WChan_ReadDataFifoCtrl.verilog
+103      work.caxi4interconnect_DWC_UpConv_WChannel.verilog
+104      work.caxi4interconnect_DWC_UpConv_Wchan_WriteDataFifoCtrl.verilog
+105      work.caxi4interconnect_DWC_UpConv_preCalcAChannel.verilog
+106      work.caxi4interconnect_DWC_UpConv_preCalcRChan_Ctrl.verilog
+107      work.caxi4interconnect_DWC_brespCtrl.verilog
+108      work.caxi4interconnect_DependenceChecker.verilog
+109      work.caxi4interconnect_DownConverter.verilog
+110      work.caxi4interconnect_DualPort_FF_SyncWr_SyncRd.verilog
+111      work.caxi4interconnect_DualPort_RAM_SyncWr_SyncRd.verilog
+112      work.caxi4interconnect_FIFO.verilog
+113      work.caxi4interconnect_FIFO_CTRL.verilog
+114      work.caxi4interconnect_FIFO_downsizing.verilog
+115      work.caxi4interconnect_FIFO_upsizing.verilog
+116      work.caxi4interconnect_FifoDualPort.verilog
+117      work.caxi4interconnect_Hold_Reg_Ctrl.verilog
+118      work.caxi4interconnect_MasterAddressDecoder.verilog
+119      work.caxi4interconnect_MasterControl.verilog
+120      work.caxi4interconnect_MasterConvertor.verilog
+121      work.caxi4interconnect_MstrAHBtoAXI4Converter.verilog
+122      work.caxi4interconnect_MstrClockDomainCrossing.verilog
+123      work.caxi4interconnect_MstrDataWidthConv.verilog
+124      work.caxi4interconnect_MstrProtocolConverter.verilog
+125      work.caxi4interconnect_RAM_BLOCK.verilog
+126      work.caxi4interconnect_RDataController.verilog
+127      work.caxi4interconnect_RdFifoDualPort.verilog
+128      work.caxi4interconnect_ReadDataController.verilog
+129      work.caxi4interconnect_ReadDataMux.verilog
+130      work.caxi4interconnect_RegSliceFull.verilog
+131      work.caxi4interconnect_RegisterSlice.verilog
+132      work.caxi4interconnect_RequestQual.verilog
+133      work.caxi4interconnect_ResetSycnc.verilog
+134      work.caxi4interconnect_RespController.verilog
+135      work.caxi4interconnect_RoundRobinArb.verilog
+136      work.caxi4interconnect_SlaveConvertor.verilog
+137      work.caxi4interconnect_SlaveDataMuxController.verilog
+138      work.caxi4interconnect_SlvAxi4ProtConvAXI4ID.verilog
+139      work.caxi4interconnect_SlvAxi4ProtConvRead.verilog
+140      work.caxi4interconnect_SlvAxi4ProtConvWrite.verilog
+141      work.caxi4interconnect_SlvAxi4ProtocolConv.verilog
+142      work.caxi4interconnect_SlvClockDomainCrossing.verilog
+143      work.caxi4interconnect_SlvDataWidthConverter.verilog
+144      work.caxi4interconnect_SlvProtocolConverter.verilog
+145      work.caxi4interconnect_TargetMuxController.verilog
+146      work.caxi4interconnect_TransactionController.verilog
+147      work.caxi4interconnect_UpConverter.verilog
+148      work.caxi4interconnect_WDataController.verilog
+149      work.caxi4interconnect_WriteDataMux.verilog
+150      work.caxi4interconnect_byte2bit.verilog
+151      work.caxi4interconnect_revision.verilog
+153      work.mask_axi532.verilog
+154      work.master_AXI.verilog

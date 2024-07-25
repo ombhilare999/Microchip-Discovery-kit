@@ -1,0 +1,164 @@
+Compile Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Thu Jul 25 10:38:10 2024
+
+Device Selection
++------------------------+--------------+
+| Family                 | PolarFireSoC |
+| Device                 | MPFS095T     |
+| Package                | FCSG325      |
+| Speed Grade            | -1           |
+| Core Voltage           | 1.0V         |
+| Part Range             | EXT          |
+| Default I/O technology | LVCMOS 1.8V  |
++------------------------+--------------+
+
+Source Files
++---------+---------------------------------------------------------------------------------------------------------------------------+
+| Topcell | top                                                                                                                       |
+| Format  | Verilog                                                                                                                   |
+| Source  | C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_Logic_Analyzer\synthesis\Hanshaking_Test\top.vm |
++---------+---------------------------------------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+----+
+| Limit the number of high fanout nets to display to | 10 |
++----------------------------------------------------+----+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 455  | 93516 | 0.49       |
+| DFF                       | 496  | 93516 | 0.53       |
+| I/O Register              | 0    | 240   | 0.00       |
+| User I/O                  | 9    | 80    | 11.25      |
+| -- Single-ended I/O       | 9    | 80    | 11.25      |
+| -- Differential I/O Pairs | 0    | 40    | 0.00       |
+| uSRAM                     | 0    | 876   | 0.00       |
+| LSRAM                     | 1    | 308   | 0.32       |
+| Math                      | 0    | 292   | 0.00       |
+| H-Chip Global             | 6    | 48    | 12.50      |
+| PLL                       | 1    | 8     | 12.50      |
+| DLL                       | 0    | 8     | 0.00       |
+| CRN_INT                   | 1    | 24    | 4.17       |
+| UJTAG                     | 1    | 1     | 100.00     |
+| Transceiver Lanes         | 0    | 2     | 0.00       |
+| Transceiver PCIe          | 0    | 2     | 0.00       |
+| ICB_CLKINT                | 2    | 68    | 2.94       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++-----------------------+------+-----+
+| Type                  | 4LUT | DFF |
++-----------------------+------+-----+
+| Fabric Logic          | 419  | 460 |
+| uSRAM Interface Logic | 0    | 0   |
+| LSRAM Interface Logic | 36   | 36  |
+| Math Interface Logic  | 0    | 0   |
+| Total Used            | 455  | 496 |
++-----------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 10     | 1    |
+| 11     | 2    |
+| 20     | 1    |
+| Total  | 4    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 5            | 0           | 0               |
+| Output I/O                    | 4            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+Nets assigned to chip global resources
++--------+---------+------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                         |
++--------+---------+------------------------------------------------------------------------------+
+| 259    | INT_NET | Net   : ident_coreinst/IICE_regular_comm2iice[11]                            |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1        |
+|        |         | Source: NETLIST                                                              |
+| 143    | INT_NET | Net   : NN_1                                                                 |
+|        |         | Driver: I_1/U0_RGB1                                                          |
+|        |         | Source: NETLIST                                                              |
+| 27     | INT_NET | Net   : ident_coreinst/IICE_regular_comm2iice[8]                             |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS37/U0_RGB1   |
+|        |         | Source: NETLIST                                                              |
+| 21     | INT_NET | Net   : clock_1MHz                                                           |
+|        |         | Driver: clk_ccc/PF_CCC_C0_0/clkint_0/U0_RGB1                                 |
+|        |         | Source: NETLIST                                                              |
+| 8      | INT_NET | Net   : ident_coreinst/comm_block_INST/hcr_update                            |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE5/U0_RGB1 |
+|        |         | Source: NETLIST                                                              |
+| 4      | INT_NET | Net   : clock_1Hz                                                            |
+|        |         | Driver: clkDiv/N_1_inferred_clock_RNI2PS36/U0_RGB1                           |
+|        |         | Source: NETLIST                                                              |
++--------+---------+------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                           |
++--------+---------+--------------------------------------------------------------------------------+
+| 62     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]                         |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]        |
+| 59     | INT_NET | Net   : ident_coreinst/IICE_regular_comm2iice[9]                               |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X                    |
+| 44     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_voSc3                                      |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb                     |
+| 32     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_100           |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_100   |
+| 32     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or_Z        |
+|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or          |
+| 32     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/N_717_i                    |
+|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_fast       |
+| 31     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_or[5]         |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_or[5] |
+| 27     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/un1_b12_uRrc2XfY_rbN10_i             |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/un1_b12_uRrc2XfY_rbN10               |
+| 26     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b9_voSc3_rGt_Z                         |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/b9_voSc3_rGt                           |
+| 24     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/N_8                                    |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/m7                                     |
++--------+---------+--------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                           |
++--------+---------+--------------------------------------------------------------------------------+
+| 62     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/b6_nfs_IF[1]                         |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs[1]        |
+| 59     | INT_NET | Net   : ident_coreinst/IICE_regular_comm2iice[9]                               |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_nv_ywKMm9X                    |
+| 44     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_voSc3                                      |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb                     |
+| 32     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_100           |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_100   |
+| 32     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or_Z        |
+|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/un1_b3_ORb10_1_or          |
+| 32     | INT_NET | Net   : ident_coreinst/comm_block_INST/b9_ORb_xNywD/N_717_i                    |
+|        |         | Driver: ident_coreinst/comm_block_INST/b9_ORb_xNywD/b3_ORb_0_sqmuxa_fast       |
+| 31     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/virOut/b13_PLF_2grFt_FH9_or[5]         |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/virOut/genblk1.b13_PLF_2grFt_FH9_or[5] |
+| 27     | INT_NET | Net   : ident_coreinst/IICE_INST/b5_nUTGT/un1_b12_uRrc2XfY_rbN10_i             |
+|        |         | Driver: ident_coreinst/IICE_INST/b5_nUTGT/un1_b12_uRrc2XfY_rbN10               |
+| 26     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/b9_voSc3_rGt_Z                         |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/b9_voSc3_rGt                           |
+| 24     | INT_NET | Net   : ident_coreinst/IICE_INST/b3_SoW/N_8                                    |
+|        |         | Driver: ident_coreinst/IICE_INST/b3_SoW/m7                                     |
++--------+---------+--------------------------------------------------------------------------------+
+

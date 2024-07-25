@@ -1,0 +1,71 @@
+#OPTIONS:"|-modgen|-top|syn_identify_core|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-nram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\acg5.v":1704384606
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"C:\\Users\\User\\OneDrive\\Desktop\\Microship_ECE552\\Introduction_Tut\\Logic_Analyzer\\AXI_Handshaking_Tut\\synthesis\\axi_debug\\instr_sources\\syn_dics.v":1721919243
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work b17_ORbIwXaEF_FH9YoPA 0
+module work jtag_interface 0
+module work b16_Rcmi_qlx9_yHpm7y 0
+module work comm_block 0
+module work b11_OFWNT9s_FMZ 0
+module work b18_nczQ_DYg_rbYq_Amnd 0
+module work b15_SF3c_EfOsX_ikAR 0
+module work b14_oLzK_rCK1V_ONu 0
+module work b14_oLzs_rCK1V_OCt 0
+module work b13_vFW_xNywD_bwR 0
+module work b19_nczQ_DYg_YFaRM_oUoP 0
+module work b11_SoWyP0zEFKY 0
+module work b11_8FGZ_vC8f9Z 0
+module work b11_OFWNT9s_8tZ 0
+module work b13_vFW_xNywD_EdR 0
+module work b14_dSm3_rCK1V_azA 0
+module work b13_8FGZ_CuHFrZHx 0
+module work b10_8cD_xDrxLX 0
+module work b19_OFWNT9_EF3_iwnKczDJ 0
+module work b20_OFWNT9s_8tZ_pmB9A7wn 0
+module work b20_nczQ_DYg_rbYq_Amnd_h 0
+module work b21_nczQ_DYg_YFaRM_oUoP_y 0
+module work b15_vFW_xNywD_EdR_r 0
+module work b10_PFb_69PK9b 0
+module work b12_oonol_PawjMb 0
+module work b20_oonol_LYWrZ_k972_dJ6 0
+module work b9_oonol_krw 0
+module work b14_oonol_krw_xHHq 0
+module work b18_oonol_Prtji_DgXQzV 0
+module work b15_oonol_kKwy_33qo 0
+module work b16_oonol_Pr8t_3D9K2 0
+module work b18_oonol_gDt_suQMBQKl 0
+module work b11_oonol_kKwyF 0
+module work b14_oonol_LobjGaym 0
+module work b3_uKr 0
+module work b7_yFJNJCP 0
+module work b8_1LbcQDr1 0
+module work b5_nvmFL 0
+module work b11_jFJtLvYY9qh 0
+module work b13_PSyil9s1fkJ_K 0
+module work b8_PfFzrNYI 0
+module work b16_n2FydH_ab_FH9_K4 0
+module work b7_OCByLXC 0
+module work b8_nR_ymqrG 0
+module work IICE_regular 0
+module work b7_yFJNJCP_0 0
+module work b8_1LbcQDr1_0 0
+module work b5_nvmFL_0 0
+module work b11_jFJtLvYY9qh_0 0
+module work b9_O2yyf_fG2 0
+module work b14_CRGcTCua_eH4_k 0
+module work b13_PSyil9s1fkJ_K_0 0
+module work b8_PfFzrNYI_0 0
+module work output_leds_regular 0
+module work syn_identify_core 0

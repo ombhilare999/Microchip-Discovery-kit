@@ -1,0 +1,35 @@
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'clk_ccc/PF_CCC_C0_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'clk_ccc/PF_CCC_C0_0/pll_inst_0:REF_CLK_0'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim:A'.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       6 
+      Globals that cannot be demoted:      2 
+      Globals considered for demotion:     4 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    259    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
+    21     0      0      'clk_ccc/PF_CCC_C0_0/clkint_0' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    143    0      1      'I_1' 
+    27     0      1      'ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS37' 
+    8      0      0      'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE5' 
+    4      0      1      'clkDiv/N_1_inferred_clock_RNI2PS36' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'I_1'. This behavior is controlled by the 'Minimum fanout of non-clock nets to be kept on globals' threshold in the tool options for the Synthesize step. Typically, the low-skew global resources are used for clock and reset nets. When using global resources for data nets, consider the data path effect of global insertion delay and added buffer delay when the net drives carry chain logic.
+      Disconnected 1 data pins from global 'ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS37'. This behavior is controlled by the 'Minimum fanout of non-clock nets to be kept on globals' threshold in the tool options for the Synthesize step. Typically, the low-skew global resources are used for clock and reset nets. When using global resources for data nets, consider the data path effect of global insertion delay and added buffer delay when the net drives carry chain logic.
+      Disconnected 1 data pins from global 'clkDiv/N_1_inferred_clock_RNI2PS36'. This behavior is controlled by the 'Minimum fanout of non-clock nets to be kept on globals' threshold in the tool options for the Synthesize step. Typically, the low-skew global resources are used for clock and reset nets. When using global resources for data nets, consider the data path effect of global insertion delay and added buffer delay when the net drives carry chain logic.
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+

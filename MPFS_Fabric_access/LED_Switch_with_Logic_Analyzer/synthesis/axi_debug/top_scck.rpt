@@ -1,0 +1,67 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: HAMAS
+
+Implementation : axi_debug
+
+# Written on Thu Jul 25 10:54:02 2024
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\designer\top\synthesis.fdc"
+                         "C:\Users\User\OneDrive\Desktop\Microship_ECE552\Introduction_Tut\Logic_Analyzer\AXI_Handshaking_Tut\synthesis\axi_debug\instr_sources\syn_dics.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------
+0 -       clk                                                  100.0 MHz     10.000        declared     default_clkgroup          283  
+                                                                                                                                       
+0 -       ident_coreinst.comm_block_INST.dr2_tck               1.0 MHz       1000.000      declared     identify_jtag_group1      9    
+                                                                                                                                       
+0 -       System                                               100.0 MHz     10.000        system       system_clkgroup           0    
+                                                                                                                                       
+0 -       jtag_interface_x|identify_clk_int_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0_1     473  
+                                                                                                                                       
+0 -       jtag_interface_x|b9_nv_oQwfYF                        100.0 MHz     10.000        inferred     Inferred_clkgroup_0_3     58   
+                                                                                                                                       
+0 -       jtag_interface_x|b10_8Kz_rKlrtX                      100.0 MHz     10.000        inferred     Inferred_clkgroup_0_2     9    
+=======================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                     Clock     Source                                                             Clock Pin                                                                                       Non-clock Pin                                            Non-clock Pin                                                
+Clock                                                Load      Pin                                                                Seq Example                                                                                     Seq Example                                              Comb Example                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clk                                                  283       clk(port)                                                          ident_coreinst.output_leds_INST.b20_i2WM2X_F8tsl_Ae1cdJ4.C                                      -                                                        I_1.A(CLKINT)                                                
+                                                                                                                                                                                                                                                                                                                                                        
+ident_coreinst.comm_block_INST.dr2_tck               9         ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.O(BUFG)      ident_coreinst.comm_block_INST.b7_Rcmi_ql.b9_OvyH3_saL[8:0].C                                   -                                                        -                                                            
+                                                                                                                                                                                                                                                                                                                                                        
+System                                               0         -                                                                  -                                                                                               -                                                        -                                                            
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|identify_clk_int_inferred_clock     473       ident_coreinst.comm_block_INST.jtagi.b9_Rcmi_KsDw.UDRCK(UJTAG)     ident_coreinst.comm_block_INST.b9_ORb_xNywD.genblk1\.b3_ORb[32:1].C                             -                                                        ident_coreinst.comm_block_INST.jtagi.jtag_clkint_prim.I(BUFG)
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|b9_nv_oQwfYF                        58        ident_coreinst.comm_block_INST.jtagi.b9_nv_oQwfYF_3.OUT(and)       ident_coreinst.output_leds_INST.b3_SoW.genblk5\.b11_oGA_BXsO_OT.genblk2\.b8_nczQ_DYg[7:0].C     ident_coreinst.output_leds_INST.b3_SoW.b8_jAA_KlCO.E     ident_coreinst.comm_block_INST.jtagi.I_1.A(CLKINT)           
+                                                                                                                                                                                                                                                                                                                                                        
+jtag_interface_x|b10_8Kz_rKlrtX                      9         ident_coreinst.comm_block_INST.jtagi.b10_8Kz_rKlrtX_3.OUT(and)     ident_coreinst.comm_block_INST.b7_Rcmi_ql.genblk1\.b10_dZst39_EF3[8:0].C                        -                                                        ident_coreinst.comm_block_INST.jtagi.I_2.A(CLKINT)           
+========================================================================================================================================================================================================================================================================================================================================================

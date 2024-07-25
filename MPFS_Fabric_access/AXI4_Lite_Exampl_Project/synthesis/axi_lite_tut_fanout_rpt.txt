@@ -1,0 +1,18 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 800
+GLOBAL THRESHOLD - 5000
+
+NET NAME                           CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+----------------------------------------------------------------------------------------------------------------------------
+aclk                               868             0                   0              868              YES                  
+master_AXI_0.M_MASK_N_OUT5         32              0                   0              32               YES                  
+master_AXI_0.M_MASK_N_OUT4         32              0                   0              32               YES                  
+mask_axi532_0.slave_axi_data13     32              0                   0              32               YES                  
+mask_axi532_0.n_value4             32              0                   0              32               YES                  
+mask_axi532_0.n_value5             32              0                   0              32               YES                  
+master_AXI_0.M_MASK_N_OUT3         5               0                   0              5                YES                  
+mask_axi532_0.n_value3             5               0                   0              5                YES                  
+============================================================================================================================

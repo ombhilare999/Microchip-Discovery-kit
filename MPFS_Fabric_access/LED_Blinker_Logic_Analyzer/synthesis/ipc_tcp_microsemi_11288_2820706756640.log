@@ -1,0 +1,16 @@
+1721918772 -10:46:12 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58109
+Logfile:   C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis/ipc_tcp_microsemi_11288_2820706756640.log
+Reconnect: 0
+Use ipv6:  0
+
+1721918772 -10:46:12 -10035 -::HaveSocketEvent, wait for ::select
+1721918772 -10:46:12 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1721918773 -10:46:13 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1721918773 -10:46:13 -10035 -::HaveSocketEvent, wait for ::select
+1721918773 -10:46:13 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1721918774 -10:46:14 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1721918774 -10:46:14 -10035 -::HaveSocketEvent, wait for ::select
+1721918774 -10:46:14 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1721918775 -10:46:15 -0 -ipcClient.socket or .connect

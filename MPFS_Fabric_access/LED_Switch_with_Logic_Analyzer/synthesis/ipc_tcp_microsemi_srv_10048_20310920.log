@@ -1,0 +1,7 @@
+1721922669 -11:51:09 -17629453 -ipcServer::ipcServer params
+Port:      58109
+Logfile:   C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Switch_with_Logic_Analyzer/synthesis/ipc_tcp_microsemi_srv_10048_20310920.log
+Reconnect: 0
+Use ipv6:  0
+
+1721923100 -11:58:20 -1 -ipcServer.RunServer, loop stopped normal.

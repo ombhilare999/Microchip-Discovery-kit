@@ -1,0 +1,20 @@
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock axi_lite_tut|aclk with period 10.00ns. Please declare a user-defined clock on port aclk.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|M_MASK_N_OUT6_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.M_MASK_N_OUT6.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|N_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.N_1.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|N_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.N_2_0.
+@W: MT420 |Found inferred clock master_AXI_32s_32s|N_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net master_AXI_0.N_3_0.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|n_value6_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.n_value6.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_2.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_3.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_4.
+@W: MT420 |Found inferred clock mask_axi532_32s_32s|N_5_inferred_clock with period 10.00ns. Please declare a user-defined clock on net mask_axi532_0.N_5_0.

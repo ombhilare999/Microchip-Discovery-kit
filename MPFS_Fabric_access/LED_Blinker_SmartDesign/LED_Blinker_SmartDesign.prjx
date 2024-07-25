@@ -1,0 +1,403 @@
+KEY LIBERO "2024.1"
+KEY CAPTURE "2024.1.0.3"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFireSoC"
+KEY VendorTechnology_Die "PA5SOC095T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS18"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5SOC095T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker_SmartDesign"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\SgCore\PF_CCC\2.2.220\PF_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1721872403"
+SIZE="279"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1721872406"
+SIZE="18192"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0.v,hdl"
+STATE="utd"
+TIME="1721872403"
+SIZE="10174"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1721872403"
+SIZE="479"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v,hdl"
+STATE="utd"
+TIME="1721872403"
+SIZE="3825"
+PARENT="<project>\component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\top\top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1721888893"
+SIZE="2811"
+ENDFILE
+VALUE "<project>\component\work\top\top.v,hdl"
+STATE="utd"
+TIME="1721888893"
+SIZE="3492"
+PARENT="<project>\component\work\top\top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1721922156"
+SIZE="1769"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\constraint\user.sdc,sdc"
+STATE="utd"
+TIME="1719383318"
+SIZE="76"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\hdl\clockDivider.v,hdl"
+STATE="utd"
+TIME="1721886830"
+SIZE="1025"
+ENDFILE
+VALUE "<project>\hdl\masterAXI.v,hdl"
+STATE="utd"
+TIME="1721886815"
+SIZE="1236"
+ENDFILE
+VALUE "<project>\hdl\slaveAXI.v,hdl"
+STATE="utd"
+TIME="1721887987"
+SIZE="1925"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1721888754"
+SIZE="1251"
+ENDFILE
+VALUE "<project>\simulation\top_tb_presynth_simulation.log,log"
+STATE="utd"
+TIME="1721888828"
+SIZE="7378"
+ENDFILE
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+STATE="utd"
+TIME="1721888743"
+SIZE="2887"
+ENDFILE
+VALUE "<project>\synthesis\top.so,so"
+STATE="utd"
+TIME="1721888910"
+SIZE="266"
+ENDFILE
+VALUE "<project>\synthesis\top.vm,syn_vm"
+STATE="utd"
+TIME="1721888910"
+SIZE="26426"
+ENDFILE
+VALUE "<project>\synthesis\top_syn.prj,prj"
+STATE="utd"
+TIME="1721888911"
+SIZE="3872"
+ENDFILE
+VALUE "<project>\synthesis\top_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1721888910"
+SIZE="1404"
+ENDFILE
+VALUE "C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\top.vm,syn_vm"
+STATE="utd"
+TIME="1721888020"
+SIZE="24952"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "top::work"
+FILE "<project>\component\work\top\top.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+VALUE "<project>\constraint\user.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\top.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\top.edn,syn_edn"
+VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
+VALUE "<project>\phy_synthesis\top_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\top_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\top_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\top_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\top_palace.v,palace_hdl"
+VALUE "<project>\designer\impl1\top.adb,adb"
+VALUE "<project>\designer\impl1\top.fdb,fdb"
+VALUE "<project>\designer\impl1\top.pdb,pdb"
+VALUE "<project>\designer\impl1\top.stp,stp"
+VALUE "<project>\designer\impl1\top_fp\top.pro,pro"
+VALUE "<project>\synthesis\top.vm,syn_vm"
+VALUE "<project>\synthesis\top.v,syn_hdl"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST top
+VALUE "<project>\stimulus\top_tb.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=top_tb
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/pli/pf_crypto_win_me_pli.dll
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "top::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(C:\Users\User\OneDrive\Desktop\Microship_ECE552\GIT_Microchip\LED_Blinker\synthesis\top.vm,syn_vm)=StateSuccess
+ideSYNTHESIS(<project>\synthesis\top.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\top.edn,syn_edn"
+VALUE "<project>\synthesis\top_sdc.sdc,syn_sdc"
+VALUE "<project>\phy_synthesis\top_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\top_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\top_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\top_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\top_palace.v,palace_hdl"
+VALUE "<project>\designer\impl1\top.adb,adb"
+VALUE "<project>\designer\impl1\top.fdb,fdb"
+VALUE "<project>\designer\impl1\top.pdb,pdb"
+VALUE "<project>\designer\impl1\top.stp,stp"
+VALUE "<project>\designer\impl1\top_fp\top.pro,pro"
+VALUE "<project>\synthesis\top.vm,syn_vm"
+VALUE "<project>\synthesis\top.v,syn_hdl"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Bitstream:top_generateBitstream.log
+HDL;hdl\masterAXI.v;0
+HDL;hdl\clockDivider.v;0
+HDL;component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v;0
+HDL;hdl\slaveAXI.v;0
+HDL;stimulus\top_tb.v;0
+Constraint Manager;Constraint Manager;0
+StartPage;StartPage;0
+SmartDesign;top;0
+ACTIVEVIEW;Reports
+ENDLIST
+LIST ModuleSubBlockList
+LIST "clockDivider::work","hdl\clockDivider.v","FALSE","FALSE"
+ENDLIST
+LIST "masterAXI::work","hdl\masterAXI.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_CCC_C0::work","component\work\PF_CCC_C0\PF_CCC_C0.v","TRUE","FALSE"
+SUBBLOCK "PF_CCC_C0_PF_CCC_C0_0_PF_CCC::work","component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v","FALSE","FALSE"
+ENDLIST
+LIST "PF_CCC_C0_PF_CCC_C0_0_PF_CCC::work","component\work\PF_CCC_C0\PF_CCC_C0_0\PF_CCC_C0_PF_CCC_C0_0_PF_CCC.v","FALSE","FALSE"
+ENDLIST
+LIST "slaveAXI::work","hdl\slaveAXI.v","FALSE","FALSE"
+ENDLIST
+LIST "top::work","component\work\top\top.v","TRUE","FALSE"
+SUBBLOCK "PF_CCC_C0::work","component\work\PF_CCC_C0\PF_CCC_C0.v","TRUE","FALSE"
+SUBBLOCK "clockDivider::work","hdl\clockDivider.v","FALSE","FALSE"
+SUBBLOCK "masterAXI::work","hdl\masterAXI.v","FALSE","FALSE"
+SUBBLOCK "slaveAXI::work","hdl\slaveAXI.v","FALSE","FALSE"
+ENDLIST
+LIST "top_tb::work","stimulus\top_tb.v","FALSE","TRUE"
+SUBBLOCK "top::work","component\work\top\top.v","TRUE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\user.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

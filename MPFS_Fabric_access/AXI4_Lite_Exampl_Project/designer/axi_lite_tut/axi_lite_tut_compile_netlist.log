@@ -1,0 +1,32 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       8 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     8 
+
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    862    0      0      'I_1' 
+    32     0      0      'mask_axi532_0/N_2_inferred_clock_RNISM1E7' 
+    32     0      0      'mask_axi532_0/N_3_inferred_clock_RNIT5BO2' 
+    32     0      0      'mask_axi532_0/N_4_inferred_clock_RNIUKK26' 
+    32     0      0      'master_AXI_0/N_1_inferred_clock_RNI1G115' 
+    32     0      0      'master_AXI_0/N_2_inferred_clock_RNI2VAB' 
+    5      0      0      'mask_axi532_0/N_5_inferred_clock_RNIV3UC1' 
+    5      0      0      'master_AXI_0/N_3_inferred_clock_RNI3EKL3' 
+
+Info: Demotion information: 
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+
+
+Error:  Number of I/O modules (243) exceeds the limit (80) of the selected device.
+Error:  The command 'compile' failed.
+Error:  Line 71
+Error running script

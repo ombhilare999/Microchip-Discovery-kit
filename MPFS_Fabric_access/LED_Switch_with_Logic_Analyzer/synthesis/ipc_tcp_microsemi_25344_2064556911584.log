@@ -1,0 +1,16 @@
+1721005450 -21:04:10 -17629453 -ipcClient::Reconnect params
+Hostname:  127.0.0.1
+Port:      58109
+Logfile:   C:/Users/User/OneDrive/Desktop/Microship_ECE552/Introduction_Tut/Logic_Analyzer/AXI_Handshaking_Tut/synthesis/ipc_tcp_microsemi_25344_2064556911584.log
+Reconnect: 0
+Use ipv6:  0
+
+1721005450 -21:04:10 -10035 -::HaveSocketEvent, wait for ::select
+1721005450 -21:04:10 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1721005452 -21:04:12 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1721005452 -21:04:12 -10035 -::HaveSocketEvent, wait for ::select
+1721005452 -21:04:12 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1721005453 -21:04:13 -0 -goto REPEAT, ::connect as unblocked, - addr_rp->ai_next == nullptr
+1721005453 -21:04:13 -10035 -::HaveSocketEvent, wait for ::select
+1721005453 -21:04:13 -10035 -::HaveSocketEvent, timeout for select: tv.tv_sec: 0 tv.tv_usec: 600000
+1721005453 -21:04:13 -0 -ipcClient.socket or .connect

@@ -1,0 +1,127 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "10:35:33    25-Jul-2024",
+	"Working Directory" : "C:/Users/User/OneDrive/Desktop/Microship_ECE552/GIT_Microchip/LED_Blinker_Logic_Analyzer/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+},
+"Hanshaking_Test" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "10:34:40",
+   "Runtime" : "25s",
+   "Executable Run Time" : "24s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "10:34:40",
+      "Runtime" : "25s",
+      "Executable Run Time" : "24s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:34:40",
+         "Runtime" : "19s",
+         "Executable Run Time" : "18s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "10:34:40",
+            "Runtime" : "07s",
+            "Executable Run Time" : "06s",
+            "identify_db_generator" : {
+               "executable" : "bin64/c_ver.exe",
+               "Run Directory" : "Hanshaking_Test",
+               "Run State" : "Complete",
+               "Return Code" : "1",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:34:40",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "identify_compile" : {
+               "executable" : "bin/identify_instrumentor_shell.exe",
+               "Run Directory" : "Hanshaking_Test",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:34:41",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "Hanshaking_Test",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:34:42",
+               "Run Time" : "05s",
+               "Exe Run Time" : "04s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "Hanshaking_Test",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:34:47",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "Hanshaking_Test",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:34:47",
+            "Run Time" : "12s",
+            "Exe Run Time" : "12s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:34:59",
+         "Runtime" : "06s",
+         "Executable Run Time" : "06s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "Hanshaking_Test",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:34:59",
+            "Run Time" : "06s",
+            "Exe Run Time" : "06s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+},
+"identify_ui_flow" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "10:35:33",
+   "Runtime" : "00s",
+   "Executable Run Time" : "00s",
+   "identify_db_generator" : {
+      "executable" : "bin64/c_ver.exe",
+      "Run Directory" : "Hanshaking_Test",
+      "Run State" : "Complete",
+      "Return Code" : "0",
+      "Has Errors" : "no",
+      "Run Start Time" : "10:35:33",
+      "Run Time" : "00s",
+      "Exe Run Time" : "00s",
+      "Memory Usage" : "-",
+      "Up-to-date (run skipped)" : "no"
+   }
+}
+}

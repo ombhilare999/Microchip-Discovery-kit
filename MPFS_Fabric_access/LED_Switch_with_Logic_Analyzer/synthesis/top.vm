@@ -1,0 +1,333 @@
+//
+// Written by Synplify Pro 
+// Product Version "V-2023.09M"
+// Program "Synplify Pro", Mapper "map202309act, Build 044R"
+// Sun Jul 14 19:20:58 2024
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\generic\acg5.v "
+// file 1 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\component\polarfire_syn_comps.v "
+// file 6 "\c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\hdl\masteraxi.v "
+// file 7 "\c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\hdl\slaveaxi.v "
+// file 8 "\c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\hdl\top.v "
+// file 9 "\c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\component\mss_syn_comps.v "
+// file 10 "\c:\microchip\libero_soc_v2024.1\synplifypro\lib\nlconst.dat "
+// file 11 "\c:\users\user\onedrive\desktop\microship_ece552\introduction_tut\logic_analyzer\axi_handshaking_tut\designer\top\synthesis.fdc "
+// file 12 "\c:/users/user/onedrive/desktop/microship_ece552/introduction_tut/logic_analyzer/axi_handshaking_tut/designer/top/synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module masterAXI (
+  inSwitch_c,
+  dataAXI,
+  readyAXI,
+  valid_c,
+  rstn_c,
+  clk,
+  validAXI
+)
+;
+input [1:0] inSwitch_c ;
+output [1:0] dataAXI ;
+input readyAXI ;
+input valid_c ;
+input rstn_c ;
+input clk ;
+output validAXI ;
+wire readyAXI ;
+wire valid_c ;
+wire rstn_c ;
+wire clk ;
+wire validAXI ;
+wire [1:0] dataOut_1_Z;
+wire [0:0] dataOutce_Z;
+wire VCC ;
+wire outValid7_Z ;
+wire GND ;
+// @6:32
+  SLE outValid (
+	.Q(validAXI),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk),
+	.D(outValid7_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:42
+  SLE \dataOut[1]  (
+	.Q(dataAXI[1]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk),
+	.D(dataOut_1_Z[1]),
+	.EN(dataOutce_Z[0]),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:42
+  SLE \dataOut[0]  (
+	.Q(dataAXI[0]),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk),
+	.D(dataOut_1_Z[0]),
+	.EN(dataOutce_Z[0]),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @6:42
+  CFG2 \dataOut_1[0]  (
+	.A(inSwitch_c[0]),
+	.B(rstn_c),
+	.Y(dataOut_1_Z[0])
+);
+defparam \dataOut_1[0] .INIT=4'h8;
+// @6:42
+  CFG2 \dataOut_1[1]  (
+	.A(inSwitch_c[1]),
+	.B(rstn_c),
+	.Y(dataOut_1_Z[1])
+);
+defparam \dataOut_1[1] .INIT=4'h8;
+// @6:25
+  CFG2 outValid7 (
+	.A(rstn_c),
+	.B(valid_c),
+	.Y(outValid7_Z)
+);
+defparam outValid7.INIT=4'h8;
+// @6:42
+  CFG3 \dataOutce[0]  (
+	.A(valid_c),
+	.B(rstn_c),
+	.C(readyAXI),
+	.Y(dataOutce_Z[0])
+);
+defparam \dataOutce[0] .INIT=8'hB3;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* masterAXI */
+
+module slaveAXI (
+  dataAXI,
+  outBit4_c,
+  outBit1_c,
+  outBit2_c,
+  outBit3_c,
+  rstn_c,
+  validAXI,
+  clk,
+  readyAXI
+)
+;
+input [1:0] dataAXI ;
+output outBit4_c ;
+output outBit1_c ;
+output outBit2_c ;
+output outBit3_c ;
+input rstn_c ;
+input validAXI ;
+input clk ;
+output readyAXI ;
+wire outBit4_c ;
+wire outBit1_c ;
+wire outBit2_c ;
+wire outBit3_c ;
+wire rstn_c ;
+wire validAXI ;
+wire clk ;
+wire readyAXI ;
+wire VCC ;
+wire ready_0_Z ;
+wire GND ;
+// @7:33
+  SLE ready (
+	.Q(readyAXI),
+	.ADn(VCC),
+	.ALn(VCC),
+	.CLK(clk),
+	.D(ready_0_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @7:33
+  CFG2 ready_0 (
+	.A(validAXI),
+	.B(rstn_c),
+	.Y(ready_0_Z)
+);
+defparam ready_0.INIT=4'h8;
+// @7:44
+  CFG3 outBit3 (
+	.A(rstn_c),
+	.B(dataAXI[1]),
+	.C(dataAXI[0]),
+	.Y(outBit3_c)
+);
+defparam outBit3.INIT=8'h5D;
+// @7:43
+  CFG3 outBit2 (
+	.A(rstn_c),
+	.B(dataAXI[1]),
+	.C(dataAXI[0]),
+	.Y(outBit2_c)
+);
+defparam outBit2.INIT=8'h75;
+// @7:42
+  CFG3 outBit1 (
+	.A(rstn_c),
+	.B(dataAXI[1]),
+	.C(dataAXI[0]),
+	.Y(outBit1_c)
+);
+defparam outBit1.INIT=8'h57;
+// @7:45
+  CFG3 outBit4 (
+	.A(rstn_c),
+	.B(dataAXI[1]),
+	.C(dataAXI[0]),
+	.Y(outBit4_c)
+);
+defparam outBit4.INIT=8'hD5;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* slaveAXI */
+
+module top (
+  clk,
+  rstn,
+  inSwitch,
+  valid,
+  outBit1,
+  outBit2,
+  outBit3,
+  outBit4
+)
+;
+input clk ;
+input rstn ;
+input [1:0] inSwitch ;
+input valid ;
+output outBit1 ;
+output outBit2 ;
+output outBit3 ;
+output outBit4 ;
+wire clk ;
+wire rstn ;
+wire valid ;
+wire outBit1 ;
+wire outBit2 ;
+wire outBit3 ;
+wire outBit4 ;
+wire [1:0] dataAXI;
+wire [1:0] inSwitch_c;
+wire NN_1 ;
+wire validAXI ;
+wire readyAXI ;
+wire GND ;
+wire VCC ;
+wire clk_ibuf_Z ;
+wire rstn_c ;
+wire valid_c ;
+wire outBit1_c ;
+wire outBit2_c ;
+wire outBit3_c ;
+wire outBit4_c ;
+// @8:22
+  INBUF clk_ibuf (
+	.Y(clk_ibuf_Z),
+	.PAD(clk)
+);
+// @8:23
+  INBUF rstn_ibuf (
+	.Y(rstn_c),
+	.PAD(rstn)
+);
+// @8:24
+  INBUF \inSwitch_ibuf[0]  (
+	.Y(inSwitch_c[0]),
+	.PAD(inSwitch[0])
+);
+// @8:24
+  INBUF \inSwitch_ibuf[1]  (
+	.Y(inSwitch_c[1]),
+	.PAD(inSwitch[1])
+);
+// @8:25
+  INBUF valid_ibuf (
+	.Y(valid_c),
+	.PAD(valid)
+);
+// @8:26
+  OUTBUF outBit1_obuf (
+	.PAD(outBit1),
+	.D(outBit1_c)
+);
+// @8:27
+  OUTBUF outBit2_obuf (
+	.PAD(outBit2),
+	.D(outBit2_c)
+);
+// @8:28
+  OUTBUF outBit3_obuf (
+	.PAD(outBit3),
+	.D(outBit3_c)
+);
+// @8:29
+  OUTBUF outBit4_obuf (
+	.PAD(outBit4),
+	.D(outBit4_c)
+);
+  CLKINT I_1 (
+	.Y(NN_1),
+	.A(clk_ibuf_Z)
+);
+// @8:37
+  masterAXI master (
+	.inSwitch_c(inSwitch_c[1:0]),
+	.dataAXI(dataAXI[1:0]),
+	.readyAXI(readyAXI),
+	.valid_c(valid_c),
+	.rstn_c(rstn_c),
+	.clk(NN_1),
+	.validAXI(validAXI)
+);
+// @8:47
+  slaveAXI slave (
+	.dataAXI(dataAXI[1:0]),
+	.outBit4_c(outBit4_c),
+	.outBit1_c(outBit1_c),
+	.outBit2_c(outBit2_c),
+	.outBit3_c(outBit3_c),
+	.rstn_c(rstn_c),
+	.validAXI(validAXI),
+	.clk(NN_1),
+	.readyAXI(readyAXI)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* top */
+
