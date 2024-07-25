@@ -2,6 +2,7 @@
 # [UART PMOD](./UART_TOP)
 - **GOAL:** Receive ASCII characters from a computer via a USB-UART PMOD and loop them back.
 - HDL files are defined [here](./hdl)
+- The RTL code from this [example](https://github.com/nandland/nandland/tree/master/uart) is being used, and we have ported it for this discovery board.
 
 ### RTL Top:
 
@@ -22,7 +23,7 @@
 ![Alt text](assets/image-1.png)
 
 ### Hardware setup:
-- Use the bottom pins (7-12) to connect USB-UART PMOD sensor. This sensor can be bought from [here](https://digilent.com/shop/pmod-usbuart-usb-to-uart-interface/)
+- Use the bottom pins of PMOD slot JA (7-12) to connect USB-UART PMOD sensor. This sensor can be bought from [here](https://digilent.com/shop/pmod-usbuart-usb-to-uart-interface/)
 
 ![Alt text](assets/image-2.png)
 

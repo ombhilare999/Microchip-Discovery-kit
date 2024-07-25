@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Mon Jul 22 23:11:08 2024
+<text>Date: Thu Jul 25 14:24:07 2024
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -52,7 +52,7 @@
 </row>
 <row>
  <cell>Source</cell>
- <cell>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.vm</cell>
+ <cell>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth.vm</cell>
 </row>
 </table>
 <section><name>Options</name></section>
@@ -74,15 +74,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>989</cell>
+ <cell>997</cell>
  <cell>93516</cell>
- <cell>1.06</cell>
+ <cell>1.07</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>566</cell>
+ <cell>565</cell>
  <cell>93516</cell>
- <cell>0.61</cell>
+ <cell>0.60</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -172,8 +172,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>989</cell>
- <cell>566</cell>
+ <cell>997</cell>
+ <cell>565</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -192,8 +192,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>989</cell>
- <cell>566</cell>
+ <cell>997</cell>
+ <cell>565</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -231,19 +231,15 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>18</cell>
+ <cell>24</cell>
 </row>
 <row>
  <cell>5</cell>
- <cell>1</cell>
-</row>
-<row>
- <cell>22</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>20</cell>
+ <cell>26</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -293,7 +289,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>534</cell>
+ <cell>533</cell>
  <cell>INT_NET</cell>
  <cell>Net   : JA_c[3]</cell>
 </row>
@@ -339,37 +335,37 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>563</cell>
+ <cell>562</cell>
  <cell>INT_NET</cell>
- <cell>Net   : sw_c[2]</cell>
+ <cell>Net   : i_Reset_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: sw_ibuf[2]</cell>
+ <cell>Driver: i_Reset_ibuf</cell>
 </row>
 <row>
  <cell>415</cell>
  <cell>INT_NET</cell>
- <cell>Net   : g_OLED_interface/s_state_reg_rep_Z[0]</cell>
+ <cell>Net   : g_OLED_interface/s_state_reg_Z[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: g_OLED_interface/s_state_reg_rep[0]</cell>
+ <cell>Driver: g_OLED_interface/s_state_reg[0]</cell>
 </row>
 <row>
  <cell>404</cell>
  <cell>INT_NET</cell>
- <cell>Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0</cell>
+ <cell>Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: g_OLED_interface/un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_0</cell>
+ <cell>Driver: g_OLED_interface/un1_s_state_reg_3_sqmuxa_0</cell>
 </row>
 <row>
- <cell>133</cell>
+ <cell>126</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[764]</cell>
 </row>
@@ -379,7 +375,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[764]</cell>
 </row>
 <row>
- <cell>122</cell>
+ <cell>116</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[765]</cell>
 </row>
@@ -389,7 +385,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[765]</cell>
 </row>
 <row>
- <cell>97</cell>
+ <cell>96</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[762]</cell>
 </row>
@@ -399,7 +395,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[762]</cell>
 </row>
 <row>
- <cell>57</cell>
+ <cell>56</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[740]</cell>
 </row>
@@ -409,7 +405,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[740]</cell>
 </row>
 <row>
- <cell>55</cell>
+ <cell>54</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[760]</cell>
 </row>
@@ -419,7 +415,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[760]</cell>
 </row>
 <row>
- <cell>42</cell>
+ <cell>43</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[761]</cell>
 </row>
@@ -447,37 +443,37 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>563</cell>
+ <cell>562</cell>
  <cell>INT_NET</cell>
- <cell>Net   : sw_c[2]</cell>
+ <cell>Net   : i_Reset_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: sw_ibuf[2]</cell>
+ <cell>Driver: i_Reset_ibuf</cell>
 </row>
 <row>
  <cell>415</cell>
  <cell>INT_NET</cell>
- <cell>Net   : g_OLED_interface/s_state_reg_rep_Z[0]</cell>
+ <cell>Net   : g_OLED_interface/s_state_reg_Z[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: g_OLED_interface/s_state_reg_rep[0]</cell>
+ <cell>Driver: g_OLED_interface/s_state_reg[0]</cell>
 </row>
 <row>
  <cell>404</cell>
  <cell>INT_NET</cell>
- <cell>Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0</cell>
+ <cell>Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0_Z</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: g_OLED_interface/un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_0</cell>
+ <cell>Driver: g_OLED_interface/un1_s_state_reg_3_sqmuxa_0</cell>
 </row>
 <row>
- <cell>133</cell>
+ <cell>126</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[764]</cell>
 </row>
@@ -487,7 +483,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[764]</cell>
 </row>
 <row>
- <cell>122</cell>
+ <cell>116</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[765]</cell>
 </row>
@@ -497,7 +493,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[765]</cell>
 </row>
 <row>
- <cell>97</cell>
+ <cell>96</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[762]</cell>
 </row>
@@ -507,7 +503,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[762]</cell>
 </row>
 <row>
- <cell>57</cell>
+ <cell>56</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[740]</cell>
 </row>
@@ -517,7 +513,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[740]</cell>
 </row>
 <row>
- <cell>55</cell>
+ <cell>54</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[760]</cell>
 </row>
@@ -527,7 +523,7 @@
  <cell>Driver: g_OLED_interface/s_ASCII[760]</cell>
 </row>
 <row>
- <cell>42</cell>
+ <cell>43</cell>
  <cell>INT_NET</cell>
  <cell>Net   : g_OLED_interface/s_ASCII_Z[761]</cell>
 </row>

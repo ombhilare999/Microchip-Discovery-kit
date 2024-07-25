@@ -16,7 +16,7 @@
 </header>
 <row>
  <cell>0.1</cell>
- <cell>Mon Jul 22 23:12:10 2024</cell>
+ <cell>Thu Jul 25 14:25:14 2024</cell>
  <cell>Designer</cell>
  <cell>v2024.1</cell>
  <cell>2024.1.0.3</cell>
@@ -966,29 +966,29 @@
 </row>
 <row>
  <cell>AA15</cell>
- <cell>---</cell>
+ <cell>sw[3]</cell>
  <cell>HSIO76NB0</cell>
  <cell>Bank0</cell>
- <cell>Unassigned</cell>
+ <cell>Fixed</cell>
+ <cell>LVCMOS18</cell>
+ <cell>Input</cell>
+ <cell>None</cell>
+ <cell>No</cell>
+ <cell>ON</cell>
+ <cell>Up</cell>
+ <cell>No</cell>
+ <cell>OFF</cell>
+ <cell>---</cell>
+ <cell>OFF</cell>
+ <cell>120</cell>
+ <cell>OFF</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>---</cell>
- <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
+ <cell>sw[3]</cell>
 </row>
 <row>
  <cell>AA16</cell>
@@ -6712,7 +6712,7 @@
 </row>
 <row>
  <cell>T19</cell>
- <cell>btnU</cell>
+ <cell>i_Reset</cell>
  <cell>HSIO54NB0</cell>
  <cell>Bank0</cell>
  <cell>Fixed</cell>
@@ -6734,7 +6734,7 @@
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>btnU</cell>
+ <cell>i_Reset</cell>
 </row>
 <row>
  <cell>T20</cell>
@@ -7206,29 +7206,29 @@
 </row>
 <row>
  <cell>U18</cell>
- <cell>btnD</cell>
+ <cell>---</cell>
  <cell>HSIO57NB0/DQS</cell>
  <cell>Bank0</cell>
- <cell>Fixed</cell>
- <cell>LVCMOS18</cell>
- <cell>Input</cell>
- <cell>None</cell>
- <cell>No</cell>
- <cell>ON</cell>
- <cell>Up</cell>
- <cell>No</cell>
- <cell>OFF</cell>
- <cell>---</cell>
- <cell>OFF</cell>
- <cell>120</cell>
- <cell>OFF</cell>
+ <cell>Unassigned</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
  <cell>---</cell>
- <cell>btnD</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>---</cell>
+ <cell>DNC, Libero Defined High-Z with weak pull up ON,CLAMP=ON</cell>
 </row>
 <row>
  <cell>U20</cell>

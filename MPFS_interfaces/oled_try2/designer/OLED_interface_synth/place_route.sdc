@@ -1,7 +1,7 @@
 # Microchip Technology Inc.
-# Date: 2024-Jul-22 23:11:10
+# Date: 2024-Jul-25 14:24:09
 # This file was generated based on the following SDC source files:
-#   /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/constraint/user.sdc
+#   /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/constraint/user.sdc
 #
 
 create_clock -name {CLK100MHZ} -period 10 -waveform {0 5 } { CLK100MHZ }

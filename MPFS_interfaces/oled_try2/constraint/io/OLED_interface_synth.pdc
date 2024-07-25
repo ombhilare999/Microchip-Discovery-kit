@@ -80,14 +80,14 @@ set_io -port_name {JA[7]}  \
     -DIRECTION OUTPUT
 
 
-set_io -port_name btnU  \
-    -pin_name T19       \
+set_io -port_name {sw[2]}  \
+    -pin_name R17       \
     -fixed true         \
     -io_std LVCMOS18    \
     -DIRECTION INPUT
 
-set_io -port_name btnD  \
-    -pin_name U18       \
+set_io -port_name {sw[3]}  \
+    -pin_name AA15       \
     -fixed true         \
     -io_std LVCMOS18    \
     -DIRECTION INPUT
@@ -104,8 +104,8 @@ set_io -port_name {sw[1]}  \
     -io_std LVCMOS18    \
     -DIRECTION INPUT
 
-set_io -port_name {sw[2]}  \
-    -pin_name R17       \
+set_io -port_name {i_Reset}  \
+    -pin_name T19       \
     -fixed true         \
     -io_std LVCMOS18    \
     -DIRECTION INPUT

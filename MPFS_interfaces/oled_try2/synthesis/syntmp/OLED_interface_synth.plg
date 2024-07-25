@@ -1,16 +1,16 @@
-@P:  Worst Slack : 1.177
+@P:  Worst Slack : 1.945
 @P:  CLK100MHZ - Estimated Frequency : 571.1 MHz
 @P:  CLK100MHZ - Requested Frequency : 100.0 MHz
 @P:  CLK100MHZ - Estimated Period : 1.751
 @P:  CLK100MHZ - Requested Period : 10.000
 @P:  CLK100MHZ - Slack : 8.249
-@P:  clock_divider_20s|N_2_inferred_clock - Estimated Frequency : 130.8 MHz
+@P:  clock_divider_20s|N_2_inferred_clock - Estimated Frequency : 157.9 MHz
 @P:  clock_divider_20s|N_2_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  clock_divider_20s|N_2_inferred_clock - Estimated Period : 7.645
+@P:  clock_divider_20s|N_2_inferred_clock - Estimated Period : 6.334
 @P:  clock_divider_20s|N_2_inferred_clock - Requested Period : 10.000
-@P:  clock_divider_20s|N_2_inferred_clock - Slack : 1.177
+@P:  clock_divider_20s|N_2_inferred_clock - Slack : 1.945
 @P: OLED_interface_synth Part : mpfs095tfcvg784-1
-@P: OLED_interface_synth Register bits  : 566 
+@P: OLED_interface_synth Register bits  : 565 
 @P: OLED_interface_synth DSP Blocks  : 0
 @P: OLED_interface_synth I/O primitives : 14
-@P:  CPU Time : 0h:00m:02s
+@P:  CPU Time : 0h:00m:03s

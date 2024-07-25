@@ -1,10 +1,10 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
-. OLED_interface_synth, 566, 869, 122, 0, 0, 0, 0, 2, 14
-.	. OLED_interface_Z1, 564, 865, 122, 0, 0, 0, 0, 1, 0
+. OLED_interface_synth, 565, 881, 117, 0, 0, 0, 0, 2, 14
+.	. OLED_interface_Z1, 563, 878, 117, 0, 0, 0, 0, 1, 0
 .	.	. Nbit_MOSI_SPI_Buffer_Combined_8s_8s, 61, 87, 0, 0, 0, 0, 0, 0, 0
 .	.	.	. Nbit_MOSI_SPI_8s_0_1, 17, 2, 0, 0, 0, 0, 0, 0, 0
 .	.	.	. Nbit_MOSI_SPI_Buffer_8s_8s_0_1, 44, 85, 0, 0, 0, 0, 0, 0, 0
-.	.	. ascii_font_8x8, 0, 262, 63, 0, 0, 0, 0, 0, 0
+.	.	. ascii_font_8x8, 0, 264, 58, 0, 0, 0, 0, 0, 0
 .	.	. clock_divider_20s, 33, 15, 32, 0, 0, 0, 0, 1, 0
 .	. button_tick_latch, 2, 2, 0, 0, 0, 0, 0, 0, 0

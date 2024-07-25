@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 2024.1.0.3</text>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Mon Jul 22 23:11:22 2024 </text>
+Date: Thu Jul 25 14:24:21 2024 </text>
 <table>
 <header>
 </header>
@@ -51,14 +51,14 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <row>
  <cell>Setup</cell>
  <cell>           34</cell>
- <cell>         1061</cell>
- <cell>         1095</cell>
+ <cell>         1060</cell>
+ <cell>         1094</cell>
 </row>
 <row>
  <cell>Recovery</cell>
  <cell>            0</cell>
- <cell>          561</cell>
- <cell>          561</cell>
+ <cell>          560</cell>
+ <cell>          560</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -69,21 +69,21 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <row>
  <cell>Total Setup</cell>
  <cell>           34</cell>
- <cell>         1630</cell>
- <cell>         1664</cell>
+ <cell>         1628</cell>
+ <cell>         1662</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
  <cell>           34</cell>
- <cell>         1061</cell>
- <cell>         1095</cell>
+ <cell>         1060</cell>
+ <cell>         1094</cell>
 </row>
 <row>
  <cell>Removal</cell>
  <cell>            0</cell>
- <cell>          561</cell>
- <cell>          561</cell>
+ <cell>          560</cell>
+ <cell>          560</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -94,8 +94,8 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <row>
  <cell>Total Hold</cell>
  <cell>           34</cell>
- <cell>         1630</cell>
- <cell>         1664</cell>
+ <cell>         1628</cell>
+ <cell>         1662</cell>
 </row>
 </table>
 <section>
@@ -165,13 +165,13 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <text> - Max input delay constraint missing on port:</text>
 <text>   </text>
 <list>
- <item>sw[2]</item>
+ <item>i_Reset</item>
 </list>
 <text></text>
 <text> - Min input delay constraint missing on port:</text>
 <text>   </text>
 <list>
- <item>sw[2]</item>
+ <item>i_Reset</item>
 </list>
 <text></text>
 <text></text>
@@ -280,14 +280,14 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <row>
  <cell>Setup</cell>
  <cell>            0</cell>
- <cell>         1061</cell>
- <cell>         1061</cell>
+ <cell>         1060</cell>
+ <cell>         1060</cell>
 </row>
 <row>
  <cell>Recovery</cell>
  <cell>            0</cell>
- <cell>          528</cell>
- <cell>          528</cell>
+ <cell>          527</cell>
+ <cell>          527</cell>
 </row>
 <row>
  <cell>Output Setup</cell>
@@ -298,21 +298,21 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <row>
  <cell>Total Setup</cell>
  <cell>            0</cell>
- <cell>         1596</cell>
- <cell>         1596</cell>
+ <cell>         1594</cell>
+ <cell>         1594</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
  <cell>            0</cell>
- <cell>         1061</cell>
- <cell>         1061</cell>
+ <cell>         1060</cell>
+ <cell>         1060</cell>
 </row>
 <row>
  <cell>Removal</cell>
  <cell>            0</cell>
- <cell>          528</cell>
- <cell>          528</cell>
+ <cell>          527</cell>
+ <cell>          527</cell>
 </row>
 <row>
  <cell>Output Hold</cell>
@@ -323,8 +323,8 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <row>
  <cell>Total Hold</cell>
  <cell>            0</cell>
- <cell>         1596</cell>
- <cell>         1596</cell>
+ <cell>         1594</cell>
+ <cell>         1594</cell>
 </row>
 </table>
 <section>
@@ -334,21 +334,21 @@ Date: Mon Jul 22 23:11:22 2024 </text>
 <text> - Max input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
- <item>btnD</item>
- <item>btnU</item>
+ <item>i_Reset</item>
  <item>sw[0]</item>
  <item>sw[1]</item>
  <item>sw[2]</item>
+ <item>sw[3]</item>
 </list>
 <text></text>
 <text> - Min input delay constraint missing on ports:</text>
 <text>   </text>
 <list>
- <item>btnD</item>
- <item>btnU</item>
+ <item>i_Reset</item>
  <item>sw[0]</item>
  <item>sw[1]</item>
  <item>sw[2]</item>
+ <item>sw[3]</item>
 </list>
 <text></text>
 <text></text>

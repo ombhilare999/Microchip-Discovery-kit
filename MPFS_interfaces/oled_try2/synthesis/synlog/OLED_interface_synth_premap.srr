@@ -1,4 +1,4 @@
-# Mon Jul 22 23:11:00 2024
+# Thu Jul 25 14:23:59 2024
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -25,34 +25,34 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 
 Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
 
-Reading constraint file: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc
-@L: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth_scck.rpt 
-See clock summary report "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth_scck.rpt"
+Reading constraint file: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth/synthesis.fdc
+@L: /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth_scck.rpt 
+See clock summary report "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth_scck.rpt"
 @N: MF472 |Synthesis running in Automatic Compile Point mode
 @N: MF474 |No compile point is identified in Automatic Compile Point mode
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 516MB peak: 518MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 517MB peak: 518MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 NConnInternalConnection caching is on
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[40] because it is equivalent to instance g_OLED_interface.s_DATA[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[28] because it is equivalent to instance g_OLED_interface.s_DATA[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[26] because it is equivalent to instance g_OLED_interface.s_DATA[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.o_PMODEN because it is equivalent to instance g_OLED_interface.o_VCCEN. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[45:43] because it is equivalent to instance g_OLED_interface.s_DATA[37:35]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[40] because it is equivalent to instance g_OLED_interface.s_DATA[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[28] because it is equivalent to instance g_OLED_interface.s_DATA[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[26] because it is equivalent to instance g_OLED_interface.s_DATA[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.o_PMODEN because it is equivalent to instance g_OLED_interface.o_VCCEN. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance g_OLED_interface.s_DATA[45:43] because it is equivalent to instance g_OLED_interface.s_DATA[37:35]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
 
@@ -65,13 +65,13 @@ Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00
 
 Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
 
-@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance o_READY (in view: work.OLED_interface_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: FP130 |Promoting Net sw_arst[2] on CLKINT  I_1 
-@N: FP130 |Promoting Net g_OLED_interface.SCLK_clock_divider.o_CLK_DIV on CLKINT  I_1 
+@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing sequential instance o_READY (in view: work.OLED_interface_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FP130 |Promoting Net i_Reset_arst on CLKINT  I_1 
+@N: FP130 |Promoting Net g_OLED_interface.SCLK_clock_divider.o_CLK_DIV on CLKINT  I_2 
 @N: FP130 |Promoting Net CLK100MHZ on CLKINT  I_2 
 @N: FX1184 |Applying syn_allowed_resources blockrams=308 on top level netlist OLED_interface_synth 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 566MB peak: 566MB)
 
 
 
@@ -99,13 +99,13 @@ CLK100MHZ                                33        CLK100MHZ(port)              
 clock_divider_20s|N_2_inferred_clock     941       g_OLED_interface.SCLK_clock_divider.o_CLK_DIV.Q[0](dffre)     g_button_tick_latch.state_reg[2:0].C                g_OLED_interface.SCLK_clock_divider.o_CLK_DIV.D[0]     g_button_tick_latch.un1_i_CLK.I[0](inv)
 ===================================================================================================================================================================================================================================================================
 
-@W: MT530 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Found inferred clock clock_divider_20s|N_2_inferred_clock which controls 941 sequential elements including g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_N_transmit_reg[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Found inferred clock clock_divider_20s|N_2_inferred_clock which controls 941 sequential elements including g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_N_transmit_reg[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.sap.
+@N: BN225 |Writing default property annotation file /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 565MB peak: 565MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 566MB peak: 566MB)
 
 Encoding state machine s_state_reg[7:0] (in view: work.OLED_interface_Z1(verilog))
 original code -> new code
@@ -125,15 +125,15 @@ original code -> new code
 
 Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 566MB peak: 566MB)
 
-@W: MF511 |Found issues with constraints. Please check constraint checker report "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth_cck.rpt" .
+@W: MF511 |Found issues with constraints. Please check constraint checker report "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth_cck.rpt" .
 
 Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 567MB peak: 567MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 478MB peak: 567MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 479MB peak: 567MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Jul 22 23:11:01 2024
+# Thu Jul 25 14:24:00 2024
 
 ###########################################################]

@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synlog/OLED_interface_synth_premap.srr</data>
+<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synlog/OLED_interface_synth_premap.srr</data>
 <title></title>
 </report_link>
 <job_status>
@@ -15,19 +15,19 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>12</data>
 <report_link name="more">
-<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synlog/report/OLED_interface_synth_premap_notes.txt</data>
+<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synlog/report/OLED_interface_synth_premap_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
 <data>7</data>
 <report_link name="more">
-<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synlog/report/OLED_interface_synth_premap_warnings.txt</data>
+<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synlog/report/OLED_interface_synth_premap_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synlog/report/OLED_interface_synth_premap_errors.txt</data>
+<data>/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synlog/report/OLED_interface_synth_premap_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>567MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1721704261</data>
+<data type="timestamp">1721931840</data>
 </info>
 </job_info>
 </job_run_status>

@@ -16,12 +16,12 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis
 
-# Written on Mon Jul 22 23:11:01 2024
+# Written on Thu Jul 25 14:24:00 2024
 
 ##### DESIGN INFO #######################################################
 
 Top View:                "OLED_interface_synth"
-Constraint File(s):      "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc"
+Constraint File(s):      "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth/synthesis.fdc"
 
 
 
@@ -57,11 +57,11 @@ p:JA[4]
 p:JA[5]
 p:JA[6]
 p:JA[7]
-p:btnD
-p:btnU
+p:i_Reset
 p:sw[0]
 p:sw[1]
 p:sw[2]
+p:sw[3]
 
 
 Inapplicable constraints
@@ -74,7 +74,7 @@ Applicable constraints with issues
 **********************************
 
 create_clock -name CLK100MHZ -period 10 -waveform {0 5} CLK100MHZ
-	@W::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc":7:0:7:0|object "CLK100MHZ" is missing qualifier which may result in undesired results; objects must be of type port (get_ports), cell (get_cells), pin (get_pins), or net (get_nets)
+	@W::"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth/synthesis.fdc":7:0:7:0|object "CLK100MHZ" is missing qualifier which may result in undesired results; objects must be of type port (get_ports), cell (get_cells), pin (get_pins), or net (get_nets)
 
 Constraints with matching wildcard expressions
 **********************************************

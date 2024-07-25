@@ -22,7 +22,7 @@
 Starting:    /home/ombhilare999/microchip/SynplifyPro/linux_a_64/mbin/synbatch
 Install:     /home/ombhilare999/microchip/SynplifyPro
 Hostname:    pop-os
-Date:        Mon Jul 22 21:37:43 2024
+Date:        Thu Jul 25 13:59:04 2024
 Version:     V-2023.09M
 
 Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log OLED_interface_synth_syn.tcl
@@ -40,65 +40,65 @@ scm2hydra_preserve_rtl_sig is not supported in current product.
 add_dut_hierarchy is not supported in current product.
 prepare_readback is not supported in current product.
 auto_infer_blackbox is not supported in current product.
-log file: "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.srr"
+log file: "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth.srr"
 Running: synthesis in foreground
 
 Running OLED_interface_synth_syn|synthesis
 
 Running Flow: compile (Compile) on OLED_interface_synth_syn|synthesis
-# Mon Jul 22 21:37:44 2024
+# Thu Jul 25 13:59:05 2024
 
 Running Flow: compile_flow (Compile Process) on OLED_interface_synth_syn|synthesis
-# Mon Jul 22 21:37:44 2024
+# Thu Jul 25 13:59:05 2024
 
 Running: compiler (Compile Input) on OLED_interface_synth_syn|synthesis
-# Mon Jul 22 21:37:44 2024
-Process ID: 637619
-Copied /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_comp.srs to /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.srs
+# Thu Jul 25 13:59:05 2024
+Process ID: 486735
+Copied /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synwork/OLED_interface_synth_comp.srs to /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth.srs
 
 compiler completed
-# Mon Jul 22 21:37:45 2024
-
-Return Code: 0
-Run Time:00h:00m:00s
-
-Running: multi_srs_gen (Multi-srs Generator) on OLED_interface_synth_syn|synthesis
-# Mon Jul 22 21:37:45 2024
-Process ID: 637761
-
-multi_srs_gen completed
-# Mon Jul 22 21:37:46 2024
+# Thu Jul 25 13:59:07 2024
 
 Return Code: 0
 Run Time:00h:00m:01s
-Copied /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_mult.srs to /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.srs
+
+Running: multi_srs_gen (Multi-srs Generator) on OLED_interface_synth_syn|synthesis
+# Thu Jul 25 13:59:07 2024
+Process ID: 486977
+
+multi_srs_gen completed
+# Thu Jul 25 13:59:07 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synwork/OLED_interface_synth_mult.srs to /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth.srs
 Complete: Compile Process on OLED_interface_synth_syn|synthesis
 
 Running: premap (Premap) on OLED_interface_synth_syn|synthesis
-# Mon Jul 22 21:37:46 2024
-Process ID: 637777
+# Thu Jul 25 13:59:07 2024
+Process ID: 486993
 
 premap completed with warnings
-# Mon Jul 22 21:37:46 2024
+# Thu Jul 25 13:59:08 2024
 
 Return Code: 1
-Run Time:00h:00m:00s
+Run Time:00h:00m:01s
 Complete: Compile on OLED_interface_synth_syn|synthesis
 
 Running Flow: map (Map) on OLED_interface_synth_syn|synthesis
-# Mon Jul 22 21:37:46 2024
+# Thu Jul 25 13:59:08 2024
 License granted for 4 parallel jobs
 
 Running: fpga_mapper (Map & Optimize) on OLED_interface_synth_syn|synthesis
-# Mon Jul 22 21:37:46 2024
-Process ID: 637886
-Copied /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_m.srm to /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.srm
+# Thu Jul 25 13:59:08 2024
+Process ID: 487218
+Copied /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synwork/OLED_interface_synth_m.srm to /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth.srm
 
 fpga_mapper completed with warnings
-# Mon Jul 22 21:37:51 2024
+# Thu Jul 25 13:59:12 2024
 
 Return Code: 1
-Run Time:00h:00m:05s
+Run Time:00h:00m:04s
 Complete: Map on OLED_interface_synth_syn|synthesis
 Complete: Logic Synthesis on OLED_interface_synth_syn|synthesis
 TCL script complete: "OLED_interface_synth_syn.tcl"

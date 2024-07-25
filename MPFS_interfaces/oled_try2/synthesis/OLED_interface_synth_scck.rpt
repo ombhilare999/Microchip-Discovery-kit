@@ -16,10 +16,10 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis
 
-# Written on Mon Jul 22 23:11:01 2024
+# Written on Thu Jul 25 14:23:59 2024
 
 ##### FILES SYNTAX CHECKED ##############################################
-Constraint File(s):      "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc"
+Constraint File(s):      "/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth/synthesis.fdc"
 
 #Run constraint checker to find more issues with constraints.
 #########################################################################

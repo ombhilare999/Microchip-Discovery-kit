@@ -3,9 +3,9 @@ set_device \
     -die PA5SOC095T \
     -pkg fcsg325
 set_proj_dir \
-    -path {/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2}
+    -path {/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2}
 set_impl_dir \
-    -path {/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth}
+    -path {/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth}
 set_is_relative_path \
     -value {FALSE}
 set_root_path_dir \

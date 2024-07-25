@@ -1,4 +1,4 @@
-# Mon Jul 22 23:11:01 2024
+# Thu Jul 25 14:24:00 2024
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -41,15 +41,15 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 562MB peak: 562MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 563MB peak: 563MB)
 
 Multibit Mux Optimization Enabled. 
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@N: BZ173 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v":10:0:10:3|ROM font.s_PIXEL[63:6] (in view: work.OLED_interface_Z1(verilog)) mapped in logic.
-@N: MO106 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/ascii_font_8x8.v":10:0:10:3|Found ROM font.s_PIXEL[63:6] (in view: work.OLED_interface_Z1(verilog)) with 128 words by 58 bits.
+@N: BZ173 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/ascii_font_8x8.v":10:0:10:3|ROM font.s_PIXEL[63:6] (in view: work.OLED_interface_Z1(verilog)) mapped in logic.
+@N: MO106 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/ascii_font_8x8.v":10:0:10:3|Found ROM font.s_PIXEL[63:6] (in view: work.OLED_interface_Z1(verilog)) with 128 words by 58 bits.
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 572MB peak: 572MB)
 
@@ -63,111 +63,111 @@ original code -> new code
    0101 -> 00100000
    0110 -> 01000000
    0111 -> 10000000
-@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Found counter in view:work.OLED_interface_Z1(verilog) instance s_count_reg[19:0] 
-@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Found counter in view:work.OLED_interface_Z1(verilog) instance s_PIXEL_COUNT_reg[6:0] 
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[128] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[5] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[138] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[124] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[150] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[7] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[6] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[5] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[4] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[3] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[2] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[1] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[132] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[146] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[13] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[136] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[158] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[144] because it is equivalent to instance g_OLED_interface.s_ASCII[140]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[21] because it is equivalent to instance g_OLED_interface.s_ASCII[140]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[166] because it is equivalent to instance g_OLED_interface.s_ASCII[140]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[3] because it is equivalent to instance g_OLED_interface.s_DATA[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[5] because it is equivalent to instance g_OLED_interface.s_DATA[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[7] because it is equivalent to instance g_OLED_interface.s_DATA[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[2] because it is equivalent to instance g_OLED_interface.s_DATA[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[174] because it is equivalent to instance g_OLED_interface.s_ASCII[148]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[152] because it is equivalent to instance g_OLED_interface.s_ASCII[29]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[154] because it is equivalent to instance g_OLED_interface.s_ASCII[137]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[182] because it is equivalent to instance g_OLED_interface.s_ASCII[156]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[160] because it is equivalent to instance g_OLED_interface.s_ASCII[37]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[190] because it is equivalent to instance g_OLED_interface.s_ASCII[164]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[198] because it is equivalent to instance g_OLED_interface.s_ASCII[172]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[206] because it is equivalent to instance g_OLED_interface.s_ASCII[180]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[214] because it is equivalent to instance g_OLED_interface.s_ASCII[188]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[222] because it is equivalent to instance g_OLED_interface.s_ASCII[196]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[230] because it is equivalent to instance g_OLED_interface.s_ASCII[204]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[238] because it is equivalent to instance g_OLED_interface.s_ASCII[212]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[246] because it is equivalent to instance g_OLED_interface.s_ASCII[220]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[254] because it is equivalent to instance g_OLED_interface.s_ASCII[228]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[262] because it is equivalent to instance g_OLED_interface.s_ASCII[236]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[270] because it is equivalent to instance g_OLED_interface.s_ASCII[244]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[278] because it is equivalent to instance g_OLED_interface.s_ASCII[252]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[286] because it is equivalent to instance g_OLED_interface.s_ASCII[260]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[294] because it is equivalent to instance g_OLED_interface.s_ASCII[268]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[302] because it is equivalent to instance g_OLED_interface.s_ASCII[276]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[310] because it is equivalent to instance g_OLED_interface.s_ASCII[284]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[318] because it is equivalent to instance g_OLED_interface.s_ASCII[292]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[326] because it is equivalent to instance g_OLED_interface.s_ASCII[300]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[334] because it is equivalent to instance g_OLED_interface.s_ASCII[308]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[342] because it is equivalent to instance g_OLED_interface.s_ASCII[316]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[350] because it is equivalent to instance g_OLED_interface.s_ASCII[324]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[358] because it is equivalent to instance g_OLED_interface.s_ASCII[332]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[366] because it is equivalent to instance g_OLED_interface.s_ASCII[340]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[374] because it is equivalent to instance g_OLED_interface.s_ASCII[348]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[382] because it is equivalent to instance g_OLED_interface.s_ASCII[356]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[390] because it is equivalent to instance g_OLED_interface.s_ASCII[364]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[398] because it is equivalent to instance g_OLED_interface.s_ASCII[372]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[406] because it is equivalent to instance g_OLED_interface.s_ASCII[380]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[414] because it is equivalent to instance g_OLED_interface.s_ASCII[388]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[422] because it is equivalent to instance g_OLED_interface.s_ASCII[396]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[430] because it is equivalent to instance g_OLED_interface.s_ASCII[404]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[438] because it is equivalent to instance g_OLED_interface.s_ASCII[412]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[446] because it is equivalent to instance g_OLED_interface.s_ASCII[420]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[454] because it is equivalent to instance g_OLED_interface.s_ASCII[428]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[462] because it is equivalent to instance g_OLED_interface.s_ASCII[436]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[470] because it is equivalent to instance g_OLED_interface.s_ASCII[444]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[478] because it is equivalent to instance g_OLED_interface.s_ASCII[452]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[486] because it is equivalent to instance g_OLED_interface.s_ASCII[460]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[494] because it is equivalent to instance g_OLED_interface.s_ASCII[468]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[502] because it is equivalent to instance g_OLED_interface.s_ASCII[476]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[510] because it is equivalent to instance g_OLED_interface.s_ASCII[484]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[518] because it is equivalent to instance g_OLED_interface.s_ASCII[492]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[526] because it is equivalent to instance g_OLED_interface.s_ASCII[500]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[534] because it is equivalent to instance g_OLED_interface.s_ASCII[508]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[542] because it is equivalent to instance g_OLED_interface.s_ASCII[516]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[550] because it is equivalent to instance g_OLED_interface.s_ASCII[524]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[558] because it is equivalent to instance g_OLED_interface.s_ASCII[532]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[566] because it is equivalent to instance g_OLED_interface.s_ASCII[540]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[574] because it is equivalent to instance g_OLED_interface.s_ASCII[548]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[582] because it is equivalent to instance g_OLED_interface.s_ASCII[556]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[590] because it is equivalent to instance g_OLED_interface.s_ASCII[564]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[598] because it is equivalent to instance g_OLED_interface.s_ASCII[572]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[606] because it is equivalent to instance g_OLED_interface.s_ASCII[580]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[614] because it is equivalent to instance g_OLED_interface.s_ASCII[588]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[622] because it is equivalent to instance g_OLED_interface.s_ASCII[596]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[630] because it is equivalent to instance g_OLED_interface.s_ASCII[604]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[638] because it is equivalent to instance g_OLED_interface.s_ASCII[612]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[646] because it is equivalent to instance g_OLED_interface.s_ASCII[620]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[654] because it is equivalent to instance g_OLED_interface.s_ASCII[628]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[662] because it is equivalent to instance g_OLED_interface.s_ASCII[636]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[670] because it is equivalent to instance g_OLED_interface.s_ASCII[644]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[678] because it is equivalent to instance g_OLED_interface.s_ASCII[652]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[686] because it is equivalent to instance g_OLED_interface.s_ASCII[660]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[694] because it is equivalent to instance g_OLED_interface.s_ASCII[668]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[702] because it is equivalent to instance g_OLED_interface.s_ASCII[676]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[710] because it is equivalent to instance g_OLED_interface.s_ASCII[684]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[718] because it is equivalent to instance g_OLED_interface.s_ASCII[692]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[726] because it is equivalent to instance g_OLED_interface.s_ASCII[700]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[734] because it is equivalent to instance g_OLED_interface.s_ASCII[708]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[742] because it is equivalent to instance g_OLED_interface.s_ASCII[716]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[750] because it is equivalent to instance g_OLED_interface.s_ASCII[724]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Found counter in view:work.OLED_interface_Z1(verilog) instance s_count_reg[19:0] 
+@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Found counter in view:work.OLED_interface_Z1(verilog) instance s_PIXEL_COUNT_reg[6:0] 
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[128] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[5] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[124] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[150] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[138] because it is equivalent to instance g_OLED_interface.s_ASCII[121]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[4] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[3] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[2] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[1] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[7] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[6] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_BACKGROUND_COLOR_reg[5] because it is equivalent to instance g_OLED_interface.s_BACKGROUND_COLOR_reg[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[132] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[146] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[13] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[136] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[158] because it is equivalent to instance g_OLED_interface.s_ASCII[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[144] because it is equivalent to instance g_OLED_interface.s_ASCII[140]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[21] because it is equivalent to instance g_OLED_interface.s_ASCII[140]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[166] because it is equivalent to instance g_OLED_interface.s_ASCII[140]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[154] because it is equivalent to instance g_OLED_interface.s_ASCII[137]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[2] because it is equivalent to instance g_OLED_interface.s_DATA[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[7] because it is equivalent to instance g_OLED_interface.s_DATA[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[5] because it is equivalent to instance g_OLED_interface.s_DATA[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_DATA[3] because it is equivalent to instance g_OLED_interface.s_DATA[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[174] because it is equivalent to instance g_OLED_interface.s_ASCII[148]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[152] because it is equivalent to instance g_OLED_interface.s_ASCII[29]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[160] because it is equivalent to instance g_OLED_interface.s_ASCII[37]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[182] because it is equivalent to instance g_OLED_interface.s_ASCII[156]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[190] because it is equivalent to instance g_OLED_interface.s_ASCII[164]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[198] because it is equivalent to instance g_OLED_interface.s_ASCII[172]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[206] because it is equivalent to instance g_OLED_interface.s_ASCII[180]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[214] because it is equivalent to instance g_OLED_interface.s_ASCII[188]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[222] because it is equivalent to instance g_OLED_interface.s_ASCII[196]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[230] because it is equivalent to instance g_OLED_interface.s_ASCII[204]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[238] because it is equivalent to instance g_OLED_interface.s_ASCII[212]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[246] because it is equivalent to instance g_OLED_interface.s_ASCII[220]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[254] because it is equivalent to instance g_OLED_interface.s_ASCII[228]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[262] because it is equivalent to instance g_OLED_interface.s_ASCII[236]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[270] because it is equivalent to instance g_OLED_interface.s_ASCII[244]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[278] because it is equivalent to instance g_OLED_interface.s_ASCII[252]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[286] because it is equivalent to instance g_OLED_interface.s_ASCII[260]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[294] because it is equivalent to instance g_OLED_interface.s_ASCII[268]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[302] because it is equivalent to instance g_OLED_interface.s_ASCII[276]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[310] because it is equivalent to instance g_OLED_interface.s_ASCII[284]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[318] because it is equivalent to instance g_OLED_interface.s_ASCII[292]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[326] because it is equivalent to instance g_OLED_interface.s_ASCII[300]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[334] because it is equivalent to instance g_OLED_interface.s_ASCII[308]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[342] because it is equivalent to instance g_OLED_interface.s_ASCII[316]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[350] because it is equivalent to instance g_OLED_interface.s_ASCII[324]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[358] because it is equivalent to instance g_OLED_interface.s_ASCII[332]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[366] because it is equivalent to instance g_OLED_interface.s_ASCII[340]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[374] because it is equivalent to instance g_OLED_interface.s_ASCII[348]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[382] because it is equivalent to instance g_OLED_interface.s_ASCII[356]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[390] because it is equivalent to instance g_OLED_interface.s_ASCII[364]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[398] because it is equivalent to instance g_OLED_interface.s_ASCII[372]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[406] because it is equivalent to instance g_OLED_interface.s_ASCII[380]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[414] because it is equivalent to instance g_OLED_interface.s_ASCII[388]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[422] because it is equivalent to instance g_OLED_interface.s_ASCII[396]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[430] because it is equivalent to instance g_OLED_interface.s_ASCII[404]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[438] because it is equivalent to instance g_OLED_interface.s_ASCII[412]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[446] because it is equivalent to instance g_OLED_interface.s_ASCII[420]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[454] because it is equivalent to instance g_OLED_interface.s_ASCII[428]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[462] because it is equivalent to instance g_OLED_interface.s_ASCII[436]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[470] because it is equivalent to instance g_OLED_interface.s_ASCII[444]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[478] because it is equivalent to instance g_OLED_interface.s_ASCII[452]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[486] because it is equivalent to instance g_OLED_interface.s_ASCII[460]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[494] because it is equivalent to instance g_OLED_interface.s_ASCII[468]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[502] because it is equivalent to instance g_OLED_interface.s_ASCII[476]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[510] because it is equivalent to instance g_OLED_interface.s_ASCII[484]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[518] because it is equivalent to instance g_OLED_interface.s_ASCII[492]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[526] because it is equivalent to instance g_OLED_interface.s_ASCII[500]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[534] because it is equivalent to instance g_OLED_interface.s_ASCII[508]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[542] because it is equivalent to instance g_OLED_interface.s_ASCII[516]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[550] because it is equivalent to instance g_OLED_interface.s_ASCII[524]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[558] because it is equivalent to instance g_OLED_interface.s_ASCII[532]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[566] because it is equivalent to instance g_OLED_interface.s_ASCII[540]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[574] because it is equivalent to instance g_OLED_interface.s_ASCII[548]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[582] because it is equivalent to instance g_OLED_interface.s_ASCII[556]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[590] because it is equivalent to instance g_OLED_interface.s_ASCII[564]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[598] because it is equivalent to instance g_OLED_interface.s_ASCII[572]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[606] because it is equivalent to instance g_OLED_interface.s_ASCII[580]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[614] because it is equivalent to instance g_OLED_interface.s_ASCII[588]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[622] because it is equivalent to instance g_OLED_interface.s_ASCII[596]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[630] because it is equivalent to instance g_OLED_interface.s_ASCII[604]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[638] because it is equivalent to instance g_OLED_interface.s_ASCII[612]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[646] because it is equivalent to instance g_OLED_interface.s_ASCII[620]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[654] because it is equivalent to instance g_OLED_interface.s_ASCII[628]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[662] because it is equivalent to instance g_OLED_interface.s_ASCII[636]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[670] because it is equivalent to instance g_OLED_interface.s_ASCII[644]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[678] because it is equivalent to instance g_OLED_interface.s_ASCII[652]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[686] because it is equivalent to instance g_OLED_interface.s_ASCII[660]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[694] because it is equivalent to instance g_OLED_interface.s_ASCII[668]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[702] because it is equivalent to instance g_OLED_interface.s_ASCII[676]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[710] because it is equivalent to instance g_OLED_interface.s_ASCII[684]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[718] because it is equivalent to instance g_OLED_interface.s_ASCII[692]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[726] because it is equivalent to instance g_OLED_interface.s_ASCII[700]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[734] because it is equivalent to instance g_OLED_interface.s_ASCII[708]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[742] because it is equivalent to instance g_OLED_interface.s_ASCII[716]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/OLED_interface.v":163:4:163:9|Removing instance g_OLED_interface.s_ASCII[750] because it is equivalent to instance g_OLED_interface.s_ASCII[724]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synlog/OLED_interface_synth_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
-@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Found counter in view:work.Nbit_MOSI_SPI_Buffer_8s_8s_0_1(verilog) instance s_byte_reg[4:0] 
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synlog/OLED_interface_synth_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+@N: MO231 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Found counter in view:work.Nbit_MOSI_SPI_Buffer_8s_8s_0_1(verilog) instance s_byte_reg[4:0] 
 Encoding state machine state_reg[2:0] (in view: work.button_tick_latch(verilog))
 original code -> new code
    00 -> 00
@@ -180,73 +180,73 @@ Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; M
 Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 575MB peak: 575MB)
 
 NConnInternalConnection caching is on
-@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing sequential instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_byte_reg[4] (in view: work.OLED_interface_synth(verilog)) because it does not drive other instances.
-@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing sequential instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_byte_reg[3] (in view: work.OLED_interface_synth(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing sequential instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_byte_reg[4] (in view: work.OLED_interface_synth(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/hdl/Nbit_MOSI_SPI_Buffer.v":29:4:29:9|Removing sequential instance g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.s_byte_reg[3] (in view: work.OLED_interface_synth(verilog)) because it does not drive other instances.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 575MB peak: 575MB)
-
-
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 575MB peak: 575MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 576MB peak: 576MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 575MB peak: 575MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 576MB peak: 576MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 575MB peak: 575MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 576MB peak: 576MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 575MB peak: 575MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 576MB peak: 576MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 580MB peak: 580MB)
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 576MB peak: 576MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 589MB peak: 589MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		     0.81ns		1026 /       566
+   1		0h:00m:02s		     1.55ns		1043 /       565
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 589MB peak: 589MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 589MB peak: 589MB)
 
-@W: FX203 :|Removing CLKINT I_1 from net sw_c[2]. Reason: Fanout is less than the threshold.
+@W: FX203 :|Removing CLKINT I_1 from net i_Reset_c. Reason: Fanout is less than the threshold.
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
-
-
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 590MB peak: 590MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 590MB peak: 590MB)
 
-Writing Analyst data base /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/synwork/OLED_interface_synth_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 590MB peak: 590MB)
+
+Writing Analyst data base /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/synwork/OLED_interface_synth_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 590MB peak: 590MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 590MB peak: 590MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 590MB peak: 590MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 590MB peak: 590MB)
 
 @N: MT615 |Found clock CLK100MHZ with period 10.00ns 
 @W: MT420 |Found inferred clock clock_divider_20s|N_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net g_OLED_interface.SCLK_clock_divider.N_2.
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Mon Jul 22 23:11:04 2024
+# Timing report written on Thu Jul 25 14:24:03 2024
 #
 
 
@@ -254,7 +254,7 @@ Top view:               OLED_interface_synth
 Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Paths requested:        5
-Constraint File(s):    /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/synthesis.fdc
+Constraint File(s):    /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth/synthesis.fdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -266,13 +266,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 1.177
+Worst slack in design: 1.945
 
                                          Requested     Estimated     Requested     Estimated               Clock        Clock                
 Starting Clock                           Frequency     Frequency     Period        Period        Slack     Type         Group                
 ---------------------------------------------------------------------------------------------------------------------------------------------
 CLK100MHZ                                100.0 MHz     571.1 MHz     10.000        1.751         8.249     declared     default_clkgroup     
-clock_divider_20s|N_2_inferred_clock     100.0 MHz     130.8 MHz     10.000        7.645         1.177     inferred     Inferred_clkgroup_0_1
+clock_divider_20s|N_2_inferred_clock     100.0 MHz     157.9 MHz     10.000        6.334         1.945     inferred     Inferred_clkgroup_0_1
 =============================================================================================================================================
 
 
@@ -287,7 +287,7 @@ Clocks                                                                      |   
 Starting                              Ending                                |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CLK100MHZ                             CLK100MHZ                             |  10.000      8.249  |  No paths    -      |  No paths    -      |  No paths    -    
-clock_divider_20s|N_2_inferred_clock  clock_divider_20s|N_2_inferred_clock  |  10.000      3.787  |  10.000      7.372  |  5.000       3.554  |  5.000       1.177
+clock_divider_20s|N_2_inferred_clock  clock_divider_20s|N_2_inferred_clock  |  10.000      3.666  |  10.000      7.372  |  5.000       3.554  |  5.000       1.945
 ==================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -368,109 +368,109 @@ Path information for path number 1:
     The start point is clocked by            CLK100MHZ [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
     The end   point is clocked by            CLK100MHZ [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
 
-Instance / Net                                                         Pin      Pin               Arrival     No. of    
-Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
-------------------------------------------------------------------------------------------------------------------------
-g_OLED_interface.SCLK_clock_divider.s_ms_reg[0]               SLE      Q        Out     0.218     0.218 r     -         
-s_ms_reg[0]                                                   Net      -        -       0.547     -           3         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_1_98     ARI1     B        In      -         0.765 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_1_98     ARI1     FCO      Out     0.328     1.093 r     -         
-un11_s_ms_next_s_1_98_FCO                                     Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_1      ARI1     FCI      In      -         1.093 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_1      ARI1     FCO      Out     0.008     1.101 r     -         
-un11_s_ms_next_cry_1                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_2      ARI1     FCI      In      -         1.101 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_2      ARI1     FCO      Out     0.008     1.109 r     -         
-un11_s_ms_next_cry_2                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_3      ARI1     FCI      In      -         1.109 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_3      ARI1     FCO      Out     0.008     1.117 r     -         
-un11_s_ms_next_cry_3                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_4      ARI1     FCI      In      -         1.117 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_4      ARI1     FCO      Out     0.008     1.125 r     -         
-un11_s_ms_next_cry_4                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_5      ARI1     FCI      In      -         1.125 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_5      ARI1     FCO      Out     0.008     1.133 r     -         
-un11_s_ms_next_cry_5                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_6      ARI1     FCI      In      -         1.133 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_6      ARI1     FCO      Out     0.008     1.141 r     -         
-un11_s_ms_next_cry_6                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_7      ARI1     FCI      In      -         1.141 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_7      ARI1     FCO      Out     0.008     1.149 r     -         
-un11_s_ms_next_cry_7                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_8      ARI1     FCI      In      -         1.149 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_8      ARI1     FCO      Out     0.008     1.157 r     -         
-un11_s_ms_next_cry_8                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_9      ARI1     FCI      In      -         1.157 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_9      ARI1     FCO      Out     0.008     1.165 r     -         
-un11_s_ms_next_cry_9                                          Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_10     ARI1     FCI      In      -         1.165 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_10     ARI1     FCO      Out     0.008     1.173 r     -         
-un11_s_ms_next_cry_10                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_11     ARI1     FCI      In      -         1.173 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_11     ARI1     FCO      Out     0.008     1.181 r     -         
-un11_s_ms_next_cry_11                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_12     ARI1     FCI      In      -         1.181 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_12     ARI1     FCO      Out     0.008     1.189 r     -         
-un11_s_ms_next_cry_12                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_13     ARI1     FCI      In      -         1.189 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_13     ARI1     FCO      Out     0.008     1.197 r     -         
-un11_s_ms_next_cry_13                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_14     ARI1     FCI      In      -         1.197 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_14     ARI1     FCO      Out     0.008     1.205 r     -         
-un11_s_ms_next_cry_14                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_15     ARI1     FCI      In      -         1.205 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_15     ARI1     FCO      Out     0.008     1.213 r     -         
-un11_s_ms_next_cry_15                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_16     ARI1     FCI      In      -         1.213 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_16     ARI1     FCO      Out     0.008     1.221 r     -         
-un11_s_ms_next_cry_16                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_17     ARI1     FCI      In      -         1.221 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_17     ARI1     FCO      Out     0.008     1.229 r     -         
-un11_s_ms_next_cry_17                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_18     ARI1     FCI      In      -         1.229 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_18     ARI1     FCO      Out     0.008     1.237 r     -         
-un11_s_ms_next_cry_18                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_19     ARI1     FCI      In      -         1.237 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_19     ARI1     FCO      Out     0.008     1.245 r     -         
-un11_s_ms_next_cry_19                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_20     ARI1     FCI      In      -         1.245 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_20     ARI1     FCO      Out     0.008     1.253 r     -         
-un11_s_ms_next_cry_20                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_21     ARI1     FCI      In      -         1.253 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_21     ARI1     FCO      Out     0.008     1.261 r     -         
-un11_s_ms_next_cry_21                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_22     ARI1     FCI      In      -         1.261 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_22     ARI1     FCO      Out     0.008     1.269 r     -         
-un11_s_ms_next_cry_22                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_23     ARI1     FCI      In      -         1.269 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_23     ARI1     FCO      Out     0.008     1.277 r     -         
-un11_s_ms_next_cry_23                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_24     ARI1     FCI      In      -         1.277 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_24     ARI1     FCO      Out     0.008     1.285 r     -         
-un11_s_ms_next_cry_24                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_25     ARI1     FCI      In      -         1.285 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_25     ARI1     FCO      Out     0.008     1.293 r     -         
-un11_s_ms_next_cry_25                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_26     ARI1     FCI      In      -         1.293 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_26     ARI1     FCO      Out     0.008     1.301 r     -         
-un11_s_ms_next_cry_26                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_27     ARI1     FCI      In      -         1.301 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_27     ARI1     FCO      Out     0.008     1.309 r     -         
-un11_s_ms_next_cry_27                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_28     ARI1     FCI      In      -         1.309 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_28     ARI1     FCO      Out     0.008     1.317 r     -         
-un11_s_ms_next_cry_28                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_29     ARI1     FCI      In      -         1.317 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_29     ARI1     FCO      Out     0.008     1.325 r     -         
-un11_s_ms_next_cry_29                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_30     ARI1     FCI      In      -         1.325 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_30     ARI1     FCO      Out     0.008     1.333 r     -         
-un11_s_ms_next_cry_30                                         Net      -        -       0.000     -           1         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_31       ARI1     FCI      In      -         1.333 r     -         
-g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_31       ARI1     S        Out     0.300     1.633 r     -         
-un11_s_ms_next_s_31_S                                         Net      -        -       0.118     -           1         
-g_OLED_interface.SCLK_clock_divider.s_ms_reg[31]              SLE      D        In      -         1.751 r     -         
-========================================================================================================================
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                           Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[0]                SLE      Q        Out     0.218     0.218 r     -         
+s_ms_reg[0]                                                    Net      -        -       0.547     -           3         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_1_106     ARI1     B        In      -         0.765 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_1_106     ARI1     FCO      Out     0.328     1.093 r     -         
+un11_s_ms_next_s_1_106_FCO                                     Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_1       ARI1     FCI      In      -         1.093 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_1       ARI1     FCO      Out     0.008     1.101 r     -         
+un11_s_ms_next_cry_1                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_2       ARI1     FCI      In      -         1.101 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_2       ARI1     FCO      Out     0.008     1.109 r     -         
+un11_s_ms_next_cry_2                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_3       ARI1     FCI      In      -         1.109 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_3       ARI1     FCO      Out     0.008     1.117 r     -         
+un11_s_ms_next_cry_3                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_4       ARI1     FCI      In      -         1.117 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_4       ARI1     FCO      Out     0.008     1.125 r     -         
+un11_s_ms_next_cry_4                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_5       ARI1     FCI      In      -         1.125 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_5       ARI1     FCO      Out     0.008     1.133 r     -         
+un11_s_ms_next_cry_5                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_6       ARI1     FCI      In      -         1.133 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_6       ARI1     FCO      Out     0.008     1.141 r     -         
+un11_s_ms_next_cry_6                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_7       ARI1     FCI      In      -         1.141 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_7       ARI1     FCO      Out     0.008     1.149 r     -         
+un11_s_ms_next_cry_7                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_8       ARI1     FCI      In      -         1.149 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_8       ARI1     FCO      Out     0.008     1.157 r     -         
+un11_s_ms_next_cry_8                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_9       ARI1     FCI      In      -         1.157 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_9       ARI1     FCO      Out     0.008     1.165 r     -         
+un11_s_ms_next_cry_9                                           Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_10      ARI1     FCI      In      -         1.165 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_10      ARI1     FCO      Out     0.008     1.173 r     -         
+un11_s_ms_next_cry_10                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_11      ARI1     FCI      In      -         1.173 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_11      ARI1     FCO      Out     0.008     1.181 r     -         
+un11_s_ms_next_cry_11                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_12      ARI1     FCI      In      -         1.181 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_12      ARI1     FCO      Out     0.008     1.189 r     -         
+un11_s_ms_next_cry_12                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_13      ARI1     FCI      In      -         1.189 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_13      ARI1     FCO      Out     0.008     1.197 r     -         
+un11_s_ms_next_cry_13                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_14      ARI1     FCI      In      -         1.197 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_14      ARI1     FCO      Out     0.008     1.205 r     -         
+un11_s_ms_next_cry_14                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_15      ARI1     FCI      In      -         1.205 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_15      ARI1     FCO      Out     0.008     1.213 r     -         
+un11_s_ms_next_cry_15                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_16      ARI1     FCI      In      -         1.213 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_16      ARI1     FCO      Out     0.008     1.221 r     -         
+un11_s_ms_next_cry_16                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_17      ARI1     FCI      In      -         1.221 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_17      ARI1     FCO      Out     0.008     1.229 r     -         
+un11_s_ms_next_cry_17                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_18      ARI1     FCI      In      -         1.229 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_18      ARI1     FCO      Out     0.008     1.237 r     -         
+un11_s_ms_next_cry_18                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_19      ARI1     FCI      In      -         1.237 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_19      ARI1     FCO      Out     0.008     1.245 r     -         
+un11_s_ms_next_cry_19                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_20      ARI1     FCI      In      -         1.245 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_20      ARI1     FCO      Out     0.008     1.253 r     -         
+un11_s_ms_next_cry_20                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_21      ARI1     FCI      In      -         1.253 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_21      ARI1     FCO      Out     0.008     1.261 r     -         
+un11_s_ms_next_cry_21                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_22      ARI1     FCI      In      -         1.261 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_22      ARI1     FCO      Out     0.008     1.269 r     -         
+un11_s_ms_next_cry_22                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_23      ARI1     FCI      In      -         1.269 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_23      ARI1     FCO      Out     0.008     1.277 r     -         
+un11_s_ms_next_cry_23                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_24      ARI1     FCI      In      -         1.277 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_24      ARI1     FCO      Out     0.008     1.285 r     -         
+un11_s_ms_next_cry_24                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_25      ARI1     FCI      In      -         1.285 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_25      ARI1     FCO      Out     0.008     1.293 r     -         
+un11_s_ms_next_cry_25                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_26      ARI1     FCI      In      -         1.293 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_26      ARI1     FCO      Out     0.008     1.301 r     -         
+un11_s_ms_next_cry_26                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_27      ARI1     FCI      In      -         1.301 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_27      ARI1     FCO      Out     0.008     1.309 r     -         
+un11_s_ms_next_cry_27                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_28      ARI1     FCI      In      -         1.309 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_28      ARI1     FCO      Out     0.008     1.317 r     -         
+un11_s_ms_next_cry_28                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_29      ARI1     FCI      In      -         1.317 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_29      ARI1     FCO      Out     0.008     1.325 r     -         
+un11_s_ms_next_cry_29                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_30      ARI1     FCI      In      -         1.325 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_cry_30      ARI1     FCO      Out     0.008     1.333 r     -         
+un11_s_ms_next_cry_30                                          Net      -        -       0.000     -           1         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_31        ARI1     FCI      In      -         1.333 r     -         
+g_OLED_interface.SCLK_clock_divider.un11_s_ms_next_s_31        ARI1     S        Out     0.300     1.633 r     -         
+un11_s_ms_next_s_31_S                                          Net      -        -       0.118     -           1         
+g_OLED_interface.SCLK_clock_divider.s_ms_reg[31]               SLE      D        In      -         1.751 r     -         
+=========================================================================================================================
 Total path delay (propagation time + setup) of 1.751 is 1.086(62.0%) logic and 0.665(38.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
@@ -490,37 +490,37 @@ Starting Points with Worst Slack
 Instance                                                                              Reference                                Type     Pin     Net                  Time        Slack
                                                                                       Clock                                                                                           
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI.o_MOSI_FINAL_TX      clock_divider_20s|N_2_inferred_clock     SLE      Q       o_MOSI_FINAL_BIT     0.218       1.177
-g_button_tick_latch.state_reg[0]                                                      clock_divider_20s|N_2_inferred_clock     SLE      Q       state_reg[0]         0.201       1.892
-g_button_tick_latch.state_reg[1]                                                      clock_divider_20s|N_2_inferred_clock     SLE      Q       state_reg[1]         0.201       1.993
+g_button_tick_latch.state_reg[0]                                                      clock_divider_20s|N_2_inferred_clock     SLE      Q       state_reg[0]         0.201       1.945
+g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI.o_MOSI_FINAL_TX      clock_divider_20s|N_2_inferred_clock     SLE      Q       o_MOSI_FINAL_BIT     0.201       1.959
+g_button_tick_latch.state_reg[1]                                                      clock_divider_20s|N_2_inferred_clock     SLE      Q       state_reg[1]         0.201       1.982
 g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.o_START       clock_divider_20s|N_2_inferred_clock     SLE      Q       s_start_mosi         0.218       3.554
 g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.o_DATA[0]     clock_divider_20s|N_2_inferred_clock     SLE      Q       s_BYTE[0]            0.201       3.665
-g_OLED_interface.s_ASCII[760]                                                         clock_divider_20s|N_2_inferred_clock     SLE      Q       s_ASCII[760]         0.201       3.787
-g_OLED_interface.s_ASCII[761]                                                         clock_divider_20s|N_2_inferred_clock     SLE      Q       s_ASCII[761]         0.201       3.798
+g_OLED_interface.s_ASCII[761]                                                         clock_divider_20s|N_2_inferred_clock     SLE      Q       s_ASCII[761]         0.218       3.666
+g_OLED_interface.s_ASCII[760]                                                         clock_divider_20s|N_2_inferred_clock     SLE      Q       s_ASCII[760]         0.218       3.667
+g_OLED_interface.s_ASCII[764]                                                         clock_divider_20s|N_2_inferred_clock     SLE      Q       s_ASCII[764]         0.201       4.055
 g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.o_DATA[4]     clock_divider_20s|N_2_inferred_clock     SLE      Q       s_BYTE[4]            0.201       4.120
 g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.o_DATA[5]     clock_divider_20s|N_2_inferred_clock     SLE      Q       s_BYTE[5]            0.201       4.120
-g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI_Buffer.o_DATA[6]     clock_divider_20s|N_2_inferred_clock     SLE      Q       s_BYTE[6]            0.201       4.120
 ======================================================================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                        Starting                                                                                 Required          
-Instance                                Reference                                Type     Pin     Net                            Time         Slack
-                                        Clock                                                                                                      
----------------------------------------------------------------------------------------------------------------------------------------------------
-g_OLED_interface.s_ASCII_col_reg[1]     clock_divider_20s|N_2_inferred_clock     SLE      D       s_ASCII_col_reg_8[1]           5.000        1.177
-g_OLED_interface.s_ASCII_col_reg[3]     clock_divider_20s|N_2_inferred_clock     SLE      D       s_ASCII_col_reg_8[3]           5.000        1.177
-g_OLED_interface.s_ASCII_row_reg[1]     clock_divider_20s|N_2_inferred_clock     SLE      D       s_ASCII_row_reg_8[1]           5.000        1.222
-g_OLED_interface.s_ASCII_col_reg[0]     clock_divider_20s|N_2_inferred_clock     SLE      D       s_ASCII_col_reg_8[0]           5.000        1.263
-g_OLED_interface.s_ASCII_col_reg[2]     clock_divider_20s|N_2_inferred_clock     SLE      D       s_ASCII_col_reg_8[2]           5.000        1.263
-g_OLED_interface.s_ASCII[29]            clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.465
-g_OLED_interface.s_ASCII[37]            clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.465
-g_OLED_interface.s_ASCII[45]            clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.465
-g_OLED_interface.s_ASCII[53]            clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.465
-g_OLED_interface.s_ASCII[61]            clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.465
-===================================================================================================================================================
+                                  Starting                                                                                 Required          
+Instance                          Reference                                Type     Pin     Net                            Time         Slack
+                                  Clock                                                                                                      
+---------------------------------------------------------------------------------------------------------------------------------------------
+g_OLED_interface.s_ASCII[29]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[37]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[45]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[53]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[61]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[69]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[77]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[85]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[93]      clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+g_OLED_interface.s_ASCII[101]     clock_divider_20s|N_2_inferred_clock     SLE      EN      un1_s_state_reg_3_sqmuxa_0     4.873        1.945
+=============================================================================================================================================
 
 
 
@@ -530,43 +530,34 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      5.000
-    - Setup time:                            0.000
+    - Setup time:                            0.127
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         5.000
+    = Required time:                         4.873
 
-    - Propagation time:                      3.823
+    - Propagation time:                      2.928
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     1.177
+    = Slack (critical) :                     1.945
 
-    Number of logic level(s):                5
-    Starting point:                          g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI.o_MOSI_FINAL_TX / Q
-    Ending point:                            g_OLED_interface.s_ASCII_col_reg[1] / D
+    Number of logic level(s):                2
+    Starting point:                          g_button_tick_latch.state_reg[0] / Q
+    Ending point:                            g_OLED_interface.s_ASCII[29] / EN
     The start point is clocked by            clock_divider_20s|N_2_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
     The end   point is clocked by            clock_divider_20s|N_2_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
 
-Instance / Net                                                                                Pin      Pin               Arrival     No. of    
-Name                                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------------------------------
-g_OLED_interface.g_Nbit_MOSI_SPI_Buffer_Combined.g_Nbit_MOSI_SPI.o_MOSI_FINAL_TX     SLE      Q        Out     0.218     0.218 r     -         
-o_MOSI_FINAL_BIT                                                                     Net      -        -       0.579     -           5         
-g_OLED_interface.s_state_reg60                                                       CFG2     A        In      -         0.797 r     -         
-g_OLED_interface.s_state_reg60                                                       CFG2     Y        Out     0.051     0.848 r     -         
-s_state_reg60                                                                        Net      -        -       0.609     -           7         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.s_state_reg_2_sqmuxa_i_o3                   CFG3     A        In      -         1.457 r     -         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.s_state_reg_2_sqmuxa_i_o3                   CFG3     Y        Out     0.046     1.503 f     -         
-N_9724                                                                               Net      -        -       0.563     -           4         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_1_0_a3             CFG4     D        In      -         2.067 f     -         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_1_0_a3             CFG4     Y        Out     0.232     2.299 r     -         
-N_9738                                                                               Net      -        -       0.547     -           3         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_1_0                CFG4     C        In      -         2.845 r     -         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_1_0                CFG4     Y        Out     0.148     2.993 r     -         
-un1_s_state_reg_3_sqmuxa_1_0                                                         Net      -        -       0.579     -           5         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.s_state_reg_2_sqmuxa_i_RNI24I43             CFG4     C        In      -         3.572 r     -         
-g_OLED_interface.un1_s_ASCII_col_reg_2_1.s_state_reg_2_sqmuxa_i_RNI24I43             CFG4     Y        Out     0.132     3.705 f     -         
-s_ASCII_col_reg_8[1]                                                                 Net      -        -       0.118     -           1         
-g_OLED_interface.s_ASCII_col_reg[1]                                                  SLE      D        In      -         3.823 f     -         
-===============================================================================================================================================
-Total path delay (propagation time + setup) of 3.823 is 0.827(21.6%) logic and 2.996(78.4%) route.
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                            Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+g_button_tick_latch.state_reg[0]                SLE      Q        Out     0.201     0.201 f     -         
+state_reg[0]                                    Net      -        -       0.547     -           3         
+s_START                                         CFG4     B        In      -         0.748 f     -         
+s_START                                         CFG4     Y        Out     0.084     0.832 r     -         
+s_START                                         Net      -        -       0.738     -           18        
+g_OLED_interface.un1_s_state_reg_3_sqmuxa_0     CFG4     C        In      -         1.569 r     -         
+g_OLED_interface.un1_s_state_reg_3_sqmuxa_0     CFG4     Y        Out     0.148     1.717 r     -         
+un1_s_state_reg_3_sqmuxa_0                      Net      -        -       1.211     -           404       
+g_OLED_interface.s_ASCII[29]                    SLE      EN       In      -         2.928 r     -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 3.055 is 0.559(18.3%) logic and 2.496(81.7%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -575,10 +566,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 
 Timing exceptions that could not be applied
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 590MB peak: 590MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 580MB peak: 580MB)
+Finished timing report (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 590MB peak: 590MB)
 
 ---------------------------------------
 Resource Usage Report for OLED_interface_synth 
@@ -586,19 +577,19 @@ Resource Usage Report for OLED_interface_synth
 Mapping to part: mpfs095tfcvg784-1
 Cell usage:
 CLKINT          2 uses
-CFG1           7 uses
-CFG2           482 uses
-CFG3           168 uses
-CFG4           212 uses
+CFG1           6 uses
+CFG2           493 uses
+CFG3           151 uses
+CFG4           231 uses
 
 Carry cells:
 ARI1            59 uses - used for arithmetic functions
-ARI1            63 uses - used for Wide-Mux implementation
-Total ARI1      122 uses
+ARI1            58 uses - used for Wide-Mux implementation
+Total ARI1      117 uses
 
 
 Sequential Cells: 
-SLE            566 uses
+SLE            565 uses
 
 DSP Blocks:    0 of 292 (0%)
 
@@ -610,7 +601,7 @@ OUTBUF         8 uses
 
 Global Clock Buffers: 2
 
-Total LUTs:    991
+Total LUTs:    998
 
 Extra resources required for RAM and MACC_PA interface logic during P&R:
 
@@ -619,14 +610,14 @@ RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
 MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  566 + 0 + 0 + 0 = 566;
-Total number of LUTs after P&R:  991 + 0 + 0 + 0 = 991;
+Total number of SLEs after P&R:  565 + 0 + 0 + 0 = 565;
+Total number of LUTs after P&R:  998 + 0 + 0 + 0 = 998;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 492MB peak: 580MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 501MB peak: 590MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Mon Jul 22 23:11:04 2024
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Thu Jul 25 14:24:03 2024
 
 ###########################################################]

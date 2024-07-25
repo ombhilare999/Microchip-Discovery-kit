@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2024.1.0.3</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Thu Jul 25 14:27:04 2024 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>OLED_interface_synth</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           34</cell>
+ <cell>         1060</cell>
+ <cell>         1094</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>          560</cell>
+ <cell>          560</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            8</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           34</cell>
+ <cell>         1628</cell>
+ <cell>         1662</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           34</cell>
+ <cell>         1060</cell>
+ <cell>         1094</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>          560</cell>
+ <cell>          560</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            8</cell>
+ <cell>            8</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           34</cell>
+ <cell>         1628</cell>
+ <cell>         1662</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>CLK100MHZ</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           34</cell>
+ <cell>            0</cell>
+ <cell>           34</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           34</cell>
+ <cell>           34</cell>
+ <cell>           68</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           34</cell>
+ <cell>            0</cell>
+ <cell>           34</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           33</cell>
+ <cell>           33</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           34</cell>
+ <cell>           34</cell>
+ <cell>           68</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>i_Reset</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>i_Reset</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>JA[3]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>JA[3]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[0]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[10]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[11]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[13]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[14]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[15]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[16]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[18]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[19]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[1]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[20]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[21]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[22]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[23]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[24]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[25]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[26]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[27]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[28]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[29]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[2]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[30]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[31]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[3]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[4]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[5]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[6]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[7]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[8]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[9]:ALn</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[0]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[10]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[11]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[13]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[14]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[15]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[16]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[18]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[19]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[1]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[20]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[21]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[22]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[23]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[24]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[25]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[26]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[27]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[28]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[29]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[2]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[30]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[31]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[3]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[4]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[5]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[6]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[7]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[8]:ALn</item>
+ <item>g_OLED_interface/SCLK_clock_divider/s_ms_reg[9]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>         1060</cell>
+ <cell>         1060</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>          527</cell>
+ <cell>          527</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>         1594</cell>
+ <cell>         1594</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>         1060</cell>
+ <cell>         1060</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>          527</cell>
+ <cell>          527</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+ <cell>            7</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>         1594</cell>
+ <cell>         1594</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>i_Reset</item>
+ <item>sw[0]</item>
+ <item>sw[1]</item>
+ <item>sw[2]</item>
+ <item>sw[3]</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>i_Reset</item>
+ <item>sw[0]</item>
+ <item>sw[1]</item>
+ <item>sw[2]</item>
+ <item>sw[3]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>JA[0]</item>
+ <item>JA[1]</item>
+ <item>JA[3]</item>
+ <item>JA[4]</item>
+ <item>JA[5]</item>
+ <item>JA[6]</item>
+ <item>JA[7]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>JA[0]</item>
+ <item>JA[1]</item>
+ <item>JA[3]</item>
+ <item>JA[4]</item>
+ <item>JA[5]</item>
+ <item>JA[6]</item>
+ <item>JA[7]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_CS:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_CS:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_DC:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_DC:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI_FINAL_TX:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI_FINAL_TX:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_MOSI_LSB:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_MOSI_LSB:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[2]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[3]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[3]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[4]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[4]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[5]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[5]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[6]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[6]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[7]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[7]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_state_reg:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[3]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[3]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[4]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[4]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[5]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[5]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[6]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[6]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[7]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[7]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DC:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DC:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_MOSI_FINAL_BYTE:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_MOSI_FINAL_BYTE:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_START:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_START:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_DC_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_DC_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[2]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[2]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[10]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[10]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[11]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[11]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[12]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[12]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[13]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[13]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[14]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[14]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[16]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[16]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[17]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[17]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[19]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[19]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[20]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[20]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[21]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[21]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[22]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[22]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[24]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[24]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[27]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[27]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[28]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[28]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[29]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[29]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[35]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[35]:EN</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_CS:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_DC:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI_FINAL_TX:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[2]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[2]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[3]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[4]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[5]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[6]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[7]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_state_reg:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[3]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[4]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[5]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[6]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[7]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DC:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_MOSI_FINAL_BYTE:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_START:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[2]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[10]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[11]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[12]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[13]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[14]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[16]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[17]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[19]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[20]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[21]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[22]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[24]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[27]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[28]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[29]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[35]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[36]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[37]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[3]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[4]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[5]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[6]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[7]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[9]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg:ALn</item>
+ <item>g_OLED_interface/o_RES:ALn</item>
+ <item>g_OLED_interface/o_VCCEN:ALn</item>
+ <item>g_OLED_interface/s_ASCII[101]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[109]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[117]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[121]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[125]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[129]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[133]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[137]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[140]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[141]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[145]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[148]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[149]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[153]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[156]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[157]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[161]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[162]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[164]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[165]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[168]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[169]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[170]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[172]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[173]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[176]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[177]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[178]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[180]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[181]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[184]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[185]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[186]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[188]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[189]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[192]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[193]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[194]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[196]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[197]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[200]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[201]:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_CS:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_CS:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_DC:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_DC:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI_FINAL_TX:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI_FINAL_TX:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_MOSI_LSB:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_MOSI_LSB:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[2]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[3]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[3]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[4]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[4]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[5]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[5]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[6]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[6]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[7]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[7]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_state_reg:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[3]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[3]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[4]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[4]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[5]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[5]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[6]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[6]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[7]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[7]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DC:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DC:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_MOSI_FINAL_BYTE:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_MOSI_FINAL_BYTE:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_START:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_START:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_DC_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_DC_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_N_transmit_reg[2]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[2]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[2]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[0]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[0]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[10]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[10]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[11]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[11]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[12]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[12]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[13]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[13]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[14]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[14]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[16]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[16]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[17]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[17]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[19]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[19]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[1]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[1]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[20]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[20]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[21]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[21]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[22]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[22]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[24]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[24]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[27]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[27]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[28]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[28]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[29]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[29]:EN</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[35]:D</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[35]:EN</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_CS:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_DC:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI_FINAL_TX:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_bit_reg_Z[2]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[2]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[3]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[4]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[5]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[6]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_data_reg_Z[7]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/s_state_reg:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[3]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[4]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[5]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[6]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DATA[7]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_DC:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_MOSI_FINAL_BYTE:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/o_START:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_byte_reg[2]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[0]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[10]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[11]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[12]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[13]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[14]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[16]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[17]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[19]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[1]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[20]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[21]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[22]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[24]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[27]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[28]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[29]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[35]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[36]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[37]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[3]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[4]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[5]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[6]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[7]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_data_reg[9]:ALn</item>
+ <item>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg:ALn</item>
+ <item>g_OLED_interface/o_RES:ALn</item>
+ <item>g_OLED_interface/o_VCCEN:ALn</item>
+ <item>g_OLED_interface/s_ASCII[101]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[109]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[117]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[121]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[125]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[129]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[133]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[137]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[140]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[141]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[145]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[148]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[149]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[153]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[156]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[157]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[161]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[162]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[164]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[165]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[168]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[169]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[170]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[172]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[173]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[176]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[177]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[178]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[180]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[181]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[184]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[185]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[186]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[188]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[189]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[192]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[193]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[194]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[196]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[197]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[200]:ALn</item>
+ <item>g_OLED_interface/s_ASCII[201]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

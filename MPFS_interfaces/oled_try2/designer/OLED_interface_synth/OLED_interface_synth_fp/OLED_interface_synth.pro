@@ -1,6 +1,6 @@
 <project name="OLED_interface_synth" version="1.2">
     <ProjectDirectory>
-        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/OLED_interface_synth_fp
+        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth/OLED_interface_synth_fp
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         MPFS095T
     </LiberoTargetDevice>
     <LogFile>
-        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/designer/OLED_interface_synth/OLED_interface_synth_fp/OLED_interface_synth.log
+        /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/designer/OLED_interface_synth/OLED_interface_synth_fp/OLED_interface_synth.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -63,6 +63,7 @@
                 </ClkMode>
             </FlashPro4>
             <FlashPro5>
+                <ForceTCK/>
                 <TCK>
                     4000000
                 </TCK>

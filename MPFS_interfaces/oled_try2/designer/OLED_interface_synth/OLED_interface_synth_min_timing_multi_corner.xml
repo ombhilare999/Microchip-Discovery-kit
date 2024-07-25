@@ -1,0 +1,2949 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Multi Corner Report Min Delay Analysis
+</title>
+<text>SmartTime Version 2024.1.0.3</text>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
+<text>Date: Thu Jul 25 14:27:04 2024
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>OLED_interface_synth</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 100 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>0.97 - 1.03 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Multi Corner Report Operating Conditions</cell>
+ <cell>slow_lv_lt,fast_hv_lt,slow_lv_ht</cell>
+</row>
+</table>
+<text></text>
+<section>
+<name>Summary</name>
+<table>
+<header>
+ <cell>Clock Domain</cell>
+ <cell>Required Period (ns)</cell>
+ <cell>Required Frequency (MHz)</cell>
+ <cell>Worst Slack (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell>10.000</cell>
+ <cell>100.000</cell>
+ <cell>0.187</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>N/A</cell>
+ <cell>N/A</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell></cell>
+ <cell>Worst Slack (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Input to Output</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock Domain CLK100MHZ</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Hold (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[11]:CLK</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:D</cell>
+ <cell>0.334</cell>
+ <cell>0.187</cell>
+ <cell>2.003</cell>
+ <cell>1.816</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:CLK</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:D</cell>
+ <cell>0.256</cell>
+ <cell>0.188</cell>
+ <cell>1.929</cell>
+ <cell>1.741</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[25]:CLK</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[25]:D</cell>
+ <cell>0.258</cell>
+ <cell>0.190</cell>
+ <cell>1.929</cell>
+ <cell>1.739</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:CLK</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:D</cell>
+ <cell>0.259</cell>
+ <cell>0.191</cell>
+ <cell>1.932</cell>
+ <cell>1.741</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[15]:CLK</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[15]:D</cell>
+ <cell>0.259</cell>
+ <cell>0.191</cell>
+ <cell>1.932</cell>
+ <cell>1.741</cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: g_OLED_interface/SCLK_clock_divider/s_ms_reg[11]:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2.003</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>1.816</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.187</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.347</cell>
+ <cell>0.347</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.167</cell>
+ <cell>0.514</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ICB_CLKINT</cell>
+ <cell>+</cell>
+ <cell>0.087</cell>
+ <cell>0.601</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf_Z</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.387</cell>
+ <cell>0.988</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.117</cell>
+ <cell>1.105</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>I_2/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.244</cell>
+ <cell>1.349</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>1.387</cell>
+ <cell>14</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[11]:CLK</cell>
+ <cell>net</cell>
+ <cell>NN_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.282</cell>
+ <cell>1.669</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[11]:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.072</cell>
+ <cell>1.741</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_cry_11:B</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg_Z[11]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.032</cell>
+ <cell>1.773</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_cry_11:P</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ARI1_CC</cell>
+ <cell>+</cell>
+ <cell>0.098</cell>
+ <cell>1.871</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_s_1_106_CC_0:P[11]</cell>
+ <cell>net</cell>
+ <cell>NET_CC_CONFIG44</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.008</cell>
+ <cell>1.879</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_s_1_106_CC_0:CO</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CC_CONFIG</cell>
+ <cell>+</cell>
+ <cell>0.074</cell>
+ <cell>1.953</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_s_1_106_CC_1:CI</cell>
+ <cell>net</cell>
+ <cell>CI_TO_CO</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.004</cell>
+ <cell>1.957</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_s_1_106_CC_1:CC[0]</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CC_CONFIG</cell>
+ <cell>+</cell>
+ <cell>0.018</cell>
+ <cell>1.975</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_cry_12:CC</cell>
+ <cell>net</cell>
+ <cell>NET_CC_CONFIG51</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>1.975</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_cry_12:S</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ARI1_CC</cell>
+ <cell>+</cell>
+ <cell>0.016</cell>
+ <cell>1.991</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:D</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/un11_s_ms_next_cry_12_S</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.012</cell>
+ <cell>2.003</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2.003</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell>Clock Constraint</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.399</cell>
+ <cell>0.399</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.183</cell>
+ <cell>0.582</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ICB_CLKINT</cell>
+ <cell>+</cell>
+ <cell>0.100</cell>
+ <cell>0.682</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_GB0:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf_Z</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.425</cell>
+ <cell>1.107</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_GB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.128</cell>
+ <cell>1.235</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>I_2/U0_gbs_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.267</cell>
+ <cell>1.502</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.042</cell>
+ <cell>1.544</cell>
+ <cell>19</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:CLK</cell>
+ <cell>net</cell>
+ <cell>I_2/U0_RGB1_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.323</cell>
+ <cell>1.867</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>clock reconvergence pessimism</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>-0.119</cell>
+ <cell>1.748</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:D</cell>
+ <cell>Library hold time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.068</cell>
+ <cell>1.816</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>1.816</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Hold</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Clock to Out (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:CLK</cell>
+ <cell>JA[3]</cell>
+ <cell>2.954</cell>
+ <cell></cell>
+ <cell>4.619</cell>
+ <cell></cell>
+ <cell>4.619</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: JA[3]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4.619</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.347</cell>
+ <cell>0.347</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.167</cell>
+ <cell>0.514</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ICB_CLKINT</cell>
+ <cell>+</cell>
+ <cell>0.087</cell>
+ <cell>0.601</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf_Z</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.387</cell>
+ <cell>0.988</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.117</cell>
+ <cell>1.105</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>I_2/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.244</cell>
+ <cell>1.349</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>1.387</cell>
+ <cell>14</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:CLK</cell>
+ <cell>net</cell>
+ <cell>NN_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.278</cell>
+ <cell>1.665</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.072</cell>
+ <cell>1.737</cell>
+ <cell>3</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_GB0:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.204</cell>
+ <cell>1.941</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_GB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.092</cell>
+ <cell>2.033</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_gbs_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.247</cell>
+ <cell>2.280</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>2.318</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>JA_obuf[3]/U_IOTRI:D</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1_RGB1_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.341</cell>
+ <cell>2.659</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA_obuf[3]/U_IOTRI:DOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOTRI_OB_EB</cell>
+ <cell>+</cell>
+ <cell>0.261</cell>
+ <cell>2.920</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA_obuf[3]/U_IOPAD:D</cell>
+ <cell>net</cell>
+ <cell>JA_obuf[3]/DOUT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>2.920</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA_obuf[3]/U_IOPAD:PAD</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_TRI</cell>
+ <cell>+</cell>
+ <cell>1.699</cell>
+ <cell>4.619</cell>
+ <cell>0</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA[3]</cell>
+ <cell>net</cell>
+ <cell>JA[3]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>4.619</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>4.619</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>JA[3]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q to CLK100MHZ</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET External Removal</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Removal (ns)</cell>
+ <cell>External Removal (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:ALn</cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.299</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[16]:ALn</cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.299</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[15]:ALn</cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.299</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[14]:ALn</cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.299</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[12]:ALn</cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.299</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: i_Reset</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:ALn</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>i_Reset</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>i_Reset</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.347</cell>
+ <cell>0.347</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOIN:YIN</cell>
+ <cell>net</cell>
+ <cell>i_Reset_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.347</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOIN:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOIN_IB_E</cell>
+ <cell>+</cell>
+ <cell>0.120</cell>
+ <cell>0.467</cell>
+ <cell>562</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:ALn</cell>
+ <cell>net</cell>
+ <cell>i_Reset_c</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.667</cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.134</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>CLK100MHZ</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>CLK100MHZ_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.399</cell>
+ <cell>N/C</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.183</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_IOBA:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:ICB_CLKINT</cell>
+ <cell>+</cell>
+ <cell>0.100</cell>
+ <cell>N/C</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_GB0:A</cell>
+ <cell>net</cell>
+ <cell>CLK100MHZ_ibuf_Z</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.425</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_GB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.128</cell>
+ <cell>N/C</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>I_2/U0_gbs_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.267</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>I_2/U0_RGB1_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.042</cell>
+ <cell>N/C</cell>
+ <cell>19</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:CLK</cell>
+ <cell>net</cell>
+ <cell>I_2/U0_RGB1_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.323</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/s_ms_reg[17]:ALn</cell>
+ <cell>Library removal time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>-0.032</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Clock Domain g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</name>
+<text></text>
+<section>
+<name>SET Register to Register</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Hold (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>g_OLED_interface/s_ASCII[570]:CLK</cell>
+ <cell>g_OLED_interface/s_ASCII[578]:D</cell>
+ <cell>0.234</cell>
+ <cell></cell>
+ <cell>1.099</cell>
+ <cell></cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>g_OLED_interface/s_ASCII[288]:CLK</cell>
+ <cell>g_OLED_interface/s_ASCII[296]:D</cell>
+ <cell>0.236</cell>
+ <cell></cell>
+ <cell>1.101</cell>
+ <cell></cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>g_OLED_interface/s_ASCII[681]:CLK</cell>
+ <cell>g_OLED_interface/s_ASCII[689]:D</cell>
+ <cell>0.192</cell>
+ <cell></cell>
+ <cell>1.081</cell>
+ <cell></cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>g_OLED_interface/s_ASCII[677]:CLK</cell>
+ <cell>g_OLED_interface/s_ASCII[685]:D</cell>
+ <cell>0.192</cell>
+ <cell></cell>
+ <cell>1.053</cell>
+ <cell></cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>g_OLED_interface/s_ASCII[180]:CLK</cell>
+ <cell>g_OLED_interface/s_ASCII[188]:D</cell>
+ <cell>0.193</cell>
+ <cell></cell>
+ <cell>1.046</cell>
+ <cell></cell>
+ <cell>0.068</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: g_OLED_interface/s_ASCII[570]:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: g_OLED_interface/s_ASCII[578]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>1.099</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.204</cell>
+ <cell>0.204</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.094</cell>
+ <cell>0.298</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1_RGB0:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.254</cell>
+ <cell>0.552</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1_RGB0:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>0.590</cell>
+ <cell>258</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[570]:CLK</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1_RGB0_rgb_net_1</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.275</cell>
+ <cell>0.865</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[570]:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.076</cell>
+ <cell>0.941</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII_8[578]:B</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/s_ASCII_Z[570]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.116</cell>
+ <cell>1.057</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII_8[578]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG2</cell>
+ <cell>+</cell>
+ <cell>0.029</cell>
+ <cell>1.086</cell>
+ <cell>1</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[578]:D</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/s_ASCII_8_Z[578]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.013</cell>
+ <cell>1.099</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>1.099</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.103</cell>
+ <cell>N/C</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.282</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.042</cell>
+ <cell>N/C</cell>
+ <cell>274</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[578]:CLK</cell>
+ <cell>net</cell>
+ <cell>JA_c[3]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.338</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>clock reconvergence pessimism</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>-0.059</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[578]:D</cell>
+ <cell>Library hold time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.068</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET External Hold</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Hold (ns)</cell>
+ <cell>External Hold (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>sw[0]</cell>
+ <cell>g_OLED_interface/s_state_reg[5]:D</cell>
+ <cell>2.682</cell>
+ <cell></cell>
+ <cell>2.682</cell>
+ <cell></cell>
+ <cell>0.062</cell>
+ <cell>-1.630</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>sw[2]</cell>
+ <cell>g_button_tick_latch/state_reg_Z[0]:D</cell>
+ <cell>2.828</cell>
+ <cell></cell>
+ <cell>2.828</cell>
+ <cell></cell>
+ <cell>0.062</cell>
+ <cell>-1.750</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>sw[2]</cell>
+ <cell>g_button_tick_latch/state_reg_Z[1]:D</cell>
+ <cell>2.830</cell>
+ <cell></cell>
+ <cell>2.830</cell>
+ <cell></cell>
+ <cell>0.062</cell>
+ <cell>-1.752</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>sw[0]</cell>
+ <cell>g_OLED_interface/s_ASCII_row_reg[1]:D</cell>
+ <cell>2.811</cell>
+ <cell></cell>
+ <cell>2.811</cell>
+ <cell></cell>
+ <cell>0.062</cell>
+ <cell>-1.759</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>sw[0]</cell>
+ <cell>g_OLED_interface/s_state_reg[1]:D</cell>
+ <cell>2.827</cell>
+ <cell></cell>
+ <cell>2.827</cell>
+ <cell></cell>
+ <cell>0.071</cell>
+ <cell>-1.766</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: sw[0]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: g_OLED_interface/s_state_reg[5]:D</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2.682</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>sw[0]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>sw_ibuf[0]/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>sw[0]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>sw_ibuf[0]/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.347</cell>
+ <cell>0.347</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>sw_ibuf[0]/U_IOIN:YIN</cell>
+ <cell>net</cell>
+ <cell>sw_ibuf[0]/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.347</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>sw_ibuf[0]/U_IOIN:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOIN_IB_E</cell>
+ <cell>+</cell>
+ <cell>0.120</cell>
+ <cell>0.467</cell>
+ <cell>8</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_state_reg_ns_0_a3_0_a2_0_a2[5]:D</cell>
+ <cell>net</cell>
+ <cell>sw_c[0]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.161</cell>
+ <cell>2.628</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_state_reg_ns_0_a3_0_a2_0_a2[5]:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:CFG4</cell>
+ <cell>+</cell>
+ <cell>0.039</cell>
+ <cell>2.667</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_state_reg[5]:D</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/s_state_reg_ns[5]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.015</cell>
+ <cell>2.682</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2.682</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.103</cell>
+ <cell>N/C</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.282</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.042</cell>
+ <cell>N/C</cell>
+ <cell>274</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_state_reg[5]:CLK</cell>
+ <cell>net</cell>
+ <cell>JA_c[3]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.312</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_state_reg[5]:D</cell>
+ <cell>Library hold time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.062</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET Clock to Output</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Clock to Out (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:CLK</cell>
+ <cell>JA[1]</cell>
+ <cell>2.721</cell>
+ <cell></cell>
+ <cell>3.612</cell>
+ <cell></cell>
+ <cell>3.612</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>g_OLED_interface/o_VCCEN:CLK</cell>
+ <cell>JA[6]</cell>
+ <cell>2.862</cell>
+ <cell></cell>
+ <cell>3.737</cell>
+ <cell></cell>
+ <cell>3.737</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>g_OLED_interface/o_RES:CLK</cell>
+ <cell>JA[5]</cell>
+ <cell>2.891</cell>
+ <cell></cell>
+ <cell>3.766</cell>
+ <cell></cell>
+ <cell>3.766</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>g_OLED_interface/o_VCCEN:CLK</cell>
+ <cell>JA[7]</cell>
+ <cell>2.910</cell>
+ <cell></cell>
+ <cell>3.785</cell>
+ <cell></cell>
+ <cell>3.785</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_CS:CLK</cell>
+ <cell>JA[0]</cell>
+ <cell>3.718</cell>
+ <cell></cell>
+ <cell>4.610</cell>
+ <cell></cell>
+ <cell>4.610</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:CLK</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: JA[1]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.612</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.205</cell>
+ <cell>0.205</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.087</cell>
+ <cell>0.292</cell>
+ <cell>2</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.260</cell>
+ <cell>0.552</cell>
+ <cell></cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.038</cell>
+ <cell>0.590</cell>
+ <cell>274</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:CLK</cell>
+ <cell>net</cell>
+ <cell>JA_c[3]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.301</cell>
+ <cell>0.891</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI/o_MOSI:Q</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>0.073</cell>
+ <cell>0.964</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA_obuf[1]/U_IOTRI:D</cell>
+ <cell>net</cell>
+ <cell>JA_c[1]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.691</cell>
+ <cell>1.655</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA_obuf[1]/U_IOTRI:DOUT</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOTRI_OB_EB</cell>
+ <cell>+</cell>
+ <cell>0.261</cell>
+ <cell>1.916</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA_obuf[1]/U_IOPAD:D</cell>
+ <cell>net</cell>
+ <cell>JA_obuf[1]/DOUT</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>1.916</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA_obuf[1]/U_IOPAD:PAD</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_TRI</cell>
+ <cell>+</cell>
+ <cell>1.696</cell>
+ <cell>3.612</cell>
+ <cell>0</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>JA[1]</cell>
+ <cell>net</cell>
+ <cell>JA[1]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>3.612</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>3.612</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>JA[1]</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET Register to Asynchronous</name>
+<text>No Path</text>
+</section>
+<section>
+<name>SET External Removal</name>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Removal (ns)</cell>
+ <cell>External Removal (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/s_ASCII[725]:ALn</cell>
+ <cell>2.544</cell>
+ <cell></cell>
+ <cell>2.544</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.599</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/s_ASCII[709]:ALn</cell>
+ <cell>2.544</cell>
+ <cell></cell>
+ <cell>2.544</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.599</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/s_ASCII[741]:ALn</cell>
+ <cell>2.545</cell>
+ <cell></cell>
+ <cell>2.545</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.600</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/s_ASCII[733]:ALn</cell>
+ <cell>2.545</cell>
+ <cell></cell>
+ <cell>2.545</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.600</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>i_Reset</cell>
+ <cell>g_OLED_interface/s_ASCII[717]:ALn</cell>
+ <cell>2.545</cell>
+ <cell></cell>
+ <cell>2.545</cell>
+ <cell></cell>
+ <cell>-0.032</cell>
+ <cell>-1.600</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+<text></text>
+<section><name>Expanded Path 1</name></section>
+<table>
+<header>
+ <cell>Pin Name</cell>
+ <cell>Type</cell>
+ <cell>Net Name</cell>
+ <cell>Cell Name</cell>
+ <cell>Op</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Total (ns)</cell>
+ <cell>Fanout</cell>
+ <cell>Edge</cell>
+</header>
+<row>
+ <cell>From: i_Reset</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>To: g_OLED_interface/s_ASCII[725]:ALn</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2.544</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>data required time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>-</cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>slack</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data arrival time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>i_Reset</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOPAD:PAD</cell>
+ <cell>net</cell>
+ <cell>i_Reset</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.000</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOPAD:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOPAD_IN</cell>
+ <cell>+</cell>
+ <cell>0.347</cell>
+ <cell>0.347</cell>
+ <cell>1</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOIN:YIN</cell>
+ <cell>net</cell>
+ <cell>i_Reset_ibuf/YIN</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>0.347</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>i_Reset_ibuf/U_IOIN:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:IOIN_IB_E</cell>
+ <cell>+</cell>
+ <cell>0.120</cell>
+ <cell>0.467</cell>
+ <cell>562</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[725]:ALn</cell>
+ <cell>net</cell>
+ <cell>i_Reset_c</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>2.077</cell>
+ <cell>2.544</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>data arrival time</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>2.544</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Data required time calculation</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>N/C</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q</cell>
+ <cell>Clock source</cell>
+ <cell></cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.000</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.251</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:GB</cell>
+ <cell>+</cell>
+ <cell>0.103</cell>
+ <cell>N/C</cell>
+ <cell>2</cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:A</cell>
+ <cell>net</cell>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_Y</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.282</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1:Y</cell>
+ <cell>cell</cell>
+ <cell></cell>
+ <cell>ADLIB:RGB</cell>
+ <cell>+</cell>
+ <cell>0.042</cell>
+ <cell>N/C</cell>
+ <cell>274</cell>
+ <cell>f</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[725]:CLK</cell>
+ <cell>net</cell>
+ <cell>JA_c[3]</cell>
+ <cell></cell>
+ <cell>+</cell>
+ <cell>0.299</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell>r</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/s_ASCII[725]:ALn</cell>
+ <cell>Library removal time</cell>
+ <cell></cell>
+ <cell>ADLIB:SLE</cell>
+ <cell>+</cell>
+ <cell>-0.032</cell>
+ <cell>N/C</cell>
+ <cell></cell>
+ <cell></cell>
+</row>
+<row>
+</row>
+<row>
+ <cell>Operating Conditions</cell>
+ <cell>fast_hv_lt</cell>
+</row>
+</table>
+</section>
+<section>
+<name>SET Asynchronous to Register</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Path Set Pin to Pin</name>
+<section>
+<name>SET Input to Output</name>
+<text>No Path</text>
+</section>
+</section>
+<section>
+<name>Path Set User Sets</name>
+</section>
+</doc>

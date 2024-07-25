@@ -1,4 +1,4 @@
-INFO: Reading User SDC file /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/constraint/user.sdc.
+INFO: Reading User SDC file /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/constraint/user.sdc.
 INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
  Warning: You are running a version of Suse Linux that is not supported.
  Please refer to Libero SoC Release Note for the detail of supported operating systems.
@@ -20,7 +20,7 @@ Repair min-delay         : OFF
 Incremental              : OFF
 Inter-clock optimization : ON
 
-INFO: Reading User PDC file /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/constraint/io/OLED_interface_synth.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/constraint/io/OLED_interface_synth.pdc. 0 error(s) and 0 warning(s)
 
  Running Timing based Global Demotion.
         Demoted 0 global pins.
@@ -37,7 +37,7 @@ Total time spent in I/O Bank and Globals Assigner: 0 seconds
  Please refer to Libero SoC Release Note for the detail of supported operating systems.
 
 Placer V5.0 - 2024.1.0
-Design: OLED_interface_synth            Started: Mon Jul 22 23:11:26 2024
+Design: OLED_interface_synth            Started: Thu Jul 25 14:24:25 2024
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -53,8 +53,8 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: OLED_interface_synth
-Finished: Mon Jul 22 23:11:52 2024
-Total CPU Time:     00:00:25            Total Elapsed Time: 00:00:26
+Finished: Thu Jul 25 14:24:50 2024
+Total CPU Time:     00:00:24            Total Elapsed Time: 00:00:25
 Total Memory Usage: 1153.7 Mbytes
                         o - o - o - o - o - o
 
@@ -64,14 +64,14 @@ Total Memory Usage: 1153.7 Mbytes
  Please refer to Libero SoC Release Note for the detail of supported operating systems.
 
 Router
-Design: OLED_interface_synth            Started: Mon Jul 22 23:11:56 2024
+Design: OLED_interface_synth            Started: Thu Jul 25 14:24:54 2024
 
 
 Router completed successfully.
 
 Design: OLED_interface_synth
-Finished: Mon Jul 22 23:12:07 2024
-Total CPU Time:     00:00:26            Total Elapsed Time: 00:00:11
+Finished: Thu Jul 25 14:25:09 2024
+Total CPU Time:     00:00:27            Total Elapsed Time: 00:00:15
 Total Memory Usage: 2058.4 Mbytes
                         o - o - o - o - o - o
 
@@ -79,10 +79,10 @@ Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 989  | 93516 | 1.06       |
-| DFF           | 566  | 93516 | 0.61       |
+| 4LUT          | 997  | 93516 | 1.07       |
+| DFF           | 565  | 93516 | 0.60       |
 | I/O Register  | 0    | 78    | 0.00       |
-| Logic Element | 991  | 93516 | 1.06       |
+| Logic Element | 999  | 93516 | 1.07       |
 +---------------+------+-------+------------+
 
 I/O Placement

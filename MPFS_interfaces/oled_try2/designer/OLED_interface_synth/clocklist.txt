@@ -1,2 +1,2 @@
-"CLK100MHZ",,"CLK100MHZ","CLK100MHZ"
+"CLK100MHZ",10,"CLK100MHZ","CLK100MHZ"
 "g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q",,"g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q","g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q"

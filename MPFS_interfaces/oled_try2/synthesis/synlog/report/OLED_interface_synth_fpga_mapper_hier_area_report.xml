@@ -18,9 +18,9 @@ The file contains the information about resource utilization per module to be di
 </column_headers>
 <module>
 <data>OLED_interface_synth</data>
-<data>566</data>
-<data>869</data>
-<data>122</data>
+<data>565</data>
+<data>881</data>
+<data>117</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -29,9 +29,9 @@ The file contains the information about resource utilization per module to be di
 <data>14</data>
 <module>
 <data>OLED_interface_Z1</data>
-<data>564</data>
-<data>865</data>
-<data>122</data>
+<data>563</data>
+<data>878</data>
+<data>117</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>
@@ -77,8 +77,8 @@ The file contains the information about resource utilization per module to be di
 <module>
 <data>ascii_font_8x8</data>
 <data>0</data>
-<data>262</data>
-<data>63</data>
+<data>264</data>
+<data>58</data>
 <data>0</data>
 <data>0</data>
 <data>0</data>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text></text>
+<title>Power Report for design OLED_interface_synth with the following settings:</title>
+<text></text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Vendor:</cell>
+ <cell>Microchip Technology Inc.</cell>
+</row>
+<row>
+ <cell>Program:</cell>
+ <cell>Microchip Libero Software, Release v2024.1 (Version 2024.1.0.3)</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell>Copyright (C) 1989-</cell>
+</row>
+<row>
+ <cell>Date:</cell>
+ <cell>Thu Jul 25 14:27:22 2024</cell>
+</row>
+<row>
+ <cell>Version:</cell>
+ <cell>3.0</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design:</cell>
+ <cell>OLED_interface_synth</cell>
+</row>
+<row>
+ <cell>Family:</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Die:</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package:</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Temperature Range:</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Voltage Range:</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Operating Conditions:</cell>
+ <cell>Typical</cell>
+</row>
+<row>
+ <cell>Operating Mode:</cell>
+ <cell>Active</cell>
+</row>
+<row>
+ <cell>Process:</cell>
+ <cell>Typical</cell>
+</row>
+<row>
+ <cell>Data Source:</cell>
+ <cell>Production</cell>
+</row>
+</table>
+<text></text>
+<section><name>Power Summary</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>Total Power</cell>
+ <cell>    83.069</cell>
+ <cell>    100.0%</cell>
+</row>
+<row>
+ <cell>Static Power</cell>
+ <cell>    82.289</cell>
+ <cell>     99.1%</cell>
+</row>
+<row>
+ <cell>Dynamic Power</cell>
+ <cell>     0.780</cell>
+ <cell>      0.9%</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Rail</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Voltage (V)</cell>
+ <cell>Current (mA)</cell>
+</header>
+<row>
+ <cell>Rail VDD</cell>
+ <cell>    69.977</cell>
+ <cell>     1.000</cell>
+ <cell>    69.977</cell>
+</row>
+<row>
+ <cell>Rail VDD18</cell>
+ <cell>     0.451</cell>
+ <cell>     1.800</cell>
+ <cell>     0.250</cell>
+</row>
+<row>
+ <cell>Rail VDDI 1.8</cell>
+ <cell>     0.141</cell>
+ <cell>     1.800</cell>
+ <cell>     0.078</cell>
+</row>
+<row>
+ <cell>Rail VDDAUX</cell>
+ <cell>     0.000</cell>
+ <cell>     2.500</cell>
+ <cell>     0.000</cell>
+</row>
+<row>
+ <cell>Rail VDDI 3.3</cell>
+ <cell>     0.000</cell>
+ <cell>     3.300</cell>
+ <cell>     0.000</cell>
+</row>
+<row>
+ <cell>Rail VDD25</cell>
+ <cell>    12.500</cell>
+ <cell>     2.500</cell>
+ <cell>     5.000</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Clock</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q (clocks)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q (register outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q (combinational outputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>g_OLED_interface/SCLK_clock_divider/o_CLK_DIV:Q (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLK100MHZ (clocks)</cell>
+ <cell>     0.702</cell>
+ <cell>     90.0%</cell>
+</row>
+<row>
+ <cell>CLK100MHZ (register outputs)</cell>
+ <cell>     0.039</cell>
+ <cell>      5.0%</cell>
+</row>
+<row>
+ <cell>CLK100MHZ (primary inputs)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>CLK100MHZ (combinational outputs)</cell>
+ <cell>     0.039</cell>
+ <cell>      5.0%</cell>
+</row>
+<row>
+ <cell>CLK100MHZ (set/reset nets)</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+<row>
+ <cell>Input to Output</cell>
+ <cell>     0.000</cell>
+ <cell>      0.0%</cell>
+</row>
+</table>
+<text></text>
+<section><name>Breakdown by Type</name></section>
+<table>
+<header>
+ <cell/>
+ <cell>Power (mW)</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>Type Net</cell>
+ <cell>     0.130</cell>
+ <cell>      0.2%</cell>
+</row>
+<row>
+ <cell>Type Gate</cell>
+ <cell>     0.487</cell>
+ <cell>      0.6%</cell>
+</row>
+<row>
+ <cell>Type I/O</cell>
+ <cell>     0.162</cell>
+ <cell>      0.2%</cell>
+</row>
+<row>
+ <cell>Type Core Static</cell>
+ <cell>    81.839</cell>
+ <cell>     98.5%</cell>
+</row>
+<row>
+ <cell>Type Other Rails Static</cell>
+ <cell>     0.450</cell>
+ <cell>      0.5%</cell>
+</row>
+</table>
+<text></text>
+</doc>

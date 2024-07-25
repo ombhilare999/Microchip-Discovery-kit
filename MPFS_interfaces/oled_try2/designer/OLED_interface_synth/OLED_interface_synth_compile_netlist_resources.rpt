@@ -1,6 +1,6 @@
 Compile Report
 Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
-Date: Mon Jul 22 23:11:08 2024
+Date: Thu Jul 25 14:24:07 2024
 
 Device Selection
 +------------------------+--------------+
@@ -14,11 +14,11 @@ Device Selection
 +------------------------+--------------+
 
 Source Files
-+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-| Topcell | OLED_interface_synth                                                                                                                              |
-| Format  | Verilog                                                                                                                                           |
-| Source  | /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/sensor_milestone/oled/libero_project/oled_hello/oled_try2/synthesis/OLED_interface_synth.vm |
-+---------+---------------------------------------------------------------------------------------------------------------------------------------------------+
++---------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Topcell | OLED_interface_synth                                                                                                                      |
+| Format  | Verilog                                                                                                                                   |
+| Source  | /home/ombhilare999/omkar/UofT/summer/summer-ta/ECE532/git_repo/MPFS-Disco-Kit/MPFS_interfaces/oled_try2/synthesis/OLED_interface_synth.vm |
++---------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 Options
 +----------------------------------------------------+----+
@@ -29,8 +29,8 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 989  | 93516 | 1.06       |
-| DFF                       | 566  | 93516 | 0.61       |
+| 4LUT                      | 997  | 93516 | 1.07       |
+| DFF                       | 565  | 93516 | 0.60       |
 | I/O Register              | 0    | 240   | 0.00       |
 | User I/O                  | 14   | 80    | 17.50      |
 | -- Single-ended I/O       | 14   | 80    | 17.50      |
@@ -50,11 +50,11 @@ Detailed Logic Resource Usage
 +-----------------------+------+-----+
 | Type                  | 4LUT | DFF |
 +-----------------------+------+-----+
-| Fabric Logic          | 989  | 566 |
+| Fabric Logic          | 997  | 565 |
 | uSRAM Interface Logic | 0    | 0   |
 | LSRAM Interface Logic | 0    | 0   |
 | Math Interface Logic  | 0    | 0   |
-| Total Used            | 989  | 566 |
+| Total Used            | 997  | 565 |
 +-----------------------+------+-----+
 
 Detailed Carry Chains Resource Usage
@@ -69,10 +69,9 @@ Detailed Carry Chains Resource Usage
 Detailed 4LUT Groups Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 18   |
-| 5      | 1    |
-| 22     | 1    |
-| Total  | 20   |
+| 2      | 24   |
+| 5      | 2    |
+| Total  | 26   |
 +--------+------+
 
 I/O Function
@@ -90,7 +89,7 @@ Nets assigned to chip global resources
 +--------+---------+---------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                            |
 +--------+---------+---------------------------------------------------------------------------------+
-| 534    | INT_NET | Net   : JA_c[3]                                                                 |
+| 533    | INT_NET | Net   : JA_c[3]                                                                 |
 |        |         | Driver: g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6/U0_RGB1 |
 |        |         | Source: NETLIST                                                                 |
 | 33     | INT_NET | Net   : NN_1                                                                    |
@@ -108,23 +107,23 @@ High fanout nets
 +--------+---------+-----------------------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                                          |
 +--------+---------+-----------------------------------------------------------------------------------------------+
-| 563    | INT_NET | Net   : sw_c[2]                                                                               |
-|        |         | Driver: sw_ibuf[2]                                                                            |
-| 415    | INT_NET | Net   : g_OLED_interface/s_state_reg_rep_Z[0]                                                 |
-|        |         | Driver: g_OLED_interface/s_state_reg_rep[0]                                                   |
-| 404    | INT_NET | Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0                                           |
-|        |         | Driver: g_OLED_interface/un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_0                   |
-| 133    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[764]                                                       |
+| 562    | INT_NET | Net   : i_Reset_c                                                                             |
+|        |         | Driver: i_Reset_ibuf                                                                          |
+| 415    | INT_NET | Net   : g_OLED_interface/s_state_reg_Z[0]                                                     |
+|        |         | Driver: g_OLED_interface/s_state_reg[0]                                                       |
+| 404    | INT_NET | Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0_Z                                         |
+|        |         | Driver: g_OLED_interface/un1_s_state_reg_3_sqmuxa_0                                           |
+| 126    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[764]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[764]                                                         |
-| 122    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[765]                                                       |
+| 116    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[765]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[765]                                                         |
-| 97     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[762]                                                       |
+| 96     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[762]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[762]                                                         |
-| 57     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[740]                                                       |
+| 56     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[740]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[740]                                                         |
-| 55     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[760]                                                       |
+| 54     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[760]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[760]                                                         |
-| 42     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[761]                                                       |
+| 43     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[761]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[761]                                                         |
 | 35     | INT_NET | Net   : g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg_Z |
 |        |         | Driver: g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg   |
@@ -134,23 +133,23 @@ High fanout nets (through buffer trees)
 +--------+---------+-----------------------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                                          |
 +--------+---------+-----------------------------------------------------------------------------------------------+
-| 563    | INT_NET | Net   : sw_c[2]                                                                               |
-|        |         | Driver: sw_ibuf[2]                                                                            |
-| 415    | INT_NET | Net   : g_OLED_interface/s_state_reg_rep_Z[0]                                                 |
-|        |         | Driver: g_OLED_interface/s_state_reg_rep[0]                                                   |
-| 404    | INT_NET | Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0                                           |
-|        |         | Driver: g_OLED_interface/un1_s_ASCII_col_reg_2_1.un1_s_state_reg_3_sqmuxa_0                   |
-| 133    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[764]                                                       |
+| 562    | INT_NET | Net   : i_Reset_c                                                                             |
+|        |         | Driver: i_Reset_ibuf                                                                          |
+| 415    | INT_NET | Net   : g_OLED_interface/s_state_reg_Z[0]                                                     |
+|        |         | Driver: g_OLED_interface/s_state_reg[0]                                                       |
+| 404    | INT_NET | Net   : g_OLED_interface/un1_s_state_reg_3_sqmuxa_0_Z                                         |
+|        |         | Driver: g_OLED_interface/un1_s_state_reg_3_sqmuxa_0                                           |
+| 126    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[764]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[764]                                                         |
-| 122    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[765]                                                       |
+| 116    | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[765]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[765]                                                         |
-| 97     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[762]                                                       |
+| 96     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[762]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[762]                                                         |
-| 57     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[740]                                                       |
+| 56     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[740]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[740]                                                         |
-| 55     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[760]                                                       |
+| 54     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[760]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[760]                                                         |
-| 42     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[761]                                                       |
+| 43     | INT_NET | Net   : g_OLED_interface/s_ASCII_Z[761]                                                       |
 |        |         | Driver: g_OLED_interface/s_ASCII[761]                                                         |
 | 35     | INT_NET | Net   : g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg_Z |
 |        |         | Driver: g_OLED_interface/g_Nbit_MOSI_SPI_Buffer_Combined/g_Nbit_MOSI_SPI_Buffer/s_state_reg   |

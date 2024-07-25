@@ -14,7 +14,7 @@ Info: Global design data:
 Info: List of globals considered for demotion:
     CLK    ASYN   DATA   Instance Name
     ---    ----   ----   -------------
-    533    0      2      'g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6'
+    532    0      2      'g_OLED_interface/SCLK_clock_divider/N_2_inferred_clock_RNIC2MR6'
     33     0      0      'I_2'
 
 Info: Demotion information:

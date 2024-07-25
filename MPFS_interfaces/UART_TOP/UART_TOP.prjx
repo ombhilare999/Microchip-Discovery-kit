@@ -54,8 +54,8 @@ ENDLIST
 LIST FileManager
 VALUE "<project>/constraint/io/UART_TOP.pdc,io_pdc"
 STATE="utd"
-TIME="1721927045"
-SIZE="1037"
+TIME="1721928160"
+SIZE="1172"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>/constraint/user.sdc,sdc"
@@ -71,8 +71,8 @@ SIZE="3771"
 ENDFILE
 VALUE "<project>/hdl/UART_TOP.v,hdl"
 STATE="utd"
-TIME="1721927045"
-SIZE="877"
+TIME="1721928708"
+SIZE="955"
 ENDFILE
 VALUE "<project>/hdl/UART_TX.v,hdl"
 STATE="utd"
@@ -86,8 +86,8 @@ SIZE="293"
 ENDFILE
 VALUE "<project>/synthesis/UART_TOP.vm,syn_vm"
 STATE="utd"
-TIME="1721927045"
-SIZE="26438"
+TIME="1721928727"
+SIZE="26402"
 ENDFILE
 VALUE "<project>/synthesis/UART_TOP_syn.prj,prj"
 STATE="utd"
@@ -204,8 +204,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="/home/ombhilare999/microchip/SynplifyPro/bin/synplify_pro"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -254,8 +254,16 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Place and Route:UART_TOP_glb_net_report.xml
+Constraint Manager;Constraint Manager;0
+HDL;hdl/UART_TOP.v;0
+HDL;hdl/UART_TX.v;0
+HDL;constraint/io/UART_TOP.pdc;0
+HDL;constraint/user.sdc;0
+HDL;hdl/UART_RX.v;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "UART_RX::work","hdl/UART_RX.v","FALSE","FALSE"

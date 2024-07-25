@@ -1,8 +1,11 @@
 
 module OLED_interface_synth (input CLK100MHZ, //100MHz clock, stepped down to 5MHz
-                       input [2:0] sw, //determines MODE
-                       //input btnC, //reset
-                       input btnU, btnD, //i_START
+                       input [3:0] sw, 
+                       /* 
+                       input sw[1:0], //determines MODE: 10 {sw[1:0]} --> Display characters
+                       input sw[2], //btnU
+                       input sw[3], //btnD */
+                       input i_Reset,
                        output [7:0] JA //OLED PMOD Port
                        );
     
@@ -50,7 +53,7 @@ module OLED_interface_synth (input CLK100MHZ, //100MHz clock, stepped down to 5M
 
     g_OLED_interface
     (.i_CLK(CLK100MHZ),
-    .i_RST(sw[2]),
+    .i_RST(~i_Reset),
     .i_MODE(s_MODE), //00 for start, 01 for color spam
     .i_START(s_START),
     .i_TEXT_COLOR(8'h00),
@@ -69,12 +72,12 @@ module OLED_interface_synth (input CLK100MHZ, //100MHz clock, stepped down to 5M
 
     button_tick_latch g_button_tick_latch
     (.i_CLK(s_SCK),
-    .i_RST(sw[2]),
-    .i_BTN(btnU),
+    .i_RST(~i_Reset),
+    .i_BTN(sw[2]),
     .o_TICK(s_TICK)
     );
 
-    assign s_START = s_TICK | btnD;
+    assign s_START = s_TICK | sw[3];
 
     //Sets Mode
     /*
