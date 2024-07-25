@@ -5,7 +5,7 @@
 
 ### RTL Top:
 
-![Alt text](image-1.png)
+![Alt text](assets/image-1.png)
 
 ### Pin Configuration Table
 
@@ -28,12 +28,12 @@
 
 ### Block diagram:
 
-![Alt text](image-2.png)
+![Alt text](assets/image-2.png)
 
 ### Hardware Setup:
 - Use the PMOD slot JC to connect OLED PMOD sensor. This sensor can be bought from [here](https://digilent.com/shop/pmod-oledrgb-96-x-64-rgb-oled-display-with-16-bit-color-resolution/)
 
-![Alt text](image-3.png)
+![Alt text](assets/image-3.png)
 
 ### Programming:
 
@@ -47,4 +47,4 @@
 
 ### Output:
 
-![Alt text](image-4.png)
+![Alt text](assets/image-4.png)
