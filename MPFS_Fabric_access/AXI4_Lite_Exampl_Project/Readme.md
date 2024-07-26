@@ -12,7 +12,7 @@ This project did not go through the whole Libero design flow. The AXILite system
 Hence, this tutorial was only simulated on ModelSim Pro.
 
 ### Block Diagram
-![Alt text](assests/Project_Block_Diagram.png)
+![Alt text](assets/Project_Block_Diagram.png)
 
 ### Project Description
 To begin with, the hardware design in the AXI4 Lite tutorial is based on Assignment 1 from ECE 532, a course offered at University of Toronto. Assignment 1 for ECE 532 requires students to build AXI wrapper arround mask532 module that contains both master and slave AXI channels. However, in this tutorial, we will be only focusing on designing a wrapper arround a mask532 module that contains only the slave AXI channels. Hence, this design will utalize some signals that are artifact of the assignment.
@@ -36,7 +36,7 @@ Unfortunately, Libero SoC does not have an simmulation IP to simulate AXI transa
 
 Below is the SmartDesign implementation of the design
 
-![Alt text](assests/AXI4Lite_Tutorial_SmartDesign_Diagram.png)
+![Alt text](assets/AXI4Lite_Tutorial_SmartDesign_Diagram.png)
 
 One important thing to mention is that Libero SmartDesign does not allow connection between two bus channels of custom IPs. So in our implementation, we can not directly connect the master module with mask532 slave interface though the AXI bus. To bypass it, we would need to use the AXI interconnect as in the design. Basically, channels ports from an custom IP can currently only connect to microchip IPs. 
 
