@@ -12,7 +12,7 @@ This project did not go through the whole Libero design flow. The AXILite system
 Hence, this tutorial was only simulated on ModelSim Pro.
 
 ### Block Diagram
-![Alt text](assets/Project_Block_Diagram.png)
+![Alt text](./assets/Project_Block_Diagram.png)
 
 ### Project Description
 To begin with, the hardware design in the AXI4 Lite tutorial is based on Assignment 1 from ECE 532, a course offered at University of Toronto. Assignment 1 for ECE 532 requires students to build AXI wrapper arround mask532 module that contains both master and slave AXI channels. However, in this tutorial, we will be only focusing on designing a wrapper arround a mask532 module that contains only the slave AXI channels. Hence, this design will utalize some signals that are artifact of the assignment.
