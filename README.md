@@ -1,5 +1,7 @@
 # Project Repository
 
+- For linux installation of Libero and other toolchain please refer: [linux_installation.pdf](assets/linux_installation.pdf)
+
 This repository contains four main directories, each focusing on different aspects of the Microchip Discovery kit and its interfaces. Below are brief descriptions of each folder:
 
 ## Directories
